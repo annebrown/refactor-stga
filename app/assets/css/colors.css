@@ -1,0 +1,76 @@
+/*--------@/assets/css/colors.css---------------------------------------------*/
+/******************************************************************************/
+/* Color Palette:
+/******************************************************************************/
+/*
+#f2f8fd venice-blue-50         #f3fbf2 apple-50
+#e4f0fa venice-blue-10         #e2f8e0 apple-100
+#c2e0f5 venice-blue-20         #c4f0c2 apple-200
+#8cc8ed venice-blue-30         #95e392 apple-300
+#4fabe1 venice-blue-40         #5fcd5b apple-400
+#2891cf venice-blue-50         #38af34 apple-500
+#1a73af venice-blue-60         #2a9326 apple-600
+#165d8f venice-blue-70         #237421 apple-700
+#164e76 venice-blue-80         #205c1f apple-800
+#184362 venice-blue-90         #1b4c1b apple-900
+#102a41 venice-blue-95         #0a290b apple-950
+*/
+/******************************************************************************/
+/* Variables
+/******************************************************************************/
+@layer base {
+    :root {
+
+        /* Containers */
+        --body-bg-light: white;     /* white */
+        --body-bg-dark: black;      /* black */
+
+        /* Primary */
+        --primary-light: #075985; /* sky-800 */
+        --primary-dark:   oklch(0.789 0.154 211.53); /* sky-600 */
+        --primary-dimmed-light: #075985; /* sky-800 */
+        --primary-dimmed-dark: oklch(0.437 0.078 188.216); /* teal-800 */
+
+        /* Accent */
+        --accent-light: #115e59; /* teal-800 */
+        --accent-dark: #94a3b8; /* gray-400 */
+
+        /* Text */
+        --text-light:black; /* black */
+        --text-dark: white; /* white */
+    }
+}  
+/******************************************************************************/
+/* Containers
+/******************************************************************************/
+body { @apply 
+    bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
+.gunnel { @apply 
+    rounded-md bg-transparent dark:bg-[--midships-bg-dark]; }
+cargo { @apply 
+    rounded-xl bg-[--cargo-bg-light] dark:bg-black; }
+midships { @apply 
+    rounded-3xl bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
+main-menu { @apply 
+    rounded-lg bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
+/******************************************************************************/
+/* Text 
+/******************************************************************************/
+p { @apply text-[--text-light] dark:text-[--text-dark]; }
+h1 { @apply text-[--accent-light] dark:text-[--accent-dark]; }
+h2, h2, h4 { @apply text-[--primary-light] dark:text-[--primary-dark]; }
+/******************************************************************************/
+/* Text Links
+/******************************************************************************/
+a { @apply 
+    text-[--primary-light] dark:text-[--primary-dark]; }
+a:hover, a:active, a:focus { @apply 
+    text-[accent-light] dark:text-[--accent-dark] ; } 
+/******************************************************************************/
+/* Image Links 
+/******************************************************************************/
+svg { @apply 
+    stroke-2 stroke-[--primary-light] dark:stroke-[--primary-dark] ; }
+svg:hover, svg:active, svg:focus { @apply 
+    stroke-2 stroke-[--accent-light] dark:stroke-[--accent-dark]; } 
+/*--------@/assets/css/colors.css---------------------------------------------*/
