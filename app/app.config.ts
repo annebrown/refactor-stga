@@ -1,6 +1,7 @@
 export default defineAppConfig({
   ui: {
-    primary: 'venise-blue',
+    primary: 'venice-blue',
+    accent: 'apple',
     gray: 'neutral',
   }
 })

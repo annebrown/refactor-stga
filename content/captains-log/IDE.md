@@ -19,7 +19,7 @@ lastModified:: '2015-02-25'
 }
 ```
 
-## UI IntelliSense
+## ui IntelliSense
 
 `.vscode/settings.json`:
 

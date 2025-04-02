@@ -1,29 +1,38 @@
 <!--------@/app/components/ship/Hamburger.vue---------------------------------->
 <template><div>
 
-    <!-- Hamburger Dropdown -->
-    <div class="">
+    <!-- Hamburger Icon & Dropdown -->
+    <div class="z-80 relative">
 
-        <UDropdown 
-            :items="items" 
-            :popper="{ placement: 'bottom-start' }"
-        >
-            <!-- Hamburger Dropdown -->
-            <UButton icon="i-heroicons-bars-3" color="gray" variant="ghost" aria-label="Menu" />
-        </UDropdown>
+        <!-- <UDrawer> -->
 
-    </div><!-- Dropdown -->
+            <UDropdownMenu
+                :items="items" 
+                :popper="{ placement: 'bottom-start' }"
+                class="z-2000"
+            >
+
+                <!-- Hamburger Icon -->
+                <UIcon name="i-heroicons-bars-3" class="text-3xl font-bold" />
+
+            </UDropdownMenu>
+        <!-- </UDrawer> -->
+
+    </div><!-- Hamburger Icon & Dropdown -->
 
 </div></template>
 
 <script setup lang="ts">
-    import { mainMenuData } from '@/utils/data/MainMenu'
 
+    const isOpen = ref(false)
+
+    // Main Menu Array
+    import { mainMenuData } from '@/utils/data/MainMenu'
 
     const items = [
         
         [
-            { type: 'logo', src: '/logo.svg', label: 'XXXXXXXXXX', alt: 'Logo' }
+            { type: 'logo', src: '/logo.svg', label: 'STGA', alt: 'Logo - Trees and water inside a circle, with text: Save the Grove Again' }
         ],
 
         [
@@ -66,7 +75,7 @@
         
         [
             {
-                label: 'Delete',
+                label: 'About',
                 icon: 'i-heroicons-trash-20-solid',
                 shortcuts: ['⌘', 'D']
             }
@@ -96,39 +105,3 @@
     ]
 
 </script>
-<!--------@/app/components/ship/Hamburger.vue---------------------------------->
-
-<!-- Original Dropdown from Nuxt AI ------------------------------------------->
-    <!-- <div class="md:hidden">
-        <UDropdown :items="items" :popper="{ placement: 'bottom-start' }">
-            <UButton color="white" label="Options" trailing-icon="i-heroicons-chevron-down-20-solid" />
-        </UDropdown>
-    </div> -->
-
-<!-- Original Dropdown from Nuxt AI-------------------------------------------->
-
-    <!-- <div class="sm:hidden">
-
-        <UDropdown :items="menuItems" mode="click">
-            
-            <UButton icon="i-heroicons-bars-3" color="gray" variant="ghost" aria-label="Menu" />
-
-            <template #item="{ item }">
-
-                <div v-if="item.type === 'logo'" class="p-2">
-                    <img :src="item.src" :alt="item.alt" class="h-8 w-auto" />
-                </div>
-
-                <UVerticalNavigationItem v-else-if="item.type === 'link'" v-bind="item" />
-
-                <div v-else-if="item.type === 'divider'" class="my-2 border-t border-gray-200 dark:border-gray-700" />
-
-                <div v-else-if="item.type === 'image'" class="p-2">
-                    <img :src="item.src" :alt="item.alt" class="w-full h-auto rounded" />
-                </div>
-
-            </template>
-
-        </UDropdown>
-
-    </div> -->

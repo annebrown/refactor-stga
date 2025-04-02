@@ -11,6 +11,10 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ## Site-Wide
 
+### Logo
+
+- Rectangle logo for dark mode
+
 ### Header
 
 - Logo
@@ -39,7 +43,7 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 - `<SplashAnswer />` - Paragraph, buttons and map
 - `<SplashVideo />` - YouTube video
 - `<SplashOnlyLatest />` - Latest posts
-- `<SplashJoin />` - Pext, button adn image
+- `<SplashJoin />` - Text, button adn image
 - `<SplashTestimonials />` - Testimonial cards    
 
 ## Blog Page

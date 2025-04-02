@@ -1,22 +1,33 @@
 <!--------@/components/ship/MainMenu.vue--------------------------------------->
-<template><div>
-    <!-- Main Menu -->
-    <nav class="hidden md:flex space-x-4">
+<template>
 
-        <NuxtLink 
-            v-for="item in mainMenuData" 
-            :key="item.to" 
-            :to="item.to" 
-            class="text-gray-600 hover:text-gray-900"
+<UButtonGroup class="">
+
+    <!-- Main Menu -->
+    <nav class="hidden sm:inline-block">
+
+        <!-- Menu Item -->
+        <ULink
+            v-for="item in mainMenuData"
+            :key="item.to"
+            :to="item.to"
+            class="navi-item"
         >
-            {{ item.label }}
-        </NuxtLink>
+            <UButton
+                class="main-menu text-lg"
+                variant="link">   
+                {{ item.label }}
+            </UButton>
+        </ULink>
 
     </nav><!-- Main Menu -->
+   
+</UButtonGroup>
 
-</div></template>
+</template>
 
 <script setup lang="ts">
-    import { mainMenuData } from '@/utils/data/MainMenu'
+    // Main Menu Array
+    import { mainMenuData } from "@/utils/data/MainMenu";
 </script>
 <!--------@/components/ship/MainMenu.vue--------------------------------------->

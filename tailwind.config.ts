@@ -6,7 +6,7 @@ export default <Partial<Config>>{
     theme: {
         extend: {
             colors: {
-                'primary': '#165D8F', /* venice-blue-500 */
+                'primary': 'venice', /* venice-blue-500 */
                 'venice-blue': {
                     '50': '#f2f8fd',
                     '100': '#e4f0fa',
@@ -20,7 +20,7 @@ export default <Partial<Config>>{
                     '900': '#184362',
                     '950': '#102a41',
                 },
-                'accent': '38AF34', /* apple-400 */
+                'accent': 'apple', /* apple-400 */
                 'apple': {
                     '50': '#f3fbf2',
                     '100': '#e2f8e0',

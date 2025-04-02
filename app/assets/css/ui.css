@@ -2,13 +2,15 @@
 /******************************************************************************/
 /* UI
 /******************************************************************************/
-/* Card Shadowed */
-.card-shadowed { @apply p-2
-    bg-transparent dark:bg-transparent
-    cursor-pointer transition ease-in-out
-    rounded-lg border border-gray-300 dark:border-gray-900
-    shadow-[2px_2px_0_0_#64748b] dark:shadow-[2px_2px_0_0_#0f172a]
-;}
+/* Card - Shadowed */
+@layer components {
+
+    .card-shadowed { @apply p-2
+        bg-transparent dark:bg-transparent
+        cursor-pointer transition ease-in-out
+        rounded-lg border border-gray-300 dark:border-gray-900
+        shadow-[2px_2px_0_0_#64748b] dark:shadow-[2px_2px_0_0_#0f172a]
+    ;}
 .card-glass { @apply p-2
     bg-transparent dark:bg-transparent
     cursor-pointer transition ease-in-out
@@ -44,4 +46,5 @@
     flex flex-col gap-1;}
 .card-logo { @apply w-20 h-20 mx-auto; }
 .card-url { @apply text-lg font-extrabold my-0 mx-auto py-0; }
+}
 /*--------@/assets/css/ui.css-------------------------------------------------*/

@@ -1,5 +1,7 @@
 <!--------@/app/components/Hero.vue-------------------------------------------->
-<template><div>
+<template>
+    <div>
     <p>Hero</p>
-</div></template>
+</div>
+</template>
 <!--------@/app/components/Hero.vue-------------------------------------------->

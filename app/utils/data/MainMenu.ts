@@ -1,5 +1,5 @@
 //--------@/utils/data/MainMenu.vue-------------------------------------------->
-// Main Menu Data
+// Main Menu Array
 export const mainMenuData = [ 
     { label: 'Home', to: '/' },
     { label: 'Blog', to: '/blog' },

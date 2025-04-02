@@ -3,18 +3,30 @@
 /* Color Palette:
 /******************************************************************************/
 /*
-#f2f8fd venice-blue-50         #f3fbf2 apple-50
-#e4f0fa venice-blue-10         #e2f8e0 apple-100
-#c2e0f5 venice-blue-20         #c4f0c2 apple-200
-#8cc8ed venice-blue-30         #95e392 apple-300
-#4fabe1 venice-blue-40         #5fcd5b apple-400
-#2891cf venice-blue-50         #38af34 apple-500
-#1a73af venice-blue-60         #2a9326 apple-600
-#165d8f venice-blue-70         #237421 apple-700
-#164e76 venice-blue-80         #205c1f apple-800
-#184362 venice-blue-90         #1b4c1b apple-900
-#102a41 venice-blue-95         #0a290b apple-950
-*/
+#f2f8fd venice-blue-50          #f3fbf2 apple-50
+#e4f0fa venice-blue-100         #e2f8e0 apple-100
+#c2e0f5 venice-blue-200         #c4f0c2 apple-200
+#8cc8ed venice-blue-300         #95e392 apple-300
+#4fabe1 venice-blue-400         #5fcd5b apple-400
+#2891cf venice-blue-500         #38af34 apple-500
+#1a73af venice-blue-600         #2a9326 apple-600
+#165d8f venice-blue-700         #237421 apple-700
+#164e76 venice-blue-800         #205c1f apple-800
+#184362 venice-blue-900         #1b4c1b apple-900
+#102a41 venice-blue-950         #0a290b apple-950
+/*
+/* #f9fafb oklch(0.985 0.002 247.839); /* gray-50  */
+/* #f3f4f6 oklch(0.967 0.003 264.542); /* gray-100 */
+/* #e2e8f0 oklch(0.928 0.006 264.531); /* gray-200 */
+/* #cbd5e1 oklch(0.872 0.01 258.338);  /* gray-300 */
+/* #94a3b8 oklch(0.707 0.022 261.325); /* gray-400 */
+/* #64748b oklch(0.551 0.027 264.364); /* gray-500 */
+/* #475569 oklch(0.446 0.03 256.802);  /* gray-600 */
+/* #334155 oklch(0.373 0.034 259.733); /* gray-700 */
+/* #1e293b oklch(0.278 0.033 256.848); /* gray-800 */
+/* #0f172a oklch(0.21 0.034 264.665);  /* gray-900 */
+/* #020617 oklch(0.13 0.028 261.692);  /* gray-950 */
+/*
 /******************************************************************************/
 /* Variables
 /******************************************************************************/
@@ -22,22 +34,21 @@
     :root {
 
         /* Containers */
-        --body-bg-light: white;     /* white */
-        --body-bg-dark: black;      /* black */
+        --body-bg-light: white;
+        --body-bg-dark: oklch(0.147 0.004 49.25);   /* stone-950 */
 
-        /* Primary */
-        --primary-light: #075985; /* sky-800 */
-        --primary-dark:   oklch(0.789 0.154 211.53); /* sky-600 */
-        --primary-dimmed-light: #075985; /* sky-800 */
-        --primary-dimmed-dark: oklch(0.437 0.078 188.216); /* teal-800 */
+        /* Theme */
+        --primary-light: venice-blue-800;
+        --primary-dark: venice-blue-600;
+        --primary-dimmed-light: venice-blue-600;
+        --primary-dimmed-dark: venice-blue-500;
 
-        /* Accent */
-        --accent-light: #115e59; /* teal-800 */
-        --accent-dark: #94a3b8; /* gray-400 */
+        --accent-light: apple-800;
+        --accent-dark: apple-400;
 
         /* Text */
-        --text-light:black; /* black */
-        --text-dark: white; /* white */
+        --text-light:black;
+        --text-dark: white;
     }
 }  
 /******************************************************************************/
@@ -45,14 +56,20 @@
 /******************************************************************************/
 body { @apply 
     bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
-.gunnel { @apply 
-    rounded-md bg-transparent dark:bg-[--midships-bg-dark]; }
-cargo { @apply 
-    rounded-xl bg-[--cargo-bg-light] dark:bg-black; }
-midships { @apply 
-    rounded-3xl bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
-main-menu { @apply 
-    rounded-lg bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
+#bow div { @apply 
+    bg-[--body-bg-light] dark:bg-[--body-bg-dark]; }
+.main-menu { @apply 
+    text-[--text-light] dark:text-[--text-dark]
+    stroke-[--text-light] dark:stroke-[--text-dark]; }
+.main-menu:hover, .main-menu:active, .main-menu:hover { @apply 
+    text-[--accent-light] dark:text-[--accent-dark]
+    stroke-[--accent-light] dark:stroke-[--accent-dark]; }
+#midships { @apply 
+    bg-[--midships-bg-light] dark:bg-[--midships-bg-dark]; }
+#main-menu { @apply 
+    bg-[--body-bg-light] dark:bg-[--body-bg-dark]
+    text-[primary-light] dark:text-[--primary-dark] ; }
+#logo { @apply dark:invert; }
 /******************************************************************************/
 /* Text 
 /******************************************************************************/
@@ -62,15 +79,22 @@ h2, h2, h4 { @apply text-[--primary-light] dark:text-[--primary-dark]; }
 /******************************************************************************/
 /* Text Links
 /******************************************************************************/
-a { @apply 
-    text-[--primary-light] dark:text-[--primary-dark]; }
+.navi-item { @apply text-[--primary-light] dark:text-[--primary-dark]; }
+a { @apply text-[--primary-light] dark:text-[--primary-dark]; }
 a:hover, a:active, a:focus { @apply 
     text-[accent-light] dark:text-[--accent-dark] ; } 
 /******************************************************************************/
 /* Image Links 
 /******************************************************************************/
-svg { @apply 
-    stroke-2 stroke-[--primary-light] dark:stroke-[--primary-dark] ; }
-svg:hover, svg:active, svg:focus { @apply 
-    stroke-2 stroke-[--accent-light] dark:stroke-[--accent-dark]; } 
+svg { @apply stroke-2 
+    stroke-[--primary-light] dark:stroke-[--primary-dark] ; }
+svg:hover, svg:active, svg:focus { @apply stroke-2 
+    stroke-[--accent-light] dark:stroke-[--accent-dark]; } 
+/******************************************************************************/
+/* Pseudo Classes
+/******************************************************************************/
+.ab-active { @apply font-bold
+    text-[--primary-light] dark:text-[--primary-dark]
+    fill-[--primary-light] dark:fill-[--primary-dark]
+; }
 /*--------@/assets/css/colors.css---------------------------------------------*/

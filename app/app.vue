@@ -1,24 +1,21 @@
 <!--------@/app.vue------------------------------------------------------------>
 <template><div>
-
-    <!-- A11y -->
-    <NuxtRouteAnnouncer /><!-- Assistive Technologies --> 
-    
-    <UCard>
+<!-- A11y -->
+<NuxtRouteAnnouncer />
+<UApp>
+    <div class="flex flex-col"><!-- For Z Index -->
 
         <!-- Bow -->
-        <template #header>
-            <ShipBow />
-        </template>
-
+        <ShipBow id="bow" class="w-full my-2"/>
+    <
         <!-- Midships -->
-        <NuxtPage />
+        <NuxtPage id="midships" class="pt-20" />
 
         <!-- Transom -->
-        <template #footer>
-            <!-- <ShipTransom /> -->
-        </template>
+        <ShipTransom id="transom" class="" />
 
-    </UCard>
+    </div>
+</UApp>
+
 </div></template>
 <!--------@/app.vue------------------------------------------------------------>

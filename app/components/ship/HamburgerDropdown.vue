@@ -1,6 +1,6 @@
 <template>
     <UDropdown :items="menuItems" mode="click">
-      <UButton icon="i-heroicons-bars-3" color="gray" variant="ghost" aria-label="Menu" />
+      <UButton icon="i-heroicons-bars-3" color="gray" variant="link" aria-label="Menu" />
     </UDropdown>
   </template>
   

@@ -6,7 +6,19 @@ export default defineNuxtConfig({
 
     devtools: { enabled: true },
 
-    modules: ["@nuxt/ui", "@nuxt/image"],
+    modules: [
+        "@nuxt/ui", 
+        "@nuxt/image",
+        '@nuxt/fonts',
+    
+    ],
+
+
+    fonts: {
+        provider: 'google'
+    },
+
+
 
     ui: { // Expose UI components globally
      global: true
@@ -14,7 +26,7 @@ export default defineNuxtConfig({
 
     srcDir: 'app/',
 
-
+    css: ['assets/css/ship.css'],
 
 
     compatibilityDate: "2025-02-25",

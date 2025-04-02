@@ -19,3 +19,12 @@ gors // Navigate to project code
 coders // Open project in IDE
 rserver // Start dev server
 ```
+
+## Fonts
+
+SAVE THE GROVE AGAIN
+
+Closest GF matches:
+
+- Petrona
+- Jungle
