@@ -26,7 +26,7 @@ Generated from [Tailwind CSS Color Generator](https://uicolors.app/create):
 },
 ```
 
-## Accent
+## secondary
 
 From original site: `#38AF34`
 
@@ -53,6 +53,6 @@ Generated from [Tailwind CSS Color Generator](https://uicolors.app/create):
 ```properties
 primary-light: #1a73af /* venice-blue-600*/
 primary-dark:  #4fabe1 /* venice-blue-400*/
-accent-light:  #2a9326 /* apple-600*/
-accent-light:  #5fcd5b /* apple-400*/
+secondary-light:  #2a9326 /* apple-600*/
+secondary-light:  #5fcd5b /* apple-400*/
 ```

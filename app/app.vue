@@ -6,10 +6,10 @@
     <div class="flex flex-col"><!-- For Z Index -->
 
         <!-- Bow -->
-        <ShipBow id="bow" class="w-full my-2"/>
-    <
+        <ShipBow id="bow" class="z-1 w-full my-2"/>
+    
         <!-- Midships -->
-        <NuxtPage id="midships" class="pt-20" />
+        <NuxtPage id="z-2 midships" class="pt-12" />
 
         <!-- Transom -->
         <ShipTransom id="transom" class="" />

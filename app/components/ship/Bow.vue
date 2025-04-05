@@ -14,7 +14,7 @@
     <ShipMainMenu class="inline-block  flex-none w-fit mr-4" />
 
     <!-- Hamburger Icon & Dropdown Menu -->
-    <ShipHamburger class="inline-block flex-none h-fit mt-1" />
+    <ShipHamburger class="inline-block flex-none h-fit" />
 
     <!-- Color Mode Toggle-->      
     <ShipColorMode class="inline-block flex-none h-fit" />                

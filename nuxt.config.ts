@@ -1,34 +1,21 @@
 //<--------@/nuxt.config.ts---------------------------------------------------->
-
 export default defineNuxtConfig({
+  // F Telemetry
+  telemetry: false,
 
-    telemetry: false, // F Telemetry
+  devtools: { enabled: true },
 
-    devtools: { enabled: true },
+  modules: [
+      "@nuxt/ui", 
+      "@nuxt/image",
+      "@nuxt/fonts"
+  ],
 
-    modules: [
-        "@nuxt/ui", 
-        "@nuxt/image",
-        '@nuxt/fonts',
-    
-    ],
+  srcDir: 'app/',
 
+  // compatibilityDate: "2025-02-25",
+  css: ['assets/css/ship.css'],
 
-    fonts: {
-        provider: 'google'
-    },
-
-
-
-    ui: { // Expose UI components globally
-     global: true
-    },
-
-    srcDir: 'app/',
-
-    css: ['assets/css/ship.css'],
-
-
-    compatibilityDate: "2025-02-25",
+  compatibilityDate: '2025-04-05',
 })
 //<--------@/nuxt.config.ts---------------------------------------------------->

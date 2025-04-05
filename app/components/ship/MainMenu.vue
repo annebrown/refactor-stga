@@ -4,21 +4,14 @@
 <UButtonGroup class="">
 
     <!-- Main Menu -->
-    <nav class="hidden sm:inline-block">
+    <nav class="hidden sm:inline-block group-hover:no-underline *:navi-item">
+        
+    <UNavigationMenu 
+        :items="mainMenuData" 
+        class="w-full justify-center p-0 m-0 align-top" 
+        variant="link"
+    />
 
-        <!-- Menu Item -->
-        <ULink
-            v-for="item in mainMenuData"
-            :key="item.to"
-            :to="item.to"
-            class="navi-item"
-        >
-            <UButton
-                class="main-menu text-lg"
-                variant="link">   
-                {{ item.label }}
-            </UButton>
-        </ULink>
 
     </nav><!-- Main Menu -->
    
