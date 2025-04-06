@@ -9,7 +9,7 @@
         <ShipBow id="bow" class="z-1 w-full my-2"/>
     
         <!-- Midships -->
-        <NuxtPage id="z-2 midships" class="pt-12" />
+        <NuxtPage id="z-2 midships" class="pt-15" />
 
         <!-- Transom -->
         <ShipTransom id="transom" class="" />

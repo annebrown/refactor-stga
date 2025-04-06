@@ -2,34 +2,42 @@
 <template><div>
 
     <!-- Hamburger Icon & Dropdown -->
-    <div class="z-80 relative">
+    <div class="z-80 relative mt-1">
 
+        <!-- Render above everything else -->
         <UPopover>
 
             <!-- Hamburger Icon -->
-            <UButton variant="link" size="xl" icon="i-heroicons-bars-3" class="text-link text-3xl font-medium"/>                
-               
-            <template #content>
+            <UButton 
+                variant="link" 
+                icon="i-heroicons-bars-3"
+                :ui="{
+                        leadingIcon: 'text-(--ui-text) size-8'
+                }"
+            />              
 
+            <!-- Hamburger Vertical Menu -->
+            <template #content>
                 <UNavigationMenu 
                     :items="mainMenuData" 
-                    class="*:text-link w-full justify-center" 
+                    class="w-full justify-center" 
                     orientation="vertical"
                     variant="link"
                     highlight
                     highlight-color="secondary"
+                    :ui="{
+                        link:   'stga-mainmenu'
+                    }"
                 />
             </template>
-        </UPopover>
+
+        </UPopover><!-- Render above everything else -->
 
     </div><!-- Hamburger Icon & Dropdown -->
 
 </div></template>
 
 <script setup lang="ts">
-
-    // Main Menu Array
-    import { mainMenuData } from '@/utils/data/MainMenu'
-
-
+    import { mainMenuData } from '@/utils/data/MainMenu'  // Main Menu Array
 </script>
+<!--------@/app/components/ship/Hamburger.vue---------------------------------->

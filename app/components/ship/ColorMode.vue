@@ -2,11 +2,14 @@
 <template>
   <ClientOnly>
     <UButton
-        class="main-menu h-fit mt-1 ml-2 mr-2 text-3xl"
+        class="h-fit mt-1 ml-2 mr-2 text-3xl"
         :icon="isDark ? 'i-heroicons-moon-20-solid' : 'i-heroicons-sun-20-solid'"
         variant="link"
         :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
         @click="isDark = !isDark"
+        :ui="{
+            leadingIcon: 'text-(--ui-text) size-8'
+         }"
     />
   </ClientOnly>
 </template>

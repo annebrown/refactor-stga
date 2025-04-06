@@ -2,46 +2,18 @@
 @import "tailwindcss";
 @import "@nuxt/ui";
 
-@layer base {
-
-    :root {
-        /* Typography */
-        --font-sans:        'Roboto', sans-serif;
-        --font-mainmenu:    'Bebas Neue', sans-serif;
-  
-        /* Palette */
-        --color-venice-blue-50:  #f2f8fd;
-        --color-venice-blue-100: #e4f0fa;
-        --color-venice-blue-200: #c2e0f5;
-        --color-venice-blue-300: #8cc8ed;
-        --color-venice-blue-400: #4fabe1;
-        --color-venice-blue-500: #2891cf;
-        --color-venice-blue-600: #1a73af;
-        --color-venice-blue-700: #165d8f;
-        --color-venice-blue-800: #164e76;
-        --color-venice-blue-900: #184362;
-        --color-venice-blue-950: #102a41;
-
-        --color-apple-50:  #f3fbf2;
-        --color-apple-100: #e2f8e0;
-        --color-apple-200: #c4f0c2;
-        --color-apple-300: #95e392;
-        --color-apple-400: #5fcd5b;
-        --color-apple-500: #38af34;
-        --color-apple-600: #2a9326;
-        --color-apple-700: #237421;
-        --color-apple-800: #205c1f;
-        --color-apple-900: #1b4c1b;
-        --color-apple-950: #0a290b;
-    } /* :root */
-    
-    /**************************************************************************/
-    /* Typography
-    /**************************************************************************/
-    /* h1, title { @apply text-3xl font-bold pb-5; }
-    h2 { @apply text-2xl font-bold pb-4; }
-    h3 { @apply text-lg font-bold pb-4; }
-    h4 { @apply text-lg pb-3; }
-    p  { @apply text-base pb-3; } */
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+html {
+    @apply bg-white dark:bg-black;
+}
+.stga-mainmenu { 
+    @apply text-2xl font-extrabold;
+    font-family: 'Bebas Neue', sans-serif;
 }
 /*--------@/assets/css/ship.css-----------------------------------------------*/

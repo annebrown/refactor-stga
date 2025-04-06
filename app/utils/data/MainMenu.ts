@@ -1,10 +1,10 @@
 //--------@/utils/data/MainMenu.vue-------------------------------------------->
 // Main Menu Array
 export const mainMenuData = [ 
-    { label: 'Home', to: '/' },
-    { label: 'Blog', to: '/blog' },
-    { label: 'Get Involved', to: '/action' },
+    { label: 'HOME', to: '/' },
+    { label: 'BLOG', to: '/blog' },
+    { label: 'GET INVOLVED!', to: '/action' },
     { label: 'FAQ', to: '/FAQ' },
-    { label: 'About', to: '/about' },
+    { label: 'ABOUT', to: '/about' },
 ] 
 //--------@/utils/data/MainMenu.vue-------------------------------------------->

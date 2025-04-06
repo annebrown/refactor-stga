@@ -2,7 +2,7 @@
 <template><div>
 
     <!-- Hero -->
-    <div class="relative w-full h-full">
+    <div class="relative w-full h-full -mt-4">
         <!-- Hero Image -->
         <div class="">
             <img
@@ -22,7 +22,7 @@
               <ULink to="/">
                 <img
                   src="/hero/logo-orig-sq.png"
-                  class="z-91 absolute -top-10 right-10 w-1/5 h-auto"
+                  class="z-91 absolute -top-2 right-20 w-1/5 h-auto dark:invert dark:hue-rotate-180"
                   alt="Logo - Trees and water inside a circle"
                   loading="eager"
                   priority

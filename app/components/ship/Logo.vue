@@ -3,8 +3,10 @@
 
 <!-- Logo -->
 <NuxtLink to="/">
+    
     <img 
-        :src="logoSrc" 
+        src="/logo-rect-light.png" 
+        class="w-fit dark:invert dark:hue-rotate-180"
         alt="Logo - Trees and water inside a circle, with text: Save the 
                 Grove Again" 
         width="1479"
@@ -13,14 +15,4 @@
 </NuxtLink>
 
 </div></template>
-
-<script setup>
-    import { computed } from 'vue'
-
-    const colorMode = useColorMode()
-
-    const logoSrc = computed(() => 
-        colorMode.value === 'light' ? '/logo-rect-light.png' : '/logo-rect-dark.svg'
-    )
-</script>
 <!--------@/app/components/ship/Logo.vue--------------------------------------->

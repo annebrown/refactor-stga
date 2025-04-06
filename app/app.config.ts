@@ -3,8 +3,8 @@ export default defineAppConfig({
   ui: {
         // Color aliases
         colors: {
-            primary: 'venice-blue',
-            secondary: 'apple',
+            primary: 'blue',
+            secondary: 'green',
             success: 'green',
             warning: 'yellow',
             error: 'red',

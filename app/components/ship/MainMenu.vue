@@ -1,22 +1,19 @@
 <!--------@/components/ship/MainMenu.vue--------------------------------------->
 <template>
 
-<UButtonGroup class="">
-
-    <!-- Main Menu -->
-    <nav class="hidden sm:inline-block group-hover:no-underline *:navi-item">
+    <!-- Horizontal Main Menu -->
+    <nav class="hidden sm:inline-block group-hover:no-underline">
         
-    <UNavigationMenu 
-        :items="mainMenuData" 
-        class="w-full justify-center p-0 m-0 align-top" 
-        variant="link"
-    />
-
+        <UNavigationMenu 
+            :items="mainMenuData" 
+            variant="link"
+            :ui="{
+                link: 'stga-mainmenu'
+        }"
+        />
 
     </nav><!-- Main Menu -->
-   
-</UButtonGroup>
-
+  
 </template>
 
 <script setup lang="ts">
