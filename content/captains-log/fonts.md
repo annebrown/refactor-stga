@@ -86,6 +86,45 @@ export default defineNuxtConfig({
 
 ### Local
 
-Store local fonts in the project's or base layer's `public/fonts/` dir.
-
 `local` deeply scans `public/` dirs in project and layers, for `.tff`, `.woff`, `.woff2`, `.eot` and `.otf` files.
+
+Stored fonts in the `public/fonts/` dir.
+
+Configured fonts in `typography.css`:
+
+```css
+/*--------@/app/assets/css/typography.css-------------------------------------->
+/******************************************************************************/
+/*
+/* Typography
+/* 
+/******************************************************************************/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: 'Inter-VariableFont_opsz', sans-serif;
+}
+/******************************************************************************/
+/* Bow
+/******************************************************************************/
+.stga-mainmenu { @apply text-2xl font-extrabold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/******************************************************************************/
+/* Transom
+/******************************************************************************/
+/*--------@/app/assets/css/typography.css-------------------------------------->
+```
