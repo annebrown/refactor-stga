@@ -15,7 +15,7 @@ Repo: [https://github.com/annebrown/refactor-stga.git](https://github.com/annebr
 
 URL: [https://refactor.savethegroveagain.com](https://refactor.savethegroveagain.com)
 
-Docs: [https://annebrown.ca/docs-refactor-stga](https://annebrown.ca/docs-refactor-stga)
+Docs: [https://annebrown.ca/docs-refactor](https://annebrown.ca/docs-refactor)
 
 ## Dev Shortcuts
 

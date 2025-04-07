@@ -13,8 +13,13 @@ export default defineNuxtConfig({
 
   srcDir: 'app/',
 
-  // compatibilityDate: "2025-02-25",
   css: ['assets/css/ship.css'],
+
+  ui: {
+    theme: {
+      colors: ['primary', 'secondary', 'neutral', 'success', 'warning', 'error']
+    }
+  },
 
   compatibilityDate: '2025-04-05',
 })

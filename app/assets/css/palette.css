@@ -1,32 +1,3 @@
----
-title: Stylesheets
-description: CSS Config
-lastModified:: 2025-02-25
----
-
-## ship.css
-
-Added a main stylesheet, `@/assets/css/ship.css`:
-
-```css
-/*--------@/assets/css/ship.css-----------------------------------------------*/
-/******************************************************************************/
-/*
-/* Main CSS
-/* 
-/******************************************************************************/
-@import "tailwindcss";
-@import "@nuxt/ui";
-@import "./typography.css";
-@import "./palette.css";
-/*--------@/assets/css/ship.css-----------------------------------------------*/
-```
-
-Added `typography.css` and `palette.css`.
-
-## palette.css
-
-```css
 /*--------@/app/assets/css/palette.css----------------------------------------->
 /******************************************************************************/
 /*
@@ -103,43 +74,3 @@ body {
     @apply antialiased text-(--ui-text) bg-(--ui-bg);
 }
 /*--------@/app/assets/css/palette.css----------------------------------------->
-```
-
-## typography.css
-
-```css
-/*--------@/app/assets/css/typography.css-------------------------------------->
-/******************************************************************************/
-/*
-/* Typography
-/* 
-/******************************************************************************/
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
-    font-family: 'Inter';
-    src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@theme {
-    --font-sans: 'Inter-VariableFont_opsz', sans-serif;
-}
-/******************************************************************************/
-/* Bow
-/******************************************************************************/
-.stga-mainmenu { @apply text-2xl font-extrabold;
-    font-family: 'Bebas Neue', sans-serif;
-}
-/******************************************************************************/
-/* Transom
-/******************************************************************************/
-/*--------@/app/assets/css/typography.css-------------------------------------->
-```

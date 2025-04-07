@@ -1,0 +1,34 @@
+/*--------@/app/assets/css/typography.css-------------------------------------->
+/******************************************************************************/
+/*
+/* Typography
+/* 
+/******************************************************************************/
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('/fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@theme {
+    --font-sans: 'Inter-VariableFont_opsz', sans-serif;
+}
+/******************************************************************************/
+/* Bow
+/******************************************************************************/
+.stga-mainmenu { @apply text-2xl font-extrabold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/******************************************************************************/
+/* Transom
+/******************************************************************************/
+/*--------@/app/assets/css/typography.css-------------------------------------->

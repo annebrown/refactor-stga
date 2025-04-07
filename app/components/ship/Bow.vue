@@ -11,13 +11,13 @@
     <div class="grow">&nbsp;</div>
     
     <!-- Main Menu - Collapsable -->
-    <ShipMainMenu class="inline-block align-top flex-none w-fit -mt-1 mr-4" />
+    <ShipMainMenu class="inline-block flex-none w-fit mr-1" />
 
     <!-- Hamburger Icon & Dropdown Menu -->
-    <ShipHamburger class="inline-block flex-none" />
+    <ShipHamburger class="w-fit inline-block flex-none p-1" />
 
-    <!-- Color Mode Toggle-->      
-    <ShipColorMode class="inline-block flex-none h-fit" />                
+    <!-- Color Mode Toggle-->
+    <div class="pt-2"><ShipColorMode class="w-fit inline-block flex-none" /></div>              
 
 </div><!-- Bow -->
 

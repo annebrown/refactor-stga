@@ -2,7 +2,7 @@
 <template><div>
 
     <!-- Hamburger Icon & Dropdown -->
-    <div class="z-80 relative mt-1">
+    <div class="z-80">
 
         <!-- Render above everything else -->
         <UPopover>
@@ -12,7 +12,7 @@
                 variant="link" 
                 icon="i-heroicons-bars-3"
                 :ui="{
-                        leadingIcon: 'text-(--ui-text) size-8'
+                        leadingIcon: 'text-(--ui-text) size-10'
                 }"
             />              
 
@@ -23,8 +23,6 @@
                     class="w-full justify-center" 
                     orientation="vertical"
                     variant="link"
-                    highlight
-                    highlight-color="secondary"
                     :ui="{
                         link:   'stga-mainmenu'
                     }"
@@ -40,4 +38,13 @@
 <script setup lang="ts">
     import { mainMenuData } from '@/utils/data/MainMenu'  // Main Menu Array
 </script>
+<style scoped>
+.custom-nav-container {
+  --ui-text-muted: black; /* Override inactive text color for light mode */
+  
+  .dark & {
+    --ui-text-muted: white; /* Override inactive text color for dark mode */
+  }
+}
+</style>
 <!--------@/app/components/ship/Hamburger.vue---------------------------------->

@@ -1,19 +1,11 @@
 /*--------@/assets/css/ship.css-----------------------------------------------*/
+/******************************************************************************/
+/*
+/* Main CSS
+/* 
+/******************************************************************************/
 @import "tailwindcss";
 @import "@nuxt/ui";
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-html {
-    @apply bg-white dark:bg-black;
-}
-.stga-mainmenu { 
-    @apply text-2xl font-extrabold;
-    font-family: 'Bebas Neue', sans-serif;
-}
+@import "./typography.css";
+@import "./palette.css";
 /*--------@/assets/css/ship.css-----------------------------------------------*/
