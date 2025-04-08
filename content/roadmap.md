@@ -13,14 +13,7 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ### Logo
 
-- Rectangle logo for dark mode
-
-### Header
-
-- Logo
-- Main Menu
-- Collapsable, vertical Mobile menu with hamburger toggle
-- Color mode toggle
+- Tags for dynamic path fills
 
 ### Footer
 
@@ -29,26 +22,27 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 - Menu
 - Copyright
 
-### Page Signature
-
-- Simple, styled paragraph
-
-### Breadcrumb
+### Breadcrumbs
 
 - Breadcrumb route string
 
 ###  Landing Page Components
 
-- `<SplashHero />` - Hero background image and logo
 - `<SplashAnswer />` - Paragraph, buttons and map
 - `<SplashVideo />` - YouTube video
 - `<SplashOnlyLatest />` - Latest posts
 - `<SplashJoin />` - Text, button adn image
 - `<SplashTestimonials />` - Testimonial cards    
 
-## Blog Page
 
-- Blog post card grid
+## Blog Pages
+
+- Design Blog Template
+- Recreate blog pages
+
+## Blogs Page
+
+- Code to fetch blogs, render in card grid
 
 ## About Page
 
@@ -61,3 +55,12 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 ## FAQ Page
 
 - Columnated sections
+
+## A11y
+
+- Test accessability supports
+
+## Analytics
+
+- Turn on analytics 
+- Code to fetch analytics and render computed stats in dashboard.

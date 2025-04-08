@@ -22,7 +22,7 @@
               <ULink to="/">
                 <img
                   src="/images/hero/logo-orig-sq.png"
-                  class="z-91 absolute -top-2 right-20 w-1/5 h-auto dark:invert dark:hue-rotate-180"
+                  class="z-91 absolute -top-2 right-10 w-1/5 h-auto dark:invert dark:hue-rotate-180"
                   alt="Logo - Trees and water inside a circle"
                   loading="eager"
                   priority

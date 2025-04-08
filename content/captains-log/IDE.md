@@ -1,7 +1,7 @@
 ---
 titled: 'IDE'
 description: 'VS Code Config'
-lastModified:: '2015-02-25'
+lastModified:: '2025-02-25'
 ---
 
 ## Autocompletion
