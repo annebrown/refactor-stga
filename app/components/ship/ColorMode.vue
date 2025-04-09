@@ -8,7 +8,7 @@
         :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
         @click="isDark = !isDark"
         :ui="{
-            leadingIcon: 'text-(--ui-text) size-8 align-bottom'
+            leadingIcon: 'text-(--ui-text) size-7 align-bottom'
          }"
     />
   </ClientOnly>

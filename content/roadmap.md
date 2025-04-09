@@ -28,9 +28,7 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ###  Landing Page Components
 
-- `<SplashAnswer />` - Paragraph, buttons and map
-- `<SplashVideo />` - YouTube video
-- `<SplashOnlyLatest />` - Latest posts
+- `<BlogOnlyLatest />` - Latest posts
 - `<SplashJoin />` - Text, button adn image
 - `<SplashTestimonials />` - Testimonial cards    
 

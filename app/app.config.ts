@@ -1,29 +1,41 @@
 //--------@/app/app.config.ts-------------------------------------------------->
 export default defineAppConfig({
-  ui: {
-        // Color aliases
+    // @nuxt/ui V3
+    ui: {
         colors: {
             primary: 'sky',
-            secondary: 'green',
+            secondary: 'apple',
+            tertiary: 'indigo',
+            neutral: 'gray',
             success: 'green',
             warning: 'yellow',
             error: 'red',
-            neutral: 'gray',
-            'apple': {
-                '50': '#F6FAF2', 
-                '100': '#EEF7E6', 
-                '200': '#D3EBC3', 
-                '300': '#B5DEA2', 
-                '400': '#79C767', 
-                '500': '#3BAE37', 
-                '600': '#319C2D', 
-                '700': '#23821F', 
-                '800': '#176914', 
-                '900': '#0C4F0B', 
-                '950': '#053305'
-            }
         },
-    }
+        button: {
+            
+            slots: {
+                base: 'inline-flex items-center justify-center' ,
+                label: 'whitespace-normal', // Overrides the default 'truncate'
+                link: 'text-center',
+              },
+            block: {
+                base: 'w-full justify-center  text-center',
+            },
+            variants: {
+              color: {
+                secondary: '' // Color variant called "secondary"
+              }
+            },
+            compoundVariants: [
+              {
+                color: 'secondary',
+                variant: 'solid',
+                class: 'p-4 bg-(--ui-secondary) text-(--ui-bg) text-2xl hover:bg-(--ui-primary)'
+              },
+            ]
+          } // Button
+
+    } // @nuxt/ui V3
 
 })
 //--------@/app/app.config.ts-------------------------------------------------->

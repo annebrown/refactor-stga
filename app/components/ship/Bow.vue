@@ -5,7 +5,7 @@
 <div class="fixed flex flex-row w-full h-14 pl-2 bg-white dark:bg-black">
 
     <!-- Logo -->
-    <ShipLogo class="inline-block w-60 h-auto" />
+    <ShipLogo class="inline-block -mt-2 w-70 h-auto" />
 
     <!-- Spacer-->
     <div class="grow">&nbsp;</div>

@@ -12,7 +12,7 @@
                 variant="link" 
                 icon="i-heroicons-bars-3"
                 :ui="{
-                        leadingIcon: 'text-(--ui-text) size-10'
+                        leadingIcon: 'text-(--ui-text) size-9'
                 }"
             />              
 

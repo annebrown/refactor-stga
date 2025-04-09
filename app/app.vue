@@ -6,7 +6,7 @@
     <div class="flex flex-col"><!-- For Z Index -->
 
         <!-- Bow -->
-        <ShipBow id="bow" class="z-1 w-full my-2"/>
+        <ShipBow id="bow" class="z-1 w-full my-4"/>
     
         <!-- Midships -->
         <NuxtPage id="z-2 midships" class="pt-15" />

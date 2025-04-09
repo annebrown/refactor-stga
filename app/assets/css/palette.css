@@ -11,11 +11,24 @@
 /******************************************************************************/
 /* Variables
 /******************************************************************************/
-:root {
+@theme static {
 
     /* Palette */
+    --color-apple-50: #F6FAF2;
+    --color-apple-100: #EEF7E6;
+    --color-apple-200: #D3EBC3;
+    --color-apple-300: #B5DEA2;
+    --color-apple-400: #79C767;
+    --color-apple-500: #3BAE37;
+    --color-apple-600: #319C2D;
+    --color-apple-700: #23821F;
+    --color-apple-800: #176914;
+    --color-apple-900: #0C4F0B;
+    --color-apple-950: #053305;
+
     --ui-primary: var(--ui-color-primary-800);
-    --ui-secondary: var(--ui-color-secondary-500);
+    --ui-secondary: var(--ui-color-secondary-600);
+    --ui-tertiary: var(--ui-color-tertiary-500);
     --ui-success: var(--ui-color-success-500);
     --ui-info: var(--ui-color-info-500);
     --ui-warning: var(--ui-color-warning-500);
@@ -43,7 +56,8 @@
 
     /* Palette */
     --ui-primary: var(--ui-color-primary-600);
-    --ui-secondary: var(--ui-color-secondary-400);
+    --ui-secondary: var(--ui-color-secondary-600);
+    --ui-tertiary: var(--ui-color-tertiary-400);
     --ui-success: var(--ui-color-success-400);
     --ui-info: var(--ui-color-info-400);
     --ui-warning: var(--ui-color-warning-400);

@@ -1,14 +1,14 @@
 <!--------@/pages/index.vue---------------------------------------------------->
 <template><div>
-
+    <NuxtLayout name="splash">
     <SplashHero />
     <SplashAnswer />
     <SplashVideo />
-    <SplashOnlyLatest />
+    <BlogOnlyLatest />
     <SplashJoin />
     <SplashTestimonials />
     <ShipPageSignature />
-    
+    </NuxtLayout>
 </div></template>
 
 <script setup lang='ts'>
