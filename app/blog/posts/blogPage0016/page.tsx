@@ -104,7 +104,7 @@ const BlogPage0016 = () => {
                 </p>
 
                 <p class="mb-8 text-justify">
-                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <NuxtLink href="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" class="text-green-600">here</Link>.
+                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink href="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" class="text-green-600">here</Link>.
                 </p>
                 
                 <div class="aspect-[500/266] mb-8">

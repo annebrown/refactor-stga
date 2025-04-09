@@ -7,7 +7,7 @@ import OnlyLatest from "@/components/Blog/onlyLatest";
 // import Features from "@/components/Features";
 // import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+import Testimonials from "~/components/splash/old-testimonial-idex.vue";
 import Video from "@/components/Video";
 import { Metadata } from "next";
 

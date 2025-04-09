@@ -3,7 +3,7 @@ import SharePost from "@/components/Blog/SharePost";
 import TagButton from "@/components/Blog/TagButton";
 import Link from 'next/link';
 
-import VideoLacy from "@/components/VideoLacy";
+import VideoLacy from "~/components/blog/VideoLacey.vue";
 
 import { Metadata } from "next";
 

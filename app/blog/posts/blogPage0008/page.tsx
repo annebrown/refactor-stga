@@ -85,18 +85,18 @@ const BlogPage0008 = () => {
 
                 <br />
                 <h2>CTV News - October 23, 2024 </h2>
-                <NuxtLink href="https://ottawa.ctvnews.ca/developer-finalizing-purchase-of-land-next-to-arnprior-s-gillies-grove-forest-1.7084023" class="duration-300 hover:text-primary text-green-600">
+                <ULink href="https://ottawa.ctvnews.ca/developer-finalizing-purchase-of-land-next-to-arnprior-s-gillies-grove-forest-1.7084023" class="duration-300 hover:text-primary text-green-600">
                 <p>Developer finalizing purchase of land next to Arnprior&apos; Gillies Grove forest</p></Link>
 
                 <br />
                 <h2>Ottawa Citizen - October 21, 2024 </h2>
-                <NuxtLink href="https://ottawacitizen.com/news/local-news/developer-going-ahead-with-purchase-of-land-next-to-arnprior-old-growth-forest" class="duration-300 hover:text-primary text-green-600">
+                <ULink href="https://ottawacitizen.com/news/local-news/developer-going-ahead-with-purchase-of-land-next-to-arnprior-old-growth-forest" class="duration-300 hover:text-primary text-green-600">
                 <p>Developer going ahead with purchase of land next to Arnprior old-growth forest</p></Link>
 
 
                 <br />
                 <h2>Arnprior Today - October 23, 2024 </h2>
-                <NuxtLink href="https://arnpriortoday.ca/2024/10/23/68133/" class="duration-300 hover:text-primary text-green-600">
+                <ULink href="https://arnpriortoday.ca/2024/10/23/68133/" class="duration-300 hover:text-primary text-green-600">
                 <p>Save the Grove Again: Not Surprised, Not Deterred</p></Link>
 
                 <p class="text-center pb-8 text-2xl weight-bold pt-8 text-[#165D8F] ">Together we can find a better way!</p>

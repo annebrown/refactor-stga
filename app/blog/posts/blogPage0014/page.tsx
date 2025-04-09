@@ -63,7 +63,7 @@ const BlogPage0014 = () => {
                         <p class="pb-1"><strong>What:</strong> Meeting of Council</p>
                         <p class="pb-1"><strong>When:</strong> Monday, January 27th at 6:30 PM</p>
                         <p class="pb-1"><strong>Where:</strong>Town Hall, 105 Elgin Street West, Council Chambers (upstairs)</p>
-                        <p class="pb-1"><strong>Agenda:</strong> <NuxtLink href="https://calendar.arnprior.ca/meetings/Detail/2025-01-27-1830-Regular-Meeting-of-Council/5cd9f0a3-1dfd-4516-b89a-b26f01051fe4" class="text-green-600">Link to Package</Link></p>
+                        <p class="pb-1"><strong>Agenda:</strong> <ULink href="https://calendar.arnprior.ca/meetings/Detail/2025-01-27-1830-Regular-Meeting-of-Council/5cd9f0a3-1dfd-4516-b89a-b26f01051fe4" class="text-green-600">Link to Package</Link></p>
                     </div>
                
                     <p class="mb-8">
@@ -109,7 +109,7 @@ const BlogPage0014 = () => {
                     </p>
 
                     <ul class="mb-8">
-                            <li>💚 Join our <NuxtLink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
+                            <li>💚 Join our <ULink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
                             <li>💚 Wear a button (get yours at Green Bean Natural Foods, 117 John St N)</li>
                             <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
                             <li>💚 Subscribe to our <a class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>

@@ -30,7 +30,7 @@ const BlogPage0018 = () => {
                     </div>
                     <div class="mb-0">
                         <a
-                        href="#0"
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             OPINION
@@ -59,7 +59,7 @@ const BlogPage0018 = () => {
                     </div>
 
                     <p class="mb-8 text-justify">
-                    Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <a class="text-[#165D8F]" href="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</a>.
+                    Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <a class="text-[#165D8F]" to="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</a>.
                     </p>
 
                     <p class="mb-8 text-justify">
@@ -108,15 +108,15 @@ const BlogPage0018 = () => {
                 </p>
 
                 <ul class="mb-8">
-                        <li>💚 Join our <NuxtLink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
+                        <li>💚 Join our <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
                         <li>💚 Wear a button (get yours at Green Bean Natural Foods, 117 John St N)</li>
                         <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
-                        <li>💚 Subscribe to our <a class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>
-                        <li>💚 Fill out our <a  class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</a></li>
-                        <li>💚 Like and follow our <a class="text-green-600" href="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</a></li>
-                        <li>💚 Follow us on <a class="text-green-600" href="https://www.instagram.com/savethegroveagain2024/">Instagram</a> </li>
-                        <li>💚 Subscribe to our <a class="text-green-600" href="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</a></li>
-                        <li>💚 Make a donation via e-transfer to  <a href="mailto:savethegroveagain@gmail.com" class="text-green-600 hover:text-primary">savethegroveagain@gmail.com</a></li>
+                        <li>💚 Subscribe to our <a class="text-green-600" to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>
+                        <li>💚 Fill out our <a  class="text-green-600" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</a></li>
+                        <li>💚 Like and follow our <a class="text-green-600" to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</a></li>
+                        <li>💚 Follow us on <a class="text-green-600" to="https://www.instagram.com/savethegroveagain2024/">Instagram</a> </li>
+                        <li>💚 Subscribe to our <a class="text-green-600" to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</a></li>
+                        <li>💚 Make a donation via e-transfer to  <a to="mailto:savethegroveagain@gmail.com" class="text-green-600 hover:text-primary">savethegroveagain@gmail.com</a></li>
                     </ul>
 
                     <p class="pt-8  pb-8 

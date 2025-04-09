@@ -8,13 +8,10 @@
             
             <UNavigationMenu 
                 :items='mainMenuData'
-        
                 variant='link'
                 color='primary'
-                class=""
-
                 :ui="{
-                    link: 'stga-mainmenu  hover:text-(--ui-primary)'
+                    link: 'text-(--ui-secondary) active:text-(--ui-primary) stga-mainmenu  hover:text-(--ui-primary)'
                 }"
             />
 

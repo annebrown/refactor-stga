@@ -11,10 +11,4 @@
    
 
 </div></template>
-
-<script setup lang='ts'>
-    definePageMeta({ 
-        title: 'Get Involved!', 
-    })
-</script>
 <!--------@/pages/action.vue--------------------------------------------------->

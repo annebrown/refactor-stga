@@ -65,7 +65,7 @@ We are reaching out with a time sensitive request. On Monday September 16th at 5
                                 <a href="mailto:information@omilacombe.ca" class="text-green-600">
                                     information@omilacombe.ca<br/>
                                 </a>
-                                <NuxtLink href="tel:6132302225" class="text-green-600">(613)230-2225</Link><br/>
+                                <ULink href="tel:6132302225" class="text-green-600">(613)230-2225</Link><br/>
                             </p>
                         </div>
                         <div class="rounded-lg w-full bg-white p-5">
@@ -110,19 +110,19 @@ We are reaching out with a time sensitive request. On Monday September 16th at 5
 
                   <h3 class="text-xl font-bold pb-3">Galilee Centre</h3>
                   <p class="mb-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                  <NuxtLink href="https://docs.google.com/document/d/1WkPekfrC49DgsMQOYiMMg8P-Z5KT_9SbPdYENNX_64w/edit" class="mr-6 duration-300 hover:text-primary text-green-600">
+                  <ULink href="https://docs.google.com/document/d/1WkPekfrC49DgsMQOYiMMg8P-Z5KT_9SbPdYENNX_64w/edit" class="mr-6 duration-300 hover:text-primary text-green-600">
                         Support Information for Letters to Galilee Centre Board of Directors
-                    </NuxtLink >
+                    </ULink >
                   </p>
 
                   <h3 class="text-xl font-bold pb-3">Missionary Oblates of Mary Immaculate Lacombe Canada</h3>
                   <p class="mb-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
-                    <NuxtNuxtNuxtNuxtLink      href="https://docs.google.com/document/d/1bSmjknFCd_sO5M1RSTaaCbwrJzcRRvrxx7oLjxlYimQ/edit" class="mr-6 duration-300 hover:text-primary text-green-600">
+                    <NuxtNuxtNuxtULink      href="https://docs.google.com/document/d/1bSmjknFCd_sO5M1RSTaaCbwrJzcRRvrxx7oLjxlYimQ/edit" class="mr-6 duration-300 hover:text-primary text-green-600">
                         Support Information for Letters to OMI Lacombe Provincial Council
-                    </NuxtLink >
+                    </ULink >
                     </p>
 
-                    Additional <NuxtLink href="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit#" class="duration-300 hover:text-primary text-green-600">TEMPLATE/EXAMPLE LETTERS</Link> have been provided by a community member for letters to Lacombe, Galilee Centre, Cavanagh, Mayor McGee and John Yakabuski, Legislative Assembly of Ontario.
+                    Additional <ULink href="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit#" class="duration-300 hover:text-primary text-green-600">TEMPLATE/EXAMPLE LETTERS</Link> have been provided by a community member for letters to Lacombe, Galilee Centre, Cavanagh, Mayor McGee and John Yakabuski, Legislative Assembly of Ontario.
 
                     <hr class="border-[#165D8F] border-1 my-10" /><br />
 
@@ -137,7 +137,7 @@ We are reaching out with a time sensitive request. On Monday September 16th at 5
                         />
 
                   <p class="mb-8 mt-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">               
-We also have a new page up on our website called <NuxtLink href="https://savethegroveagain.com/action" class="duration-300 hover:text-primary text-green-600">Get Involved!</Link>  You can find more contact information for municipal, provincial and federal governments here. We will continue to update it. If you have any suggestions for additions please reach out and let us know. 
+We also have a new page up on our website called <ULink href="https://savethegroveagain.com/action" class="duration-300 hover:text-primary text-green-600">Get Involved!</Link>  You can find more contact information for municipal, provincial and federal governments here. We will continue to update it. If you have any suggestions for additions please reach out and let us know. 
                   </p>
 
                   <p class="mb-8 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">               

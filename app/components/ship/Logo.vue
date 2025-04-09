@@ -2,7 +2,7 @@
 <template><div>
 
 <!-- Logo -->
-<NuxtLink to="/">
+<ULink to="/">
     
     <img 
         src="/logo-rect-light.png" 
@@ -12,7 +12,7 @@
         width="1479"
         height="419"
     />
-</NuxtLink>
+</ULink>
 
 </div></template>
 <!--------@/app/components/ship/Logo.vue--------------------------------------->

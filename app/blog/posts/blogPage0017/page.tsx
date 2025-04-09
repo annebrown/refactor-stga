@@ -111,7 +111,7 @@ const BlogPage0017 = () => {
                 </p>
 
                 <ul class="mb-8">
-                        <li>💚 Join our <NuxtLink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
+                        <li>💚 Join our <ULink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">Postcard Campaign</Link></li>
                         <li>💚 Wear a button (get yours at Green Bean Natural Foods, 117 John St N)</li>
                         <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
                         <li>💚 Subscribe to our <a class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>

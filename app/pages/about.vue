@@ -17,16 +17,10 @@
         We are a group of concerned residents committed to preserving Gillies Grove and the land adjacent to the Grove which constitute the environmental and historic heart of Arnprior.
     </p>
     <p>
-        See <NuxtLink to="/FAQ">Frequently Asked Questions</NuxtLink> for more information.
+        See <ULink to="/FAQ">Frequently Asked Questions</ULink> for more information.
     </p>
 
     <ShipPageSignature />
 
 </div></template>
-
-<script setup lang='ts'>
-    definePageMeta({ 
-        title: 'About', 
-    })
-</script>
 <!--------@/pages/index.vue---------------------------------------------------->

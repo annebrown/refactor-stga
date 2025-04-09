@@ -80,7 +80,7 @@ const BlogPage0015 = () => {
                     </p>
 
                     <p class="mb-8  text-justify">
-                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <NuxtLink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">here</Link>. 
+                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <ULink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">here</Link>. 
                     </p>
 
 

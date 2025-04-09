@@ -12,7 +12,7 @@
     </p>
     <p class="text-left py-2">
     If you are not able to make a donation and would like to help in another way, please fill out our  
-    <NuxtLink href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link" class="text-green-600"> volunteer form</NuxtLink>.
+    <ULink href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link" class="text-green-600"> volunteer form</ULink>.
     </p>
 
     <div class="py-10 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
