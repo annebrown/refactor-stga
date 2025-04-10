@@ -5,7 +5,7 @@ export default defineAppConfig({
         colors: {
             primary: 'sky',
             secondary: 'apple',
-            tertiary: 'indigo',
+            tertiary: 'amber',
             neutral: 'gray',
             success: 'green',
             warning: 'yellow',
@@ -30,10 +30,20 @@ export default defineAppConfig({
               {
                 color: 'secondary',
                 variant: 'solid',
-                class: 'p-4 bg-(--ui-secondary) text-(--ui-bg) text-2xl hover:bg-(--ui-primary)'
+                class: 'p-4 bg-(--ui-secondary) text-(--ui-bg) text-xl hover:bg-(--ui-primary)'
               },
             ]
-          } // Button
+        }, // Button
+
+        navigationMenu: {
+            variants: {
+                active: {
+                  false: {
+                    link: 'text-(--ui-secondary)', // This overrides the default 'text-(--ui-text-muted)'
+                  }
+                }
+              }
+          } // NavigationMenu
 
     } // @nuxt/ui V3
 

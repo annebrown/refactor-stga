@@ -4,11 +4,11 @@
 <div class="relative z-10 pb-2 rounded-lg">
 
     <!-- Title -->
-    <h1 class="p-7 pt-8 text-3xl font-bold text-center pb-5 text-black">
+    <h1 class="p-7 pt-8 text-3xl font-bold text-center pb-5">
         Local Voices
     </h1>
 
-    <p class="text-center pb-7 text-black">
+    <p class="text-center pb-7">
         What members of the community are saying about the proposed development:
     </p>
 
@@ -23,7 +23,7 @@
             :quote="quote"
         >
             <!-- Testimonial -->
-            <div class="w-full bg-green-600 rounded-lg">
+            <div class="w-full bg-apple-600 rounded-lg">
 
                 <!-- Quote -->
                 <p class="

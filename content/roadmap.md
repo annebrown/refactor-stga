@@ -17,8 +17,6 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ### Footer
 
-- Logo
-- Contacts
 - Menu
 - Copyright
 
@@ -28,15 +26,11 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ###  Landing Page Components
 
-- `<BlogOnlyLatest />` - Latest posts
-- `<SplashJoin />` - Text, button adn image
-- `<SplashTestimonials />` - Testimonial cards    
-
+- `<BlogOnlyLatest />` - Latest posts 
 
 ## Blog Pages
 
 - Design Blog Template
-- Recreate blog pages
 
 ## Blogs Page
 

@@ -4,13 +4,13 @@
 <!-- Logo -->
 <ULink to="/">
     
-    <img 
+    <img
         src="/logo-rect-light.png" 
         class="w-fit dark:invert dark:hue-rotate-180"
         alt="Logo - Trees and water inside a circle, with text: Save the 
                 Grove Again" 
-        width="1479"
-        height="419"
+        width=1479
+        height=419
     />
 </ULink>
 

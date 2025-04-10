@@ -6,35 +6,17 @@
         w-full">
 
         <!-- Answer & Buttons -->
-        <div class="content-center h-full">
+        <div class="m-5 content-center h-full">
 
             <!-- Answer -->
-            <p class="text-justify font-bold text-(--ui-primary) text-2xl"
+            <p class="text-justify font-bold text-(--ui-primary) dark:text-(--ui-color-primary-400) text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
             </p>
 
-           
-            
-        </div><!-- Answer & Buttons -->
-
-        <!-- Map -->
-        <div class="w-full h-auto pt-8">
-            <img 
-                src="/images/answer/map.svg" 
-                alt="Map showing outline of proposed development area, a strip of wooded property bordering the Ottawa River" 
-                loading="eager" 
-                priority 
-                width={1301} 
-                height={1148} 
-                class="rounded-lg"
-            />
-        </div>
-
-    </div><!-- Grid -->
-     <!-- Buttons -->
-     <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 
-                w-full mt-10 text-center text-2xl"
+           <!-- Buttons -->
+            <div class="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 
+                        w-full mt-10 text-center text-2xl"
             >
                 <!-- Button - Subscribe -->
                 <UButton 
@@ -64,6 +46,23 @@
                     variant="solid"
                 />
             </div><!-- Buttons -->
+            
+        </div><!-- Answer & Buttons -->
+
+        <!-- Map -->
+        <div class="w-full h-auto pt-8">
+            <img 
+                src="/images/answer/map.svg" 
+                alt="Map showing outline of proposed development area, a strip of wooded property bordering the Ottawa River" 
+                loading="eager" 
+                priority 
+                width={1301} 
+                height={1148} 
+                class="rounded-3xl"
+            />
+        </div>
+
+    </div><!-- Grid -->
  
 </div></template>
 <!--------@/app/components/splash/Answer.vue----------------------------------->

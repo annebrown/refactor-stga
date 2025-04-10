@@ -14,17 +14,41 @@
 @theme static {
 
     /* Palette */
-    --color-apple-50: #F6FAF2;
-    --color-apple-100: #EEF7E6;
-    --color-apple-200: #D3EBC3;
-    --color-apple-300: #B5DEA2;
-    --color-apple-400: #79C767;
-    --color-apple-500: #3BAE37;
-    --color-apple-600: #319C2D;
-    --color-apple-700: #23821F;
-    --color-apple-800: #176914;
-    --color-apple-900: #0C4F0B;
-    --color-apple-950: #053305;
+    --color-amber-50:  #fffbeb; /* amber-50 */
+    --color-amber-100: #fef3c7; /* amber-100 */
+    --color-amber-200: #fde68a; /* amber-200 */
+    --color-amber-300: #fcd34d; /* amber-300 */
+    --color-amber-400: #fbbf24; /* amber-400 */
+    --color-amber-500: #f59e0b; /* amber-500 */
+    --color-amber-600: #d97706; /* amber-600 */
+    --color-amber-700: #b45309; /* amber-700 */
+    --color-amber-800: #92400e; /* amber-800 */
+    --color-amber-900: #78350f; /* amber-900 */
+    --color-amber-950: #451a03; /* amber-950 */
+
+    --color-apple-50:  #F6FAF2; /* apple-50 */
+    --color-apple-100: #EEF7E6; /* apple-100 */
+    --color-apple-200: #D3EBC3; /* apple-200 */
+    --color-apple-300: #B5DEA2; /* apple-300 */
+    --color-apple-400: #79C767; /* apple-400 */
+    --color-apple-500: #3BAE37; /* apple-500 */
+    --color-apple-600: #319C2D; /* apple-600 */
+    --color-apple-700: #23821F; /* apple-700 */
+    --color-apple-800: #176914; /* apple-800 */
+    --color-apple-900: #0C4F0B; /* apple-900 */
+    --color-apple-950: #053305; /* apple-950 */
+
+    --color-gray-50:   #f9fafb; /* gray-50 */
+    --color-gray-100:  #f3f4f6; /* gray-100 */
+    --color-gray-200:  #e2e8f0; /* gray-200 */
+    --color-gray-300:  #cbd5e1; /* gray-300 */
+    --color-gray-400:  #94a3b8; /* gray-400 */
+    --color-gray-500:  #64748b; /* gray-500 */
+    --color-gray-600:  #475569; /* gray-600 */
+    --color-gray-700:  #334155; /* gray-700 */
+    --color-gray-800:  #1e293b; /* gray-800 */
+    --color-gray-900:  #0f172a; /* gray-900 */
+    --color-gray-950:  #020617; /* gray-950 */
 
     --ui-primary: var(--ui-color-primary-800);
     --ui-secondary: var(--ui-color-secondary-600);
@@ -33,6 +57,15 @@
     --ui-info: var(--ui-color-info-500);
     --ui-warning: var(--ui-color-warning-500);
     --ui-error: var(--ui-color-error-500);
+
+    /* Splash Page */
+    --ui-color-hero: var(--color-apple-300);
+    --ui-color-answer: var(--color-apple-300);
+    --ui-color-video: var(--color-amber-200);
+    --ui-color-events: var(--color-white);
+    --ui-color-news: var(--color-primary-200);
+    --ui-color-join: var(--color-amber-200);
+    --ui-color-testimonials: var(--color-amber-200);
 
     /* Containers */
     --ui-bg: var(--color-white);
@@ -54,7 +87,7 @@
 
 .dark {
 
-    /* Palette */
+    /* Dark Palette */
     --ui-primary: var(--ui-color-primary-600);
     --ui-secondary: var(--ui-color-secondary-600);
     --ui-tertiary: var(--ui-color-tertiary-400);
@@ -63,10 +96,19 @@
     --ui-warning: var(--ui-color-warning-400);
     --ui-error: var(--ui-color-error-400);
 
-    /* Containers */
-    --ui-bg: var(--color-black);
+    /* Dark Splash Page */
+    --ui-color-hero: var(--color-apple-300);
+    --ui-color-answer: var(--color-apple-300);
+    --ui-color-video: var(--color-amber-400);
+    --ui-color-events: var(--color-amber-200);
+    --ui-color-news: var(--color-primary-900);
+    --ui-color-join: var(--color-amber-400);
+    --ui-color-testimonials: var(--color-apple-900);
 
-    /* Typography */
+    /* Dark Containers */
+    --ui-bg: var(--color-gray-950);
+
+    /* Dark Typography */
 
         /* Least prominent text */
         --ui-text-dimmed: var(--ui-color-neutral-500);
@@ -87,4 +129,6 @@
 body {
     @apply antialiased text-(--ui-text) bg-(--ui-bg);
 }
+#banner { @apply bg-white dark:bg-black; }
+#page-signature { @apply text-(--ui-secondary); }
 /*--------@/app/assets/css/palette.css----------------------------------------->

@@ -1,5 +1,7 @@
 <!--------@/pages/index.vue---------------------------------------------------->
 <template><div>
+
+<UCard>
     <h1>About</h1>
 
     <h2>Our Mission</h2>
@@ -20,7 +22,10 @@
         See <ULink to="/FAQ">Frequently Asked Questions</ULink> for more information.
     </p>
 
+
     <ShipPageSignature />
+
+</UCard>
 
 </div></template>
 <!--------@/pages/index.vue---------------------------------------------------->

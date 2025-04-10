@@ -2,36 +2,23 @@
 <template><div>
 
     <!-- Horizontal Main Menu -->
-    <div class="inactive-text-temporary-color-override">
+      <nav class="hidden sm:inline-block group-hover:no-underline">
 
-        <nav class="hidden sm:inline-block group-hover:no-underline">
-            
-            <UNavigationMenu 
-                :items='mainMenuData'
-                variant='link'
-                color='primary'
-                :ui="{
-                    link: 'text-(--ui-secondary) active:text-(--ui-primary) stga-mainmenu  hover:text-(--ui-primary)'
-                }"
-            />
+        <UNavigationMenu
+          :items="mainMenuData"
+          variant="link"
+          color="primary"
+          active
+          :ui="{
+            link: 'stga-mainmenu  active:text-(--ui-primary)  hover:text-(--ui-primary)',
+          }"
+        />
+      </nav>
 
-        </nav><!-- Main Menu -->
-        
-    </div>
 </div></template>
 
 <script setup lang="ts">
-    // Main Menu Array
+// Main Menu Array
     import { mainMenuData } from "@/utils/data/MainMenu";
 </script>
-
-<style scoped>
-.inactive-text-temporary-color-override {
-  --ui-text-muted: black; /* Override inactive text color for light mode */
-  
-  .dark & {
-    --ui-text-muted: white; /* Override inactive text color for dark mode */
-  }
-}
-</style>
 <!--------@/components/ship/MainMenu.vue--------------------------------------->

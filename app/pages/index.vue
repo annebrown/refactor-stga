@@ -2,21 +2,28 @@
 <template><div>
     <NuxtLayout name="splash">
 
-        <SplashHero class="mb-14 bg-transparent"/>
+        <SplashHero class="mb-0 
+            bg-transparent"/>
 
-        <SplashAnswer class="mx-4 mb-14 bg-(--stga-answer)" />
+        <SplashAnswer class="mx-4 mb-8 
+            bg-transparent" />
 
-        <SplashVideo class="bg-(--ui-color-secondary-300)" />
+        <SplashVideo class="
+            bg-(--ui-color-video)" />
 
-        <SplashEventsCalendar class="mb-14 pb-16 bg-(--stga-events)" />
+        <SplashEventsCalendar class="mb-14 rounded-3xl
+            bg-transparent" />
 
-        <BlogOnlyLatest class="mb-14 pb-18 bg-amber-200" />
+        <BlogOnlyLatest class="mb-14 pb-18 rounded-3xl
+            bg-(--ui-color-news)" />
 
-        <SplashJoin class="mb-14 bg-(--stga-join)" />
+        <SplashJoin class="ml-4 mb-14 
+            bg-transparent" />
 
-        <SplashTestimonials class="bg-(--ui-color-secondary-200)" />
+        <SplashTestimonials class="
+            bg-(--ui-color-testimonials)" />
 
-        <ShipPageSignature class="text-3xl text-(--ui--color-secondary)" />
+        <ShipPageSignature id="page-signature" class="text-3xl" />
 
     </NuxtLayout>
 </div></template>

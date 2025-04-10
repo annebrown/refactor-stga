@@ -5,7 +5,7 @@
     <div class="w-full container object-center  mx-auto">
 
         <!-- Title -->
-        <h2 class="text-4xl p-5 pt-14 pb-10 text-center text-black font-bold">
+        <h2 class="text-4xl p-5 pt-14 pb-10 text-center font-bold">
             Events Calendar
         </h2>
 

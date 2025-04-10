@@ -6,7 +6,7 @@
         <!-- Hero Image -->
         <div class="">
             <img
-                    class="z-1 w-full rounded-lg"
+                    class="z-1 w-full rounded-2xl"
                     src="/images/hero/big-postcard.png"
                     alt="Postcard - Gillies Grove 10,000 years in the making"
 
@@ -22,7 +22,7 @@
               <ULink to="/">
                 <img
                   src="/images/hero/logo-orig-sq.png"
-                  class="z-91 absolute -top-8 right-10 w-1/5 h-auto dark:invert dark:hue-rotate-180"
+                  class="z-91 absolute -top-6 right-10 w-1/5 h-auto dark:invert dark:hue-rotate-180"
                   alt="Logo - Trees and water inside a circle"
                   loading="eager"
                   priority

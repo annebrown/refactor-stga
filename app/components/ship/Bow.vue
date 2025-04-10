@@ -2,7 +2,7 @@
 <template><div>
 
 <!-- Bow -->
-<div class="fixed flex flex-row w-full h-14 pl-2 bg-white dark:bg-black">
+<div id="banner" class="fixed flex flex-row w-full h-14 pl-2">
 
     <!-- Logo -->
     <ShipLogo class="inline-block -mt-2 w-70 h-auto" />
