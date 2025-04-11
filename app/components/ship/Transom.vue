@@ -159,7 +159,7 @@
         <!-- Copyright -->
         <div class="pb-5 pt-0  w-full rounded-b-lg">
             <p class="text-center text-xs text-black">
-                Copyright <ULink href="/flyer">@</ULink> 2024 Save the Grove Again
+                Copyright <ULink href="/flyer">@</ULink> 2025 Save the Grove Again
             </p>
         </div>
     
