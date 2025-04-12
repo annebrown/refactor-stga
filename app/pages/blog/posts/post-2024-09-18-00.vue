@@ -1,33 +1,6 @@
 <template><div>
-  <!-- title: "RESPONSE TO GALILEE’S LETTER TO THE COMMUNITY",
-  description: "STGA Chair Lacey Smith responds to Galilee Centre’s Newsletter sent out Monday September 16th, the last day of Cavanagh’s due diligence period.",
-  // other metadata
-}; -->
 
 
-      <div class="pb-[60px] pt-[75px]">
-        <div class="container">
-          <div class="-mx-4 flex flex-wrap justify-center">
-            <div class="w-full px-4 lg:w-8/12">
-              
-                <h2 class="mb-8 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight">
-                    RESPONSE TO GALILEE’S LETTER TO THE COMMUNITY
-                </h2>
-                <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
-                    <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium">
-                            September 18, 2024
-                        </p>
-                    </div>
-                    <div class="mb-0">
-                        <ULink
-                        to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
-                        >
-                            Important News
-                        </ULink>
-                    </div>
-                </div>
 
                 <div class="text-black">
                     <p>
@@ -94,8 +67,5 @@ pdufresne@thomascavanagh.ca <br />
 Find out about other ways that you can <ULink to="/action" class="duration-300 hover:text-primary text-(--ui-secondary)">make a difference</ULink>.  <br /></p>
 
                 </div>
-            </div>
-          </div>
-        </div>
-      </div>
+
     </div></template>

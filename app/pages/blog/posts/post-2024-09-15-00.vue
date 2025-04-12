@@ -121,7 +121,6 @@
 
                     <img
                         src="/images/blog/blog0003/blog3-2.webp"
-
                         alt="Two children in woods-bordered field"
                         loading="eager"
                         priority
@@ -142,11 +141,10 @@
                     <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                         <img
                             class="inline align-top "
-                            src="/images/logo/logo_black_small.svg"
+                            src="/images/logo/logo_black_small.png"
                             alt="Logo - Trees and water inside a circle"
                             loading="eager"
                             priority
-
                             width={60}
                             height={60}
                         />
