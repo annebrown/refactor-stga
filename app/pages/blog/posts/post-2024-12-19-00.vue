@@ -37,7 +37,7 @@
                 </p>
                     
 
-                <Image
+                <img
                     src="/images/blog/blog0010/blog10.svg"
                     alt="Concerned local citizens join in a beautiful wintery woodland setting."
                     width="500"
@@ -69,14 +69,14 @@
                 </ol>
 
                 <div class="grid grid-cols-2 gap-4 mx-auto mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0010/body00.webp"
                         alt="Concerned local citizens join in a beautiful wintery woodland setting."
                         width="365"
                         height="500"
                         class="self-center"
                     />
-                    <Image
+                    <img
                         src="/images/blog/blog0010/body01.webp"
                         alt="Concerned local citizens join in a beautiful wintery woodland setting."
                         width="500"

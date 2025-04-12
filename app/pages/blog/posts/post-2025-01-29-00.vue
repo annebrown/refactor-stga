@@ -36,7 +36,7 @@
                     </p>
                     
                     <div class="w-2/3 mx-auto px-0">
-                        <Image
+                        <img
                             src="/images/logo/logo_black_small.png"
                             alt="STGA Logo"
                             width="421"

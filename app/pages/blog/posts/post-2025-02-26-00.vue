@@ -36,7 +36,7 @@
                     </p>
 
                     <div class="pb-8 w-full h-auto mx-auto">
-                        <Image
+                        <img
                             src="/images/blog/blog0013/blog13.png"
                             alt="Greetings from Gillies Grove, 10,000 years in the making"
                             width="500"
@@ -95,7 +95,7 @@
                     </ul>
 
 
-                        <Image
+                        <img
                             src="/images/blog/blog0013/01.webp"
                             alt="Greetings from Gillies Grove, 10,000 years in the making"
                             width="386"
@@ -105,7 +105,7 @@
 
 
                     <div class="w-full mt-0 mb-8 pt-0 mx-auto">
-                        <Image
+                        <img
                             src="/images/blog/blog0013/03.webp"
                             alt="Kids Page"
                             width="500"

@@ -41,7 +41,7 @@
                     </p>
                     
                     <div class="aspect-[568/338] mb-8">
-                        <Image
+                        <img
                             src="/images/blog/blog0018/blog18.png"
                             alt="Ballot box and text: RENFREW-NIPISSING-PEMBROKE Candidates weigh in on protecting Gillies Grove"
                             width="568"

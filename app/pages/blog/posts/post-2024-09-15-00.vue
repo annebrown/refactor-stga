@@ -114,7 +114,7 @@ We are reaching out with a time sensitive request. On Monday September 16th at 5
 
                     <hr class="border-[#165D8F] border-1 my-10" /><br />
 
-                    <Image
+                    <img
                         src="/images/blog/blog0003/blog3-2.webp"
 
                         alt="Two children in woods-bordered field"
@@ -138,7 +138,7 @@ We also have a new page up on our website called <ULink to="https://savethegrove
 
                   <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
                     
-                  <Image
+                  <img
                   class="inline align-top "
                   src="/images/logo/logo_black_small.svg"
                   alt="Logo - Trees and water inside a circle"

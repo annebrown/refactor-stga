@@ -40,7 +40,7 @@ const BlogPage0011 = () => {
                     </p>
             
 
-                    <Image
+                    <img
                     src="/images/blog/blog0011/blog11.webp"
                     alt="Child stands on large tree stump in wintery forest."
                     width="500"

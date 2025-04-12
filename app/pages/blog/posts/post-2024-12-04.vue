@@ -35,7 +35,7 @@
                     </p>
                     
                     <div class="mx-auto p-0">
-                        <Image
+                        <img
                             src="/images/blog/blog0009/blog9.webp"
                             alt="Autumn Forest"
                             width="500"

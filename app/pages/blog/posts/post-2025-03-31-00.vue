@@ -37,7 +37,7 @@
                     </p>
                     
                     <div class="w-full mx-auto mb-8">
-                        <Image
+                        <img
                             src="/images/blog/blog0019/blog19.png"
                             alt="Forest with text: Call of the Forest, A film by Jeff McKay, and other details"
                             width="353"

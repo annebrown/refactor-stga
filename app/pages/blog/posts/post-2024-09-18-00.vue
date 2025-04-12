@@ -35,7 +35,7 @@
                     </p><br /><br /><br />
                     <div class="mb-10 w-full overflow-hidden rounded">
                         <div class="relative">
-                            <Image
+                            <img
                                 src="/images/blog/blog0004/blog4.webp"
                                 alt="Bucolic winding sandy path through forest-bordered field"
                                 width="375"

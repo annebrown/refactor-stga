@@ -32,7 +32,7 @@
                     </p>
                     
                     <div class="aspect-[500/500] mb-8">
-                        <Image
+                        <img
                             src="/images/blog/blog0010/blog10.svg"
                             alt="XXXXXXXX ALT XXXXXXXX"
                             width="500"

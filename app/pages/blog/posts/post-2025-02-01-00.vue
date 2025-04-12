@@ -36,7 +36,7 @@
                 </p>
                 
                 <div class="aspect-[500/325] mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0016/blog16.png"
                         alt="Nick Smith Centre Entrance"
                         width="500"
@@ -95,7 +95,7 @@
                 </p>
                 
                 <div class="aspect-[500/266] mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0016/blog16b.png"
                         alt="Sandy road through forest meadow"
                         width="500"

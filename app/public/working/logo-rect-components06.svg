@@ -235,7 +235,7 @@
      inkscape:label="Original Detailed Logo"
      style="display:none"
      sodipodi:insensitive="true">
-    <image
+    <img
        width="421.44"
        height="422.39999"
        preserveAspectRatio="none"
@@ -318,7 +318,7 @@
        transform="matrix(2.7654487,0,0,2.7654487,-1663.3351,-225.1475)"
        sodipodi:insensitive="true"
        style="display:inline">
-      <image
+      <img
          width="606.96857"
          height="606.96857"
          preserveAspectRatio="none"

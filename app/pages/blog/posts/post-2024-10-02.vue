@@ -32,7 +32,7 @@
                     </p>
                     
                     <div class="aspect-[100/75] mb-10 self-center">
-                        <Image
+                        <img
                             src="/images/blog/blog0006/blog6.webp"
                             alt="Green Globe"
                             width="500"
@@ -86,7 +86,7 @@
                     </p>
 
                     <div class="mb-10 mt-10 self-center">
-                        <Image
+                        <img
                             src="/images/blog/blog0006/blog6b.webp"
                             alt="Looking up through very tall deciduous trees"
                             width="750"

@@ -37,7 +37,7 @@
                     </p>
 
                     <div class="container mx-auto pb-8">
-                        <Image
+                        <img
                             src="/images/blog/blog0007/blog7.png"
                             alt="People walking a woodland path"
                             width="500"

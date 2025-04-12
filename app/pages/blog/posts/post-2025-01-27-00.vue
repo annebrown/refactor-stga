@@ -35,7 +35,7 @@
                     </p>
                     
                     <div class="aspect-[750/402] mb-8 w-full">
-                        <Image
+                        <img
                             src="/images/blog/blog0014/blog14.jpg"
                             alt="Arnprior Municipal Offices Front Entrance"
                             width="750"

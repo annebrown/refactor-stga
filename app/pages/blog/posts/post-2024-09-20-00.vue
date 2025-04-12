@@ -43,7 +43,7 @@
                         </div>
                         <div class="mb-10 w-full overflow-hidden rounded">
                             <div class="relative aspect-[97/60] w-full sm:aspect-[97/44]">
-                                <Image
+                                <img
                                     src="/images/blog/blog0005/blog5.jpg"
                                     alt="image"
                                     fill

@@ -31,7 +31,7 @@
                             <div class="text-center px-20">
                                 <div class="mb-10 w-full overflow-hidden rounded">
                                     <div class="relative aspect-[100/75] w-full">
-                                        <Image
+                                        <img
                                             src="/images/blog/blog0002/blog2.webp"
                                             alt="Event Group Photo, plus Update as post category"
                                             class="object-cover object-center h-fit"

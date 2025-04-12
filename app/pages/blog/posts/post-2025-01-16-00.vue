@@ -35,7 +35,7 @@
                     </p>
                     
                     <div class="aspect-[500/270] mb-8">
-                        <Image
+                        <img
                             src="/images/blog/blog0012/blog12.webp"
                             alt="Old grown forest"
                             width="500"

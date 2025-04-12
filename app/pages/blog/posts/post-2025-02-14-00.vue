@@ -35,7 +35,7 @@
                 </p>
                 
                 <div class="aspect-[500/278] mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0017/blog17.png"
                         alt="Local community gathering in gymnasium"
                         width="500"
@@ -74,7 +74,7 @@
                 </p>
 
                 <div class="w-full aspect-[450/500] mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0017/blog17-a.png"
                         alt="Local community member presents to council"
                         width="450"
@@ -84,7 +84,7 @@
                 </div>
 
                 <div class="w-full mb-8">
-                    <Image
+                    <img
                         src="/images/blog/blog0017/blog17-b.png"
                         alt="STGA Committee Chair presents to council"
                         width="500"

@@ -36,7 +36,7 @@
                 </p>
                 
                 <div class="aspect-[500/280]">
-                    <Image
+                    <img
                         src="/images/blog/blog0008/blog8.webp"
                         alt="Sundrenched Woodland Path"
                         width="500"
