@@ -9,10 +9,10 @@
         <div class="-mx-4 flex flex-wrap items-center">
             <div class="w-full px-4 md:w-8/12 lg:w-7/12">
                 <div class="mb-8 max-w-[570px] md:mb-0 lg:mb-12">
-                    <h1 class="mb-5 text-2xl font-bold text-black sm:text-3xl">
+                    <h1 class="mb-5 text-2xl font-bold sm:text-3xl">
                         {pageName}
                     </h1>
-                    <p class="text-base font-medium leading-relaxed text-black">
+                    <p class="text-base font-medium leading-relaxed">
                         {description}
                     </p>
                 </div>
@@ -23,13 +23,13 @@
             <div class="text-end">
                 <ul class="flex items-center md:justify-end">
                     <li class="flex items-center">
-                        <Link
+                        <ULink
                             to="/"
                             class="pr-1 text-base font-medium 
-                            text-black hover:text-primary"
+                            hover:text-primary"
                         >
                             Home
-                        </Link>
+                        </ULink>
                         <span class="mr-0 block h-2 w-2 rotate-45 border-r-2 
                             border-t-2 border-black"></span>
                     </li>

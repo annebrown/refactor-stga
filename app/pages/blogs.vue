@@ -1,24 +1,29 @@
 <!--------@/pages/blog.vue----------------------------------------------------->
 <template><div>
 
-    <!-- All Blogs -->
-    <div class="w-full container m-0 p-0 object-center  mx-auto bg-(--ui-primary)">
+<!-- All Blogs -->
+<UContainer class="mb-4 bg-(--ui-color-news) rounded-2xl">
 
-        <!-- Title -->
-        <h1>Blog Posts</h1>
+    <!-- Title -->
+    <h1 class="!pt-8">Blog Posts</h1>
 
-        <div class="flex flex-row flex-wrap gap-2 justify-normal content-center">
+    <div 
+        class="grid gap-x-8 gap-y-10 
+            grid-cols-1 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 
+                place-content-stretch">
+     
             <BlogCardBlogPost
                 v-for="(post, index) in blogData"
                 :key="index" 
                 :post="post"
-                class="flex-1"
+                class="flex-1 shadow-md bg-(--ui-bg)"
             />
-        </div>
    
-    </div><!-- All Blogs -->
+    </div>
 
-    <ShipPageSignature />
+    <ShipPageSignature class="py-8 pt-10 text-(--ui-primary)" />
+    
+</UContainer><!-- All Blogs -->
    
 </div></template>
 

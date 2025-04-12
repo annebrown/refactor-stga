@@ -1,60 +1,57 @@
 <!--------@/components/blog/CardBlogPost.vue----------------------------------->
 <template><div>
 
-<!-- Card -->
-<div class="card-blog-post">
+<ULink :to="`${ post.blogURL }`" class="">
 
-    <!-- Tags and Image -->
-    <ULink
-        :to="`${ post.blogURL }`"
-        class="relative block aspect-[37/22] w-full"
-    >
-        <!-- Tags -->
+    <!-- Card -->
+    <div class="">
 
-        <UButton 
-            class="absolute p-4 right-2 bottom-2 z-20 
-            inline-block rounded-xl text-3xl capitalize"
-            variant="solid">
-            {{ post.tags[0] }}
-        </UButton>
+        <!-- Header - Image & Tags-->
+        <div class="relative">
 
+            <!-- Image -->
+            <img
+                :src="`${ post.image }`"
+                :alt="`${ post.alt }`"
+                :width="`${ post.width }`"
+                :height="`${ post.height }`"
+                class="max-h-70 w-auto mx-auto pt-4 object-cover object-top"
+            />
+     
+            <!-- Tags -->
+            <UButton 
+                class="z-2 absolute -mr-5 p-2 right-2 bottom-2 
+                inline-block rounded-3xl text-lg uppercase"
+                variant="solid">
+                {{ post.tags[0] }}
+            </UButton>
 
-        <!-- Image -->
-        <img
-            :src="`${ post.image }`"
-            :alt="`${ post.alt }`"
-            :width="`${ post.width }`"
-            :height="`${ post.height }`"
-            class="rounded-lg"/>
+        </div>
 
-    </ULink> <!-- Tags and Image -->
+        <!-- Title & Bi-LIne-->
+        <div class="">
 
-    <!-- Title, Bi-Line and Date -->
-    <div class="p-6">
-
-        <!-- title -->
-        <h3>
-            <ULink
-                :to="`${ post.blogURL }`"
-                class="mb-4"
-                >
+            <!-- title -->
+            <h3 class="p-6 pb-2 text-center text-2xl/6 font-bold">
                 {{ post.title }}
-            </ULink>
-        </h3>
+            </h3>
 
-        <!-- Bi-Line -->
-        <p class="">
-            {{ post.paragraph }}
-        </p>
+            <!-- Bi-Line -->
+            <p class="p-6 pt-2 leading-6 text-left">
+                {{ post.paragraph }}
+            </p>
 
-        <!-- Date -->
-        <div class="flex items-center">
+        </div>
+
+        <!-- Publish Date -->
+        <div class="p-4">
             <p class="">{{ post.publishDate }}</p>
         </div>
-        
-    </div><!-- Title, Bi-Line and Date -->
 
-</div><!-- Card -->
+
+    </div><!-- Card -->
+
+</ULink>
 
 </div></template>
 

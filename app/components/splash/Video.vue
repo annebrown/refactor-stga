@@ -5,7 +5,7 @@
     <div class="w-full pb-8 container object-center mx-auto">
 
         <!-- Title -->
-        <h2 class=" p-5 pt-14 p text-4xl text-center text-black font-bold">
+        <h2 class=" p-5 pt-14 p text-4xl text-center font-bold">
             What&apos;s at Stake
         </h2>
 

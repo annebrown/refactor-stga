@@ -65,7 +65,7 @@
     --ui-color-events: var(--color-white);
     --ui-color-news: var(--color-primary-200);
     --ui-color-join: var(--color-amber-200);
-    --ui-color-testimonials: var(--color-amber-200);
+    --ui-color-testimonials: var(--color-secondary-200);
 
     /* Containers */
     --ui-bg: var(--color-white);

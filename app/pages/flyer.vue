@@ -3,7 +3,7 @@
 
 <h1>Flyers</h1>
 
-    <div id="Flyer" class="realtive z-30 mt-0 p-0 w-full text-black">
+    <div id="Flyer" class="realtive z-30 mt-0 p-0 w-full">
           
             <h2 class="text-3xl pb-3 font-bold text-center">
                 January 16, 2025 Event Flyer

@@ -4,29 +4,29 @@
 
             <div class="mx-auto w-full px-4 md:w-8/12 lg:w-8/12 justify-center">
               
-                <h2 class="mb-8 text-3xl font-bold leading-tight text-black sm:text-4xl sm:leading-tight">
+                <h2 class="mb-8 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight">
                 Giving Thanks to the Grove
                 </h2>
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             October 2, 2024
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                         EVENT
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
           
                     <p class="text-2xl"><strong>Silent Walk + Social Gathering</strong></p><br></br>
                     <p 
-                        class="mb-10 text-base font-medium leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                        class="mb-10 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                     >
                         Join us as we come together as a community once again to show our dedication to protecting the Grove from future development. We will first take a silent walk together to appreciate our beloved old-growth forest and finish with a gathering to discuss next steps, answer questions and celebrate victories.
                     </p>
@@ -104,7 +104,7 @@
                     <p class="mb-8">
                     Let’s keep Growing and ensure that Gillies Grove remains a sanctuary for generations to come.
                     </p>
-                    <p class="text-center pb-8 text-2xl weight-bold pt-4 text-[#165D8F] ">Together we can find a better way!</p>
+                    <p class="text-center pb-8 text-2xl weight-bold pt-4 text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
           </div>

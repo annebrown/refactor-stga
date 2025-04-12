@@ -10,17 +10,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             December 4, 2024
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             EVENT
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
                         <strong>Gillies Grove Biodiversity Tour</strong>
                     </p><br></br>
                     <p 
-                        class="mb-6 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                        class="mb-6 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                     >
                        Walk the Grove and learn more about this renowned ecosystem
                     </p>
@@ -69,7 +69,7 @@
                         src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d7913.744781574474!2d-76.3584444!3d45.439194400000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDXCsDI2JzIxLjEiTiA3NsKwMjEnMzAuNCJX!5e1!3m2!1sen!2sca!4v1733227757768!5m2!1sen!2sca" width="500" height="450"  loading="lazy">
                     </iframe>
                 
-                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-[#165D8F] ">Together we can find a better way!</p>
+                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

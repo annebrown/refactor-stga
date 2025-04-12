@@ -11,17 +11,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             October 31, 2024
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             IMPORTANT NEWS
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                     <strong>Response to Cavanagh&apos;s Announcement</strong>
                 </p><br></br>
                 <p 
-                    class="mb-10 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                    class="mb-10 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                 >
                     STGA is not surprised, not deterred
                 </p>
@@ -73,21 +73,21 @@
 
                 <br />
                 <h2>CTV News - October 23, 2024 </h2>
-                <ULink href="https://ottawa.ctvnews.ca/developer-finalizing-purchase-of-land-next-to-arnprior-s-gillies-grove-forest-1.7084023" class="duration-300 hover:text-primary text-green-600">
+                <ULink to="https://ottawa.ctvnews.ca/developer-finalizing-purchase-of-land-next-to-arnprior-s-gillies-grove-forest-1.7084023" class="duration-300 hover:text-primary text-(--ui-secondary)">
                 <p>Developer finalizing purchase of land next to Arnprior&apos; Gillies Grove forest</p></ULink>
 
                 <br />
                 <h2>Ottawa Citizen - October 21, 2024 </h2>
-                <ULink href="https://ottawacitizen.com/news/local-news/developer-going-ahead-with-purchase-of-land-next-to-arnprior-old-growth-forest" class="duration-300 hover:text-primary text-green-600">
+                <ULink to="https://ottawacitizen.com/news/local-news/developer-going-ahead-with-purchase-of-land-next-to-arnprior-old-growth-forest" class="duration-300 hover:text-primary text-(--ui-secondary)">
                 <p>Developer going ahead with purchase of land next to Arnprior old-growth forest</p></ULink>
 
 
                 <br />
                 <h2>Arnprior Today - October 23, 2024 </h2>
-                <ULink href="https://arnpriortoday.ca/2024/10/23/68133/" class="duration-300 hover:text-primary text-green-600">
+                <ULink to="https://arnpriortoday.ca/2024/10/23/68133/" class="duration-300 hover:text-primary text-(--ui-secondary)">
                 <p>Save the Grove Again: Not Surprised, Not Deterred</p></ULink>
 
-                <p class="text-center pb-8 text-2xl weight-bold pt-8 text-[#165D8F] ">Together we can find a better way!</p>
+                <p class="text-center pb-8 text-2xl weight-bold pt-8 text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

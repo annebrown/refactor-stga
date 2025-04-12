@@ -11,17 +11,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                         January 18, 2025
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             ACTION
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@
                         <strong>Join the Call for Council to Take Action</strong>
                     </p><br></br>
                     <p 
-                        class="mb-10 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                        class="mb-10 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                     >
                        Announcing our NEW Postcard Campaign!
 
@@ -52,13 +52,13 @@
                     </p>
 
                     <ul class="ml-2 mb-5">
-                        <li><a href="http://cafetilda.ca/" class="text-green-600 hover:text-primary">Cafe Tilda</a>, 158 John St. N.</li>
-                        <li><a href="https://www.instagram.com/johnies.vintage/" class="text-green-600 hover:text-primary">Johnie&apos;s Vintage</a>, 54 Madawaska St.</li>
-                        <li><a href="http://www.mallardsmilkbar.com/" class="text-green-600 hover:text-primary">Mallard&apos;s Milk Bar</a>, 55 John St. N.</li>
-                        <li><a href="http://www.ottawavalleycoffee.ca/" class="text-green-600 hover:text-primary">Ottawa Valley Coffee</a>, 32 Elgin St. W.</li>
+                        <li><ULink to="http://cafetilda.ca/" class="text-(--ui-secondary) hover:text-primary">Cafe Tilda</ULink>, 158 John St. N.</li>
+                        <li><ULink to="https://www.instagram.com/johnies.vintage/" class="text-(--ui-secondary) hover:text-primary">Johnie&apos;s Vintage</ULink>, 54 Madawaska St.</li>
+                        <li><ULink to="http://www.mallardsmilkbar.com/" class="text-(--ui-secondary) hover:text-primary">Mallard&apos;s Milk Bar</ULink>, 55 John St. N.</li>
+                        <li><ULink to="http://www.ottawavalleycoffee.ca/" class="text-(--ui-secondary) hover:text-primary">Ottawa Valley Coffee</ULink>, 32 Elgin St. W.</li>
                         <li>Sweet & Sassy Cafe and Bistro, 114 John St. N.</li>
-                        <li><a href="https://www.whitepinebooks.ca/" class="text-green-600 hover:text-primary">White Pine Books</a>, 152 John St. N.</li>
-                        <li><a href="https://ovap.ca/" class="text-green-600 hover:text-primary">Ottawa Valley Air Paddle</a>, 67 Madawaska St. N.</li>
+                        <li><ULink to="https://www.whitepinebooks.ca/" class="text-(--ui-secondary) hover:text-primary">White Pine Books</ULink>, 152 John St. N.</li>
+                        <li><ULink to="https://ovap.ca/" class="text-(--ui-secondary) hover:text-primary">Ottawa Valley Air Paddle</ULink>, 67 Madawaska St. N.</li>
                         <li>(more to come)</li>
                     </ul>
 
@@ -126,14 +126,14 @@
                         <li>💚 Invite family and friends</li>
                         <li>💚 Wear a button - Get yours at Green Bean Natural Foods (117 John St. N.) or Sweet and Sassy (114 John St. N.)</li>
                         <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
-                        <li>💚 Subscribe to our <a class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>
-                        <li>💚 Fill out our <a  class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</a></li>
-                        <li>💚 Like and follow our <a class="text-green-600" href="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</a></li>
-                        <li>💚 Subscribe to our <a class="text-green-600" href="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</a></li>
-                        <li>💚 Make a donation via e-transfer to  <a href="mailto:savethegroveagain@gmail.com" class="text-green-600 hover:text-primary">savethegroveagain@gmail.com</a></li>
+                        <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
+                        <li>💚 Fill out our <ULink  class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
+                        <li>💚 Like and follow our <ULink class="text-(--ui-secondary)" to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
+                        <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
+                        <li>💚 Make a donation via e-transfer to  <ULink to="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</ULink></li>
                     </ul>
 
-                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-[#165D8F] ">Together we can find a better way!</p>
+                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

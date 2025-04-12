@@ -11,17 +11,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             February 1, 2025
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             ACTION
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                     <strong>A Crucial Public Meeting to Sever Land</strong>
                 </p><br></br>
                 <p 
-                    class="mb-10 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                    class="mb-10 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                 >
                     We need everyone present for this one!
                 </p>
@@ -74,7 +74,7 @@
                     <li>🌲 Anyone can make a comment or ask a question at the meeting.</li>
                     <li>🌲 If you do not wish to speak you can send a written comment prior to the meeting (see below)</li>
                     <li>🌲 The applicant will be in attendance and will make a presentation</li>
-                    <li class="font-bold">🌲 Wear <span class="text-green-600">green</span> in support of Gillies Grove!</li>
+                    <li class="font-bold">🌲 Wear <span class="text-(--ui-secondary)">green</span> in support of Gillies Grove!</li>
                 </ol>
 
                 <p class="mb-1">
@@ -91,7 +91,7 @@
                 </p>
 
                 <p class="mb-8 text-justify">
-                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink href="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" class="text-green-600">here</ULink>.
+                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink to="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" class="text-(--ui-secondary)">here</ULink>.
                 </p>
                 
                 <div class="aspect-[500/266] mb-8">
@@ -105,11 +105,11 @@
                 </div>
 
                 <p class="pt-8  pb-4 
-                text-center text-2xl weight-bold text-[#165D8F]">Together we can find a better way!
+                text-center text-2xl weight-bold text-(--ui-primary)">Together we can find a better way!
                 </p>
 
                 <p class="pt-8  pb-8 
-                text-center text-2xl weight-bold text-green-600">
+                text-center text-2xl weight-bold text-(--ui-secondary)">
                     SHOW UP IN GREEN ON WEDNESDAY!!!
                 </p>
 

@@ -16,10 +16,10 @@
                 <div class="shadow-three mx-auto max-w-[500px] rounded bg-white px-6 py-10 sm:p-[60px]">
 
                     <!-- Create your Account -->
-                    <h3 class="mb-3 text-center text-2xl font-bold text-black sm:text-3xl">
+                    <h3 class="mb-3 text-center text-2xl font-bold sm:text-3xl">
                         Create your account
                     </h3>
-                    <p class="mb-11 text-center text-base font-medium text-black">
+                    <p class="mb-11 text-center text-base font-medium">
                         It’s totally free and super easy
                     </p>
 
@@ -27,7 +27,7 @@
                     <button 
                         class="border-stroke mb-6 flex w-full items-center 
                             justify-center rounded-sm border bg-[#f8f8f8] 
-                            px-6 py-3 text-base text-black outline-none 
+                            px-6 py-3 text-base outline-none 
                             transition-all duration-300 hover:border-primary 
                             hover:bg-primary/5 hover:text-primary"
                     >
@@ -73,7 +73,7 @@
                     <button class="border-stroke mb-6 flex w-full 
                         items-center justify-center 
                         rounded-sm border bg-[#f8f8f8] 
-                        px-6 py-3 text-base text-black outline-none 
+                        px-6 py-3 text-base outline-none 
                         transition-all duration-300 
                         hover:border-primary hover:bg-primary/5 
                         hover:text-primary"
@@ -97,7 +97,7 @@
                     <!-- Or, register with your email -->
                     <div class="mb-8 flex items-center justify-center">
                         <span class="hidden h-[1px] w-full max-w-[60px] bg-body-color/50 sm:block"></span>
-                            <p class="w-full px-5 text-center text-base font-medium text-black">
+                            <p class="w-full px-5 text-center text-base font-medium">
                                 Or, register with your email
                             </p>
                         <span class="hidden h-[1px] w-full max-w-[60px] bg-body-color/50 sm:block"></span>
@@ -119,7 +119,7 @@
                                 type="text"
                                 name="name"
                                 placeholder="Enter your full name"
-                                class="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base text-black outline-none transition-all duration-300 focus:border-primary"
+                                class="border-stroke w-full rounded-sm border bg-[#f8f8f8] px-6 py-3 text-base outline-none transition-all duration-300 focus:border-primary"
                             />
                         </div>
 
@@ -138,7 +138,7 @@
                                 placeholder="Enter your Email"
                                 class="border-stroke w-full rounded-sm 
                                     border bg-[#f8f8f8] px-6 py-3 
-                                    text-base text-black outline-none 
+                                    text-base outline-none 
                                     transition-all duration-300 
                                     focus:border-primary"
                             />
@@ -159,7 +159,7 @@
                                 placeholder="Enter your Password"
                                 class="border-stroke w-full rounded-sm 
                                     border bg-[#f8f8f8] px-6 py-3 text-base 
-                                    text-black outline-none transition-all 
+                                    outline-none transition-all 
                                     duration-300 focus:border-primary"
                             />
                         </div>
@@ -203,15 +203,15 @@
                                 </div>
                                 <span>
                                     By creating account means you agree to the
-                                    <a href="#0" class="text-primary hover:underline">
+                                    <ULink to="#0" class="text-primary hover:underline">
                                         {" "}
                                         Terms and Conditions{" "}
-                                    </a>
+                                    </ULink>
                                         , and our
-                                    <a href="#0" class="text-primary hover:underline">
+                                    <ULink to="#0" class="text-primary hover:underline">
                                         {" "}
                                         Privacy Policy{" "}
-                                    </a>
+                                    </ULink>
                                 </span>
                             </label>
                         </div>
@@ -229,12 +229,12 @@
                     </form><!-- Registration Form -->
 
                     <!-- Already a user? -->
-                    <p class="text-center text-base font-medium text-black">
+                    <p class="text-center text-base font-medium">
                         Already a user?{" "}
                         <!-- Button - Sign-in -->
-                        <ULink href="/signin" class="text-primary hover:underline">
+                        <ULink to="/signin" class="text-primary hover:underline">
                             Sign in
-                        </Link>
+                        </ULink>
                     </p>
 
                 </div><!-- Shadow -->

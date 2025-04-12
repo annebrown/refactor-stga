@@ -11,17 +11,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             January 29, 2025
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink>
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             UPDATE
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -30,7 +30,7 @@
                         <strong>Community Stands up for Gillies Grove</strong>
                     </p><br></br>
                     <p 
-                        class="mb-10 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                        class="mb-10 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                     >
                        Ecological Study Needed
                     </p>
@@ -67,7 +67,7 @@
                     </p>
 
                     <p class="mb-8  text-justify">
-                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <ULink href="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-green-600">here</ULink>. 
+                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-(--ui-secondary)">here</ULink>. 
                     </p>
 
 
@@ -77,7 +77,7 @@
 
 
                     <p class="pt-8  pb-8 
-                    text-center text-2xl weight-bold text-[#165D8F] ">Together we can find a better way!</p>
+                    text-center text-2xl weight-bold text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

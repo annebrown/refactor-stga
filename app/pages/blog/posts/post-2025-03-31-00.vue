@@ -12,17 +12,17 @@
             >
                 <div class="mb-5 flex flex-wrap items-center justify-between border-b border-body-color border-opacity-10 pb-4">
                     <div class="flex flex-wrap items-center">
-                        <p class="text-base font-medium text-black">
+                        <p class="text-base font-medium">
                             March 31, 2025
                         </p>
                     </div>
                     <div class="mb-0">
-                        <a
-                        href="#0"
+                        <ULink
+                        to="#0"
                         class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
                         >
                             Event
-                        </a>
+                        </ULink>
                     </div>
                 </div>
 
@@ -31,7 +31,7 @@
                         <strong>&apos;Call of the Forest&apos; The Forgotten Wisdom of Trees</strong>
                     </p><br></br>
                     <p 
-                        class="mb-10 text-base font-bold leading-relaxed text-black sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
+                        class="mb-10 text-base font-bold leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
                     >
                        Come out to watch this beautiful film on the significance of ancient forests!
                     </p>
@@ -53,7 +53,7 @@
                     </p>
 
                     <p class="mb-8 text-justify">
-                        <span class="text-green-600">“Call of the Forest is magnificent! This is a very important film and I hope that all of the politicians in Ottawa receive a copy of it – and the forest ministries around the world.”</span> <br/>- <b>David Suzuki, Scientist, Author and Broadcaster</b>
+                        <span class="text-(--ui-secondary)">“Call of the Forest is magnificent! This is a very important film and I hope that all of the politicians in Ottawa receive a copy of it – and the forest ministries around the world.”</span> <br/>- <b>David Suzuki, Scientist, Author and Broadcaster</b>
                     </p>
 
                     <p class="mb-8 text-justify">
@@ -96,11 +96,11 @@
 
 
                     <p class="mb-8 text-justify">
-                        More information on the film is available <a href="https://calloftheforest.ca/" class="text-green-600">here</a>.
+                        More information on the film is available <ULink to="https://calloftheforest.ca/" class="text-(--ui-secondary)">here</ULink>.
                     </p>
 
                     <p class="pt-8 pb-8 
-                    text-center text-2xl weight-bold text-[#165D8F] ">Together we can find a better way!</p>
+                    text-center text-2xl weight-bold text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

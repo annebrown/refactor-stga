@@ -14,18 +14,18 @@ export default defineAppConfig({
         button: {
             
             slots: {
-                base: 'inline-flex items-center justify-center' ,
-                label: 'whitespace-normal', // Overrides the default 'truncate'
-                link: 'text-center',
+                base: 'whitespace-normal break-works font-extrabold' ,
+                label: 'text-center break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
+                // link: '',
               },
-            block: {
-                base: 'w-full justify-center  text-center',
-            },
-            variants: {
-              color: {
-                secondary: '' // Color variant called "secondary"
-              }
-            },
+            // block: {
+            //     base: 'w-full justify-center text-center',
+            // },
+            // variants: {
+            //   color: {
+            //     secondary: '' // Color variant called "secondary"
+            //   }
+            // },
             compoundVariants: [
               {
                 color: 'secondary',
@@ -43,7 +43,26 @@ export default defineAppConfig({
                   }
                 }
               }
-          } // NavigationMenu
+        }, // NavigationMenu
+
+        link: {
+            base: 'transition-colors',
+            variants: {
+                active: {
+                    true: {
+                        base: 'text-(--ui-primary)'
+                    }
+                }
+            },
+            compoundVariants: [
+                {
+                    active: false,
+                    class: {
+                        base: 'hover:text-(--ui-primary)'
+                    }
+                }
+            ]
+        }
 
     } // @nuxt/ui V3
 

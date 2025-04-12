@@ -2,36 +2,25 @@
 <template><div>
 
 <!-- Latest News -->
-<div class="w-full container object-center">
+<UContainer>
 
     <!-- Title -->
-    <h2 class="p-5 pt-14 pb-10 text-4xl text-center font-bold">
-        Latest News
-    </h2>
+    <h1>Latest News</h1>
 
-    <h2>Cards</h2>
-
-    <!-- <BlogCardPost
-        v-for="(post, index) in blogData.slice(-3)"
-        :key="index" 
-        :post="post"
-        class="flex-1"
-    /> -->
-
-
-    <h2>Default</h2>
     <!-- Last 3 Posts -->
-    <BlogCardBlogPost
-        v-for="(post, index) in blogData.slice(-3)"
-        :key="index" 
-        :post="post"
-        class="flex-1"
-    />
+    <div 
+        class="grid gap-x-8 gap-y-10 
+            grid-cols-1 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 
+            place-content-stretch">
+        <BlogCardBlogPost
+            v-for="(post, index) in blogData.slice(-3)"
+            :key="index" 
+            :post="post"
+            class="flex-1 shadow-md bg-(--ui-bg)"
+        />
+    </div>
 
-
-
-
-</div><!-- Latest News -->
+</UContainer><!-- Latest News -->
 
 </div></template>
 

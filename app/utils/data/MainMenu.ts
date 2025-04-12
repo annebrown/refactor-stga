@@ -2,7 +2,7 @@
 // Main Menu Array
 export const mainMenuData = [ 
     { label: 'HOME', to: '/' },
-    { label: 'BLOG', to: '/blog' },
+    { label: 'BLOG', to: '/blogs' },
     { label: 'GET INVOLVED!', to: '/action' },
     { label: 'FAQ', to: '/FAQ' },
     { label: 'ABOUT', to: '/about' },

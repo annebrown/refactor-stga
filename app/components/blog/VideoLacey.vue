@@ -5,10 +5,10 @@
     <div class="w-full container m-0 p-0 object-center  mx-auto bg-(--ui-primary)">
 
         <!-- Title -->
-        <h2 class="text-4xl p-5 pt-14 pb-10 text-center text-black font-bold">
+        <h2 class="text-4xl p-5 pt-14 pb-10 text-center font-bold">
             What&apos;s at Stake
         </h2>
-
+        
         <!-- Video -->
         <div class="w-full mb-8"></div>
             <iframe 

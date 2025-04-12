@@ -3,26 +3,21 @@
 <template><div>
 
     <!-- Transom -->
-    <div class="relative z-10 w-full b-0 m-0">
+    <div class="relative z-10 w-full">
     
         <!-- Flex -->
-        <div class="flex flex-row m-0 p-0 pt-0 ">
+        <div class="flex flex-row m-0 ml-3 p-0 pt-0 ">
     
             <!-- Logo & Town -->
             <div class="shrink m-0 p-0 pb-3">
     
-                <ULink to="/" class="inline-block m-0 p-0 pl-2w-40 h-5 align-top">
-                    <!-- Logo -->
-                    <img
-                        src="/images/logo/logo-rect.svg"
-                        alt="Logo - Trees and water inside a circle, with text: Save the Grove Again"
-                        class="m-0 p-0"
-                        width="230" height="68"
-                    />
+                <!-- Logo -->
+                <ULink to="/" class="inline-block m-0 p-0 pl-2 w-40 h-5 align-top">
+                    <ShipLogo class="" />
                 </ULink>
-    
+
                 <!-- Town -->
-                <p class="m-0 p-0 pt-2 pl-1 text-xs text-black text-center align-top">
+                <p class="m-0 p-0 pt-2 pl-1 text-xs text-center align-top">
                     Arnprior, ON
                 </p>
     
@@ -30,7 +25,7 @@
     
             <!-- Contacts -->
             <div class="flex-none inline-block mx-auto 
-                text-black items-center m-0 mb-1 p-0 pb-0">
+                items-center m-0 mb-1 p-0 pb-0">
     
                 <p class="text-center text-sm m-0 p-0">
                     <strong>
@@ -38,14 +33,14 @@
                     </strong>
                 </p>
     
-                <p class="flex w-full mx-auto text-center mb-0 mt-2 pb-0 h-3">
+                <p class="w-full mx-auto text-center mb-0 mt-2 pb-0 h-3">
     
                     
                     <span class="flex mx-auto">
     
-                        <a 
-                            href="mailto:savethegroveagain@gmail.com" 
-                            class="text-green-600 hover:text-primary text-xs"
+                        <ULink 
+                            to="mailto:savethegroveagain@gmail.com" 
+                            class="text-(--ui-secondary) hover:text-(--ui-primary) text-xs"
                         >
                             <svg 
                                 xmlns="http://www.w3.org/2000/svg" 
@@ -56,14 +51,14 @@
                                     fill="#38AF34" 
                                     d="M5 5h13a3 3 0 0 1 3 3v9a3 3 0 0 1-3 3H5a3 3 0 0 1-3-3V8a3 3 0 0 1 3-3m0 1c-.5 0-.94.17-1.28.47l7.78 5.03l7.78-5.03C18.94 6.17 18.5 6 18 6zm6.5 6.71L3.13 7.28C3.05 7.5 3 7.75 3 8v9a2 2 0 0 0 2 2h13a2 2 0 0 0 2-2V8c0-.25-.05-.5-.13-.72z"/>
                             </svg>
-                        </a>&nbsp;&nbsp;
+                        </ULink>&nbsp;&nbsp;
     
-                        <a
-                            href="https://www.youtube.com/embed/tEgtT1LX-Sk"
+                        <ULink
+                            to="https://www.youtube.com/embed/tEgtT1LX-Sk"
                             aria-label="social-link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="duration-300 hover:text-primary text-green-600"
+                            class="duration-300 hover:text-primary text-(--ui-secondary)"
                         >
                             <svg
                                 width="18"
@@ -73,16 +68,16 @@
                             >
                                 <path d="M17.5058 2.07119C17.3068 1.2488 16.7099 0.609173 15.9423 0.395963C14.5778 7.26191e-08 9.0627 0 9.0627 0C9.0627 0 3.54766 7.26191e-08 2.18311 0.395963C1.41555 0.609173 0.818561 1.2488 0.619565 2.07119C0.25 3.56366 0.25 6.60953 0.25 6.60953C0.25 6.60953 0.25 9.68585 0.619565 11.1479C0.818561 11.9703 1.41555 12.6099 2.18311 12.8231C3.54766 13.2191 9.0627 13.2191 9.0627 13.2191C9.0627 13.2191 14.5778 13.2191 15.9423 12.8231C16.7099 12.6099 17.3068 11.9703 17.5058 11.1479C17.8754 9.68585 17.8754 6.60953 17.8754 6.60953C17.8754 6.60953 17.8754 3.56366 17.5058 2.07119ZM7.30016 9.44218V3.77687L11.8771 6.60953L7.30016 9.44218Z" />
                             </svg>
-                        </a>
+                        </ULink>
     
                         &nbsp;&nbsp;
     
-                        <a
-                            href="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/"
+                        <ULink
+                            to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/"
                             aria-label="social-link"
                             target="_blank"
                             rel="noopener noreferrer"
-                            class="duration-300 hover:text-primary text-green-600"
+                            class="duration-300 hover:text-primary text-(--ui-secondary)"
                         >
                             <svg
                                 width="18"
@@ -98,7 +93,7 @@
                                 fill="currentColor"
                                 />
                             </svg>
-                        </a>
+                        </ULink>
     
                         &nbsp;&nbsp;
     
@@ -110,7 +105,7 @@
                                 alt="Instagram logo"
                                 width="16"
                                 height="16"
-                                class="inline-block align-middle mt-1 duration-300 hover:text-primary text-green-600 fill-green-600 stroke-green-600"
+                                class="inline-block align-middle mt-1 duration-300 hover:text-primary text-(--ui-secondary) fill-green-600 stroke-green-600"
                             />
                         </ULink>
                     </span>
@@ -119,36 +114,36 @@
             </div><!-- Contacts -->
     
             <!-- Menu  -->
-            <div class="flex-none text-black w-fit h-auto pb-1 ">
+            <div class="mr-5 flex-none w-fit h-auto pb-1">
     
                 <!-- Container -->
-                <div class="container mb-0  text-right">
+                <div class="container mb-0 text-right">
     
-                    <h2 class="text-sm font-bold text-black mb-0 pb-0">
+                    <h2 class="text-sm font-bold mb-0 pb-0">
                         Menu
                     </h2>
     
                     <ul>
                         <li class="text-xs">
-                            <Link
-                            href="/blog"
+                            <ULink
+                            to="/blog"
                             class="text-xs text-center duration-300 hover:text-primary text-(--ui-color-secondary-600)">
                             Blog
-                            </Link>
+                            </ULink>
                         </li>
                         <li class="pb-0 text-xs">
-                            <Link
-                            href="/action"
+                            <ULink
+                            to="/action"
                             class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)">
                             Get Involved!
-                            </Link>
+                            </ULink>
                         </li>
                         <li class="pl-0 text-xs pb-0">
-                        <Link
-                            href="/about"
+                        <ULink
+                            to="/about"
                             class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)">
                             About
-                            </Link>
+                            </ULink>
                         </li>
                     </ul>
                 </div><!-- Container -->
@@ -157,9 +152,9 @@
         </div><!-- Flex  -->
     
         <!-- Copyright -->
-        <div class="pb-5 pt-0  w-full rounded-b-lg">
-            <p class="text-center text-xs text-black">
-                Copyright <ULink href="/flyer">@</ULink> 2025 Save the Grove Again
+        <div class="pb-5 pt-0 w-full rounded-b-lg">
+            <p class="text-center text-xs">
+                Copyright <ULink to="/flyer">@</ULink> 2025 Save the Grove Again
             </p>
         </div>
     
