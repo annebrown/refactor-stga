@@ -265,7 +265,7 @@ export const blogData = [
         height: 375,
         tags: ["event"],
         publishDate: "September 05, 2024",
-        blogURL: "/blog/posts/post-2024-07-05-00"
+        blogURL: "/blog/posts/post-2024-09-05-00"
     },
 ];
 //--------@utils/data/blogData.ts---------------------------------------------->

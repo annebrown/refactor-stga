@@ -18,7 +18,7 @@
                     <div class="mb-0">
                         <ULink
                         to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
+                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
                         >
                             ACTION
                         </ULink>
@@ -45,7 +45,7 @@
                     />
                 </div>
 
-                <div class="text-black mb-8">
+                <div class=" mb-8">
                     <p class="pb-1"><strong>Details</strong></p>
                     <p class="pb-1"><strong>What:</strong> Committee of Adjustment Public Meeting</p>
                     <p class="pb-1"><strong>When:</strong> Wednesday, February 5th at 6:00 PM</p>
@@ -74,7 +74,7 @@
                     <li>🌲 Anyone can make a comment or ask a question at the meeting.</li>
                     <li>🌲 If you do not wish to speak you can send a written comment prior to the meeting (see below)</li>
                     <li>🌲 The applicant will be in attendance and will make a presentation</li>
-                    <li class="font-bold">🌲 Wear <span class="text-(--ui-secondary)">green</span> in support of Gillies Grove!</li>
+                    <li class="font-bold">🌲 Wear <span >green</span> in support of Gillies Grove!</li>
                 </ol>
 
                 <p class="mb-1">
@@ -91,7 +91,7 @@
                 </p>
 
                 <p class="mb-8 text-justify">
-                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink to="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" class="text-(--ui-secondary)">here</ULink>.
+                For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink to="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" >here</ULink>.
                 </p>
                 
                 <div class="aspect-[500/266] mb-8">

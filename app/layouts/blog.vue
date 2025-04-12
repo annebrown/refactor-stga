@@ -1,19 +1,76 @@
 <!--------@/app/layouts/blog.vue----------------------------------------------->
 <template><div><!-- Layout (Single Root Element) -->
 
-    <!-- Cargo -->
-    <div id="cargo" class="">
+<!-- Blog Post -->
+<UCard 
+    variant="subtle"
+    class="m-4 p-8 rounded-xl shadow-lg"
+>
 
-        <main><slot class="" /></main>
+    <!-- Blog Meta -->
+    <template #header v-if="currentBlogMeta">
+    
+        <!-- Title -->
+        <h1 class="!text-left">{{ currentBlogMeta.title }}</h1>
 
-    </div><!-- Cargo -->
+        <!-- Bi-Line -->
+        <p class="text-2xl">{{ currentBlogMeta.paragraph }}</p>
+        
+        <!-- Date & Tag -->
+        <div class="w-full py-5 flex flex-row">
 
-</div></template><!-- Layout (Single Root Element) -->
+                <!-- Publication Date -->
+            <div class="">
+                {{ formatDate(currentBlogMeta.publishDate) }}
+            </div>
 
-<script setup>
-    const route = useRoute()
+                <!-- Spacer -->
+            <div class="grow">&nbsp;</div>
 
-    // Access Page Meta set by definePageMeta
-    const title = computed(() => route.meta.title || 'Error')
+                <!-- Tag -->
+            <div class="flex-0">
+                <UButton 
+                    class="z-2 p-2 inline-block rounded-3xl  uppercase"
+                    variant="solid">
+                    {{ currentBlogMeta.tags[0] }}
+                </UButton>
+            </div>
+
+        </div><!-- Date & Tag -->
+
+    </template><!-- Blog Meta -->
+
+    <!-- Blog Content -->
+    <div class="pt-8">
+        <slot />
+    </div>
+
+</UCard>
+
+</div></template>
+
+<script setup lang="ts">
+    import { blogData } from '@/utils/data/blogData';
+    import { computed } from 'vue';
+
+    const route = useRoute();
+
+    const currentBlogMeta = computed(() => {
+        return blogData.find(post => post.blogURL === route.path);
+    });
+
+    // Format date helper function
+    const formatDate = (dateString: string) => {
+        
+        if (!dateString) return '';
+
+        const date = new Date(dateString);
+
+        return new Intl.DateTimeFormat('en-US', {
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric'
+        }).format(date);
+    };
 </script>
 <!--------@/app/layouts/blog.vue----------------------------------------------->

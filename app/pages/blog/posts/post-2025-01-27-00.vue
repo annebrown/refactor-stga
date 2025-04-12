@@ -17,7 +17,7 @@
                     <div class="mb-0">
                         <ULink
                         to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
+                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
                         >
                             ACTION
                         </ULink>
@@ -45,12 +45,12 @@
                     </div>
 
 
-                    <div class="text-black mb-8">
+                    <div class=" mb-8">
                         <p class="pb-1"><strong>Details</strong></p>
                         <p class="pb-1"><strong>What:</strong> Meeting of Council</p>
                         <p class="pb-1"><strong>When:</strong> Monday, January 27th at 6:30 PM</p>
                         <p class="pb-1"><strong>Where:</strong>Town Hall, 105 Elgin Street West, Council Chambers (upstairs)</p>
-                        <p class="pb-1"><strong>Agenda:</strong> <ULink to="https://calendar.arnprior.ca/meetings/Detail/2025-01-27-1830-Regular-Meeting-of-Council/5cd9f0a3-1dfd-4516-b89a-b26f01051fe4" class="text-(--ui-secondary)">Link to Package</ULink></p>
+                        <p class="pb-1"><strong>Agenda:</strong> <ULink to="https://calendar.arnprior.ca/meetings/Detail/2025-01-27-1830-Regular-Meeting-of-Council/5cd9f0a3-1dfd-4516-b89a-b26f01051fe4" >Link to Package</ULink></p>
                     </div>
                
                     <p class="mb-8">
@@ -96,14 +96,14 @@
                     </p>
 
                     <ul class="mb-8">
-                            <li>💚 Join our <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-(--ui-secondary)">Postcard Campaign</ULink></li>
+                            <li>💚 Join our <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" >Postcard Campaign</ULink></li>
                             <li>💚 Wear a button (get yours at Green Bean Natural Foods, 117 John St N)</li>
                             <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
-                            <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
+                            <li>💚 Subscribe to our <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
                             <li>💚 Fill out our <ULink  class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
-                            <li>💚 Like and follow our <ULink class="text-(--ui-secondary)" to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
-                            <li>💚 Follow us on <ULink class="text-(--ui-secondary)" to="https://www.instagram.com/savethegroveagain2024/">Instagram</ULink> </li>
-                            <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
+                            <li>💚 Like and follow our <ULink to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
+                            <li>💚 Follow us on <ULink to="https://www.instagram.com/savethegroveagain2024/">Instagram</ULink> </li>
+                            <li>💚 Subscribe to our <ULink to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
                             <li>💚 Make a donation via e-transfer to  <ULink to="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</ULink></li>
                         </ul>
 

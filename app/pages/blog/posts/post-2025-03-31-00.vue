@@ -1,9 +1,6 @@
 <template><div>
     
-  <!-- title: "'Call of the Forest' The Forgotten Wisdom of Trees",
-  description: "Come out to watch this beautiful film on the significance of ancient forests!", -->
-
-      <div class="pb-[60px] pt-[75px]">
+<div class="pb-[60px] pt-[75px]">
       
         <div class="container">
 
@@ -19,7 +16,7 @@
                     <div class="mb-0">
                         <ULink
                         to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
+                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
                         >
                             Event
                         </ULink>
@@ -53,7 +50,7 @@
                     </p>
 
                     <p class="mb-8 text-justify">
-                        <span class="text-(--ui-secondary)">“Call of the Forest is magnificent! This is a very important film and I hope that all of the politicians in Ottawa receive a copy of it – and the forest ministries around the world.”</span> <br/>- <b>David Suzuki, Scientist, Author and Broadcaster</b>
+                        <span >“Call of the Forest is magnificent! This is a very important film and I hope that all of the politicians in Ottawa receive a copy of it – and the forest ministries around the world.”</span> <br/>- <b>David Suzuki, Scientist, Author and Broadcaster</b>
                     </p>
 
                     <p class="mb-8 text-justify">
@@ -96,7 +93,7 @@
 
 
                     <p class="mb-8 text-justify">
-                        More information on the film is available <ULink to="https://calloftheforest.ca/" class="text-(--ui-secondary)">here</ULink>.
+                        More information on the film is available <ULink to="https://calloftheforest.ca/" >here</ULink>.
                     </p>
 
                     <p class="pt-8 pb-8 

@@ -18,7 +18,7 @@
                     <div class="mb-0">
                         <ULink>
                         to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
+                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
                         >
                             UPDATE
                         </ULink>
@@ -37,7 +37,7 @@
                     
                     <div class="w-2/3 mx-auto px-0">
                         <img
-                            src="/images/logo/logo_black_small.png"
+                            src="/images/logo/logo_black_small.svg"
                             alt="STGA Logo"
                             width="421"
                             height="421"
@@ -67,7 +67,7 @@
                     </p>
 
                     <p class="mb-8  text-justify">
-                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" class="text-(--ui-secondary)">here</ULink>. 
+                    Let&apos;s continue this call for council to conduct a thorough ecological assessment! Join our postcard campaign and send your thoughts to the Town of Arnprior. More info <ULink to="https://savethegroveagain.com/blog/posts/blogPage0013" >here</ULink>. 
                     </p>
 
 

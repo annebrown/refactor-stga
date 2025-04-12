@@ -13,7 +13,7 @@
         <span 
             class="absolute px-4 py-2 right-1 bottom-1 z-20 
             inline-block  items-center justify-center 
-            rounded-full bg-primary/80 text-sm font-semibold 
+            rounded-full bg-(ui-primary)/80 text-sm font-semibold 
             capitalize"
         >
             {{ post.tags[0] }}

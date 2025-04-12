@@ -17,7 +17,7 @@
                     <div class="mb-0">
                         <ULink
                         to="#0"
-                        class="inline-flex items-center justify-center rounded-full bg-primary px-4 py-2 text-sm font-semibold text-black"
+                        class="inline-flex items-center justify-center rounded-full bg-(ui-primary) px-4 py-2 text-sm font-semibold text-black"
                         >
                             Event
                         </ULink>
@@ -44,7 +44,7 @@
                         />
                     </div>
 
-                    <div class="text-black mb-8">
+                    <div class=" mb-8">
                             <p class="pb-1"><strong>What:</strong> Community Meeting</p>
                             <p class="pb-1"><strong>When:</strong> Thursday January 16th at 6:00pm</p>
                             <p class="pb-1"><strong>Where: </strong>Arnprior Public Library, 21 Madawaska St, Arnprior</p>
@@ -64,10 +64,10 @@
                             <li>💚 Invite family and friends</li>
                             <li>💚 Wear a button</li>
                             <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
-                            <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
+                            <li>💚 Subscribe to our <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
                             <li>💚 Fill out our <ULink  class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
-                            <li>💚 Like and follow our <ULink class="text-(--ui-secondary)" to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
-                            <li>💚 Subscribe to our <ULink class="text-(--ui-secondary)" to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
+                            <li>💚 Like and follow our <ULink to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
+                            <li>💚 Subscribe to our <ULink to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
                             <li>💚 Make a donation via e-transfer to  <ULink to="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</ULink></li>
                         </ul>
                         <p class="mb-8">

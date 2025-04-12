@@ -29,7 +29,7 @@
                             justify-center rounded-sm border bg-[#f8f8f8] 
                             px-6 py-3 text-base outline-none 
                             transition-all duration-300 hover:border-primary 
-                            hover:bg-primary/5 hover:text-primary"
+                            hover:bg-(ui-primary)/5 hover:text-primary"
                     >
                         <!-- Image -->
                         <span class="mr-3">
@@ -75,7 +75,7 @@
                         rounded-sm border bg-[#f8f8f8] 
                         px-6 py-3 text-base outline-none 
                         transition-all duration-300 
-                        hover:border-primary hover:bg-primary/5 
+                        hover:border-primary hover:bg-(ui-primary)/5 
                         hover:text-primary"
                     >
                         <!-- Image -->
@@ -219,8 +219,8 @@
                         <div class="mb-6">
                             <button class="shadow-submit flex w-full 
                                 items-center justify-center rounded-sm 
-                                bg-primary px-9 py-4 text-base font-medium 
-                                text-white duration-300 hover:bg-primary/90"
+                                bg-(ui-primary) px-9 py-4 text-base font-medium 
+                                text-white duration-300 hover:bg-(ui-primary)/90"
                             >
                                 Sign up
                             </button>
