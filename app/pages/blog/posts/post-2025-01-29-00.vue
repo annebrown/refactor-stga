@@ -37,7 +37,7 @@
                     
                     <div class="w-2/3 mx-auto px-0">
                         <img
-                            src="/images/logo/logo_black_small.svg"
+                            src="/images/logo/logo-black-small.png"
                             alt="STGA Logo"
                             width="421"
                             height="421"
