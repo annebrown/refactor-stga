@@ -66,7 +66,7 @@ export const blogData = [
         height: 325,
         tags: ["ACTION"],
         publishDate: "February 1, 2025",
-        blogURL: "/blog/posts/post-2025-01-06-00"
+        blogURL: "/blog/posts/post-2025-02-01-00"
     },
     {
         id: 15,
