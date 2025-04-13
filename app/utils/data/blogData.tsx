@@ -136,7 +136,7 @@ export const blogData = [
         id: 10,
         title: "Biodiversity Tour Success",
         paragraph:
-          "amid a snowy backdrop, the diversity of this incredible land shone through!",
+          "Amid a snowy backdrop, the diversity of this incredible land shone through!",
         image: "/images/blog/blog0010/blog10.svg",
         alt: "Concerned local citizens join together in a beautiful wintery woodland setting.",
         width: 500,
@@ -198,7 +198,7 @@ export const blogData = [
         height: 375,
         tags: ["EVENT"],
         publishDate: "October 3, 2024",
-        blogURL: "/blog/posts/ost-2024-10-03-00"
+        blogURL: "/blog/posts/post-2024-10-03-00"
     },
   
     {

@@ -16,12 +16,12 @@
                 v-for="(post, index) in blogData"
                 :key="index" 
                 :post="post"
-                class="flex-1 shadow-md bg-(--ui-bg)"
+                class="flex-1 shadow-md bg-(--ui-bg) rounded-3xl"
             />
    
     </div>
 
-    <ShipPageSignature class="py-8 pt-10 text-(--ui-primary)" />
+   <ShipPageSignature class="py-8 pt-10 text-(--ui-primary)" />>
     
 </UContainer><!-- All Blogs -->
    

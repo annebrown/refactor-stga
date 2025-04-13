@@ -1,13 +1,14 @@
+<!--------@/pages/blog/post-2024-09-11-00.vue---------------------------------->
 <template><div>
 
-<div class="w-full px-4 lg:w-8/12">
+<div class="w-full px-4">
 
-    <div class="mb-10 w-full overflow-hidden rounded">
-        <div class="relative aspect-[100/75] w-full">
+    <div class="pb-8  w-full overflow-hidden rounded">
+        <div class="relative mx-4">
             <img
                 src="/images/blog/blog0002/blog2.webp"
                 alt="Event Group Photo, plus Update as post category"
-                class="object-cover object-center h-fit"
+                class="object-cover object-center h-fit mx-auto rounded-3xl w-full"
                 width="500"
                 height="375"
             />
@@ -42,8 +43,8 @@
     </p>
     <p class="text-left py-2">
         Take a moment to sign the <ULink  to="https://www.change.org/p/save-the-grove-again-7292e6ca-eb8e-426a-8809-0bb608f24120">online petition</ULink> (please note that donations through change.org do not come directly to our cause, please send an e-transfer to&nbsp;
-            <ULink to="mailto:savethegroveagain@gmail.com" >
-        savethegroveagain@gmail.com</ULink>.
+            <ULink to="mailto:savethegroveagain@gmail.com">
+        savethegroveagain@gmail.com</ULink>).
     </p>
     
     <p class="text-left py-2">
@@ -55,3 +56,4 @@
 </div>
 
 </div></template>
+<!--------@/pages/blog/post-2024-09-11-00.vue---------------------------------->

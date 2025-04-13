@@ -13,7 +13,7 @@
             <div class="w-full px-4">
 
                 <!-- Shadow -->
-                <div class="shadow-three mx-auto max-w-[500px] rounded bg-white px-6 py-10 sm:p-[60px]">
+                <div class="shadow-three mx-auto max-w-[500px] rounded bg-(--ui-bg) px-6 py-10 sm:p-[60px]">
 
                     <!-- Create your Account -->
                     <h3 class="mb-3 text-center text-2xl font-bold sm:text-3xl">

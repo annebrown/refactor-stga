@@ -62,7 +62,7 @@
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
     --ui-color-video: var(--color-amber-200);
-    --ui-color-events: var(--color-white);
+    --ui-color-events: var(--color-gray-100);
     --ui-color-news: var(--color-primary-200);
     --ui-color-join: var(--color-amber-200);
     --ui-color-testimonials: var(--color-secondary-200);
@@ -100,7 +100,7 @@
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
     --ui-color-video: var(--color-amber-400);
-    --ui-color-events: var(--color-amber-200);
+    --ui-color-events: var(--color-gray-100);
     --ui-color-news: var(--color-primary-900);
     --ui-color-join: var(--color-amber-400);
     --ui-color-testimonials: var(--color-apple-900);
@@ -129,6 +129,6 @@
 body {
     @apply antialiased text-(--ui-text) bg-(--ui-bg);
 }
-#banner { @apply bg-white dark:bg-black; }
+#banner { @apply bg-(--ui-bg); }
 #page-signature { @apply text-(--ui-secondary); }
 /*--------@/app/assets/css/palette.css----------------------------------------->

@@ -3,22 +3,22 @@
     <NuxtLayout name="splash">
 
         <SplashHero class="mb-0  
-            bg-transparent"/>
+            bg-(--ui-bg) "/>
 
         <SplashAnswer class="mx-4 mb-8 
-            bg-transparent" />
+           bg-(--ui-bg)" />
 
-        <SplashVideo class="
+        <SplashVideo class="rounded-2xl
             bg-(--ui-color-video)" />
 
-        <SplashEventsCalendar class="mb-14 rounded-3xl
-            bg-transparent" />
+        <SplashEventsCalendar class="pb-8 mb-14 shadow-lg
+            bg-(--ui-color-events) " />
 
         <BlogOnlyLatest class="mb-14 pb-18
             bg-(--ui-color-news) rounded-3xl" />
 
         <SplashJoin class="ml-4 mb-14 
-            bg-transparent" />
+           bg-(--ui-bg)" />
 
         <SplashTestimonials class="
             bg-(--ui-color-testimonials)" />

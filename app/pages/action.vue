@@ -27,7 +27,7 @@
                 Donations to change.org DO NOT go towards our cause.  For donations to STGA, please use Interac E-Transfer to:
             </p>
             <p class="p-0.5 m-0.5 mt-1.5 text-center">
-                <span class="bg-white p-0.5 px-2">
+                <span class="bg-(--ui-bg) p-0.5 px-2">
                     <ULink to="mailto:savethegroveagain@gmail.com">
                         savethegroveagain@gmail.com
                     </ULink>
@@ -82,7 +82,7 @@
         </h2>
         <p class="stga-card-p">
             Donations are used to cover the cost of materials including lawn signs, flyers, posters, buttons, website domain name etc. For those wanting to make a donation, please direct your Interac E-Transfer to: 
-            <span class="bg-white p-0.5">
+            <span class="bg-(--ui-bg) p-0.5">
                 <ULink to="mailto:savethegroveagain@gmail.com">
                     savethegroveagain@gmail.com
                 </ULink>
@@ -118,7 +118,7 @@
 
     <div class="rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
 
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
                 <ULink to="https://www.omilacombe.ca" class="text-(--ui-primary)">
                     <strong>Missionary Oblates of Mary Immaculate Lacombe Canada</strong>
@@ -133,7 +133,7 @@
                 <ULink to="tel:6132302225">(613)230-2225</ULink><br/>
             </p>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
                 <ULink to="https://www.galileecentre.com" class="text-(--ui-primary)">
                     <strong>Galilee Centre</strong>
@@ -148,7 +148,7 @@
             </p>
         </div>
 
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
                 <ULink to="https://www.thomascavanagh.ca" class="text-(--ui-primary)">
                     <strong>Thomas Cavanagh Construction Limited (Cavanagh Communities)</strong>
@@ -182,35 +182,35 @@
     </p>
 
     <div class="mt-10 rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Mayor: Lisa McGee<br/>
             <ULink to="mailto:lmcgee@arnprior.ca">
                 lmcgee@arnprior.ca<br/>
             </ULink>
             <ULink to="tel:​6133220271">(613)​322-0271</ULink><br/>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             County Councillor: Dan Lynch<br/>
             <ULink to="mailto:dlynch@arnprior.ca">
                 dlynch@arnprior.ca<br/>
             </ULink>
             <ULink to="tel:6136230146">(613)623-0146</ULink><br/>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Councillor: Chris Toner<br/>
             <ULink to="mailto:ctoner@arnprior.ca">
                 ctoner@arnprior.ca<br/>
             </ULink>
             <ULink to="tel:6139139571">(613)913-9571</ULink><br/>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Councillor: Ted Strike<br/>
             <ULink to="mailto:tstrike@arnprior.ca">
                 tstrike@arnprior.ca<br/>
             </ULink>
             <ULink to="tel:6136015651">(613)601-5651</ULink><br/>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Councillor: Chris Cooper<br/>
             <ULink to="mailto:ccouper@arnprior.ca">
                 ccouper@arnprior.ca<br/>
@@ -218,14 +218,14 @@
             <ULink to="tel:6135184081">(613)518-4081</ULink>
             <br/>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Councillor: Tom Burnette<br/>
             <ULink to="mailto:tburnette@arnprior.ca">
                 tburnette@arnprior.ca<br/>
             </ULink>
             <ULink to="tel:6136235630">(613)623-5630</ULink>
         </div>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             Councillor: Lynn Cloutier<br/>
             <ULink to="mailto:lcloutier@arnprior.ca">
                 lcloutier@arnprior.ca<br/>
@@ -241,7 +241,7 @@
                 <strong>Legislative Assembly of Ontario</strong>
             </ULink><br/>
         </h2>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
 
                 Billy Denault<br/>
@@ -260,7 +260,7 @@
                 <strong>Member of Parliament</strong>
             </ULink><br/>
         </h2>
-        <div class="rounded-lg w-full bg-white p-5">
+        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap center">
                 <ULink to="http://cherylgallant.com">
                 cherylgallant.com

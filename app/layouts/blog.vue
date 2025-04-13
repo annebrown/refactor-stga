@@ -4,7 +4,7 @@
 <!-- Blog Post -->
 <UCard 
     variant="subtle"
-    class="m-4 p-8 rounded-xl shadow-lg"
+    class="m-4 p-8 rounded-3xl shadow-lg"
 >
 
     <!-- Blog Meta -->

@@ -5,7 +5,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
 
         <!-- Answer & Buttons -->
-        <div class="my-auto p-5 align-middle">
+        <div class="my-auto mb-0 p-5 pb-0 align-middle">
             <!-- Answer -->
             <p class="text-justify font-bold 
                 text-(--ui-primary) dark:text-(--ui-color-primary-400) text-2xl"

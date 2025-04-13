@@ -18,7 +18,7 @@
     <div class="py-10 grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3">
         <img
             class="relative m-0 p-0 rounded-xl w-150px"
-            src="/images/blog/blog0002/lady-button-and-sign.svg"
+            src="/images/donations/lady-button-and-sign.svg"
             alt="Field"
             loading="eager"
             priority
@@ -27,7 +27,7 @@
         />
         <img
             class="relative m-0 p-0 rounded-xl w-150px"
-            src="/images/blog/blog0002/table-and-materials.svg"
+            src="/images/donations/table-and-materials.svg"
             alt="Field"
             loading="eager"
             priority
@@ -36,7 +36,7 @@
         />
         <img
             class="relative m-0 p-0 rounded-xl w-150px"
-            src="/images/blog/blog0002/lawn-sign.svg"
+            src="/images/donationslawn-sign.svg"
             alt="Field"
             loading="eager"
             priority

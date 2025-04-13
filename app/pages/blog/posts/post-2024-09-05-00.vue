@@ -1,4 +1,4 @@
-<!-- @/blog/posts/blogPage0001.vue--------------------------------------------->
+<!--------@/blog/posts/post-2024-09-05-00.vue---------------------------------->
 <template><div>
 
 <div class="">
@@ -20,14 +20,14 @@
     </p>
 
     <!-- Image -->
-    <div class="relative mb-10 rounded-t-2xl rounded-b-md">
+    <div class="relative mb-4 rounded-t-2xl rounded-b-md">
 
         <img
             src="/images/blog/blog0001/blog1.webp"
             alt="Trees viewed through leafy border, with text: We need your help to save the grove again, plus Event as blog post category"
             width="500"
             height="375"
-            class=" aspect-auto w-full h-auto object-cover"
+            class=" aspect-auto w-full h-auto object-cover rounded-lg"
         />
     </div>
 
@@ -71,13 +71,13 @@
         </ULink>
     </p> 
 
-    <div class="relative z-10 mb-10 overflow-hidden rounded-md bg-(--ui-primary) bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
+    <div class="relative z-10 mb-10 overflow-hidden rounded-md bg-(--ui-color-news) bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
         <p class="text-center text-base font-medium italic">
         🌱Small Steps, 🌳Big Impact!
         </p>
     </div>
 
-    <ShipPageSignature class="py-8 text-(--ui-primary)" />
+   <p class="py-2">Together we can find a better way!</p>
 
     <p>The volunteers of the&nbsp;
         <HeartIcon class="size-5 inline text-red-800" />Save the Grove Again Campaign<HeartIcon class="size-5 inline text-red-800" />
@@ -88,4 +88,4 @@
 </div>
 
 </div></template>
-<!-- @/blog/posts/blogPage0001.vue--------------------------------------------->
+<!--------@/blog/posts/post-2024-09-05-00.vue---------------------------------->
