@@ -8,7 +8,7 @@
             alt="Sundrenched Woodland Path"
             width="500"
             height="280"
-            class="self-center w-full pb-8"
+            class="self-center w-full pb-10"
         />
     </div>
 
@@ -36,7 +36,7 @@
     src="https://www.youtube.com/embed/9YEOtLDpBBw?si=lnuaS_u4fnT2XQhl" 
     title="YouTube video player" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    class="size-full aspect-video"></iframe>
+    class="size-full aspect-video py-10"></iframe>
 
     <br />
     <h2>CTV News - October 23, 2024 </h2>

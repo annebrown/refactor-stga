@@ -61,9 +61,9 @@
     /* Splash Page */
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
-    --ui-color-video: var(--color-amber-200);
+    --ui-color-video: black;
     --ui-color-events: var(--color-gray-100);
-    --ui-color-news: var(--color-primary-200);
+    --ui-color-news: var(--color-amber-200);
     --ui-color-join: var(--color-amber-200);
     --ui-color-testimonials: var(--color-secondary-200);
 
