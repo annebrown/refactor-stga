@@ -45,6 +45,8 @@
         <slot />
     </div>
 
+    <ShipPageSignature class="py-8 text-(--ui-secondary)"/>
+
 </UCard>
 
 </div></template>

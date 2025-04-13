@@ -30,7 +30,7 @@
     <div class="flex items-center justify-center">
         <img
             class=""
-            src="/images/join/vignette-03-transparent-and-green.svg"
+            src="/images/join/vignette.svg"
             alt="Sketch - Shoreline and forest"
             loading="eager"
             priority
