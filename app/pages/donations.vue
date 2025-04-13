@@ -36,7 +36,7 @@
         />
         <img
             class="relative m-0 p-0 rounded-xl w-150px"
-            src="/images/donationslawn-sign.svg"
+            src="/images/donations/lawn-sign.svg"
             alt="Field"
             loading="eager"
             priority
