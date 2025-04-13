@@ -8,14 +8,14 @@
         <SplashAnswer class="mx-4 mb-8 
            bg-(--ui-bg)" />
 
-        <SplashVideo class="rounded-2xl
-            bg-(--ui-color-video)" />
+        <SplashVideo class="
+            bg-(--ui-color-video) dark:bg-black" />
 
         <SplashEventsCalendar class="pb-8 mb-14 shadow-lg
             bg-(--ui-color-events) " />
 
         <BlogOnlyLatest class="mb-14 pb-18
-            bg-(--ui-color-news) rounded-3xl" />
+            bg-(--ui-color-news)" />
 
         <SplashJoin class="ml-4 mb-14 
            bg-(--ui-bg)" />

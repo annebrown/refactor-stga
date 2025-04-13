@@ -100,7 +100,7 @@
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
     --ui-color-video: var(--color-amber-400);
-    --ui-color-events: var(--color-gray-100);
+    --ui-color-events: black;
     --ui-color-news: var(--color-primary-900);
     --ui-color-join: var(--color-amber-400);
     --ui-color-testimonials: var(--color-apple-900);

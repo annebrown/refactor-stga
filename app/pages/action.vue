@@ -4,11 +4,11 @@
 <!-- Title -->
 <h1>Get Involved!</h1>
 
-<!-- flex -->
+<!-- Flex - Get Involved! -->
 <div class="flex-col columns-1 md:columns-2 break-inside-avoid-column mx-4 mb-10">
 
     <!-- PETITION -->
-    <div class="break-before-column w-full bg-gray-100 p-5 shadow-2xl">
+    <div class="break-before-column w-full bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
 
         <h2 class="stga-card-heading">
             SIGN THE PETITION
@@ -19,7 +19,7 @@
         </p>
 
         <!-- WARNING -->
-        <div class="p-2 bg-amber-100 text-xs mt-2">
+        <div class="p-2 bg-(--ui-secondary) text-xs mt-2 rounded-lg">
             <p class="font-bold pb-0 mb-0.5">
                 WARNING
             </p>
@@ -27,7 +27,7 @@
                 Donations to change.org DO NOT go towards our cause.  For donations to STGA, please use Interac E-Transfer to:
             </p>
             <p class="p-0.5 m-0.5 mt-1.5 text-center">
-                <span class="bg-(--ui-bg) p-0.5 px-2">
+                <span class="bg-(--ui-bg) p-0.5 px-2  rounded-lg">
                     <ULink to="mailto:savethegroveagain@gmail.com">
                         savethegroveagain@gmail.com
                     </ULink>
@@ -37,7 +37,7 @@
     </div><!-- PETITION -->
 
     <!-- SPREAD THE WORD -->
-    <div class="w-full bg-gray-100 p-5 my-5 break-inside-avoid-column shadow-2xl">
+    <div class="w-full p-5 my-5 break-inside-avoid-column shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
         <h2 class="stga-card-heading">
             SPREAD THE WORD
         </h2>
@@ -46,7 +46,8 @@
         </p>
     </div>
 
-    <div class="w-full bg-gray-100 p-5  my-5 break-inside-avoid-column shadow-2xl">
+    <!-- LIKE -->
+    <div class="w-full bg-gray-100 p-5  my-5 break-inside-avoid-column shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
         <h2 class="stga-card-heading">
             LIKE AND FOLLOW US ON SOCIAL MEDIA
         </h2>
@@ -56,7 +57,7 @@
     </div>
 
     <!-- STAY INFORMED -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl">
+    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
         <h2 class="stga-card-heading">
             STAY INFORMED
         </h2>
@@ -66,7 +67,7 @@
     </div>
 
     <!-- VOLUNTEER -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl">
+    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
         <h2 class="stga-card-heading">
             VOLUNTEER
         </h2>
@@ -76,13 +77,13 @@
     </div>
 
     <!-- MAKE A DONATION -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl">
+    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
         <h2 class="stga-card-heading">
             MAKE A DONATION
         </h2>
         <p class="stga-card-p">
             Donations are used to cover the cost of materials including lawn signs, flyers, posters, buttons, website domain name etc. For those wanting to make a donation, please direct your Interac E-Transfer to: 
-            <span class="bg-(--ui-bg) p-0.5">
+            <span class="bg-(--color-secondary-300) dark:bg-(--ui-bg) p-0.5 rounded-lg">
                 <ULink to="mailto:savethegroveagain@gmail.com">
                     savethegroveagain@gmail.com
                 </ULink>
@@ -90,24 +91,23 @@
         </p>
     </div>
 
-</div><!-- flex -->
+</div><!-- Flex - Get Involved! -->
 
+<!-- Speak Out -->
+<div class="m-5 p-10 bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lgl">
 
-<div class="m-5 p-10 bg-(--ui-color-secondary-200) shadow-2xl">
+    <div class="w-full p-5 text-center">
 
-
-    <div class="w-full bg-gray-50 p-5 text-center">
-
-        <h2 class="text-lg font-extrabold text-center">
+        <h2 class="text-3xl py-10 font-extrabold text-center">
             SPEAK OUT!
         </h2>
-        <p class="stga-card-p">
+        <p class="pb-8">
             Let&quot;s not underestimate the power of community. 
         </p>
-        <p class="stga-card-p">
+        <p class="pb-8">
             Below you will find contact information for the parties involved in the sale of this land, as well as contacts for all levels of government. We urge anyone who opposes the development of adjacent land to Gillies Grove to call or email these parties and get your voice heard! 
         </p>
-        <p class="stga-card-p">
+        <p class="pb-8">
             Please find below some optional templates to assist you in writing an email to Galilee Center, OMI Lacombe, Cavangh Construction and various elected officials. 
         </p>
     </div>
@@ -116,6 +116,7 @@
         List of Contacts
     </h2>
 
+    <!-- Contacts -->
     <div class="rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
 
         <div class="rounded-lg w-full bg-(--ui-bg) p-5">
@@ -165,115 +166,122 @@
             </p>
         </div>
 
-    </div>
+    </div><!-- Contacts -->
 
+    <!-- Town of Arnprior -->
+    <div class="p-10">
+    
+        <h1 class="mb-0 text-3xl font-bold text-center pb-2 center">
+            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524" class="text-(--ui-primary)">
+                <strong>Town of Arnprior</strong>
+            </ULink><br/>
+        </h1>
+        <p class="text-center pt-0 mt-0 underline">
+            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524">
+                    www.arnprior.ca
+            </ULink>
+        </p>
 
-<div class="p-10">
+        <div class="mt-10 rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Mayor: Lisa McGee<br/>
+                <ULink to="mailto:lmcgee@arnprior.ca">
+                    lmcgee@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:​6133220271">(613)​322-0271</ULink><br/>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                County Councillor: Dan Lynch<br/>
+                <ULink to="mailto:dlynch@arnprior.ca">
+                    dlynch@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6136230146">(613)623-0146</ULink><br/>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Councillor: Chris Toner<br/>
+                <ULink to="mailto:ctoner@arnprior.ca">
+                    ctoner@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6139139571">(613)913-9571</ULink><br/>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Councillor: Ted Strike<br/>
+                <ULink to="mailto:tstrike@arnprior.ca">
+                    tstrike@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6136015651">(613)601-5651</ULink><br/>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Councillor: Chris Cooper<br/>
+                <ULink to="mailto:ccouper@arnprior.ca">
+                    ccouper@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6135184081">(613)518-4081</ULink>
+                <br/>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Councillor: Tom Burnette<br/>
+                <ULink to="mailto:tburnette@arnprior.ca">
+                    tburnette@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6136235630">(613)623-5630</ULink>
+            </div>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                Councillor: Lynn Cloutier<br/>
+                <ULink to="mailto:lcloutier@arnprior.ca">
+                    lcloutier@arnprior.ca<br/>
+                </ULink>
+                <ULink to="tel:6133716036">(613)371-6036</ULink><br/>
+            </div>
+        </div>
+    </div> <!-- Town of Arnprior -->
 
-    <h1 class="mb-0 text-3xl font-bold text-center pb-2 center">
-        <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524" class="text-(--ui-primary)">
-            <strong>Town of Arnprior</strong>
-        </ULink><br/>
-    </h1>
-    <p class="text-center pt-0 mt-0 underline">
-        <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524" class="text-green-800">
-                www.arnprior.ca
-        </ULink>
-    </p>
-
-    <div class="mt-10 rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Mayor: Lisa McGee<br/>
-            <ULink to="mailto:lmcgee@arnprior.ca">
-                lmcgee@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:​6133220271">(613)​322-0271</ULink><br/>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            County Councillor: Dan Lynch<br/>
-            <ULink to="mailto:dlynch@arnprior.ca">
-                dlynch@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6136230146">(613)623-0146</ULink><br/>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Councillor: Chris Toner<br/>
-            <ULink to="mailto:ctoner@arnprior.ca">
-                ctoner@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6139139571">(613)913-9571</ULink><br/>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Councillor: Ted Strike<br/>
-            <ULink to="mailto:tstrike@arnprior.ca">
-                tstrike@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6136015651">(613)601-5651</ULink><br/>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Councillor: Chris Cooper<br/>
-            <ULink to="mailto:ccouper@arnprior.ca">
-                ccouper@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6135184081">(613)518-4081</ULink>
-            <br/>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Councillor: Tom Burnette<br/>
-            <ULink to="mailto:tburnette@arnprior.ca">
-                tburnette@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6136235630">(613)623-5630</ULink>
-        </div>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            Councillor: Lynn Cloutier<br/>
-            <ULink to="mailto:lcloutier@arnprior.ca">
-                lcloutier@arnprior.ca<br/>
-            </ULink>
-            <ULink to="tel:6133716036">(613)371-6036</ULink><br/>
-        </div>
-    </div>
-    </div>
+        
     <div class="text-center">
-    <div class="px-10 my-0">
-        <h2 class="pt-5 mt-0 pb-5 mb-0 text-3xl font-bold text-center center">
-            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524">
-                <strong>Legislative Assembly of Ontario</strong>
-            </ULink><br/>
-        </h2>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            <p class="text-wrap">
 
-                Billy Denault<br/>
-                <ULink to="tel:6137356627" >
-                    613-735-6627
+        <!-- Legislative Assembly of Ontario -->
+        <div class="px-10 my-0">
+            <h2 class="pt-5 mt-0 pb-5 mb-0 text-3xl font-bold text-center center">
+                <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524">
+                    <strong>Legislative Assembly of Ontario</strong>
                 </ULink><br/>
-                <ULink to="mailto:billy.denault@pc.ola.org">
-                    billy.denault@pc.ola.org<br/>
-                </ULink>
-            </p>
-        </div>
-    </div>
-    <div class="p-10 my-0">
-        <h2 class="pt-0 mt-0 mb-5 text-3xl font-bold text-center center">
-            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524">
-                <strong>Member of Parliament</strong>
-            </ULink><br/>
-        </h2>
-        <div class="rounded-lg w-full bg-(--ui-bg) p-5">
-            <p class="text-wrap center">
-                <ULink to="http://cherylgallant.com">
-                cherylgallant.com
+            </h2>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                <p class="text-wrap">
+                    Billy Denault<br/>
+                    <ULink to="tel:6137356627" >
+                        613-735-6627
+                    </ULink><br/>
+                    <ULink to="mailto:billy.denault@pc.ola.org">
+                        billy.denault@pc.ola.org<br/>
+                    </ULink>
+                </p>
+            </div>
+        </div><!-- Legislative Assembly of Ontario -->
+
+        <!-- Member of Parliament -->
+        <div class="p-10 my-0">
+            <h2 class="pt-0 mt-0 mb-5 text-3xl font-bold text-center center">
+                <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524">
+                    <strong>Member of Parliament</strong>
                 </ULink><br/>
-                Cheryl Gallant<br/>
-                <ULink to="mailto:cheryl.gallant@parl.gc.ca">
-                    cheryl.gallant@parl.gc.ca<br/>
-                </ULink>
-            </p>
-        </div>
+            </h2>
+            <div class="rounded-lg w-full bg-(--ui-bg) p-5">
+                <p class="text-wrap center">
+                    <ULink to="http://cherylgallant.com">
+                    cherylgallant.com
+                    </ULink><br/>
+                    Cheryl Gallant<br/>
+                    <ULink to="mailto:cheryl.gallant@parl.gc.ca">
+                        cheryl.gallant@parl.gc.ca<br/>
+                    </ULink>
+                </p>
+            </div>
+        </div><!-- Member of Parliament -->
+
     </div>
-</div>
-</div>
+</div><!-- Speak Out -->
+
 <div>
     <div class="w-full p-5 mt-5 text-center">
 

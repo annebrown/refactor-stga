@@ -16,7 +16,7 @@
             v-for="(post, index) in blogData.slice(-3)"
             :key="index" 
             :post="post"
-            class="flex-1 shadow-md bg-(--ui-bg)"
+            class="flex-1 shadow-md bg-(--ui-bg) rounded-lg"
         />
     </div>
 
