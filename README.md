@@ -22,9 +22,7 @@ rserver // Start dev server
 
 ## Fonts
 
-SAVE THE GROVE AGAIN
-
-Closest GF matches:
+Original Logo Text "SAVE THE GROVE AGAIN" - Closest GF matches:
 
 - Petrona
 - Jungle

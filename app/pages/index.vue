@@ -8,8 +8,7 @@
         <SplashAnswer class="mx-4 mb-8 
            bg-(--ui-bg)" />
 
-        <SplashVideo class="
-            bg-(--ui-color-video) dark:bg-black" />
+        <SplashVideo class="bg-(--ui-color-testimonials)" />
 
         <SplashEventsCalendar class="pb-8 mb-14 shadow-lg
             bg-(--ui-color-events) " />

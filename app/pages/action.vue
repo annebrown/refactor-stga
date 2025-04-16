@@ -94,7 +94,7 @@
 </div><!-- Flex - Get Involved! -->
 
 <!-- Speak Out -->
-<div class="m-5 p-10 bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lgl">
+<div class="m-5 p-10 bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
 
     <div class="w-full p-5 text-center">
 

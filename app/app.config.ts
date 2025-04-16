@@ -14,7 +14,7 @@ export default defineAppConfig({
         button: {
             
             slots: {
-                base: 'font-extrabold' ,
+                base: 'font-extrabold shadow-lg shadow-(--ui-neutral)' ,
                 label: 'break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
                 // link: '',
               },

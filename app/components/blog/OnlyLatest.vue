@@ -14,7 +14,7 @@
             v-for="post in latestPosts" 
             :key="post.id"
             :post="post"
-            class="flex-1 shadow-md bg-(--ui-bg) rounded-lg"
+            class="flex-1 shadow-md bg-(--ui-bg)"
         />
     </div>
 

@@ -19,13 +19,14 @@
             />
      
             <!-- Tags -->
-            <UButton 
-                class="z-2 absolute -mr-5 p-2 right-2 bottom-2 
-                inline-block rounded-3xl text-lg uppercase"
-                variant="solid">
-                {{ post.tags[0] }}
-            </UButton>
-
+             <div class="">
+                <UButton 
+                    class="z-2 absolute -mr-5 p-2 right-2 bottom-2 inline-block text-lg uppercase"
+                    :ui="{ base: 'rounded-3xl' }"
+                    variant="solid">
+                    {{ post.tags[0] }}
+                </UButton>
+            </div>
         </div>
 
         <!-- Title & Bi-LIne-->
@@ -47,7 +48,6 @@
         <div class="p-4">
             <p class="">{{ post.publishDate }}</p>
         </div>
-
 
     </div><!-- Card -->
 
