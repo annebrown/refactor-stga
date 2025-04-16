@@ -3,7 +3,9 @@ export default defineNuxtConfig({
   // F Telemetry
   telemetry: false,
 
-  devtools: { enabled: true },
+  srcDir: 'app/',
+
+  css: ['assets/css/ship.css'],
 
   modules: [
       "@nuxt/ui", 
@@ -11,16 +13,13 @@ export default defineNuxtConfig({
       "@nuxt/fonts"
   ],
 
-  srcDir: 'app/',
-
-  css: ['assets/css/ship.css'],
-
   ui: {
     theme: {
       colors: ['primary', 'secondary', 'neutral', 'tertiary', 'success', 'warning', 'error']
     }
   },
 
+  devtools: { enabled: true },
   compatibilityDate: '2025-04-05',
 })
 //<--------@/nuxt.config.ts---------------------------------------------------->

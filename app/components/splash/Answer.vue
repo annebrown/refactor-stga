@@ -25,6 +25,7 @@
                     active
                     color="secondary"
                     variant="solid"
+                    :ui="{ base: 'flex items-center justify-center' }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -34,6 +35,7 @@
                     active
                     color="secondary"
                     variant="solid"
+                    :ui="{ base: 'flex items-center justify-center' }"
                 />
                 <!-- Button - Donate Today! -->
                 <UButton 
@@ -43,6 +45,7 @@
                     active
                     color="secondary"
                     variant="solid"
+                    :ui="{ base: 'flex items-center justify-center' }"
                 />
             </div><!-- Buttons -->
             
