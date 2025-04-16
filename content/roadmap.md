@@ -9,44 +9,14 @@ lastModified:: '2025-02-25'
 
 Tasks remaining to complete framework migration from Next.js to Nuxt.
 
-## Site-Wide
-
-### Logo
+## Logo
 
 - Tags for dynamic path fills
 
-### Footer
 
-- Menu
-- Copyright
-
-### Breadcrumbs
+## Breadcrumbs
 
 - Breadcrumb route string
-
-###  Landing Page Components
-
-- `<BlogOnlyLatest />` - Latest posts 
-
-## Blog Pages
-
-- Design Blog Template
-
-## Blogs Page
-
-- Code to fetch blogs, render in card grid
-
-## About Page
-
-- Simple heading, paragraphs and sig
-
-## Get Involved Page
-
-- Layout and styling
-
-## FAQ Page
-
-- Columnated sections
 
 ## A11y
 
