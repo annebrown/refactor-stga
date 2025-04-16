@@ -4,11 +4,11 @@
 <!-- Blog Post -->
 <UCard 
     variant="subtle"
-    class="m-4 p-8 rounded-3xl shadow-lg"
+    class="mx-auto my-8 p-6 rounded-3xl shadow-lg max-w-2xl"
 >
 
     <!-- Blog Meta -->
-    <template #header v-if="currentBlogMeta">
+    <template #header v-if="currentBlogMeta" class="rounded-3xl">
     
         <!-- Title -->
         <h1 class="!text-left">{{ currentBlogMeta.title }}</h1>

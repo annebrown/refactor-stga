@@ -10,6 +10,7 @@
             <!-- Hamburger Icon -->
             <UButton 
                 variant="link" 
+                class="sm:hidden"
                 icon="i-heroicons-bars-3"
                 :ui="{
                     leadingIcon: 'text-(--ui-secondary) size-9'

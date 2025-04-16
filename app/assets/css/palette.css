@@ -129,6 +129,6 @@
 body {
     @apply antialiased text-(--ui-text) bg-(--ui-bg);
 }
-#banner { @apply bg-(--ui-bg); }
+#banner { @apply bg-(--color-amber-200); }
 #page-signature { @apply text-(--ui-secondary); }
 /*--------@/app/assets/css/palette.css----------------------------------------->

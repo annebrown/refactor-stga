@@ -17,9 +17,6 @@
         To achieve our vision, we will promote community awareness about plans to commercially develop a large portion of the land adjacent to Gillies Grove. We will also advocate for informed and responsible decision-making concerning these plans to ensure the continued public enjoyment of this important site for years to come.
     </p>
     <p class="about-p">
-        We are a group of concerned residents committed to preserving Gillies Grove and the land adjacent to the Grove which constitute the environmental and historic heart of Arnprior.
-    </p>
-    <p class="about-p">
         See <ULink to="/FAQ">Frequently Asked Questions</ULink> for more information.
     </p>
 

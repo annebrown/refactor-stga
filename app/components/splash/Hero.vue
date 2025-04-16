@@ -2,11 +2,11 @@
 <template><div>
 
     <!-- Hero -->
-    <div class="relative w-full h-full">
+    <div class="relative w-full">
         <!-- Hero Image -->
-        <div class="">
+        <div class="w-full">
             <img
-                    class="z-1 w-full rounded-2xl"
+                    class="z-1 rounded-2xl"
                     src="/images/hero/big-postcard.png"
                     alt="Postcard - Gillies Grove 10,000 years in the making"
 
@@ -16,7 +16,7 @@
             />
         </div>
         <!-- Square Logo -->
-        <div class="z-20 flex flex-wrap">
+        <div class="z-5 flex flex-wrap">
             <div class="mx-auto">
 
               <ULink to="/">

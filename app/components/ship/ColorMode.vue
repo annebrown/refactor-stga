@@ -2,7 +2,7 @@
 <template>
   <ClientOnly>
     <UButton
-        class="h-fit mr-1 align-top"
+        class=""
         :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
         variant="link"
         :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"

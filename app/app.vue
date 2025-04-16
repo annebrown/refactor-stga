@@ -2,14 +2,16 @@
 <template><div>
 <!-- A11y -->
 <NuxtRouteAnnouncer />
+<Analytics />
+<NuxtPath />
 <UApp>
     <div class="flex flex-col"><!-- For Z Index -->
 
         <!-- Bow -->
-        <ShipBow id="bow" class="z-1 w-full my-4"/>
+        <ShipBow id="bow" class="z-100"/>
     
         <!-- Midships -->
-        <NuxtPage id="midships" class="pt-15" />
+        <NuxtPage id="midships" class="z-10 mt-10" />
 
         <!-- Transom -->
         <ShipTransom id="transom" class="" />
@@ -18,4 +20,8 @@
 </UApp>
 
 </div></template>
+
+<script setup lang="ts">
+    import { Analytics } from '@vercel/analytics/nuxt';
+</script>
 <!--------@/app.vue------------------------------------------------------------>
