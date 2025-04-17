@@ -8,13 +8,13 @@
     <h1>Latest News</h1>
 
     <!-- Last 3 Posts -->
-    <div class="grid gap-x-8 gap-y-10 grid-cols-1 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 place-content-stretch">
+    <div class="grid gap-x-8 gap-y-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 place-content-stretch">
 
         <BlogCardBlogPost
             v-for="post in latestPosts" 
             :key="post.id"
             :post="post"
-            class="flex-1 shadow-md bg-(--ui-bg)"
+            class="flex-1 shadow-lg bg-(--ui-bg) rounded-lg"
         />
     </div>
 

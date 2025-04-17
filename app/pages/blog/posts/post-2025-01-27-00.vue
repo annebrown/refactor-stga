@@ -64,7 +64,7 @@ Please consider supporting this cause in the following ways:
         <li>💚 Wear a button (get yours at Green Bean Natural Foods, 117 John St N)</li>
         <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
         <li>💚 Subscribe to our <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
-        <li>💚 Fill out our <ULink  class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
+        <li>💚 Fill out our <ULink  to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
         <li>💚 Like and follow our <ULink to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
         <li>💚 Follow us on <ULink to="https://www.instagram.com/savethegroveagain2024/">Instagram</ULink> </li>
         <li>💚 Subscribe to our <ULink to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>

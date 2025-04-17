@@ -1,20 +1,19 @@
 <!--------@/app/components/splash/Testimonials.vue----------------------------->
 <template><div>
 
-<div class="relative z-10 pb-2 rounded-lg">
+<div class="relative z-10 px-8 pb-8 rounded-lg">
 
     <!-- Title -->
-    <h1 class="p-7 pt-8 text-3xl font-bold text-center pb-5">
+    <h1>
         Local Voices
     </h1>
 
-    <p class="text-center pb-7">
+    <p class="mb-4">
         What members of the community are saying about the proposed development:
     </p>
 
     <!-- Grid -->
-    <div class="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3 
-        mt-0 pt-0 px-5 pb-7"
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3"
     >
         <!-- Testimonials -->
         <div 
@@ -23,11 +22,10 @@
             :quote="quote"
         >
             <!-- Testimonial -->
-            <div class="w-full bg-apple-600 rounded-lg">
+            <div class="w-full bg-(--ui-secondary) rounded-lg">
 
                 <!-- Quote -->
-                <p class="
-                    text-base leading-relaxed p-5 ">
+                <p class="p-5 !pt-8">
                     {{ quote.content }}
                 </p>
 

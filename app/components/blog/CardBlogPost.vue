@@ -15,15 +15,15 @@
                 :alt="`${ post.alt }`"
                 :width="`${ post.width }`"
                 :height="`${ post.height }`"
-                class="max-h-70 w-auto mx-auto pt-4 object-cover object-top"
+                class="w-full h-full pt-4 object-cover object-top"
             />
      
             <!-- Tags -->
              <div class="">
                 <UButton 
-                    class="z-2 absolute -mr-5 p-2 right-2 bottom-2 inline-block text-lg uppercase"
-                    :ui="{ base: 'rounded-3xl' }"
-                    variant="solid">
+                    class="z-2 absolute -mr-5 p-2 right-2 bottom-2 uppercase"
+                    :ui="{ base: 'rounded-3xl text-white' }"
+                    >
                     {{ post.tags[0] }}
                 </UButton>
             </div>
@@ -33,19 +33,19 @@
         <div class="">
 
             <!-- title -->
-            <h3 class="p-6 pb-2 text-center text-2xl/6 font-bold">
+            <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold text-(--ui-text)">
                 {{ post.title }}
             </h3>
 
             <!-- Bi-Line -->
-            <p class="p-6 pt-2 leading-6 text-left">
+            <p class="p-6 pt-2 leading-6 text-left text-(--ui-text)">
                 {{ post.paragraph }}
             </p>
 
         </div>
 
         <!-- Publish Date -->
-        <div class="p-4">
+        <div class="p-4 text-(--ui-text)">
             <p class="">{{ post.publishDate }}</p>
         </div>
 

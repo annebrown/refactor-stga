@@ -4,17 +4,17 @@
 <!-- Blog Post -->
 <UCard 
     variant="subtle"
-    class="mx-auto my-8 p-6 rounded-3xl shadow-lg max-w-2xl"
+    class="mx-auto my-8 p-6 rounded-4xl shadow-lg max-w-2xl"
 >
 
     <!-- Blog Meta -->
     <template #header v-if="currentBlogMeta" class="rounded-3xl">
     
         <!-- Title -->
-        <h1 class="!text-left">{{ currentBlogMeta.title }}</h1>
+        <h1 class="!text-left text-3xl font-extrabold">{{ currentBlogMeta.title }}</h1>
 
         <!-- Bi-Line -->
-        <p class="text-2xl">{{ currentBlogMeta.paragraph }}</p>
+        <p class="text-lg font-bold">{{ currentBlogMeta.paragraph }}</p>
         
         <!-- Date & Tag -->
         <div class="w-full py-5 flex flex-row">
@@ -45,7 +45,7 @@
         <slot />
     </div>
 
-    <ShipPageSignature class="py-8 text-(--ui-secondary)"/>
+    <ShipPageSignature class="py-5 text-(--ui-secondary)"/>
 
 </UCard>
 

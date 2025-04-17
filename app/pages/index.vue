@@ -8,7 +8,7 @@
         <SplashAnswer class="mx-4 mb-8 
            bg-(--ui-bg)" />
 
-        <SplashVideo class="bg-(--ui-color-testimonials)" />
+        <SplashVideo class="bg-(--ui-color-video)" />
 
         <SplashEventsCalendar class="pb-8 mb-0 shadow-lg
             bg-(--ui-color-events) " />
@@ -20,7 +20,7 @@
            bg-(--ui-bg)" />
 
         <SplashTestimonials class="
-            bg-(--ui-color-testimonials) shadow-lg" />
+            bg-(--ui-color-testimonials) shadow-xl" />
 
         <ShipPageSignature id="page-signature" class="py-8 text-3xl" />
 

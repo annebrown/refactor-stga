@@ -1,16 +1,16 @@
 <!--------@/pages/donations---------------------------------------------------->
 <template><div>
  <div class="text-center px-20">
-    <p class="text-left py-2">
+    <p>
     If you would like to support Save the Grove Again please consider making a donation.
     </p>
-    <p class="text-left py-2">
+    <p>
     Donations are used to cover the cost of materials including lawn signs, flyers, posters, buttons, website domain name etc. 
     </p>
-    <p class="text-left py-2">
+    <p>
     Donations are accepted via Interac E-Transfer. Please send your contribution to:  <ULink to="mailto:savethegroveagain@gmail.com">savethegroveagain@gmail.com</ULink>
     </p>
-    <p class="text-left py-2">
+    <p>
     If you are not able to make a donation and would like to help in another way, please fill out our  
     <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link">volunteer form</ULink>.
     </p>

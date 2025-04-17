@@ -127,7 +127,7 @@
                         <li>💚 Wear a button - Get yours at Green Bean Natural Foods (117 John St. N.) or Sweet and Sassy (114 John St. N.)</li>
                         <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
                         <li>💚 Subscribe to our <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>.</li>
-                        <li>💚 Fill out our <ULink  class="text-(--ui-secondary)" to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
+                        <li>💚 Fill out our <ULink  to="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</ULink></li>
                         <li>💚 Like and follow our <ULink to="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</ULink></li>
                         <li>💚 Subscribe to our <ULink to="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</ULink></li>
                         <li>💚 Make a donation via e-transfer to  <ULink to="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</ULink></li>

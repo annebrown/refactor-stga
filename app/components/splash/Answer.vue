@@ -2,10 +2,10 @@
 <template><div>
 
     <!-- w-full -->
-    <div class="w-full p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 w-full p-4">
 
         <!-- Answer & Buttons -->
-        <div class="inline-block w-1/2 py-auto pr-4 align-middle">
+        <div class="inline-block py-auto pr-4 align-middle">
             <!-- Answer -->
             <p class="px-4text-justify font-bold 
                 text-(--ui-primary) text-2xl"
@@ -14,14 +14,14 @@
             </p>
 
            <!-- Buttons -->
-            <div class="w-full flex flex-row flex-none align-middle my-10 mx-auto gap-4">
+            <div class="w-full grid grid-cols-1 sm:grid-cols-3 align-middle my-10 mx-auto gap-4">
                 <!-- Button - Subscribe -->
                 <UButton 
                     label="Subscribe"
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class=""
+                    class="shrink"
                     :ui="{ base: 'flex p-4 justify-center' }"
                 />
                 <!-- Button - Sign the Petition -->
@@ -47,7 +47,7 @@
         </div><!-- Answer & Buttons -->
 
         <!-- Map -->
-        <div class="inline-block w-1/2 my-auto align-middle">
+        <div class="inline-block my-auto align-middle">
             <img 
                 src="/images/answer/map.svg" 
                 alt="Map showing outline of proposed development area, a strip of wooded property bordering the Ottawa River" 
