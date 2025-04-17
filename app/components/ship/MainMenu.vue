@@ -19,6 +19,6 @@
 
 <script setup lang="ts">
 // Main Menu Array
-    import { mainMenuData } from "@/utils/data/MainMenu";
+    import { mainMenuData } from "~/assets/data/ship/MainMenu";
 </script>
 <!--------@/components/ship/MainMenu.vue--------------------------------------->

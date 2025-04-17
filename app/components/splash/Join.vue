@@ -14,7 +14,7 @@
         <!-- Button - Get Involved!-->
         <div class="flex items-center justify-center">
             <UButton 
-                class="text-center"
+                class="text-center shadow-black shadow-lg"
                 label="Get Involved!"
                 to="/action" 
                 target="_blank"

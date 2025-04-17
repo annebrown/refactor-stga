@@ -44,21 +44,25 @@
                         <li class="text-xs">
                             <ULink
                             to="/blog"
-                            class="text-xs text-center duration-300 hover:text-primary text-(--ui-color-secondary-600)">
+                            class="text-xs text-center duration-300 
+                                hover:text-primary text-(--ui-color-secondary-600)"
+                        >
                             Blog
                             </ULink>
                         </li>
                         <li class="pb-0 text-xs">
                             <ULink
                             to="/action"
-                            class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)">
+                            class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)"
+                        >
                             Get Involved!
                             </ULink>
                         </li>
                         <li class="pl-0 text-xs pb-0">
                         <ULink
                             to="/about"
-                            class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)">
+                            class="text-xs duration-300 hover:text-primary text-(--ui-color-secondary-600)"
+                        >
                             About
                             </ULink>
                         </li>

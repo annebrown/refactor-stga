@@ -1,17 +1,21 @@
 <!--------@/app.vue------------------------------------------------------------>
 <template><div>
+
 <!-- A11y -->
 <NuxtRouteAnnouncer />
+
+<!-- Analytics -->
 <Analytics />
-<NuxtPath />
+<!-- <NuxtPath /> -->
+
 <UApp>
     <div class="flex flex-col"><!-- For Z Index -->
 
         <!-- Bow -->
-        <ShipBow id="bow" class="z-100"/>
+        <ShipBow id="bow" class="z-100 mt-0 sm:mt-2 sm:mb-1"/>
     
         <!-- Midships -->
-        <NuxtPage id="midships" class="z-10 mt-10" />
+        <NuxtPage id="midships" class="z-10 mt-[4.5rem]" />
 
         <!-- Transom -->
         <ShipTransom id="transom" class="" />

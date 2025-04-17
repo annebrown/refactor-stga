@@ -3,7 +3,7 @@
 
 <UButtonGroup 
     class="w-full m-auto pr-20" 
-    variant="ghost"
+    variant="soft"
 
     :ui="{ base: 'bg-transparent' }"
 >
@@ -15,6 +15,7 @@
         aria-label="social-link"
         target="_blank"
         rel="noopener noreferrer"
+        class="rounded-3xl"
         :ui="{ base: 'text-(--ui-secondary) stroke-(--ui-secondary) fill-(--ui-secondary)' }"
     >
         <svg 
@@ -30,6 +31,7 @@
         to="https://www.youtube.com/embed/tEgtT1LX-Sk"
         variant="link"
         aria-label="social-link"
+         class="rounded-3xl"
         :ui="{ base: 'text-(--ui-secondary) stroke-transparent fill-(--ui-secondary)' }"
         target="_blank"
         rel="noopener noreferrer"
@@ -49,6 +51,7 @@
                 color="neutral"
         variant="link"
         aria-label="social-link"
+         class="rounded-3xl"
         :ui="{ base: 'text-(--ui-secondary)' }"
         target="_blank"
         rel="noopener noreferrer"
@@ -72,6 +75,7 @@
         to="https://www.instagram.com/savethegroveagain2024/?igsh=MnZ5MzM3dXk2NWsx&utm_source=qr"
         variant="link"
         aria-label="social-link"
+         class="rounded-3xl"
         ui="{ base: 'text-(--ui-secondary)' }"
     >  
         <img
@@ -88,6 +92,7 @@
         color="neutral"
         variant="link"
         aria-label="social-link"
+         class="rounded-3xl"
        :ui="{ base: 'text-(--ui-secondary) stroke-(--ui-secondary) fill-(--ui-secondary)' }"
     >
         <svg 

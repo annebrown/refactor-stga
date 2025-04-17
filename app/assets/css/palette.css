@@ -69,6 +69,7 @@
 
     /* Containers */
     --ui-bg: var(--color-white);
+    --ui-bow: var(--ui-bg);
 
     /* Typography */
 
@@ -89,6 +90,7 @@
 
     /* Dark Palette */
     --ui-primary: var(--ui-color-primary-600);
+    
     --ui-secondary: var(--ui-color-secondary-600);
     --ui-tertiary: var(--ui-color-tertiary-400);
     --ui-success: var(--ui-color-success-400);
@@ -126,9 +128,7 @@
 /******************************************************************************/
 /* Containers
 /******************************************************************************/
-body {
-    @apply antialiased text-(--ui-text) bg-(--ui-bg);
-}
-#banner { @apply bg-(--color-amber-200); }
+body { @apply antialiased text-(--ui-text) bg-(--ui-bg); }
+#bow { @apply bg-(--ui-bow); }
 #page-signature { @apply text-(--ui-secondary); }
 /*--------@/app/assets/css/palette.css----------------------------------------->

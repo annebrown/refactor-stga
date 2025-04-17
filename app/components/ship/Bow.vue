@@ -2,26 +2,28 @@
 <template><div>
 
 <!-- Bow -->
-<div id="banner" class="fixed flex flex-row w-full h-[5rem] rounded-3xl">
+<div class="fixed flex flex-row w-full h-[4.5rem] rounded-4xl bg-(--ui-bow)">
 
     <!-- Logo -->
-    <ShipLogo class="flex-auto inline-block ml-1 mt-1" />
+    <span class="shrink">
+        <ShipLogo class="shrink inline-block ml-1 mt-1" />
+    </span>
 
     <!-- Spacer-->
     <div class="flex-auto inline-block">&nbsp;</div>
     
     <!-- Main Menu - Collapsable -->
-    <ShipMainMenu class="flex-none hidden sm:inline-block flex-none w-fit max-w-32 pr-[2rem]" />
+    <ShipMainMenu class="text-shadow-lg flex-none hidden sm:inline-block w-fit mt-1.5 mr-1" />
 
-    <div class="flex-none inline-block">
+    <!-- Hamburger Icon & Dropdown Menu -->
+    <span class="flex-none mt-4 mr-2">
+        <ShipHamburger />
+    </span>
 
-        <!-- Hamburger Icon & Dropdown Menu -->
-        <ShipHamburger class="" />
-
-        <!-- Color Mode Toggle-->
-        <ShipColorMode class="" />  
-
-    </div>
+    <!-- Color Mode Toggle-->
+    <span class="flex-none mt-4 mr-5.5">
+        <ShipColorMode />  
+    </span>
 
 </div><!-- Bow -->
 

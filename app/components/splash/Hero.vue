@@ -4,9 +4,11 @@
     <!-- Hero -->
     <div class="relative w-full">
         <!-- Hero Image -->
-        <div class="w-full">
+        <div 
+            class="w-full p-2"
+        >
             <img
-                    class="z-1 rounded-2xl"
+                    class="z-1 relative w-full rounded-4xl"
                     src="/images/hero/big-postcard.png"
                     alt="Postcard - Gillies Grove 10,000 years in the making"
 
@@ -16,23 +18,21 @@
             />
         </div>
         <!-- Square Logo -->
-        <div class="z-5 flex flex-wrap">
-            <div class="mx-auto">
 
-              <ULink to="/">
+        <ULink 
+            to="/"
+            class="z-91 absolute top-10 right-10 w-1/5 h-auto">
                 <img
-                  src="/images/hero/logo-orig-sq.png"
-                  class="z-91 absolute -top-6 right-10 w-1/5 h-auto dark:invert dark:hue-rotate-180"
-                  alt="Logo - Trees and water inside a circle"
-                  loading="eager"
-                  priority
-                  width="200"
-                  height="200"
+                    src="/images/hero/logo-orig-sq.png"
+                    class="dark:invert dark:hue-rotate-180"
+                    alt="Logo - Trees and water inside a circle"
+                    loading="eager"
+                    priority
+                    width="200"
+                    height="200"
                 />
-              </ULink>
-
-            </div>
-        </div><!-- Square Logo-->
+        </ULink>
+  
 
     </div><!-- Hero -->
 

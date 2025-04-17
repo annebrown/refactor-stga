@@ -1,4 +1,4 @@
-//--------@/utils/data/MainMenu.ts--------------------------------------------->
+//--------@/assets/data/ship/MainMenu.ts--------------------------------------->
 // Main Menu Array
 export const mainMenuData = [ 
     { label: 'HOME', to: '/' },
@@ -7,4 +7,4 @@ export const mainMenuData = [
     { label: 'FAQ', to: '/FAQ' },
     { label: 'ABOUT', to: '/about' },
 ] 
-//--------@/utils/data/MainMenu.ts--------------------------------------------->
+//--------@/assets/data/ship/MainMenu.ts--------------------------------------->

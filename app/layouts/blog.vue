@@ -52,7 +52,7 @@
 </div></template>
 
 <script setup lang="ts">
-    import { blogData } from '@/utils/data/blogData';
+    import { blogData } from '~/assets/data/blog/blogData';
     import { computed } from 'vue';
 
     const route = useRoute();

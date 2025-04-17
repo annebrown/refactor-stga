@@ -14,25 +14,9 @@ export default defineAppConfig({
         button: {
             
             slots: {
-                base: 'font-extrabold shadow-lg shadow-(--ui-neutral)' ,
-                label: 'break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
-                // link: '',
+                base: 'bg-(--ui-bg) dark:bg-(--ui-bg) shadow-md dark:shadow-sm shadow-black dark:shadow-white font-extrabold',
+                label: 'text-white dark:text-white break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
               },
-            // block: {
-            //     base: 'w-full justify-center text-center',
-            // },
-            // variants: {
-            //   color: {
-            //     secondary: '' // Color variant called "secondary"
-            //   }
-            // },
-            compoundVariants: [
-              {
-                color: 'secondary',
-                variant: 'solid',
-                class: 'p-4 bg-(--ui-secondary) text-(--ui-bg) text-xl hover:bg-(--ui-primary)'
-              },
-            ]
         }, // Button
 
         navigationMenu: {
@@ -49,11 +33,16 @@ export default defineAppConfig({
             base: 'transition-colors',
             variants: {
                 active: {
-                    true: {
-                        base: 'text-(--ui-primary)'
-                    }
+                  true: 'text-(--ui-primary)',
+                  false: [
+                    'text-(--ui-secondary) hover:text-(--ui-primary)',
+                    'transition-colors'
+                  ]
+                },
+                disabled: {
+                  true: 'cursor-not-allowed opacity-75'
                 }
-            },
+              },
             compoundVariants: [
                 {
                     active: false,

@@ -24,7 +24,7 @@
 
 <script lang="ts" setup>
     import { BlogCardBlogPost } from '#components'
-    import { blogData } from '../../utils/data/blogData'
+    import { blogData } from '../../assets/data/blog/blogData'
     const latestPosts = computed(() => {
         return [...blogData]
         .sort((a, b) => b.id - a.id)

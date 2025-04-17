@@ -2,7 +2,7 @@
 <template><div>
     <NuxtLayout name="splash">
 
-        <SplashHero class="mb-0  
+        <SplashHero class="w-full mb-0  
             bg-(--ui-bg) "/>
 
         <SplashAnswer class="mx-4 mb-8 
@@ -10,7 +10,7 @@
 
         <SplashVideo class="bg-(--ui-color-testimonials)" />
 
-        <SplashEventsCalendar class="pb-8 mb-14 shadow-lg
+        <SplashEventsCalendar class="pb-8 mb-0 shadow-lg
             bg-(--ui-color-events) " />
 
         <BlogOnlyLatest class="mb-14 pb-18
@@ -20,7 +20,7 @@
            bg-(--ui-bg)" />
 
         <SplashTestimonials class="
-            bg-(--ui-color-testimonials)" />
+            bg-(--ui-color-testimonials) shadow-lg" />
 
         <ShipPageSignature id="page-signature" class="py-8 text-3xl" />
 

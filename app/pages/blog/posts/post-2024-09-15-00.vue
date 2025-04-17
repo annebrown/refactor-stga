@@ -8,7 +8,7 @@
     <div class="w-full px-4 lg:w-8/12">
 
         <!-- Font Bold -->
-        <div class=" font-bold text-lg ">
+        <div class="font-bold text-lg ">
 
             <p class="mb-10">
                 <strong>Good evening Save the Grove Again community,</strong>
@@ -64,15 +64,15 @@
                     <div class="rounded-lg w-full bg-(--ui-bg) p-5">
                         <p class="text-wrap">
                             <ULink to="https://www.thomascavanagh.ca">
-                            <strong>Thomas Cavanagh Construction Limited (Cavanagh Communities)</strong>
+                                <strong>Thomas Cavanagh Construction Limited (Cavanagh Communities)</strong>
                             </ULink><br/>
                             <ULink to="https://www.thomascavanagh.ca">
-                            www.thomascavanagh.ca
+                                www.thomascavanagh.ca
                             </ULink><br/>
-                            Owner: Jeff Cavanagh<br/>
-                            Contact: Pierre Dufresne<br/>
+                                Owner: Jeff Cavanagh<br/>
+                                Contact: Pierre Dufresne<br/>
                             <ULink to="mailto:pdufresne@thomascavanagh.ca" >
-                            pdufresne@thomascavanagh.ca<br/>
+                                pdufresne@thomascavanagh.ca<br/>
                             </ULink>
                             <ULink to="tel:6132572918" >(613)257-2918</ULink><br/>
                         </p>
@@ -84,19 +84,19 @@
 
             <USeparator class="pt-4 pb-10"/>
 
-            <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+            <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">
                 There was a request at the community gathering last Saturday that we provide form letters. We feel it is important for these parties to hear from individuals, plus we can&apos;t speak for each of you.  Consequently, we have compiled some information to assist you in writing your own letters:
             </p>
 
             <h3 class="text-xl font-bold pb-3">Thomas Cavanaugh Construction</h3>
 
-            <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+            <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">
                 In writing to Cavanagh we suggest that you address the concerns about the health and longevity of the Grove and that you impress the rarity of this old growth ecosystem. Please also include any personal reasons that you oppose them purchasing this land to develop. 
             </p>
 
             <h3 class="text-xl font-bold pb-3">Galilee Centre</h3>
 
-            <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+            <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">
 
                 <ULink to="https://docs.google.com/document/d/1WkPekfrC49DgsMQOYiMMg8P-Z5KT_9SbPdYENNX_64w/edit" class="mr-6 duration-300 hover:text-primary text-(--ui-secondary)">
                     Support Information for Letters to Galilee Centre Board of Directors
@@ -106,7 +106,7 @@
 
             <h3 class="text-xl font-bold pb-3">Missionary Oblates of Mary Immaculate Lacombe Canada</h3>
 
-            <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+            <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">
                 <NuxtLink      to="https://docs.google.com/document/d/1bSmjknFCd_sO5M1RSTaaCbwrJzcRRvrxx7oLjxlYimQ/edit" class="mr-6 duration-300 hover:text-primary text-(--ui-secondary)">
                     Support Information for Letters to OMI Lacombe Provincial Council
                 </NuxtLink >
@@ -129,11 +129,11 @@
                     class="mx-auto px-8"
                 />
             </div>
-            <p class="mb-8 mt-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">               
+            <p class="mb-8 mt-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">               
                 We also have a new page up on our website called <ULink to="https://savethegroveagain.com/action" class="duration-300 hover:text-primary text-(--ui-secondary)">Get Involved!</ULink>  You can find more contact information for municipal, provincial and federal governments here. We will continue to update it. If you have any suggestions for additions please reach out and let us know. 
             </p>
 
-            <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">               
+            <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">               
                 Let&apos;s keep the ball rolling and not let the momentum gained fizzle out. Share this information with others and ask for help. We can make a difference. Please commit to writing these letters not only for our community but for future generations! 
             </p>
 

@@ -1,4 +1,4 @@
-//--------@utils/data/blogData.ts---------------------------------------------->
+//--------@asssets/data/blog/blogData.ts--------------------------------------->
 export const blogData = [
 
     /*  TEMPLATE
@@ -268,4 +268,4 @@ export const blogData = [
         blogURL: "/blog/posts/post-2024-09-05-00"
     },
 ];
-//--------@utils/data/blogData.ts---------------------------------------------->
+//--------@asssets/data/blog/blogData.ts--------------------------------------->

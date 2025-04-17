@@ -7,8 +7,7 @@
     <img
         src="/logo-rect-light.png" 
         class="h-[4rem] w-auto dark:invert dark:hue-rotate-180"
-        alt="Logo - Trees and water inside a circle, with text: Save the 
-                Grove Again" 
+        alt="Logo - Trees and water inside a circle, with text: Save the Grove Again" 
         width=1479
         height=419
     />

@@ -5,15 +5,16 @@
     <div class="z-80">
 
         <!-- Render above everything else -->
-        <UPopover>
+        <UPopover class="">
 
             <!-- Hamburger Icon -->
             <UButton 
                 variant="link" 
-                class="sm:hidden"
+                class="sm:hidden shadow-md"
                 icon="i-heroicons-bars-3"
+                aria-label="Hamburber Menu"
                 :ui="{
-                    leadingIcon: 'text-(--ui-secondary) size-9'
+                    leadingIcon: 'text-(--ui-secondary) size-6'
                 }"
             />              
 
@@ -22,7 +23,7 @@
 
                 <UNavigationMenu 
                     :items="mainMenuData" 
-                    class="w-full justify-center" 
+                    class="w-full justify-center shadow-md" 
                     orientation="vertical"
                     variant="link"
                     color='primary'
@@ -40,6 +41,6 @@
 </div></template>
 
 <script setup lang="ts">
-    import { mainMenuData } from '@/utils/data/MainMenu'  // Main Menu Array
+    import { mainMenuData } from '~/assets/data/ship/MainMenu'  // Main Menu Array
 </script>
 <!--------@/app/components/ship/Hamburger.vue---------------------------------->
