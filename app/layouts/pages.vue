@@ -3,43 +3,50 @@
 
 <!-- Default @/pages Page Layout -->
 <UCard 
-    variant="subtle"
-    class="mb-10 mx-2 
-        rounded-3xl bg-(--color-apple-200) dark:bg-(--color-primary-950)"
+    variant="link"
+    :ui="{ 
+        header: 'm-0 p-0 flex items-start', 
+        footer: 'm-0 p-0 flex items-end',
+        body: 'm-0 p-0' 
+    }"
+    class="mb-4 rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)"
 >
 
-    <!-- Page Meta -->
-    <template #header class="h-fit mx-auto p-0">
+    <!-- CARD HEADER -->
+    <template #header class="leading-none">
 
 
         <!-- Title? -->
         <div
             v-if="route.meta.title"
-            class="m-0 p-0 mx-auto"
+            class="m-0 mt-4 p-0 mx-auto"
         >
 
             <!-- Title -->
-            <div class="text-4xl font-extrabold text-center">
+            <div class="mb-0 pb-0 text-4xl font-extrabold text-center">
                 {{ route.meta.title }}
             </div>
 
             <!-- Description? -->
-            <div v-if="route.meta.title" class="m-0 p-0 text-center">
+            <div v-if="route.meta.title" class="m-0 mt-2 p-0 text-lg font-bold text-center">
                 {{ route.meta.description }}
             </div>
 
         </div><!-- Title? -->
 
-    </template><!-- Page Meta -->
+    </template> <!-- CARD HEADER -->
 
-    <!-- Page Content -->
-    <div class="w-full px-0 mx-0">
-        <slot />
+    <!-- CARD BODY -->
+    <div class="bg-(--ui-bg) rounded-xl p-6">
+        <div class="w-full px-0 mx-0">
+            <slot />
+        </div>
     </div>
 
-    <!-- Page Signature -->
-    <template #footer class="px-2">
-        <ShipPageSignature />
+    <!-- CARD FOOTER -->
+    <template #footer class="m-0 p-0 leading-none">
+        <!-- Page Signature -->
+        <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
     </template>
 
 </UCard>

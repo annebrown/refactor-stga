@@ -4,7 +4,8 @@
 
 <!-- All Blogs -->
 <div 
-    class="w-full grid gap-x-8 gap-y-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 
+    class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8
+        w-full
         place-content-stretch"
 >
     
@@ -12,7 +13,8 @@
         v-for="(post, index) in blogData"
         :key="index" 
         :post="post"
-        class="flex-1 shadow-lg bg-(--ui-bg) rounded-md"
+        class="flex-1 
+            shadow-2xl rounded-md bg-(--ui-bg-1)"
     />
 
 </div>

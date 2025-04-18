@@ -21,8 +21,8 @@
             <!-- Tags -->
              <div class="">
                 <UButton 
-                    class="z-2 absolute -mr-5 p-2 right-2 bottom-2 uppercase"
-                    :ui="{ base: 'rounded-3xl text-white' }"
+                    class="z-2 absolute -mr-3 p-2 right-2 bottom-2 uppercase"
+                    :ui="{ base: 'rounded-3xl text-white shadow-none dark:shadow-none' }"
                     >
                     {{ post.tags[0] }}
                 </UButton>

@@ -15,7 +15,7 @@
                 width="897" height="506" 
                 src="https://www.youtube.com/embed/tEgtT1LX-Sk"  
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                class="size-full aspect-video rounded-lg" 
+                class="size-full aspect-video rounded-3xl" 
                 allowFullScreen>
             </iframe>
         </div>

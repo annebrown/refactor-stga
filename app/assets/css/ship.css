@@ -8,21 +8,16 @@
 @import "@nuxt/ui";
 @import "./typography.css";
 @import "./palette.css";
-
-
-
-
+@import "./pages.css";
 
 /******************************************************************************/
-/* FAQ
+/* Signature
 /******************************************************************************/
-.faq {
-    @apply py-2 px-1;
+.page-sig {
+    @apply m-0 p-0 !text-center text-2xl font-bold
+        text-(--ui-primary) dark:text-(--ui-text) ;
 }
-.faq-item-colored {
-    @apply m-2 p-4 bg-(--ui-color-testimonials) rounded-md;
-}
-.faq-item {
-    @apply m-2 p-4 rounded-md;
+.transom-menu-item {
+    @apply text-sm font-bold;
 }
 /*--------@/assets/css/ship.css-----------------------------------------------*/

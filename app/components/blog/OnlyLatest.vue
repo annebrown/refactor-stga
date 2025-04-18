@@ -2,24 +2,26 @@
 <template><div>
 
 <!-- Latest News -->
-<UContainer>
+<div class="mx-1 sm:mx-2 pb-10">
 
     <!-- Title -->
     <h1>Latest News</h1>
 
     <!-- Last 3 Posts -->
-    <div class="grid gap-x-8 gap-y-10 grid-cols-1 sm:grid-cols-2 md:grid-cols-3
-        pb-10 place-content-stretch">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8
+        mx-1 sm:mx-2">
+
 
         <BlogCardBlogPost
             v-for="post in latestPosts" 
             :key="post.id"
             :post="post"
-            class="flex-1 shadow-xl bg-white dark:bg-(--color-primary-900) rounded-lg"
+            class="flex-1 shadow-2xl rounded-md bg-(--ui-bg-1)"
         />
+
     </div>
 
-</UContainer><!-- Latest News -->
+</div><!-- Latest News -->
 
 </div></template>
 

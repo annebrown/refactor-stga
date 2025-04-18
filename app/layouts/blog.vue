@@ -3,8 +3,8 @@
 
 <!-- Blog Post Layout -->
 <UCard 
-    variant="subtle"
-    class="mx-auto my-8 p-6 rounded-4xl shadow-lg bg-(--ui-color-news)"
+    variant="link"
+    class="mb-4 rounded-4xl shadow-lg bg-(--ui-color-news)"
 >
 
     <!-- Blog Header -->
@@ -41,8 +41,10 @@
     </template><!-- Blog Meta -->
 
     <!-- Blog Content -->
-    <div class="m-0 p-0">
-        <slot />
+    <div class="bg-(--ui-bg) rounded-xl p-8">
+        <div class="m-0 p-0">
+            <slot />
+        </div>
     </div>
 
     <!-- Page Signature -->

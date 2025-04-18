@@ -2,8 +2,12 @@
 <template><div>
 <NuxtLayout name="pages">
 
+<!-- Flex -->
+<div class="flex-col columns-1 xs:columns-2 sm:columns-3 gap-4 
+    bg-(--ui-bg) rounded-lg">
+        
     <!-- PETITION -->
-    <div class="break-before-column w-full bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
 
         <h2 class="stga-card-heading">
             SIGN THE PETITION
@@ -32,7 +36,7 @@
     </div><!-- PETITION -->
 
     <!-- SPREAD THE WORD -->
-    <div class="w-full p-5 my-5 break-inside-avoid-column shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
         <h2 class="stga-card-heading">
             SPREAD THE WORD
         </h2>
@@ -42,7 +46,7 @@
     </div>
 
     <!-- LIKE -->
-    <div class="w-full bg-gray-100 p-5  my-5 break-inside-avoid-column shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
         <h2 class="stga-card-heading">
             LIKE AND FOLLOW US ON SOCIAL MEDIA
         </h2>
@@ -52,7 +56,7 @@
     </div>
 
     <!-- STAY INFORMED -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
         <h2 class="stga-card-heading">
             STAY INFORMED
         </h2>
@@ -62,7 +66,7 @@
     </div>
 
     <!-- VOLUNTEER -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
         <h2 class="stga-card-heading">
             VOLUNTEER
         </h2>
@@ -72,7 +76,7 @@
     </div>
 
     <!-- MAKE A DONATION -->
-    <div class="w-full bg-gray-100 p-5 my-5 shadow-2xl bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+    <div class="action">
         <h2 class="stga-card-heading">
             MAKE A DONATION
         </h2>
@@ -86,6 +90,7 @@
         </p>
     </div>
 
+</div><!-- Flex -->
 
 
 <!-- Speak Out -->
@@ -318,6 +323,7 @@
         </p>
 
     </div>
+
 
 </div>
 

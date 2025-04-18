@@ -14,7 +14,7 @@ export default defineAppConfig({
         button: {
             
             slots: {
-                base: 'bg-(--ui-bg) dark:bg-(--ui-bg) shadow-md dark:shadow-sm shadow-black dark:shadow-white font-extrabold',
+                base: 'font-extrabold dark:bg-(--ui-bg-2) shadow-md dark:shadow-none shadow-black',
                 label: 'text-white dark:text-white break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
               },
         }, // Button
@@ -53,9 +53,9 @@ export default defineAppConfig({
         },
         card: {
             slots: {
-              header: '',
-              body: 'm-0 px-0',
-              footer: 'px-2'
+              header: 'm-0 p-0 flex items-start',
+              body: 'm-0 p-0',
+              footer: 'm-0 p-0 flex items-end'
             }
         }
 

@@ -50,25 +50,46 @@
     --color-gray-900:  #0f172a; /* gray-900 */
     --color-gray-950:  #020617; /* gray-950 */
 
+    /* Primary */
     --ui-primary: var(--ui-color-primary-800);
-    --ui-secondary: var(--ui-color-secondary-600);
-    --ui-tertiary: var(--ui-color-tertiary-500);
+    --ui-primary-1 : var(--ui-color-primary-600);
+    --ui-primary-2 : var(--ui-color-primary-300);
+
+    /* Secondary */
+    --ui-secondary:     var(--ui-color-secondary-600);
+    --ui-secondary-2:   var(--ui-color-secondary-400);
+    --ui-secondary-3:   var(--ui-color-secondary-200);
+    --ui-secondary-4:   var(--ui-color-secondary-100);
+    --ui-secondary-5:   var(--ui-color-secondary-50);
+    --ui-secondary-d:   var(--ui-color-secondary-800);
+    --ui-secondary-rd:  var(--ui-color-secondary-950);
+
+    /* Teriary */
+    --ui-tertiary: var(--color-amber-50);
+    --ui-tertiary-l: var(--ui-color--amber-400);
+    --ui-tertiary-rl: var(--ui-color--amber-200);
+    --ui-tertiary-d: var(--ui-color--amber-800);
+    --ui-tertiary-rd: var(--ui-color--amber-950);
+
+    /* General */
     --ui-success: var(--ui-color-success-500);
     --ui-info: var(--ui-color-info-500);
     --ui-warning: var(--ui-color-warning-500);
     --ui-error: var(--ui-color-error-500);
 
     /* Splash Page */
-    --ui-color-hero: var(--color-apple-300);
-    --ui-color-answer: var(--color-apple-300);
-    --ui-color-video:  var(--color-secondary-200);
+    --ui-color-hero: color: transparent;
+    --ui-color-answer: color: transparent;
+    --ui-color-video:  var(--ui-secondary-3);
     --ui-color-events: var(--color-gray-100);
-    --ui-color-news: var(--color-secondary-100);
-    --ui-color-join: var(--color-amber-200);
-    --ui-color-testimonials: var(--color-secondary-200);
+    --ui-color-news: var(--ui-secondary-3);
+    --ui-color-join: color: transparent;
+    --ui-color-testimonials:  var(--ui-secondary-3);
 
     /* Containers */
     --ui-bg: var(--color-white);
+    --ui-bg-1: var(--color-stone-100);
+    --ui-bg-2: var(--color-stone-200);
     --ui-bow: var(--ui-bg);
 
     /* Typography */
@@ -89,26 +110,38 @@
 .dark {
 
     /* Dark Palette */
-    --ui-primary: var(--ui-color-primary-600);
-    
-    --ui-secondary: var(--ui-color-secondary-600);
-    --ui-tertiary: var(--ui-color-tertiary-400);
+
+    /* Primary */
+    --ui-primary: var(--ui-color-primary-400);
+    --ui-primary-1 : var(--ui-color-primary-900);
+    --ui-primary-2 : var(--ui-color-primary-950);
+
+    /* Secondary */
+    --ui-secondary: var(--ui-color-secondary-500);
+    --ui-secondary-2: var(--ui-color-secondary-800);
+    --ui-secondary-3: var(--ui-color-secondary-950);
+    --ui-secondary-4:   var(--ui-color-secondary-950);
+    --ui-secondary-5:   var(--ui-color-secondary-950);
+
+    /* General */
     --ui-success: var(--ui-color-success-400);
     --ui-info: var(--ui-color-info-400);
     --ui-warning: var(--ui-color-warning-400);
     --ui-error: var(--ui-color-error-400);
 
     /* Dark Splash Page */
-    --ui-color-hero: var(--color-apple-300);
-    --ui-color-answer: var(--color-apple-300);
-    --ui-color-video: var(--color-secondary-950);
-    --ui-color-events:  var(--ui-secondary-950);
-    --ui-color-news: var(--color-primary-950);
-    --ui-color-join: var(--color-amber-400);
-    --ui-color-testimonials: var(--color-secondary-950);
+    --ui-color-hero:    color: transparent;
+    --ui-color-answer:  color: transparent;
+    --ui-color-video:   var(--ui-primary-2);
+    --ui-color-events:  var(--color-gray-200);
+    --ui-color-news:    var(--ui-primary-2);
+    --ui-color-join:    color: transparent;
+    --ui-color-testimonials: var(--ui-primary-2);
 
     /* Dark Containers */
-    --ui-bg: var(--color-gray-950);
+    --ui-bg:    var(--color-gray-950);
+    --ui-bg-1:  var(--color-gray-900);
+    --ui-bg-2:  var(--color-gray-800);
 
     /* Dark Typography */
 

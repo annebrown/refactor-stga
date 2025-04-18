@@ -17,7 +17,8 @@
             </span>
 
             <!-- Town -->
-            <span class="transom absolute top-[2.5rem] left-[5rem]">
+            <span class="transom absolute top-[2.5rem] left-[5rem]
+                text-(--ui-text-dimmed) text-sm">
                 Arnprior, ON
             </span>
 
@@ -25,33 +26,33 @@
 
          <!-- Contacts & Socials-->
         <div class="w-full">
-            <ShipSocialIcons class="w-full mx-auto mt-[1.5rem] text-center" />
+            <ShipSocialIcons class="w-full mx-auto mt-[1rem] text-center" /><br />
         </div>
 
         <!-- Menu  -->
-        <div class="flex-none flex">
+        <div class="flex-none flex text-(--ui-text-dimmed)">
 
             <!-- Spacer-->
             <div class="flex-1"> </div>
 
-            <div class="flex-none w-fit">
-                <span class="font-extrabold text-xl">Menu</span>
+            <div class="flex-none w-fit mt-0 pb-5 pt-0">
+                <span class="font-extrabold text-ld">Menu</span>
                 <ul class="">
-                    <li class="stga-transom"><ULink to="/blog">Blog</ULink></li>
-                    <li class="stga-transom"><ULink to="/action">Get Involved!</ULink></li>
-                    <li class="stga-transom"><ULink to="/about">About</ULink></li>
+                    <li class="transom-menu-item"><ULink to="/blog">Blog</ULink></li>
+                    <li class="transom-menu-item"><ULink to="/action">Get Involved!</ULink></li>
+                    <li class="transom-menu-item"><ULink to="/about">About</ULink></li>
                 </ul>
             </div>
         </div><!-- Menu  -->
 
     </div><!-- Flex  -->
     <!-- Copyright -->
-    <div class="w-full pb-2 text-center">
-        Copyright <ULink to="/admin" class="text-(--ui-text)">@</ULink> 2025 Save the Grove Again
+    <div class="w-full -mt-10 text-center text-sm text-(--ui-text-dimmed)">
+        Copyright <ULink to="/admin" class="text-(--ui-text-dimmed)">@</ULink> 2025 Save the Grove Again
     </div>
 
     
 </div><!-- Transom  -->
 
-</div></template>    
+</div></template>   
 <!--------@/app/components/ship/Transom.vue------------------------------------>

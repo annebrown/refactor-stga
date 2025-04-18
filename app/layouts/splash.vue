@@ -6,8 +6,6 @@
 
         <main><slot class="" /></main>
 
-        <ShipPageSignature />
-
     </div><!-- Cargo -->
 
 </div></template><!-- Layout (Single Root Element) -->

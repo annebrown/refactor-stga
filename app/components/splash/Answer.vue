@@ -22,7 +22,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
+                    :ui="{ base: 'justify-center text-center text-lg  dark:bg-(--ui-bg-2) shadow-lg' }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -31,7 +31,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
+                    :ui="{ base: 'justify-center text-center text-lg dark:text-(--ui-secondary) dark:bg-(--ui-bg-2) shadow-lg' }"
                 />
                 <!-- Button - Donate Today! -->
                 <UButton 
@@ -40,7 +40,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
+                    :ui="{ base: 'justify-center text-center text-lg dark:bg-(--ui-bg-2) shadow-lg' }"
                 />
             </div><!-- Buttons -->
             
