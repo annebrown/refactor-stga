@@ -9,16 +9,16 @@
 <!-- <NuxtPath /> -->
 
 <UApp>
-    <div class="flex flex-col"><!-- For Z Index -->
+    <div class="w-full mx-auto flex flex-col max-w-4xl">
 
         <!-- Bow -->
-        <ShipBow id="bow" class="z-100 mt-0 sm:mt-2 sm:mb-1"/>
+        <ShipBow id="bow" class="z-100 w-full my-1"/>
     
         <!-- Midships -->
-        <NuxtPage id="midships" class="z-10 mt-[4.5rem]" />
+        <NuxtPage id="midships" class="z-10 w-full mt-[4.5rem]" />
 
         <!-- Transom -->
-        <ShipTransom id="transom" class="" />
+        <ShipTransom id="transom" class="w-full" />
 
     </div>
 </UApp>

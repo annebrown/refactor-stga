@@ -1,17 +1,17 @@
 <!--------@/app/layouts/blog.vue----------------------------------------------->
 <template><div><!-- Layout (Single Root Element) -->
 
-<!-- Blog Post -->
+<!-- Blog Post Layout -->
 <UCard 
     variant="subtle"
-    class="mx-auto my-8 p-6 rounded-4xl shadow-lg max-w-2xl"
+    class="mx-auto my-8 p-6 rounded-4xl shadow-lg bg-(--ui-color-news)"
 >
 
     <!-- Blog Meta -->
     <template #header v-if="currentBlogMeta" class="rounded-3xl">
     
         <!-- Title -->
-        <h1 class="!text-left text-3xl font-extrabold">{{ currentBlogMeta.title }}</h1>
+        <h1>{{ currentBlogMeta.title }}</h1>
 
         <!-- Bi-Line -->
         <p class="text-lg font-bold">{{ currentBlogMeta.paragraph }}</p>
@@ -45,7 +45,10 @@
         <slot />
     </div>
 
-    <ShipPageSignature class="py-5 text-(--ui-secondary)"/>
+    <!-- Page Signature -->
+    <template #footer class="rounded-3xl">
+        <ShipPageSignature />
+    </template>
 
 </UCard>
 

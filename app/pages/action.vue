@@ -1,11 +1,6 @@
 <!--------@/pages/action.vue--------------------------------------------------->
 <template><div>
-
-<!-- Title -->
-<h1>Get Involved!</h1>
-
-<!-- Flex - Get Involved! -->
-<div class="flex-col columns-1 md:columns-2 break-inside-avoid-column mx-4 mb-10">
+<NuxtLayout name="pages">
 
     <!-- PETITION -->
     <div class="break-before-column w-full bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
@@ -91,7 +86,7 @@
         </p>
     </div>
 
-</div><!-- Flex - Get Involved! -->
+
 
 <!-- Speak Out -->
 <div class="m-5 p-10 bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
@@ -326,10 +321,7 @@
 
 </div>
 
- 
-    <ShipPageSignature class="py-8 text-(--ui-secondary)" />
-   
-
+</NuxtLayout>
 </div></template>
 
 <style scoped>
@@ -341,4 +333,10 @@
   text-align: left; 
 }
 </style>
+
+<script setup lang='ts'>
+    definePageMeta({ 
+        title: 'Get Involved!', 
+    })
+</script>
 <!--------@/pages/action.vue--------------------------------------------------->

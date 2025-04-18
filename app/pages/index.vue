@@ -1,30 +1,22 @@
 <!--------@/pages/index.vue---------------------------------------------------->
 <template><div>
-    <NuxtLayout name="splash">
+<NuxtLayout name="splash">
 
-        <SplashHero class="w-full mb-0  
-            bg-(--ui-bg) "/>
+        <SplashHero class="     bg-(--ui-bg) "/>
 
-        <SplashAnswer class="mx-4 mb-8 
-           bg-(--ui-bg)" />
+        <SplashAnswer class="   bg-(--ui-bg)" />
 
-        <SplashVideo class="bg-(--ui-color-video)" />
+        <SplashVideo class="    bg-(--ui-color-video)" />
 
-        <SplashEventsCalendar class="pb-8 mb-0 shadow-lg
-            bg-(--ui-color-events) " />
+        <SplashEventsCalendar class="m-4 bg-(--color-gray-100) rounded-xl" />
 
-        <BlogOnlyLatest class="mb-14 pb-18
-            bg-(--ui-color-news)" />
+        <BlogOnlyLatest class=" bg-(--ui-color-news)" />
 
-        <SplashJoin class="ml-4 mb-14 
-           bg-(--ui-bg)" />
+        <SplashJoin class="     bg-(--ui-bg)"/>
 
-        <SplashTestimonials class="
-            bg-(--ui-color-testimonials) shadow-xl" />
+        <SplashTestimonials class="bg-(--ui-color-testimonials)" />
 
-        <ShipPageSignature id="page-signature" class="py-8 text-3xl" />
-
-    </NuxtLayout>
+</NuxtLayout>
 </div></template>
 
 <script setup lang='ts'>

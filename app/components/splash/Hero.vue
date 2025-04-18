@@ -5,7 +5,7 @@
     <div class="relative w-full">
         <!-- Hero Image -->
         <div 
-            class="w-full p-2"
+            class="w-full p-2 pb-0"
         >
             <img
                     class="z-1 relative w-full rounded-4xl"

@@ -1,11 +1,7 @@
 <!--------@/pages/FAQ.vue------------------------------------------------------>
 <template><div>
+<NuxtLayout name="pages">
 
-    <h1>FAQ</h1>
-
-    <h2 class="text-3xl pb-5 mb-5 font-bold text-center">
-        Frequently Asked Questions
-    </h2>
             <div class="flex-col columns-1 md:columns-2 col-gap-10 row-gap-4 m-8">
   
                 <div class="p-4 break-inside-avoid-column bg-(--ui-color-testimonials) rounded-md mb-4">
@@ -112,9 +108,8 @@
             </a>
         </p>
  
-    <ShipPageSignature class="pb-8 text-(--ui-secondary)" />
-   
 
+</NuxtLayout>
 </div></template>
 
 <script setup lang='ts'>

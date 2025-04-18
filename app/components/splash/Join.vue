@@ -2,7 +2,7 @@
 <template><div>
 
 <!-- Grid -->
-<div class="grid grid-cols-1 gap-4 sm:grid-cols-2 w-full z-30 align-items-center">
+<div class="z-30 grid grid-cols-1 sm:grid-cols-2  gap-4 w-full py-10 align-items-center">
 
     <!-- Text & Button -->
     <div class="align-items-center">

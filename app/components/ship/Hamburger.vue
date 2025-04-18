@@ -10,7 +10,7 @@
             <!-- Hamburger Icon -->
             <UButton 
                 variant="link" 
-                class="sm:hidden shadow-md"
+                class="sm:hidden shadow-md -mt-0.5"
                 icon="i-heroicons-bars-3"
                 aria-label="Hamburber Menu"
                 :ui="{

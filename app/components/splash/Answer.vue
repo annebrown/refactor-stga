@@ -2,27 +2,27 @@
 <template><div>
 
     <!-- w-full -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 w-full p-4">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full my-10 px-2">
 
         <!-- Answer & Buttons -->
-        <div class="inline-block py-auto pr-4 align-middle">
+        <div class="my-auto mx-auto pl-2">
             <!-- Answer -->
-            <p class="px-4text-justify font-bold 
+            <p class="!text-justify font-bold 
                 text-(--ui-primary) text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
             </p>
 
            <!-- Buttons -->
-            <div class="w-full grid grid-cols-1 sm:grid-cols-3 align-middle my-10 mx-auto gap-4">
+            <div class="w-1/2 sm:w-full grid grid-cols-1 sm:grid-cols-3 align-middle my-4 mx-auto gap-4">
                 <!-- Button - Subscribe -->
                 <UButton 
                     label="Subscribe"
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class="shrink"
-                    :ui="{ base: 'flex p-4 justify-center' }"
+                    class="flex"
+                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -30,8 +30,8 @@
                     to="https://www.change.org/p/save-the-grove-again-7292e6ca-eb8e-426a-8809-0bb608f24120" 
                     target="_blank"
                     active
-                    class="shrink"
-                    :ui="{ base: 'flex p-4 justify-center text-white' }"
+                    class="flex"
+                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
                 />
                 <!-- Button - Donate Today! -->
                 <UButton 
@@ -39,15 +39,15 @@
                     to="/donations" 
                     target="_blank"
                     active
-                    class="shrink"
-                    :ui="{ base: 'flex p-4 justify-center text-white dark:text-(--ui-primary)' }"
+                    class="flex"
+                    :ui="{ base: 'justify-center text-center text-lg shadow-lg' }"
                 />
             </div><!-- Buttons -->
             
         </div><!-- Answer & Buttons -->
 
         <!-- Map -->
-        <div class="inline-block my-auto align-middle">
+        <div class="mx-auto my-auto">
             <img 
                 src="/images/answer/map.svg" 
                 alt="Map showing outline of proposed development area, a strip of wooded property bordering the Ottawa River" 

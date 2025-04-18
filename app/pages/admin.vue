@@ -1,15 +1,14 @@
 <!--------@/pages/blog.vue----------------------------------------------------->
-<!-- Blog Routes -->
-<script setup lang="ts">
-definePageMeta({
-  layout: 'blog',
-//   middleware: 'auth',
-})
-</script>
-
 <template><div>
-    <NuxtLayout name="blog">
+    <NuxtLayout name="pages">
         <NuxtPage />
     </NuxtLayout>
 </div></template>
+
+<script setup lang="ts">
+definePageMeta({
+    layout: 'pages',
+    //   middleware: 'auth',
+})
+</script>
 <!--------@/pages/blog.vue----------------------------------------------------->

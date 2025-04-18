@@ -35,8 +35,7 @@ export default defineAppConfig({
                 active: {
                   true: 'text-(--ui-primary)',
                   false: [
-                    'text-(--ui-secondary) hover:text-(--ui-primary)',
-                    'transition-colors'
+                    'text-(--ui-secondary) hover:text-(--ui-primary)'
                   ]
                 },
                 disabled: {
@@ -51,6 +50,13 @@ export default defineAppConfig({
                     }
                 }
             ]
+        },
+        card: {
+            slots: {
+              header: '',
+              body: 'm-0 px-1',
+              footer: 'px-2'
+            }
         }
 
     } // @nuxt/ui V3

@@ -61,9 +61,9 @@
     /* Splash Page */
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
-    --ui-color-video:  var(--color-amber-400);
+    --ui-color-video:  var(--color-secondary-200);
     --ui-color-events: var(--color-gray-100);
-    --ui-color-news: var(--color-amber-100);
+    --ui-color-news: var(--color-secondary-100);
     --ui-color-join: var(--color-amber-200);
     --ui-color-testimonials: var(--color-secondary-200);
 
@@ -101,11 +101,11 @@
     /* Dark Splash Page */
     --ui-color-hero: var(--color-apple-300);
     --ui-color-answer: var(--color-apple-300);
-    --ui-color-video: var(--color-amber-500);
+    --ui-color-video: var(--color-secondary-950);
     --ui-color-events:  var(--ui-secondary-950);
     --ui-color-news: var(--color-primary-950);
     --ui-color-join: var(--color-amber-400);
-    --ui-color-testimonials: var(--color-apple-900);
+    --ui-color-testimonials: var(--color-secondary-950);
 
     /* Dark Containers */
     --ui-bg: var(--color-gray-950);
@@ -130,5 +130,4 @@
 /******************************************************************************/
 body { @apply antialiased text-(--ui-text) bg-(--ui-bg); }
 #bow { @apply bg-(--ui-bow); }
-#page-signature { @apply text-(--ui-secondary); }
 /*--------@/app/assets/css/palette.css----------------------------------------->
