@@ -1,7 +1,7 @@
 <!--------@/pages/blog/posts/post-2025-03-31-00.vue---------------------------->
 <template><div>
 
-<div class="w-full mx-auto mb-8">
+<div class="w-full mx-auto">
     <img
         src="/images/blog/blog0019/blog19.png"
         alt="Forest with text: Call of the Forest, A film by Jeff McKay, and other details"

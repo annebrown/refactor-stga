@@ -4,28 +4,31 @@
 <!-- Default @/pages Page Layout -->
 <UCard 
     variant="subtle"
-    class="mb-10 mx-2 rounded-3xl bg-(--color-apple-200)"
+    class="mb-10 mx-2 
+        rounded-3xl bg-(--color-apple-200) dark:bg-(--color-primary-950)"
 >
 
     <!-- Page Meta -->
     <template #header class="h-fit mx-auto p-0">
-    
-        <!-- Title -->
+
+
+        <!-- Title? -->
         <div
             v-if="route.meta.title"
             class="m-0 p-0 mx-auto"
         >
+
+            <!-- Title -->
             <div class="text-4xl font-extrabold text-center">
                 {{ route.meta.title }}
             </div>
-      
-        <div
-            v-if="route.meta.title"
-            class="m-0 p-0 text-center"
-        >
-            <span>{{ route.meta.description }}</span>
-        </div>
-        </div>
+
+            <!-- Description? -->
+            <div v-if="route.meta.title" class="m-0 p-0 text-center">
+                {{ route.meta.description }}
+            </div>
+
+        </div><!-- Title? -->
 
     </template><!-- Page Meta -->
 

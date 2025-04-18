@@ -7,8 +7,8 @@
     class="mx-auto my-8 p-6 rounded-4xl shadow-lg bg-(--ui-color-news)"
 >
 
-    <!-- Blog Meta -->
-    <template #header v-if="currentBlogMeta" class="rounded-3xl">
+    <!-- Blog Header -->
+    <template #header v-if="currentBlogMeta" class="">
     
         <!-- Title -->
         <h1>{{ currentBlogMeta.title }}</h1>
@@ -30,7 +30,7 @@
                 <!-- Tag -->
             <div class="flex-0">
                 <UButton 
-                    class="z-2 p-2 inline-block rounded-3xl  uppercase"
+                    class="z-2 p-2 inline-block rounded-3xl  uppercase shadow-none dark:shadow-none text-white"
                     variant="solid">
                     {{ currentBlogMeta.tags[0] }}
                 </UButton>
@@ -41,7 +41,7 @@
     </template><!-- Blog Meta -->
 
     <!-- Blog Content -->
-    <div class="pt-8">
+    <div class="m-0 p-0">
         <slot />
     </div>
 

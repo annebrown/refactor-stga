@@ -54,7 +54,7 @@ export default defineAppConfig({
         card: {
             slots: {
               header: '',
-              body: 'm-0 px-1',
+              body: 'm-0 px-0',
               footer: 'px-2'
             }
         }
