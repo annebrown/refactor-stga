@@ -14,9 +14,15 @@
 
 
 /******************************************************************************/
-/* Decorations
+/* FAQ
 /******************************************************************************/
-.splash-shadow {
-    @apply shadow-[35px_0];
+.faq {
+    @apply py-2 px-1;
+}
+.faq-item-colored {
+    @apply m-2 p-4 bg-(--ui-color-testimonials) rounded-md;
+}
+.faq-item {
+    @apply m-2 p-4 rounded-md;
 }
 /*--------@/assets/css/ship.css-----------------------------------------------*/
