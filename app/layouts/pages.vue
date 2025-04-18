@@ -15,14 +15,17 @@
             v-if="route.meta.title"
             class="m-0 p-0 mx-auto"
         >
-            <span class="text-4xl font-extrabold text-center">{{ route.meta.title }}</span>
-        </div><br />
+            <div class="text-4xl font-extrabold text-center">
+                {{ route.meta.title }}
+            </div>
+      
         <div
             v-if="route.meta.title"
             class="m-0 p-0 text-center"
         >
             <span>{{ route.meta.description }}</span>
-    </div>
+        </div>
+        </div>
 
     </template><!-- Page Meta -->
 
