@@ -25,7 +25,6 @@ p { @apply text-justify py-2; }
 /******************************************************************************/
 /* Bow
 /******************************************************************************/
-#bow { @apply bg-(--ui-bow); }
 .mainmenu { @apply text-2xl font-bold;
     font-family: 'Bebas Neue', sans-serif;
 }

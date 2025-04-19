@@ -132,13 +132,11 @@
     </p>
 
 
-    <p class="pt-8  pb-1 
-    text-center text-2xl weight-bold text-[#165D8F] ">
+    <p class="pt-8 pb-1 text-2xl weight-bold text-[#165D8F] !text-center">
         Together we can find a better way!
     </p>
 
-    <p class="pt-8  pb-8 
-    text-center text-2xl weight-bold text-[#165D8F] ">
+    <p class="pt-8  pb-8 text-2xl weight-bold text-[#165D8F] !text-center">
         Together, we can make a difference.
     </p>
 

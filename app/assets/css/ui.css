@@ -14,16 +14,12 @@
 .stga-button {  @apply break-words 
         justify-center text-center text-lg font-bold
         rounded-md bg-(--ui-secondary) dark:bg-(--ui-bg-2) 
+        text-(--ui-bg) dark:text-(--ui-text)
         shadow-md dark:shadow-xs shadow-black dark:shadow-white/50; 
 }
-.stga-button-label { 
-    @apply text-white dark:text-(--ui-secondary)
-        fill-white dark:fill-(--ui-secondary)
-        stroke-white dark:stroke-(--ui-secondary); 
-}
+.stga-button-icon { --ui-radius-round: 1.5rem; }
 .stga-button-round  { --ui-radius-round: 1.5rem; }
-.stga-quiet-button  { @apply shadow-sm; }
-.stga-loud-button   { @apply shadow-2xl; }
-
+.stga-button-quiet  { @apply shadow-sm; }
+.stga-button-loud   { @apply shadow-2xl; }
 .stga-button-dimmed { @apply opacity-50; }
 /*--------@/assets/css/UI.css-------------------------------------------------*/
