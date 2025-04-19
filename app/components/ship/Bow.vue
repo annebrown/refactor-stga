@@ -2,11 +2,14 @@
 <template><div>
 
 <!-- Bow -->
-<div class="fixed flex flex-row w-full max-w-4xl h-[4.5rem] rounded-4xl bg-(--ui-bow)">
+<div class="fixed flex flex-row w-full max-w-4xl h-[4rem] ml-2
+    rounded-s-[calc(var(--ui-radius-round)*2)] rounded-e-none
+    bg-(--ui-bow)
+    ">
 
     <!-- Logo -->
     <span class="shrink">
-        <ShipLogo class="shrink inline-block ml-1 mt-1" />
+        <ShipLogo class="shrink inline-block ml-1.5 mt-2" />
     </span>
 
     <!-- Spacer-->

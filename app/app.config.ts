@@ -3,19 +3,19 @@ export default defineAppConfig({
     // @nuxt/ui V3
     ui: {
         colors: {
-            primary: 'sky',
-            secondary: 'apple',
-            tertiary: 'amber',
-            neutral: 'gray',
-            success: 'green',
-            warning: 'yellow',
-            error: 'red',
+            primary:    'sky',
+            secondary:  'apple',
+            tertiary:   'amber',
+            neutral:    'gray',
+            success:    'green',
+            warning:    'yellow',
+            error:      'red',
         },
         button: {
             
             slots: {
-                base: 'font-extrabold dark:bg-(--ui-bg-2) shadow-md dark:shadow-none shadow-black',
-                label: 'text-white dark:text-white break-words whitespace-normal overflow-visible', // Overrides the default 'truncate'
+                base: 'stga-button',
+                label: 'justify-center text-center  stga-button-label', // Overrides the default 'truncate'
               },
         }, // Button
 

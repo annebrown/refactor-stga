@@ -10,7 +10,7 @@
           color="primary"
           active
           :ui="{
-            link: 'stga-mainmenu  active:text-(--ui-primary)  hover:text-(--ui-primary)',
+            link: 'mainmenu  active:text-(--ui-primary)  dark:active:text-(--ui-tertiary) hover:text-(--ui-primary) dark:hover:text-(--ui-tertiary)',
           }"
         />
       </nav>

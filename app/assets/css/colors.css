@@ -1,0 +1,184 @@
+/*--------@/app/assets/css/Colors.css------------------------------------------>
+/******************************************************************************/
+/*
+/* Colors
+/* 
+/******************************************************************************/
+@theme static {
+    /**************************************************************************/
+    /* Colors
+    /**************************************************************************/
+    --color-amber-50:  #fffbeb; /* amber-50 */
+    --color-amber-100: #fef3c7; /* amber-100 */
+    --color-amber-200: #fde68a; /* amber-200 */
+    --color-amber-300: #fcd34d; /* amber-300 */
+    --color-amber-400: #fbbf24; /* amber-400 */
+    --color-amber-500: #f59e0b; /* amber-500 */
+    --color-amber-600: #d97706; /* amber-600 */
+    --color-amber-700: #b45309; /* amber-700 */
+    --color-amber-800: #92400e; /* amber-800 */
+    --color-amber-900: #78350f; /* amber-900 */
+    --color-amber-950: #451a03; /* amber-950 */
+
+    --color-apple-50:  #F6FAF2; /* apple-50 */
+    --color-apple-100: #EEF7E6; /* apple-100 */
+    --color-apple-200: #D3EBC3; /* apple-200 */
+    --color-apple-300: #B5DEA2; /* apple-300 */
+    --color-apple-400: #79C767; /* apple-400 */
+    --color-apple-500: #3BAE37; /* apple-500 */
+    --color-apple-600: #319C2D; /* apple-600 */
+    --color-apple-700: #23821F; /* apple-700 */
+    --color-apple-800: #176914; /* apple-800 */
+    --color-apple-900: #0C4F0B; /* apple-900 */
+    --color-apple-950: #053305; /* apple-950 */
+
+    --color-gray-50:   #f9fafb; /* gray-50 */
+    --color-gray-100:  #f3f4f6; /* gray-100 */
+    --color-gray-200:  #e2e8f0; /* gray-200 */
+    --color-gray-300:  #cbd5e1; /* gray-300 */
+    --color-gray-400:  #94a3b8; /* gray-400 */
+    --color-gray-500:  #64748b; /* gray-500 */
+    --color-gray-600:  #475569; /* gray-600 */
+    --color-gray-700:  #334155; /* gray-700 */
+    --color-gray-800:  #1e293b; /* gray-800 */
+    --color-gray-900:  #0f172a; /* gray-900 */
+    --color-gray-950:  #020617; /* gray-950 */
+    /**************************************************************************/
+    /* Palette
+    /**************************************************************************/
+    /* Primary */
+    --ui-primary:       var(--ui-color-primary-800);
+    --ui-primary-1 :    var(--ui-color-primary-600);
+    --ui-primary-2 :    var(--ui-color-primary-300);
+    /* Secondary */
+    --ui-secondary:     var(--ui-color-secondary-600);
+    --ui-secondary-2:   var(--ui-color-secondary-400);
+    --ui-secondary-3:   var(--ui-color-secondary-200);
+    --ui-secondary-4:   var(--ui-color-secondary-100);
+    --ui-secondary-5:   var(--ui-color-secondary-50);
+    --ui-secondary-d:   var(--ui-color-secondary-800);
+    --ui-secondary-rd:  var(--ui-color-secondary-950);
+    /* Teriary */
+    --ui-tertiary:      var(--color-amber-200);
+    --ui-tertiary-1:    var(--ui-color--amber-400);
+    --ui-tertiary-2:    var(--ui-color--amber-200);
+    /**************************************************************************/
+    /* Ship
+    /**************************************************************************/
+    --ui-bg:    var(--color-white);
+    --ui-bg-1:  var(--color-stone-100);
+    --ui-bg-2:  var(--color-stone-200);
+    --ui-bow:   var(--ui-bg);
+    /**************************************************************************/
+    /* General 
+    /**************************************************************************/
+    --ui-success:   var(--ui-color-success-500);
+    --ui-info:      var(--ui-color-info-500);
+    --ui-warning:   var(--ui-color-warning-500);
+    --ui-error:     var(--ui-color-error-500);
+    /**************************************************************************/
+    /* Splash Page
+    /**************************************************************************/
+    --ui-color-hero:        color: transparent;
+    --ui-color-answer:      color: transparent;
+    --ui-color-video:       var(--ui-secondary-3);
+    --ui-color-events:      var(--color-gray-100);
+    --ui-color-news:        var(--ui-secondary-3);
+    --ui-color-join:        color: transparent;
+    --ui-color-voices:      var(--ui-secondary-3);
+    /**************************************************************************/
+    /* Typography
+    /**************************************************************************/
+    /* Least prominent text */
+    --ui-text-dimmed:   var(--ui-color-neutral-400);
+    /* Slightly muted text */
+    --ui-text-muted:    var(--ui-color-neutral-500);
+    /* Moderately prominent text */
+    --ui-text-toned:    var(--ui-color-neutral-600);
+    /* Default text color */
+    --ui-text:          var(--ui-color-neutral-900);
+    /* Most prominent text */
+    --ui-text-highlighted: var(--ui-color-neutral-950);
+}
+/******************************************************************************/
+/*
+/* Dark
+/* 
+/******************************************************************************/
+.dark {
+    /**************************************************************************/
+    /* Palette - Dark
+    /**************************************************************************/
+    /* Primary */
+    --ui-primary:       var(--ui-color-primary-400);
+    --ui-primary-1 :    var(--ui-color-primary-900);
+    --ui-primary-2 :    var(--ui-color-primary-950);
+    /* Secondary */
+    --ui-secondary:     var(--color-apple-400);
+    --ui-secondary-1:   var(--color-apple--200);
+    --ui-secondary-2:   var(--color-apple--150);
+
+    /* Teriary */
+    --ui-tertiary:      var(--color-amber-200);
+    --ui-tertiary-1:    var(--color-amber-100);
+    --ui-tertiary-2:    var(--color-amber-50);
+    /**************************************************************************/
+    /* Ship - Dark
+    /**************************************************************************/
+    --ui-bg:    var(--color-gray-950);
+    --ui-bg-1:  var(--color-gray-900);
+    --ui-bg-2:  var(--color-gray-800);
+    --ui-bow:   var(--ui-bg);
+    /**************************************************************************/
+    /* General - Dark
+    /**************************************************************************/
+    --ui-success:   var(--ui-color-success-400);
+    --ui-info:      var(--ui-color-info-400);
+    --ui-warning:   var(--ui-color-warning-400);
+    --ui-error:     var(--ui-color-error-400);
+    /**************************************************************************/
+    /* Splash Page - Dark
+    /**************************************************************************/
+    --ui-color-hero:    color: transparent;
+    --ui-color-answer:  color: transparent;
+    --ui-color-video:   var(--ui-primary-2);
+    --ui-color-events:  var(--color-gray-200);
+    --ui-color-news:    var(--ui-primary-2);
+    --ui-color-join:    color: transparent;
+    --ui-color-voices:  var(--ui-primary-2);
+    /**************************************************************************/
+    /* Typography - Dark
+    /**************************************************************************/
+    /* Least prominent text */
+    --ui-text-dimmed:   var(--ui-color-neutral-500);
+    /* Slightly muted text */
+    --ui-text-muted:    var(--ui-color-neutral-400);
+    /* Moderately prominent text */
+    --ui-text-toned:    var(--ui-color-neutral-300);
+    /* Default text color */
+    --ui-text:          var(--ui-color-neutral-200);
+    /* Most prominent text */
+    --ui-text-highlighted: var(--color-white);
+}
+
+/******************************************************************************/
+/* Bow
+/******************************************************************************/
+#bow { @apply bg-(--ui-bow); }
+.mainmenu { @apply text-2xl font-bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/******************************************************************************/
+/* Typography
+/******************************************************************************/
+
+/******************************************************************************/
+/* Socials
+/******************************************************************************/
+.youtube {
+    @apply text-[#FF0000] fill-[#FF0000] stroke-[#FF0000];
+}
+.facebook, .github, .instagram { @apply text-transparent stroke-transparent
+    fill-transparent;
+}
+/*--------@/app/assets/css/Colors.css------------------------------------------>

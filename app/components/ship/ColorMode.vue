@@ -5,11 +5,12 @@
         <UButton
             @click="onClick"
             variant="link"
-            class="bg-(--ui-bg) shadow-md text-white dark:text-white"
             :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
             :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
             :ui="{
-                leadingIcon: 'text-(--ui-secondary) size-6'
+                leadingIcon: ' size-6',
+                base: 'stga-button stga-button-label radius-(--ui-radius-round)',
+                label: 'stga-button-label stga-button-round'
             }"
         />
 

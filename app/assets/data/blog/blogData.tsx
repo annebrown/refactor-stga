@@ -17,6 +17,24 @@ export const blogData = [
     },
     */
     {
+        id:20,
+        title: "Federal ARP Candidates Speak to Gillies Grove",
+        paragraph:
+          "MP hopefuls share their positions on development and conservation",
+        image: "/images/blog/blog20.png",
+        alt: "Voter card held above ballot box in forest setting",
+        width: 500,
+        height: 280,
+        author: {
+          name: "",
+          image: "",
+          designation: "",
+        },
+        tags: ["OPINION"],
+        publishDate: "April 19, 2025",
+        blogURL: "/blog/posts/post-2025-04-19-00"
+    },
+    {
         id: 19,
         title: "'Call of the Forest' The Forgotten Wisdom of Trees",
         paragraph:
@@ -31,7 +49,7 @@ export const blogData = [
     },
     {
         id: 18,
-        title: "Election day: Candidates weigh in on protecting Gillies Grove",
+        title: "Election day: Candidates Weigh in on Protecting Gillies Grove",
         paragraph:
           "Two candidates respond to STGA questionnaire",
         image: "/images/blog/blog0018/blog18.png",

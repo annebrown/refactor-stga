@@ -14,7 +14,7 @@
 
         <SplashJoin class="     bg-(--ui-color-join)"/>
 
-        <SplashTestimonials class="bg-(--ui-color-testimonials) rounded-3xl" />
+        <SplashTestimonials class="bg-(--ui-color-voices) rounded-3xl" />
 
         <ShipPageSignature class="text-center my-8" />
 

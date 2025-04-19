@@ -1,14 +1,14 @@
 <!--------@/app/components/splash/Answer.vue----------------------------------->
 <template><div>
 
-    <!-- w-full -->
+    <!-- Answer -->
     <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full my-10 px-2">
 
         <!-- Answer & Buttons -->
         <div class="my-auto mx-auto pl-2">
             <!-- Answer -->
             <p class="!text-justify font-bold 
-                text-(--ui-primary) text-2xl"
+                text-(--ui-primary) dark:text-(--ui-primary-1) text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
             </p>
@@ -22,7 +22,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg  dark:bg-(--ui-bg-2) shadow-lg' }"
+                    :ui="{ base: 'stga-button', label: 'stga-button-label' }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -31,7 +31,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg dark:text-(--ui-secondary) dark:bg-(--ui-bg-2) shadow-lg' }"
+                    :ui="{ base: 'stga-button', label: ''  }"
                 />
                 <!-- Button - Donate Today! -->
                 <UButton 
@@ -40,7 +40,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'justify-center text-center text-lg dark:bg-(--ui-bg-2) shadow-lg' }"
+                    :ui="{ base: 'stga-button', label: ''  }"
                 />
             </div><!-- Buttons -->
             
@@ -55,11 +55,11 @@
                 priority 
                 width=1301 
                 height=1148 
-                class="rounded-2xl"
+                class="splash-map"
             />
         </div>
 
-    </div><!-- w-full -->
+    </div> <!-- Answer -->
  
 </div></template>
 <!--------@/app/components/splash/Answer.vue----------------------------------->

@@ -13,17 +13,17 @@
 >
 
     <!-- CARD HEADER -->
-    <template #header class="leading-none">
+    <template #header >
 
 
-        <!-- Title? -->
+        <!-- Blog Meta - Title? -->
         <div
             v-if="route.meta.title"
-            class="m-0 mt-4 p-0 mx-auto"
+            class="mt-4 mx-auto"
         >
 
             <!-- Title -->
-            <div class="mb-0 pb-0 text-4xl font-extrabold text-center">
+            <div class="text-4xl font-extrabold text-center">
                 {{ route.meta.title }}
             </div>
 
@@ -44,7 +44,7 @@
     </div>
 
     <!-- CARD FOOTER -->
-    <template #footer class="m-0 p-0 leading-none">
+    <template #footer class=""">
         <!-- Page Signature -->
         <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
     </template>

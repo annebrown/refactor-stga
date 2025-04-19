@@ -9,12 +9,12 @@
 
             <!-- Hamburger Icon -->
             <UButton 
-                variant="link" 
-                class="sm:hidden shadow-md -mt-0.5"
+                variant="soft" 
+                class="stga-button stga-quiet-button sm:hidden -mt-0.5"
                 icon="i-heroicons-bars-3"
                 aria-label="Hamburber Menu"
                 :ui="{
-                    leadingIcon: 'text-(--ui-secondary) size-6'
+                    leadingIcon: 'text-white size-6'
                 }"
             />              
 

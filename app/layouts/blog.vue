@@ -3,53 +3,68 @@
 
 <!-- Blog Post Layout -->
 <UCard 
-    variant="link"
-    class="mb-4 rounded-4xl shadow-lg bg-(--ui-color-news)"
+variant="link"
+    :ui="{ 
+        header: 'm-0 p-0 flex items-start', 
+        footer: 'm-0 p-0 flex items-end',
+        body: 'm-0 p-0' 
+    }"
+    class="mb-4 rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)"
 >
 
-    <!-- Blog Header -->
-    <template #header v-if="currentBlogMeta" class="">
+    <!-- CARD HEADER -->
+    <template #header v-if="currentBlogMeta">
     
-        <!-- Title -->
-        <h1>{{ currentBlogMeta.title }}</h1>
+        <!-- Blog Meta -->
+        <div class="mt-4 mx-auto">
 
-        <!-- Bi-Line -->
-        <p class="text-lg font-bold">{{ currentBlogMeta.paragraph }}</p>
-        
-        <!-- Date & Tag -->
-        <div class="w-full py-5 flex flex-row">
+            <!-- Title -->
+            <p class="pt-8 text-4xl font-extrabold !text-center">
+                {{ currentBlogMeta.title }}
+            </p>
+
+            <!-- Bi-Line -->
+            <p class="my-5 text-xl font-bold !text-center">
+                {{ currentBlogMeta.paragraph }}
+            </p>
+            
+            <!-- Date & Tag -->
+            <p class="w-full py-5 flex flex-row">
 
                 <!-- Publication Date -->
-            <div class="">
-                {{ formatDate(currentBlogMeta.publishDate) }}
-            </div>
+                <span class="font-bold">
+                    {{ formatDate(currentBlogMeta.publishDate) }}
+                </span>
 
-                <!-- Spacer -->
-            <div class="grow">&nbsp;</div>
+                    <!-- Spacer -->
+                <span class="grow">&nbsp;</span>
 
-                <!-- Tag -->
-            <div class="flex-0">
-                <UButton 
-                    class="z-2 p-2 inline-block rounded-3xl  uppercase shadow-none dark:shadow-none text-white"
-                    variant="solid">
-                    {{ currentBlogMeta.tags[0] }}
-                </UButton>
-            </div>
+                    <!-- Tag -->
+                <span class="flex-0">
+                    <UButton 
+                        class="z-2 p-2 inline-block rounded-3xl  uppercase shadow-none dark:shadow-none text-white"
+                        variant="solid">
+                        {{ currentBlogMeta.tags[0] }}
+                    </UButton>
+                </span>
 
-        </div><!-- Date & Tag -->
+            </p><!-- Date & Tag -->
 
-    </template><!-- Blog Meta -->
+        </div> <!-- Blog Meta -->
 
-    <!-- Blog Content -->
+    </template> <!-- CARD HEADER -->
+
+    <!-- CARD BODY -->
     <div class="bg-(--ui-bg) rounded-xl p-8">
         <div class="m-0 p-0">
             <slot />
         </div>
     </div>
 
-    <!-- Page Signature -->
-    <template #footer class="rounded-3xl">
-        <ShipPageSignature />
+    <!-- CARD FOOTER -->
+    <template #footer class="">
+        <!-- Page Signature -->
+        <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
     </template>
 
 </UCard>

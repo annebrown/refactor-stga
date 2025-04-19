@@ -17,9 +17,8 @@
             </span>
 
             <!-- Town -->
-            <span class="transom absolute top-[2.5rem] left-[5rem]
-                text-(--ui-text-dimmed) text-sm">
-                Arnprior, ON
+            <span class="transom absolute top-[1.25rem] left-[3.5rem]">
+                <ULink to="https://arnprior.ca" class=" text-xs">Arnprior, ON</ULink>
             </span>
 
         </div><!-- Logo & Town -->

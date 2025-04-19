@@ -8,7 +8,7 @@
             class="w-full p-2 pb-0"
         >
             <img
-                    class="z-1 relative w-full rounded-4xl"
+                    class="z-1 relative w-full rounded-4xl ring-2 ring-transparent dark:ring-(--ui-color-secondary-950)"
                     src="/images/hero/big-postcard.png"
                     alt="Postcard - Gillies Grove 10,000 years in the making"
 
@@ -19,19 +19,21 @@
         </div>
         <!-- Square Logo -->
 
-        <ULink 
-            to="/"
-            class="z-91 absolute top-10 right-10 w-1/5 h-auto">
-                <img
-                    src="/images/hero/logo-orig-sq.png"
-                    class="dark:invert dark:hue-rotate-180"
-                    alt="Logo - Trees and water inside a circle"
-                    loading="eager"
-                    priority
-                    width="200"
-                    height="200"
-                />
-        </ULink>
+        <div class="z-91 absolute -top-4 right-8">
+            <ULink 
+                to="/"
+                class="w-[30rem] h-[30rem]">
+                    <img
+                        src="/images/hero/logo-orig-sq.png"
+                        class="dark:invert dark:hue-rotate-180"
+                        alt="Logo - Trees and water inside a circle"
+                        loading="eager"
+                        priority
+                        width="200"
+                        height="200"
+                    />
+            </ULink>
+        </div>
   
 
     </div><!-- Hero -->

@@ -16,13 +16,13 @@
 </p>
 
 <ul  class="ml-2 mb-5">
-    <li><a href="http://cafetilda.ca/"  class="text-green-600 hover:text-primary">Cafe Tilda</a>, 158 John St. N.</li>
-    <li><a href="https://www.instagram.com/johnies.vintage/"  class="text-green-600 hover:text-primary">Johnie&apos;s Vintage</a>, 54 Madawaska St.</li>
-    <li><a href="http://www.mallardsmilkbar.com/"  class="text-green-600 hover:text-primary">Mallard&apos;s Milk Bar</a>, 55 John St. N.</li>
-    <li><a href="http://www.ottawavalleycoffee.ca/"  class="text-green-600 hover:text-primary">Ottawa Valley Coffee</a>, 32 Elgin St. W.</li>
+    <li><a href="http://cafetilda.ca/"  class="text-(--ui-secondary) hover:text-primary">Cafe Tilda</a>, 158 John St. N.</li>
+    <li><a href="https://www.instagram.com/johnies.vintage/"  class="text-(--ui-secondary) hover:text-primary">Johnie&apos;s Vintage</a>, 54 Madawaska St.</li>
+    <li><a href="http://www.mallardsmilkbar.com/"  class="text-(--ui-secondary) hover:text-primary">Mallard&apos;s Milk Bar</a>, 55 John St. N.</li>
+    <li><a href="http://www.ottawavalleycoffee.ca/"  class="text-(--ui-secondary) hover:text-primary">Ottawa Valley Coffee</a>, 32 Elgin St. W.</li>
     <li>Sweet & Sassy Cafe and Bistro, 114 John St. N.</li>
-    <li><a href="https://www.whitepinebooks.ca/"  class="text-green-600 hover:text-primary">White Pine Books</a>, 152 John St. N.</li>
-    <li><a href="https://ovap.ca/"  class="text-green-600 hover:text-primary">Ottawa Valley Air Paddle</a>, 67 Madawaska St. N.</li>
+    <li><a href="https://www.whitepinebooks.ca/"  class="text-(--ui-secondary) hover:text-primary">White Pine Books</a>, 152 John St. N.</li>
+    <li><a href="https://ovap.ca/"  class="text-(--ui-secondary) hover:text-primary">Ottawa Valley Air Paddle</a>, 67 Madawaska St. N.</li>
     <li>(more to come)</li>
 </ul>
 
@@ -90,11 +90,11 @@ Did you know?
     <li>💚 Invite family and friends</li>
     <li>💚 Wear a button - Get yours at Green Bean Natural Foods (117 John St. N.) or Sweet and Sassy (114 John St. N.)</li>
     <li>💚 Talk to your friends and family about the importance of old-growth forests </li>
-    <li>💚 Subscribe to our <a  class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>
-    <li>💚 Fill out our <a   class="text-green-600" href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</a></li>
-    <li>💚 Like and follow our <a  class="text-green-600" href="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</a></li>
-    <li>💚 Subscribe to our <a  class="text-green-600" href="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</a></li>
-    <li>💚 Make a donation via e-transfer to  <a href="mailto:savethegroveagain@gmail.com"  class="text-green-600 hover:text-primary">savethegroveagain@gmail.com</a></li>
+    <li>💚 Subscribe to our <a  class="text-(--ui-secondary)" href="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</a>.</li>
+    <li>💚 Fill out our <a   class="text-(--ui-secondary)" href="https://docs.google.com/forms/d/e/1FAIpQLSc611weSVb3qvnl6KJd6AZ_lmRn0yStEYDpxIkE9bVJhFTeUQ/viewform?usp=sf_link"> volunteer form</a></li>
+    <li>💚 Like and follow our <a  class="text-(--ui-secondary)" href="https://www.facebook.com/people/Save-the-Grove-Again/61565284064994/">Facebook page</a></li>
+    <li>💚 Subscribe to our <a  class="text-(--ui-secondary)" href="https://www.youtube.com/@SaveTheGroveAgain">YouTube channel</a></li>
+    <li>💚 Make a donation via e-transfer to  <a href="mailto:savethegroveagain@gmail.com"  class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</a></li>
 </ul>
 
  </div></template>

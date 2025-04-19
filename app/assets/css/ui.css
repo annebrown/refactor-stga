@@ -1,0 +1,29 @@
+/*--------@/assets/css/UI.css-------------------------------------------------*/
+/******************************************************************************/
+/*
+/* UI CSS
+/* 
+/******************************************************************************/
+:root {
+    --ui-radius: 1rem;
+    --ui-radius-round: 1.5rem;
+}
+/******************************************************************************/
+/* Buttons
+/******************************************************************************/
+.stga-button {  @apply break-words 
+        justify-center text-center text-lg font-bold
+        rounded-md bg-(--ui-secondary) dark:bg-(--ui-bg-2) 
+        shadow-md dark:shadow-xs shadow-black dark:shadow-white/50; 
+}
+.stga-button-label { 
+    @apply text-white dark:text-(--ui-secondary)
+        fill-white dark:fill-(--ui-secondary)
+        stroke-white dark:stroke-(--ui-secondary); 
+}
+.stga-button-round  { --ui-radius-round: 1.5rem; }
+.stga-quiet-button  { @apply shadow-sm; }
+.stga-loud-button   { @apply shadow-2xl; }
+
+.stga-button-dimmed { @apply opacity-50; }
+/*--------@/assets/css/UI.css-------------------------------------------------*/

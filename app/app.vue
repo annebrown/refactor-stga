@@ -9,10 +9,12 @@
 <!-- <NuxtPath /> -->
 
 <UApp>
+
+    <!-- Ship -->
     <div class="w-full mx-auto flex flex-col max-w-4xl">
 
         <!-- Bow -->
-        <ShipBow id="bow" class="z-100 w-full my-1"/>
+        <ShipBow id="bow" class="z-100 w-full mb-1"/>
     
         <!-- Midships -->
         <NuxtPage id="midships" class="z-10 w-full mt-[4.5rem]" />

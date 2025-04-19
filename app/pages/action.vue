@@ -7,9 +7,9 @@
     bg-(--ui-bg) rounded-lg">
         
     <!-- PETITION -->
-    <div class="action">
+    <div class="action-card">
 
-        <h2 class="stga-card-heading">
+        <h2 class="card-heading">
             SIGN THE PETITION
         </h2>
 
@@ -18,7 +18,7 @@
         </p>
 
         <!-- WARNING -->
-        <div class="p-2 bg-(--ui-secondary) text-xs mt-2 rounded-lg">
+        <div class="p-2 bg-(--ui-primary-2) text-xs mt-2 rounded-lg">
             <p class="font-bold pb-0 mb-0.5">
                 WARNING
             </p>
@@ -26,7 +26,7 @@
                 Donations to change.org DO NOT go towards our cause.  For donations to STGA, please use Interac E-Transfer to:
             </p>
             <p class="p-0.5 m-0.5 mt-1.5 text-center">
-                <span class="bg-(--ui-bg) p-0.5 px-2  rounded-lg">
+                <span class="bg-(--ui-bg) p-2  rounded-lg">
                     <ULink to="mailto:savethegroveagain@gmail.com">
                         savethegroveagain@gmail.com
                     </ULink>
@@ -36,8 +36,8 @@
     </div><!-- PETITION -->
 
     <!-- SPREAD THE WORD -->
-    <div class="action">
-        <h2 class="stga-card-heading">
+    <div class="action-card">
+        <h2 class="card-heading">
             SPREAD THE WORD
         </h2>
         <p class="stga-card-p">
@@ -46,8 +46,8 @@
     </div>
 
     <!-- LIKE -->
-    <div class="action">
-        <h2 class="stga-card-heading">
+    <div class="action-card">
+        <h2 class="card-heading">
             LIKE AND FOLLOW US ON SOCIAL MEDIA
         </h2>
         <p class="stga-card-p">
@@ -56,8 +56,8 @@
     </div>
 
     <!-- STAY INFORMED -->
-    <div class="action">
-        <h2 class="stga-card-heading">
+    <div class="action-card">
+        <h2 class="card-heading">
             STAY INFORMED
         </h2>
         <p class="stga-card-p">
@@ -66,8 +66,8 @@
     </div>
 
     <!-- VOLUNTEER -->
-    <div class="action">
-        <h2 class="stga-card-heading">
+    <div class="action-card">
+        <h2 class="card-heading">
             VOLUNTEER
         </h2>
         <p class="stga-card-p">
@@ -76,17 +76,20 @@
     </div>
 
     <!-- MAKE A DONATION -->
-    <div class="action">
-        <h2 class="stga-card-heading">
+    <div class="action-card">
+        <h2 class="card-heading">
             MAKE A DONATION
         </h2>
         <p class="stga-card-p">
             Donations are used to cover the cost of materials including lawn signs, flyers, posters, buttons, website domain name etc. For those wanting to make a donation, please direct your Interac E-Transfer to: 
-            <span class="bg-(--color-secondary-300) dark:bg-(--ui-bg) p-0.5 rounded-lg">
-                <ULink to="mailto:savethegroveagain@gmail.com">
-                    savethegroveagain@gmail.com
-                </ULink>
-            </span>. Please share that information with others who may want to contribute.             
+        </p>
+        <p class="bg-(--ui-bg) m-1 p-2 rounded-lg text-sm">
+            <ULink to="mailto:savethegroveagain@gmail.com">
+                savethegroveagain@gmail.com
+            </ULink>
+        </p>
+        <p>
+            Please share that information with others who may want to contribute.             
         </p>
     </div>
 
@@ -94,7 +97,7 @@
 
 
 <!-- Speak Out -->
-<div class="m-5 p-10 bg-gray-100 dark:bg-(--color-gray-800) p-5 shadow-2xl rounded-lg">
+<div class="action mt-5">
 
     <div class="w-full p-5 text-center">
 
@@ -329,16 +332,6 @@
 
 </NuxtLayout>
 </div></template>
-
-<style scoped>
-.stga-card-heading { 
-  font-weight: 800; /* font-extrabold */
-  color: var(--ui-primary);
-}
-.stga-card-p { 
-  text-align: left; 
-}
-</style>
 
 <script setup lang='ts'>
     definePageMeta({ 

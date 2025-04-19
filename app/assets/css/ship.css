@@ -6,18 +6,41 @@
 /******************************************************************************/
 @import "tailwindcss";
 @import "@nuxt/ui";
-@import "./typography.css";
-@import "./palette.css";
 @import "./pages.css";
-
+@import "./colors.css";
+@import "./splash.css";
+@import "./typography.css";
+@import "./ui.css";
 /******************************************************************************/
-/* Signature
+/* Ship
+/******************************************************************************/
+body { @apply antialiased text-(--ui-text) bg-(--ui-bg); }
+/******************************************************************************/
+/* Typography
+/******************************************************************************/
+h1 { @apply pt-8 pb-10 text-4xl text-center font-extrabold; }
+h2 { @apply py-8 text-3xl text-center font-extrabold; }
+
+p { @apply text-justify py-2; }
+/******************************************************************************/
+/* Bow
+/******************************************************************************/
+#bow { @apply bg-(--ui-bow); }
+.mainmenu { @apply text-2xl font-bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/******************************************************************************/
+/* Page Signature
 /******************************************************************************/
 .page-sig {
     @apply m-0 p-0 !text-center text-2xl font-bold
-        text-(--ui-primary) dark:text-(--ui-text) ;
+        text-(--ui-primary);
 }
 .transom-menu-item {
     @apply text-sm font-bold;
 }
+/******************************************************************************/
+/* Transom
+/******************************************************************************/
+.transom { @apply text-base font-extrabold text-shadow-lg; }
 /*--------@/assets/css/ship.css-----------------------------------------------*/
