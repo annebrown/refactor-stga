@@ -9,7 +9,7 @@ variant="link"
         footer: 'm-0 p pt-4 flex items-end',
         body: 'm-0 mx-1 sm:mx-2 p-0' 
     }"
-    class="mb-4 rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)"
+    class="mb-4 rounded-4xl"
 >
 
     <!-- CARD HEADER -->

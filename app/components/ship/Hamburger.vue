@@ -1,45 +1,44 @@
 <!--------@/app/components/ship/Hamburger.vue---------------------------------->
-<template><div>
+<template>
 
     <!-- Hamburger Icon & Dropdown -->
-    <div class="z-80">
+    <span class="inline-block">
 
         <!-- Render above everything else -->
         <UPopover class="">
 
             <!-- Hamburger Icon -->
             <UButton 
-                class="sm:hidden -mt-0.5"
+                class="sm:hidden"
                 icon="i-heroicons-bars-3"
                 aria-label="Hamburber Menu"
-                :ui="{
-                    base: 'stga-button-icon',
-                    leadingIcon: 'size-6'
-                }"
+                :ui="{ base: 'stga-button-icon', leadingIcon: 'size-6' }"
             />              
 
-            <!-- Hamburger Vertical Menu -->
+            <!-- Vertical Menu -->
             <template #content class="override-text-muted">
 
                 <UNavigationMenu 
-                    :items="mainMenuData" 
-                    class="w-full justify-center shadow-md" 
-                    orientation="vertical"
-                    variant="link"
-                    active
-                    :ui="{
-                        link: 'stga-mainmenu active:text-(--ui-primary) hover:text-(--ui-primary)'
-                    }"
+                    slots: {
+                        :items="mainMenuData" 
+                        active
+                        orientation="vertical"
+                        variant="link"
+                        class=""
+                        root=""
+                        label="w-full justify-center items-center"
+                    }
                 />
             </template>
 
         </UPopover><!-- Render above everything else -->
 
-    </div><!-- Hamburger Icon & Dropdown -->
+    </span><!-- Hamburger Icon & Dropdown -->
 
-</div></template>
+</template>
 
 <script setup lang="ts">
+    import type { NavigationMenuItem } from '@nuxt/ui'
     import { mainMenuData } from '~/assets/data/ship/MainMenu'  // Main Menu Array
 </script>
 <!--------@/app/components/ship/Hamburger.vue---------------------------------->

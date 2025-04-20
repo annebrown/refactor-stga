@@ -9,7 +9,7 @@
         footer: 'm-0 p-0 flex items-end',
         body: 'm-0 p-0' 
     }"
-    class="mb-4 rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)"
+    class="mb-4 rounded-4xl "
 >
 
     <!-- CARD HEADER -->
@@ -44,7 +44,7 @@
     </div>
 
     <!-- CARD FOOTER -->
-    <template #footer class=""">
+    <template #footer class="">
         <!-- Page Signature -->
         <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
     </template>

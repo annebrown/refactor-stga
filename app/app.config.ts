@@ -57,9 +57,9 @@ export default defineAppConfig({
         },
         card: {
             slots: {
-              header: 'm-0 p-0 flex items-start',
+              header: 'w-full m-0 p-0 flex items-start',
               body: 'm-0 p-0',
-              footer: 'm-0 p-0 flex items-end'
+              footer: 'w-full m-0 p-0 flex items-end'
             }
         }
 

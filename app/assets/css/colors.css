@@ -52,12 +52,10 @@
     --ui-primary-2 :    var(--ui-color-primary-300);
     /* Secondary */
     --ui-secondary:     var(--ui-color-secondary-600);
-    --ui-secondary-2:   var(--ui-color-secondary-400);
-    --ui-secondary-3:   var(--ui-color-secondary-200);
-    --ui-secondary-4:   var(--ui-color-secondary-100);
-    --ui-secondary-5:   var(--ui-color-secondary-50);
-    --ui-secondary-d:   var(--ui-color-secondary-800);
-    --ui-secondary-rd:  var(--ui-color-secondary-950);
+    --ui-secondary-1:   var(--ui-color-secondary-100);
+    --ui-secondary-2:   var(--ui-color-secondary-200);
+    --ui-secondary-3:   var(--ui-color-secondary-100);
+
     /* Teriary */
     --ui-tertiary:      var(--color-amber-200);
     --ui-tertiary-1:    var(--ui-color--amber-400);

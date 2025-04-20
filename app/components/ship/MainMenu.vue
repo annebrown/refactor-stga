@@ -5,13 +5,15 @@
       <nav class="hidden sm:inline-block group-hover:no-underline">
 
         <UNavigationMenu
-          :items="mainMenuData"
-          variant="link"
-          color="primary"
-          active
-          :ui="{
-            link: 'mainmenu  active:text-(--ui-primary)  dark:active:text-(--ui-tertiary) hover:text-(--ui-primary) dark:hover:text-(--ui-tertiary)',
-          }"
+            :items="mainMenuData"
+            variant="link"
+            color="primary"
+            class="m-0 p-0"
+            root=""
+            active
+            :ui="{
+            link: 'mainmenu active:text-(--ui-primary) hover:text-(--ui-primary) m-0 p-1'
+            }"
         />
       </nav>
 

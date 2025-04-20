@@ -1,19 +1,16 @@
 <!--------@/components/fleet/ColorModeToggle.vue------------------------------->
 <template>
-  <ClientOnly>
+<ClientOnly>
 
-        <UButton
-            @click="onClick"
-            :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
-            :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
-            :ui="{ 
-                leadingIcon: 'size-6',
-                base: 'stga-button-icon', 
-                label: ''  }"
-            
-        />
+    <UButton
+        @click="onClick"
+        :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
+        :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
+        :ui="{ leadingIcon: 'size-6', base: 'stga-button-icon', label: '' }"
+        
+    />
 
-    </ClientOnly>
+</ClientOnly>
 </template>
 
 <script setup lang="ts">

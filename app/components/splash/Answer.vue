@@ -14,7 +14,7 @@
             </p>
 
            <!-- Buttons -->
-            <div class="w-1/2 sm:w-full grid grid-cols-1 sm:grid-cols-3 align-middle my-4 mx-auto gap-4">
+            <div class="w-1/2 sm:w-full flex flex-row gap-4 flex-wrap mx-auto">
                 <!-- Button - Subscribe -->
                 <UButton 
                     label="Subscribe"
@@ -22,7 +22,7 @@
                     target="_blank"
                     active
                     class=""
-                    :ui="{ base: '', label: ''  }"
+                    :ui="{ base: 'mx-auto', label: ''  }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -31,7 +31,7 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: '', label: ''  }"
+                    :ui="{ base: 'mx-auto', label: ''  }"
 
                 />
                 <!-- Button - Donate Today! -->
@@ -41,7 +41,7 @@
                     target="_blank"
                     active
                     class=""
-                    :ui="{ base: '', label: ''  }"
+                    :ui="{ base: 'mx-auto', label: ''  }"
                 />
             </div><!-- Buttons -->
             

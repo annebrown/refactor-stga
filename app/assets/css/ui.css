@@ -16,30 +16,23 @@
  bg-(--ui-secondary) 
 
 */
-.stga-button {  @apply p-4 justify-center !text-center whitespace-normal
-    text-lg font-bold text-(--ui-bg)
+.stga-button {  @apply w-fit p-2 px-5 justify-center whitespace-normal
+    text-lg font-bold
     bg-(--ui-secondary) dark:bg-(--ui-secondary-2)
     shadow-md dark:shadow-xs shadow-black dark:shadow-white/70
     active:text-(--ui-primary); 
 }
-.stga-button-icon { @apply p-2 justify-center !text-center whitespace-normal
+.stga-button-icon { @apply p-2 
     rounded-3xl dark:bg-(--ui-secondary)
     stroke-(--ui-bg) dark:stroke-(--ui-text) 
     fill-(--ui-bg) dark:fill-(--ui-text)
     shadow-sm; 
 }
 
-.stga-button-tag { @apply p-3 justify-center !text-center whitespace-normal
+.stga-button-tag { @apply p-3 justify-center whitespace-normal
     rounded-4xl bg-(--ui-primary) shadow-transparent; }
-/* .stga-button-label { @apply 
-   ;
-} */
-/* .stga-button-link {  @apply
-   ;
-} */
+
+.stga-button-social-icon { @apply p-2 size-10; }
 
 .stga-button-round  { --ui-radius-round: 1.5rem; }
-.stga-button-quiet  { @apply shadow-sm; }
-.stga-button-loud   { @apply shadow-2xl; }
-.stga-button-dimmed { @apply opacity-50; }
 /*--------@/assets/css/UI.css-------------------------------------------------*/

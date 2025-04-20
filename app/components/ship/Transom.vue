@@ -1,56 +1,78 @@
 <!--------@/app/components/ship/Transom.vue------------------------------------>
-
 <template><div>
 
 <!-- Transom -->
-<div class="relative w-full px-1">
+<div class="flex !w-full mx-auto px-2">
 
-    <!-- Flex -->
-    <div class="w-full grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-3 gap-4">
 
-        <!-- Logo & Town -->
-        <div class="flex-none">
+    <!-- Logo & Town -->
+    <span class="relative grow hidden sm:inline-block">
 
-            <!-- Logo -->
-            <span>
-                <ShipLogo class="" />
-            </span>
+        <!-- Logo -->
+        <span>
+            <ShipLogo class="w-[10rem] h-auto" />
+        </span>
 
-            <!-- Town -->
-            <span class="transom absolute top-[1.25rem] left-[3.5rem]">
-                <ULink to="https://arnprior.ca" class=" text-xs">Arnprior, ON</ULink>
-            </span>
+        <!-- Town -->
+        <span class="transom absolute top-[1.25rem]">
+            <ULink to="https://arnprior.ca" class="text-xs">
+                Arnprior, ON
+            </ULink>
+        </span>
+    </span><!-- Logo & Town -->
 
-        </div><!-- Logo & Town -->
+        <!-- Spacer-->
+        <span class="grow"> </span>
 
-         <!-- Contacts & Socials-->
-        <div class="w-full">
-            <FleetSocialIcons class="w-full mx-auto mt-[1rem] text-center" /><br />
-        </div>
+    <!-- Social Icons -->
+    <span class="inline-block grow-0 text-center">
 
-        <!-- Menu  -->
-        <div class="flex-none flex text-(--ui-text-dimmed)">
+        <FleetSocialIcons class="inline-block mx-auto" /><br />
 
-            <!-- Spacer-->
-            <div class="flex-1"> </div>
+        <!-- Copyright -->
+        <span class="text-center inline-block pt-2 text-sm text-(--ui-text-dimmed)">
+            Copyright 
+                <ULink to="/admin" class="text-(--ui-text-dimmed)">
+                    @ 
+                </ULink>
+                2025 Save the Grove Again
+        </span>
 
-            <div class="flex-none w-fit mt-0 pb-5 pt-0">
-                <span class="font-extrabold text-ld">Menu</span>
-                <ul class="">
-                    <li class="transom-menu-item"><ULink to="/blog">Blog</ULink></li>
-                    <li class="transom-menu-item"><ULink to="/action">Get Involved!</ULink></li>
-                    <li class="transom-menu-item"><ULink to="/about">About</ULink></li>
-                </ul>
-            </div>
-        </div><!-- Menu  -->
+    </span>
 
-    </div><!-- Flex  -->
-    <!-- Copyright -->
-    <div class="w-full -mt-10 text-center text-sm text-(--ui-text-dimmed)">
-        Copyright <ULink to="/admin" class="text-(--ui-text-dimmed)">@</ULink> 2025 Save the Grove Again
-    </div>
+    <!-- Spacer-->
+    <span class="grow"> </span>
+    <!-- Spacer-->
+    <span class="grow"> </span>
 
-    
+    <!-- Menu  -->
+    <span class="inline-block grow-0 w-fit pr-1 text-(--ui-text-dimmed)">
+
+            <span class="font-extrabold text-lg">Menu</span>
+
+            <ul class="">
+
+                <li class="transom-menu-item">
+                    <ULink to="/blog">
+                        Blog
+                    </ULink>
+                </li>
+
+                <li class="transom-menu-item">
+                    <ULink to="/action">
+                        Get Involved!
+                    </ULink>
+                </li>
+
+                <li class="transom-menu-item">
+                    <ULink to="/about">
+                        About
+                    </ULink>
+                </li>
+            </ul>
+
+    </span><!-- Menu  -->
+
 </div><!-- Transom  -->
 
 </div></template>   
