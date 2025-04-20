@@ -51,10 +51,10 @@
     --ui-primary-1 :    var(--color-sky-600);
     --ui-primary-2 :    var(--color-sky-300);
     /* Secondary */
-    --ui-secondary:     var(--color-secondary-600);
-    --ui-secondary-1:   var(--color-secondary-400);
-    --ui-secondary-2:   var(--color-secondary-200);
-    --ui-secondary-3:   var(--color-secondary-100);
+    --ui-secondary:     var(--color-apple-600);
+    --ui-secondary-1:   var(--color-apple-400);
+    --ui-secondary-2:   var(--color-apple-200);
+    --ui-secondary-3:   var(--color-apple-100);
 
     /* Teriary */
     --ui-tertiary:      var(--color-amber-50);

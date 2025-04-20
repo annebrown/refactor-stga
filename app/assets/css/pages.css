@@ -17,7 +17,7 @@
 /******************************************************************************/
 .action-card {
     @apply w-full mb-4 p-5 break-inside-avoid
-        shadow-sm rounded-lg  bg-(--ui-bg-1);
+        shadow-sm rounded-lg  bg-(--ui-bg);
 }
 .card-heading { 
     @apply text-xl font-extrabold;

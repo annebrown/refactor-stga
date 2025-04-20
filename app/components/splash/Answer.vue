@@ -56,7 +56,7 @@
                 priority 
                 width=1301 
                 height=1148 
-                class="splash-map"
+                class="rounded-4xl ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2)"
             />
         </div>
 

@@ -6,9 +6,9 @@
 
         <SplashAnswer class="   bg-(--ui-color-answer)" />
 
-        <SplashVideo class="    bg-(--ui-color-video) rounded-3xl" />
+        <SplashVideo class="    bg-(--ui-color-video) rounded-3xl ring-2 ring-(--ui-secondary-2)" />
 
-        <SplashEventsCalendar class="m-4 bg-(--ui-color-events) rounded-xl text-black" />
+        <SplashEventsCalendar class="my-2 p-4 bg-(--ui-color-events) rounded-4xl ring-2 ring-(--ui-secondary-2) text-black" />
 
         <BlogOnlyLatest class=" bg-(--ui-color-news) rounded-3xl" />
 
