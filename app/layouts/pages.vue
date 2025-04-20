@@ -15,8 +15,7 @@
     <!-- CARD HEADER -->
     <template #header >
 
-
-        <!-- Blog Meta - Title? -->
+        <!-- Blog Meta ? Title -->
         <div
             v-if="route.meta.title"
             class="mt-4 mx-auto"
@@ -27,17 +26,17 @@
                 {{ route.meta.title }}
             </div>
 
-            <!-- Description? -->
+            <!-- Description ? Description -->
             <div v-if="route.meta.title" class="m-0 mt-2 p-0 text-lg font-bold text-center">
                 {{ route.meta.description }}
             </div>
 
-        </div><!-- Title? -->
+        </div><!-- Blog Meta ? Title -->
 
-    </template> <!-- CARD HEADER -->
+    </template><!-- CARD HEADER -->
 
     <!-- CARD BODY -->
-    <div class="bg-(--ui-bg) rounded-xl p-6">
+    <div class="bg-(--ui-bg) rounded-xl p-2">
         <div class="w-full px-0 mx-0">
             <slot />
         </div>

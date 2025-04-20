@@ -17,15 +17,15 @@
 
 */
 .stga-button {  @apply w-fit p-2 px-5 justify-center whitespace-normal
-    text-lg font-bold
-    bg-(--ui-secondary) dark:bg-(--ui-secondary-2)
+    text-lg font-bold text-(--ui-bg)
+    bg-(--ui-secondary) dark:bg-(--color-zinc-700)
     shadow-md dark:shadow-xs shadow-black dark:shadow-white/70
     active:text-(--ui-primary); 
 }
 .stga-button-icon { @apply p-2 
-    rounded-3xl dark:bg-(--ui-secondary)
-    stroke-(--ui-bg) dark:stroke-(--ui-text) 
-    fill-(--ui-bg) dark:fill-(--ui-text)
+    rounded-3xl bg-(--ui-secondary) dark:bg-(--color-zinc-700)
+    stroke-(--ui-bg) dark:stroke-(--ui-secondary) 
+    fill-(--ui-bg) dark:fill-(---ui-secondary)
     shadow-sm; 
 }
 

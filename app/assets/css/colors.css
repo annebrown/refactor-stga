@@ -52,7 +52,7 @@
     --ui-primary-2 :    var(--color-sky-300);
     /* Secondary */
     --ui-secondary:     var(--color-secondary-600);
-    --ui-secondary-1:   var(--color-secondary-100);
+    --ui-secondary-1:   var(--color-secondary-400);
     --ui-secondary-2:   var(--color-secondary-200);
     --ui-secondary-3:   var(--color-secondary-100);
 
@@ -113,9 +113,9 @@
     --ui-primary-1 :    var(--ui-color-primary-900);
     --ui-primary-2 :    var(--ui-color-primary-950);
     /* Secondary */
-    --ui-secondary:     var(--color-apple-600);
-    --ui-secondary-1:   var(--color-apple-800);
-    --ui-secondary-2:   var(--color-apple-900);
+    --ui-secondary:     var(--color-primary-700);
+    --ui-secondary-1:   var(--color-primary-800);
+    --ui-secondary-2:   var(--color-primary-900);
 
     /* Teriary */
     --ui-tertiary:      var(--color-amber-200);
@@ -155,7 +155,7 @@
     /* Moderately prominent text */
     --ui-text-toned:    var(--color-neutral-200);
     /* Default text color */
-    --ui-text:          var(--color-gray-300);
+    --ui-text:          var(--color-gray-400);
     /* Most prominent text */
     --ui-text-highlighted: var(--color-neutral-100);
 }
