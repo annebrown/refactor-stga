@@ -18,19 +18,19 @@
 */
 .stga-button {  @apply p-4 justify-center !text-center whitespace-normal
     text-lg font-bold text-(--ui-bg)
-    bg-(--ui-secondary) dark:bg-(--ui-bg-2) 
+    bg-(--ui-secondary) dark:bg-(--ui-secondary-2)
     shadow-md dark:shadow-xs shadow-black dark:shadow-white/70
     active:text-(--ui-primary); 
 }
 .stga-button-icon { @apply p-2 justify-center !text-center whitespace-normal
-    rounded-3xl
+    rounded-3xl dark:bg-(--ui-secondary)
     stroke-(--ui-bg) dark:stroke-(--ui-text) 
     fill-(--ui-bg) dark:fill-(--ui-text)
     shadow-sm; 
 }
 
-.stga-button-tag { @apply bg-(--ui-primary)
-    p-4 justify-center !text-center whitespace-normal; }
+.stga-button-tag { @apply p-3 justify-center !text-center whitespace-normal
+    rounded-4xl bg-(--ui-primary) shadow-transparent; }
 /* .stga-button-label { @apply 
    ;
 } */
