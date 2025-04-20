@@ -19,7 +19,7 @@
 .stga-button {  @apply w-fit p-2 px-5 justify-center whitespace-normal
     text-lg font-bold text-(--ui-bg)
     bg-(--ui-secondary) dark:bg-(--color-zinc-700)
-    shadow-md dark:shadow-xs shadow-black dark:shadow-white/70
+    shadow-md shadow-black dark:shadow-white/70
     active:text-(--ui-primary); 
 }
 .stga-button-icon { @apply p-2 

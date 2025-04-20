@@ -4,7 +4,7 @@
 <!-- Blog Post Layout -->
 <UCard 
     variant="link"
-    class="w-full mt-1 rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
+    class="w-full rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
     :ui="{ 
         header: 'w-full m-0 mx-auto pt-4 px-4 flex items-start', 
         footer: 'm-0 p pt-4 flex items-end',

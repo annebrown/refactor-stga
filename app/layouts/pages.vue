@@ -36,7 +36,7 @@
     </template><!-- CARD HEADER -->
 
     <!-- CARD BODY -->
-    <div class="bg-(--ui-bg) rounded-xl p-2">
+    <div class="bg-(--ui-bg) rounded-xl m-0 p-0 pb-4">
         <div class="w-full px-0 mx-0">
             <slot />
         </div>

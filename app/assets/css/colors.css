@@ -91,9 +91,9 @@
     /* Least prominent text */
     --ui-text-dimmed:   var(--ui-color-neutral-400);
     /* Slightly muted text */
-    --ui-text-muted:    var(--ui-color-neutral-500);
+    --ui-text-muted:    var(--ui-color-neutral-600);
     /* Moderately prominent text */
-    --ui-text-toned:    var(--ui-color-neutral-600);
+    --ui-text-toned:    var(--ui-color-neutral-800);
     /* Default text color */
     --ui-text:          var(--ui-color-neutral-900);
     /* Most prominent text */
@@ -113,9 +113,9 @@
     --ui-primary-1 :    var(--ui-color-primary-900);
     --ui-primary-2 :    var(--ui-color-primary-950);
     /* Secondary */
-    --ui-secondary:     var(--color-primary-700);
-    --ui-secondary-1:   var(--color-primary-800);
-    --ui-secondary-2:   var(--color-primary-900);
+    --ui-secondary:     var(--color-apple-400);
+    --ui-secondary-1:   var(--color-apple-800);
+    --ui-secondary-2:   var(--color-apple-900);
 
     /* Teriary */
     --ui-tertiary:      var(--color-amber-200);
@@ -162,7 +162,8 @@
 /******************************************************************************/
 /* Ship
 /******************************************************************************/
-body { @apply text-(--ui-text) bg-(--ui-bg); }
+body { @apply text-(--ui-text) bg-(--ui-bg)
+    text-shadow-black dark:text-shadow-white/50; }
 /******************************************************************************/
 /* Bow
 /******************************************************************************/

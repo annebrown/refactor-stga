@@ -38,8 +38,8 @@ p { @apply text-justify py-2; }
 /******************************************************************************/
 /* Transom
 /******************************************************************************/
-.transom { @apply text-base font-extrabold text-shadow-lg; }
-.transom-menu-item { @apply text-sm font-bold; }
+.transom { @apply text-base font-extrabold; }
+.transom-menu-item { @apply text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white; }
 /******************************************************************************/
 /* Page Signature
 /******************************************************************************/

@@ -3,14 +3,15 @@
 /* FAQ
 /******************************************************************************/
 .faq {
-    @apply py-2 px-1 break-inside-avoid;
+    @apply py-2 px-0 break-inside-avoid ;
 }
 .faq-item-colored {
-    @apply m-2 p-4 bg-(--ui-color-voices) rounded-md;
+    @apply m-2 p-4 bg-(--ui-color-voices) rounded-2xl;
 }
 .faq-item {
     @apply m-2 p-4 rounded-md;
 }
+.faq-q { @apply py-2 text-left font-extrabold; }
 /******************************************************************************/
 /* Get Involved (action)
 /******************************************************************************/

@@ -3,12 +3,12 @@
 <NuxtLayout name="pages">
 
 <!-- Flex -->
-<div class="flex-col columns-1 md:columns-2 gap-1 bg-(--ui-bg) rounded-lg">
+<div class="flex-col columns-1 md:columns-2 gap-1 bg-(--ui-bg) rounded-xl">
 
      <!-- Q1 -->
     <div class="faq">
         <div class="faq-item-colored">
-            <p class="py-2 font-bold">
+            <p class="faq-q">
                 1. Where is this property that is being considered for  development?
             </p>
             
@@ -24,7 +24,7 @@
      <!-- Q2 -->
     <div class="faq">
         <div class="faq-item">
-            <p class="text-left p-2 mt-5 font-bold">
+            <p class="faq-q">
                 2. What is the current zoning of this piece of land? 
             </p>
             <p class="text-justify p-2">
@@ -36,7 +36,7 @@
      <!-- Q3 -->
     <div class="faq">
         <div class="faq-item-colored">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 3. What will the development be? 
             </p>
             <p class="text-justify p-2">
@@ -48,7 +48,7 @@
      <!-- Q4 -->
     <div class="faq">
         <div class="faq-item">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 4. Why haven&apos;t I heard about this?
             </p>
             <p class="text-justify p-2">
@@ -60,7 +60,7 @@
      <!-- Q5 -->
     <div class="faq">
         <div class="faq-item-colored">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 5. What stage is the sale at now?
             </p>
             <p class="text-justify p-2">
@@ -72,7 +72,7 @@
      <!-- Q6 -->
     <div class="faq">
         <div class="faq-item">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 6. But, isn&apos;t this just a sale between two private parties?
             </p>
             <p class="text-justify p-2">
@@ -84,7 +84,7 @@
      <!-- Q7 -->
     <div class="faq">
         <div class="faq-item-colored">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 7. Why didn&apos;t the Hospital buy the land?
             </p>
             <p class="text-justify p-2">
@@ -96,7 +96,7 @@
      <!-- Q8 -->
     <div class="faq">
         <div class="faq-item">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 8. Why didn&apos;t the Nature Conservancy of Canada buy the land?
             </p>
             <p class="text-justify p-2">
@@ -108,7 +108,7 @@
      <!-- Q9 -->
     <div class="faq">
         <div class="faq-item-colored">
-            <p class="text-left p-1 mb-2 font-bold">
+            <p class="faq-q">
                 9. Why is STGA not supporting the Galilee Centre?
             </p>
             <p class="text-justify p-2">
@@ -120,7 +120,7 @@
      <!-- Q10 -->
     <div class="faq">
         <div class="faq-item">
-            <p class="text-left p-2 font-bold">
+            <p class="faq-q">
                 10. How can I help?
             </p>
             <p class="text-justify p-2">
@@ -132,7 +132,7 @@
 
 </div><!-- Flex -->
            
-<p class="pt-5 m-8">
+<p class="pt-5 m-8 my-0">
     If you have any questions that we have not covered on this page, please feel free to send them to us at <a href="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary)">
         savethegroveagain@gmail.com<br/>
     </a>

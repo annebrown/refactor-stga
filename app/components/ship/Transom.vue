@@ -14,7 +14,7 @@
         </span>
 
         <!-- Town -->
-        <span class="transom absolute top-[3rem] left-[5.5rem] text-md text-shadow-lg">
+        <span class="transom absolute top-[3rem] left-[5.5rem] text-md text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white">
             <ULink to="https://arnprior.ca" class="">
                 Arnprior, ON
             </ULink>
@@ -52,19 +52,19 @@
 
             <ul class="">
 
-                <li class="transom-menu-item text-shadow-lg">
+                <li class="transom-menu-item">
                     <ULink to="/blog">
                         Blog
                     </ULink>
                 </li>
 
-                <li class="transom-menu-item text-shadow-lg">
+                <li class="transom-menu-item">
                     <ULink to="/action">
                         Get Involved!
                     </ULink>
                 </li>
 
-                <li class="transom-menu-item text-shadow-lg">
+                <li class="transom-menu-item">
                     <ULink to="/about">
                         About
                     </ULink>

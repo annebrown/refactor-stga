@@ -39,7 +39,7 @@
             
         
             <!-- CARD BODY -->
-            <div class="z-1 bg-(--ui-bg) rounded-4xl p-6">
+            <div class="z-1 bg-(--ui-bg) rounded-4xl p-1">
 
                 <div class="w-full px-0 mx-0">
 
