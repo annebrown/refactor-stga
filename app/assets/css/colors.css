@@ -47,19 +47,20 @@
     /* Palette
     /**************************************************************************/
     /* Primary */
-    --ui-primary:       var(--ui-color-primary-800);
-    --ui-primary-1 :    var(--ui-color-primary-600);
-    --ui-primary-2 :    var(--ui-color-primary-300);
+    --ui-primary:       var(--color-apple-800);
+    --ui-primary-1 :    var(--color-apple-600);
+    --ui-primary-2 :    var(--color-apple-300);
     /* Secondary */
-    --ui-secondary:     var(--ui-color-secondary-600);
-    --ui-secondary-1:   var(--ui-color-secondary-100);
-    --ui-secondary-2:   var(--ui-color-secondary-200);
-    --ui-secondary-3:   var(--ui-color-secondary-100);
+    --ui-secondary:     var(--color-secondary-600);
+    --ui-secondary-1:   var(--color-secondary-100);
+    --ui-secondary-2:   var(--color-secondary-200);
+    --ui-secondary-3:   var(--color-secondary-100);
 
     /* Teriary */
-    --ui-tertiary:      var(--color-amber-200);
-    --ui-tertiary-1:    var(--ui-color--amber-400);
-    --ui-tertiary-2:    var(--ui-color--amber-200);
+    --ui-tertiary:      var(--color-amber-50);
+    --ui-tertiary-1:    var(--color--amber-100);
+    --ui-tertiary-2:    var(--color--amber-300);
+    --ui-tertiary-4:    var(--color--amber-400);
     /**************************************************************************/
     /* Ship
     /**************************************************************************/

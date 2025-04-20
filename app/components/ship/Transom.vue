@@ -6,15 +6,15 @@
 
 
     <!-- Logo & Town -->
-    <span class="relative grow hidden sm:inline-block">
+    <span class="relative grow -ml-6 pt-2 hidden sm:inline-block">
 
         <!-- Logo -->
         <span>
-            <ShipLogo class="w-[10rem] h-auto" />
+            <ShipLogo class="w-[17rem] h-auto" />
         </span>
 
         <!-- Town -->
-        <span class="transom absolute top-[1.25rem]">
+        <span class="transom absolute top-[3rem] left-[5.5rem]">
             <ULink to="https://arnprior.ca" class="text-xs">
                 Arnprior, ON
             </ULink>
@@ -25,7 +25,7 @@
         <span class="grow"> </span>
 
     <!-- Social Icons -->
-    <span class="inline-block grow-0 text-center">
+    <span class="inline-block grow-0 pt-3 text-center">
 
         <FleetSocialIcons class="inline-block mx-auto" /><br />
 
@@ -46,7 +46,7 @@
     <span class="grow"> </span>
 
     <!-- Menu  -->
-    <span class="inline-block grow-0 w-fit pr-1 text-(--ui-text-dimmed)">
+    <span class="inline-block grow-0 w-fit m-0 sm:-mr-4 pr-1 text-(--ui-text-dimmed)">
 
             <span class="font-extrabold text-lg">Menu</span>
 
