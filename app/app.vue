@@ -18,7 +18,7 @@
                 :ui="{ 
                     root: 'relative',
                     header: ' z-200 sticky top-2  bg-(--ui-bg) ring-2 ring-(--ui-secondary-1) dark:ring-(--ui-primary-1) rounded-4xl', 
-                    footer: 'rounded-4xl pt-1 pb-2 bg-(--ui-bg) ring-2 ring-(--ui-secondary-1)',
+                    footer: 'rounded-4xl mb-2 pt-1 pb-2 bg-(--ui-bg) ring-2 ring-(--ui-secondary-1)',
                     body: 'm-0 p-0' 
                 }"
             >
