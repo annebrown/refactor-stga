@@ -21,8 +21,8 @@
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class="flex"
-                    :ui="{ base: 'stga-button', label: 'stga-button-label' }"
+                    class=""
+                    :ui="{ base: '', label: ''  }"
                 />
                 <!-- Button - Sign the Petition -->
                 <UButton 
@@ -31,7 +31,8 @@
                     target="_blank"
                     active
                     class="flex"
-                    :ui="{ base: 'stga-button', label: ''  }"
+                    :ui="{ base: '', label: ''  }"
+
                 />
                 <!-- Button - Donate Today! -->
                 <UButton 
@@ -39,8 +40,8 @@
                     to="/donations" 
                     target="_blank"
                     active
-                    class="flex"
-                    :ui="{ base: 'stga-button', label: ''  }"
+                    class=""
+                    :ui="{ base: '', label: ''  }"
                 />
             </div><!-- Buttons -->
             

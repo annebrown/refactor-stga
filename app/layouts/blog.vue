@@ -5,9 +5,9 @@
 <UCard 
 variant="link"
     :ui="{ 
-        header: 'm-0 p-0 flex items-start', 
-        footer: 'm-0 p-0 flex items-end',
-        body: 'm-0 p-0' 
+        header: 'm-0 mx-auto pt-4 px-4 flex items-start', 
+        footer: 'm-0 p pt-4 flex items-end',
+        body: 'm-0 mx-1 sm:mx-2 p-0' 
     }"
     class="mb-4 rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)"
 >
@@ -19,7 +19,7 @@ variant="link"
         <div class="mt-4 mx-auto">
 
             <!-- Title -->
-            <p class="pt-8 text-4xl font-extrabold !text-center">
+            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-primary)">
                 {{ currentBlogMeta.title }}
             </p>
 
@@ -42,8 +42,7 @@ variant="link"
                     <!-- Tag -->
                 <span class="flex-0">
                     <UButton 
-                        class="z-2 p-2 inline-block rounded-3xl  uppercase shadow-none dark:shadow-none text-white"
-                        variant="solid">
+                        class="stga-button-tag">
                         {{ currentBlogMeta.tags[0] }}
                     </UButton>
                 </span>
@@ -55,7 +54,7 @@ variant="link"
     </template> <!-- CARD HEADER -->
 
     <!-- CARD BODY -->
-    <div class="bg-(--ui-bg) rounded-xl p-8">
+    <div class="bg-(--ui-bg) rounded-3xl p-8">
         <div class="m-0 p-0">
             <slot />
         </div>

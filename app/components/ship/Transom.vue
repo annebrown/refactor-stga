@@ -25,7 +25,7 @@
 
          <!-- Contacts & Socials-->
         <div class="w-full">
-            <ShipSocialIcons class="w-full mx-auto mt-[1rem] text-center" /><br />
+            <FleetSocialIcons class="w-full mx-auto mt-[1rem] text-center" /><br />
         </div>
 
         <!-- Menu  -->

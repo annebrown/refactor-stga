@@ -9,7 +9,7 @@
         This is the second paragraph.
     </p>
    
-    <ShipGoBack />
+    <FleetGoBack />
     
 </div>
 </div></template>

@@ -22,4 +22,29 @@
 @theme static {
     --font-sans: 'Inter-VariableFont_opsz', sans-serif;
 }
+/******************************************************************************/
+/* Ship
+/******************************************************************************/
+h1 { @apply pt-8 pb-10 text-4xl text-center font-extrabold; }
+h2 { @apply py-8 text-3xl text-center font-extrabold; }
+
+p { @apply text-justify py-2; }
+/******************************************************************************/
+/* Bow
+/******************************************************************************/
+.mainmenu { @apply text-2xl font-bold;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/******************************************************************************/
+/* Transom
+/******************************************************************************/
+.transom { @apply text-base font-extrabold text-shadow-lg; }
+.transom-menu-item { @apply text-sm font-bold; }
+/******************************************************************************/
+/* Page Signature
+/******************************************************************************/
+.page-sig {
+    @apply m-0 p-0 !text-center text-2xl font-bold
+        text-(--ui-primary);
+}
 /*--------@/app/assets/css/typography.css-------------------------------------->

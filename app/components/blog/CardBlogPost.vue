@@ -22,7 +22,7 @@
              <div class="">
                 <UButton 
                     class="z-2 absolute -mr-3 p-2 right-2 bottom-2 uppercase"
-                    :ui="{ base: 'rounded-3xl text-white shadow-none dark:shadow-none' }"
+                    :ui="{ base: 'stga-button-tag' }"
                     >
                     {{ post.tags[0] }}
                 </UButton>

@@ -14,8 +14,12 @@ export default defineAppConfig({
         button: {
             
             slots: {
+                color: '',
+                variant: '',
+                class: '',
                 base: 'stga-button',
-                label: 'justify-center text-center  stga-button-label', // Overrides the default 'truncate'
+                label: '',
+                link: ''
               },
         }, // Button
 
@@ -23,7 +27,8 @@ export default defineAppConfig({
             variants: {
                 active: {
                   false: {
-                    link: 'text-(--ui-secondary)', // This overrides the default 'text-(--ui-text-muted)'
+                    base:  'bg-(--ui-secondary) dark:bg-(--ui-bg-2)',
+                    link: 'text-(--ui-secondary) active:text', // This overrides the default 'text-(--ui-text-muted)'
                   }
                 }
               }
@@ -34,9 +39,8 @@ export default defineAppConfig({
             variants: {
                 active: {
                   true: 'text-(--ui-primary)',
-                  false: [
+                  false: 
                     'text-(--ui-secondary) hover:text-(--ui-primary)'
-                  ]
                 },
                 disabled: {
                   true: 'cursor-not-allowed opacity-75'

@@ -12,7 +12,7 @@
 
     <p><ULink to="/admin/analytics">Analytics</ULink></p>
     
-    <ShipGoBack />
+    <FleetGoBack />
 
 </div>
 

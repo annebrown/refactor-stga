@@ -9,12 +9,12 @@
 
             <!-- Hamburger Icon -->
             <UButton 
-                variant="soft" 
-                class="stga-button stga-quiet-button sm:hidden -mt-0.5"
+                class="sm:hidden -mt-0.5"
                 icon="i-heroicons-bars-3"
                 aria-label="Hamburber Menu"
                 :ui="{
-                    leadingIcon: 'text-white size-6'
+                    base: 'stga-button-icon',
+                    leadingIcon: 'size-6'
                 }"
             />              
 
@@ -26,7 +26,6 @@
                     class="w-full justify-center shadow-md" 
                     orientation="vertical"
                     variant="link"
-                    color='primary'
                     active
                     :ui="{
                         link: 'stga-mainmenu active:text-(--ui-primary) hover:text-(--ui-primary)'
