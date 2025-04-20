@@ -32,14 +32,16 @@ p { @apply text-justify py-2; }
 /******************************************************************************/
 /* Bow
 /******************************************************************************/
-.mainmenu { @apply text-lg sm:text-2xl font-bold;
+.mainmenu { @apply text-lg sm:text-2xl font-normal dark:text-[--color-primary-800]
+    text-shadow-lg dark:text-shadow-sm shadow-black dark:text-shadow-white/50;
     font-family: 'Bebas Neue', sans-serif;
 }
 /******************************************************************************/
 /* Transom
 /******************************************************************************/
 .transom { @apply text-base font-extrabold; }
-.transom-menu-item { @apply text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white; }
+.transom-menu-item { @apply dark:text-[--color-primary-500]
+    text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white/50; }
 /******************************************************************************/
 /* Page Signature
 /******************************************************************************/

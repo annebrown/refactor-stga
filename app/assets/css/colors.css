@@ -114,8 +114,8 @@
     --ui-primary-2 :    var(--ui-color-primary-950);
     /* Secondary */
     --ui-secondary:     var(--color-apple-400);
-    --ui-secondary-1:   var(--color-apple-800);
-    --ui-secondary-2:   var(--color-apple-900);
+    --ui-secondary-1:   var(--color-apple-400);
+    --ui-secondary-2:   var(--color-apple-600);
 
     /* Teriary */
     --ui-tertiary:      var(--color-amber-200);

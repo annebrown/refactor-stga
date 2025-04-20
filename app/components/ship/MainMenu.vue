@@ -8,7 +8,7 @@
             :items="mainMenuData"
             variant="link"
             color="primary"
-            class="m-0 p-0"
+            class="mainmenu m-0 p-0"
             root=""
             active
             :ui="{
