@@ -13,8 +13,8 @@
         v-for="(post, index) in blogData"
         :key="index" 
         :post="post"
-        class="flex-1 
-            shadow-2xl rounded-md bg-(--ui-bg-1)"
+        class="flex-1
+            shadow-2xl rounded-lg bg-(--ui-bg-2)"
     />
 
 </div>

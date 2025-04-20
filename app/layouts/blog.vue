@@ -3,14 +3,13 @@
 
 <!-- Blog Post Layout -->
 <UCard 
-variant="link"
+    variant="link"
+    class="w-full mt-1 rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
     :ui="{ 
-        header: 'm-0 mx-auto pt-4 px-4 flex items-start', 
+        header: 'w-full m-0 mx-auto pt-4 px-4 flex items-start', 
         footer: 'm-0 p pt-4 flex items-end',
         body: 'm-0 mx-1 sm:mx-2 p-0' 
-    }"
-    class="mb-4 rounded-4xl"
->
+    }">
 
     <!-- CARD HEADER -->
     <template #header v-if="currentBlogMeta">
@@ -36,15 +35,17 @@ variant="link"
                     {{ formatDate(currentBlogMeta.publishDate) }}
                 </span>
 
-                    <!-- Spacer -->
+                <!-- Spacer -->
                 <span class="grow">&nbsp;</span>
 
-                    <!-- Tag -->
+                <!-- Tag -->
                 <span class="flex-0">
+
                     <UButton 
                         class="stga-button-tag">
                         {{ currentBlogMeta.tags[0] }}
                     </UButton>
+                    
                 </span>
 
             </p><!-- Date & Tag -->
@@ -55,18 +56,22 @@ variant="link"
 
     <!-- CARD BODY -->
     <div class="bg-(--ui-bg) rounded-3xl p-8">
+
         <div class="m-0 p-0">
             <slot />
         </div>
+
     </div>
 
     <!-- CARD FOOTER -->
     <template #footer class="">
+        
         <!-- Page Signature -->
         <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
+
     </template>
 
-</UCard>
+</UCard><!-- Blog Post Layout -->
 
 </div></template>
 

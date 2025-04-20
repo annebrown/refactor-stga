@@ -47,9 +47,9 @@
     /* Palette
     /**************************************************************************/
     /* Primary */
-    --ui-primary:       var(--color-apple-800);
-    --ui-primary-1 :    var(--color-apple-600);
-    --ui-primary-2 :    var(--color-apple-300);
+    --ui-primary:       var(--color-sky-800);
+    --ui-primary-1 :    var(--color-sky-600);
+    --ui-primary-2 :    var(--color-sky-300);
     /* Secondary */
     --ui-secondary:     var(--color-secondary-600);
     --ui-secondary-1:   var(--color-secondary-100);
