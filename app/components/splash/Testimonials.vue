@@ -22,7 +22,7 @@
             :quote="quote"
         >
             <!-- Testimonial -->
-            <div class="w-full bg-(--ui-bg-1) rounded-lg">
+            <div class="w-full bg-(--ui-bg) rounded-lg">
 
                 <!-- Quote -->
                 <p class="p-5 !pt-8">
