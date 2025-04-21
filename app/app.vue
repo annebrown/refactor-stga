@@ -10,7 +10,8 @@
 <UApp>
 
     <!-- Ship -->
-    <UContainer class="w-full mx-auto max-w-4xl m-0 mt-2 mx-auto p-0">
+    <UContainer class="w-full mx-auto max-w-4xl m-0 
+        mt-1 sm:mt-6 md:mt-10 mx-auto p-0">
 
         <UCard
             variant="link"
@@ -32,8 +33,8 @@
                 </span>
                 <div class="grow"> </div>
 
-                <!-- Bow -->
-                <ShipBowMenu id="bow" class="inline-block pt-1 mr-2 sm:-mr- rounded-4xl"/>
+                <!-- Bow Menus & Toggles -->
+                <ShipBowMenu id="bow" class="inline-block pt-4 mr-2 sm:-mr- rounded-4xl"/>
 
             </template> <!-- CARD HEADER -->
             

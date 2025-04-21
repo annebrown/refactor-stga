@@ -16,17 +16,28 @@
  bg-(--ui-secondary) 
 
 */
-.stga-button {  @apply w-fit p-2 px-5 justify-center whitespace-normal
+/* .stga-button {  @apply w-fit p-2 px-5 justify-center whitespace-normal
     text-lg font-bold text-(--ui-bg)
     bg-(--ui-secondary) dark:bg-(--color-zinc-700)
     shadow-md shadow-black dark:shadow-white/70
     active:text-(--ui-primary); 
-}
-.stga-button-icon { @apply p-2 
+}*/
+.stga-button { @apply 
+    shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] 
+    hover:shadow-[0_-8px_10px_-1px_rgba(0,0,0,0.2),0_4px_6px_-1px_rgba(0,0,0,0.1)] transition-shadow duration-200; }
+
+/* .stga-button-icon { @apply p-2 
     rounded-3xl bg-(--ui-secondary) dark:bg-(--color-zinc-700)
     stroke-(--ui-bg) dark:stroke-(--ui-secondary) 
     fill-(--ui-bg) dark:fill-(---ui-secondary)
     shadow-sm; 
+} */
+.stga-button-icon { @apply p-2 
+    rounded-3xl bg-(--ui-secondary) dark:bg-(--color-zinc-700)
+    stroke-(--ui-bg) dark:stroke-(--ui-secondary) 
+    fill-(--ui-bg) dark:fill-(---ui-secondary)
+    shadow-sm  shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.1),0_2px_4px_-1px_rgba(0,0,0,0.06)] 
+    hover:shadow-[0_-8px_10px_-1px_rgba(0,0,0,0.2),0_4px_6px_-1px_rgba(0,0,0,0.1)] transition-shadow duration-200; 
 }
 
 .stga-button-tag { @apply p-3 justify-center whitespace-normal
@@ -35,4 +46,28 @@
 .stga-button-social-icon { @apply p-2 size-10; }
 
 .stga-button-round  { --ui-radius-round: 1.5rem; }
+
+.stga-shadow-smaller { @apply shadow-xs; }
+.stga-shadow-small { @apply shadow-md; }
+.stga-shadow { @apply  shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a]; }
+.stga-shadow-big { @apply shadow-xl; }
+.stga-shadow-rbig { @apply shadow-2xl; }
+
+.card-glass-narrow { @apply 
+    rounded-md bg-transparent dark:bg-gray-950/20
+    border border-stone-200 dark:border-gray-700
+    /*                  stone-300                         gray-900 */
+    shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a];
+
+}
+.card-glass-link { @apply
+    rounded-md bg-transparent dark:bg-gray-950/20
+    /*                  stone-300                         gray-900 */
+    shadow-[2px_2px_0_0_#a8a29e] dark:shadow-[2px_2px_0_0_#0f172a]
+    cursor-pointer transition ease-in-out
+    border-transparent ring-0 dark:ring-0
+    drop-shadow-md hover:drop-shadow-lg 
+    /*                        stone-400                              gray-800 */
+    hover:shadow-[3px_3px_0_0_#a8a29e] dark:hover:shadow-[3px_3px_0_0_black];
+}
 /*--------@/assets/css/UI.css-------------------------------------------------*/

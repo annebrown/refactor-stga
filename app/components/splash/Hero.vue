@@ -16,11 +16,13 @@
         </div>
 
         <!-- Square Logo -->
-        <div class="z-500 absolute -top-[3rem] right-[0.25rem] rounded-5xl">
+        <div class="z-500 absolute -top-6 sm:-top-[3rem] right-[0.25rem] rounded-5xl">
             <ULink to="/" class="">
                 <img
                     src="/images/logo/logo-round.svg"
-                    class="dark:invert dark:hue-rotate-180 w-[10rem] h-[10rem] shadow-md shadow-black m-8 rounded-full"
+                    class="dark:invert dark:hue-rotate-180 
+                    w-[8rem] h-[8rem] sm:w-[10rem] sm:h-[10rem] 
+                    shadow-md shadow-black m-8 rounded-full"
                     alt="Logo - Trees and water inside a circle"
                     loading="eager"
                     priority
