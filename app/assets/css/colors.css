@@ -58,9 +58,10 @@
 
     /* Teriary */
     --ui-tertiary:      var(--color-amber-50);
-    --ui-tertiary-1:    var(--color--amber-100);
-    --ui-tertiary-2:    var(--color--amber-300);
-    --ui-tertiary-4:    var(--color--amber-400);
+    --ui-tertiary-1:    var(--color-amber-100);
+    --ui-tertiary-2:    var(--color-amber-200);
+    --ui-tertiary-3:    var(--color-amber-300);
+    --ui-tertiary-4:    var(--color-amber-400);
     /**************************************************************************/
     /* Ship
     /**************************************************************************/
@@ -80,7 +81,7 @@
     /**************************************************************************/
     --ui-color-hero:        color: transparent;
     --ui-color-answer:      color: transparent;
-    --ui-color-video:       var(--ui-secondary-3);
+    --ui-color-video:       var(--color-black);
     --ui-color-events:      var(--color-gray-100);
     --ui-color-news:        var(--ui-secondary-3);
     --ui-color-join:        color: transparent;

@@ -2,7 +2,7 @@
 <template><div>
 
     <!-- Events Section -->
-    <div class="w-full my-10">
+    <div class="w-full my-0 py-0">
 
         <!-- Title -->
         <h1>

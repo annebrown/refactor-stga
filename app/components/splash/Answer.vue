@@ -8,7 +8,7 @@
         <div class="my-auto mx-auto pl-2">
             <!-- Answer -->
             <p class="!text-justify font-bold 
-                text-(--ui-primary) dark:text-(--ui-primary-1) text-2xl"
+                text-(--ui-primary) dark:text-(--ui-primary-1) text-lg sm:text-xl md:text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
             </p>

@@ -5,7 +5,14 @@
     <span class="inline-block">
 
         <!-- Render above everything else -->
-        <UPopover class="">
+        <UPopover 
+            :content="{
+                align: 'start',
+                side: 'left',
+                sideOffset: 4
+            }"
+            class=""
+        >
 
             <!-- Hamburger Icon -->
             <UButton 
@@ -24,8 +31,9 @@
                         active
                         orientation="vertical"
                         variant="link"
-                        class=""
-                        root=""
+                        class="w-fit h-fit p-2 rounded-3xl
+                        ring-2 ring-(--ui-secondary-2) dark:ring-(--ui-primary)"
+                        root="rounded-2xl"
                         label="w-full justify-center items-center"
                     }
                 />

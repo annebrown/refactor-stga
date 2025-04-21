@@ -16,7 +16,7 @@
         </div>
 
         <!-- Square Logo -->
-        <div class="z-500 absolute -top-12 right-8 rounded-5xl">
+        <div class="z-500 absolute -top-[3rem] right-[0.25rem] rounded-5xl">
             <ULink to="/" class="">
                 <img
                     src="/images/logo/logo-round.svg"
