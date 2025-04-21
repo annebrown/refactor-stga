@@ -7,21 +7,21 @@
         <!-- Answer & Buttons -->
         <div class="my-auto mx-auto pl-2">
             <!-- Answer -->
-            <p class="!text-justify font-bold 
-                text-(--ui-primary) dark:text-(--ui-primary-1) text-lg sm:text-xl md:text-2xl"
+            <p class="mb-4 !text-justify font-bold 
+                text-(--ui-primary) dark:text-(--ui-primary) text-lg sm:text-xl md:text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
             </p>
 
            <!-- Buttons -->
-            <div class="w-1/2 sm:w-full flex flex-row gap-4 flex-wrap mx-auto">
+            <div class="w-1/2 sm:w-full flex flex-row gap-4 flex-wrap mx-auto pb-4">
                 <!-- Button - Subscribe -->
                 <UButton 
                     label="Subscribe"
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class=""
+                    class="stga-button-icon"
                     :ui="{ base: 'mx-auto', label: ''  }"
                 />
                 <!-- Button - Sign the Petition -->

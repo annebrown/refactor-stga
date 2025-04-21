@@ -142,7 +142,7 @@
     --ui-color-hero:    color: transparent;
     --ui-color-answer:  color: transparent;
     --ui-color-video:   var(--ui-primary-2);
-    --ui-color-events:  var(--color-gray-200);
+    --ui-color-events:  var(--ui-primary-2);
     --ui-color-news:    var(--ui-primary-2);
     --ui-color-join:    color: transparent;
     --ui-color-voices:  var(--ui-primary-2);

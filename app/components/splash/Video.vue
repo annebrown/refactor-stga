@@ -10,12 +10,12 @@
         </h1>
 
         <!-- Video -->
-        <div class="w-full pb-0">
+        <div class="w-full p-1 pb-4 ">
             <iframe 
                 width="897" height="506" 
                 src="https://www.youtube.com/embed/tEgtT1LX-Sk"  
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-                class="size-full aspect-video rounded-3xl" 
+                class="size-full aspect-video p-2 px-3 rounded-3xl bg-black border-1 border-black border-y-2 border-x-8" 
                 allowFullScreen>
             </iframe>
         </div>

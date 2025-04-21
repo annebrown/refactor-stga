@@ -19,7 +19,7 @@
                 class="sm:hidden"
                 icon="i-heroicons-bars-3"
                 aria-label="Hamburber Menu"
-                :ui="{ base: 'stga-button-icon', leadingIcon: 'size-6' }"
+                :ui="{ base: 'stga-button', leadingIcon: 'size-6' }"
             />              
 
             <!-- Vertical Menu -->
