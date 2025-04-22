@@ -22,7 +22,7 @@
         >
 
             <!-- Title -->
-            <div class="text-4xl font-extrabold text-center">
+            <div class="mt-5 text-5xl font-extrabold text-center text-(--ui-primary)">
                 {{ route.meta.title }}
             </div>
 
@@ -45,7 +45,7 @@
     <!-- CARD FOOTER -->
     <template #footer class="">
         <!-- Page Signature -->
-        <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
+        <ShipPageSignature class="m-0 mx-auto p-0 pb-10" />
     </template>
 
 </UCard>

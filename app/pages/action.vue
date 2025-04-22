@@ -120,7 +120,7 @@
     </h2>
 
     <!-- Contacts -->
-    <div class="rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 xl:grid-cols-3 h-full ">
+    <div class="rounded-lg grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 md:gap-x-6 lg:gap-x-8 h-full ">
 
         <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
@@ -131,9 +131,9 @@
                     www.omilacombe.ca
                 </ULink><br/>
                 Attention: Provincial Council members<br/>
-                <ULink to="mailto:information@omilacombe.ca">
+                <ULink to="mailto:information@omilacombe.ca" class="no-wrap-grow">
                     information@omilacombe.ca<br/>
-                </ULink>
+                </ULink><br/>
                 <ULink to="tel:6132302225">(613)230-2225</ULink><br/>
             </p>
         </div>

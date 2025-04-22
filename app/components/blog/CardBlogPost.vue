@@ -33,7 +33,8 @@
         <div class="">
 
             <!-- title -->
-            <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold text-(--ui-text)">
+            <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold 
+                text-(--ui-primary)">
                 {{ post.title }}
             </h3>
 
@@ -45,7 +46,7 @@
         </div>
 
         <!-- Publish Date -->
-        <div class="p-4 text-(--ui-text)">
+        <div class="p-4 text-(--ui-primary)">
             <p class="">{{ post.publishDate }}</p>
         </div>
 

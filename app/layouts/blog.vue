@@ -18,7 +18,7 @@
         <div class="mt-4 mx-auto">
 
             <!-- Title -->
-            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-primary)">
+            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-tertiary-2)">
                 {{ currentBlogMeta.title }}
             </p>
 

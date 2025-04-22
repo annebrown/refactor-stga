@@ -14,7 +14,7 @@
 
         <UCard
             variant="link"
-            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
+            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-4xl bg-transparent sm:bg-(--ui-secondary-2) sm:dark:bg-(--ui-primary-2)"
             :ui="{ 
                 root: 'relative',
                 header: 'z-200 sticky top-1 sm:top-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rounded-4xl shadow-black shadow-md', 

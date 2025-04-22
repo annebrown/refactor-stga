@@ -14,7 +14,8 @@
         :key="index" 
         :post="post"
         class="flex-1
-            stga-shadow rounded-2xl bg-(--ui-bg)"
+            rounded-2xl bg-(--ui-bg) shadow-xl
+            shadow-black/25 dark:shadow-white/50 shadow-md dark:shadow-sm rounded-2xl bg-(--ui-bg)"
     />
 
 </div>
