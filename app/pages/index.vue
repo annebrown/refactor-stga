@@ -3,7 +3,7 @@
 <NuxtLayout name="splash">
 
         <!-- Hero -->
-        <SplashHero class="my-2 py-3  
+        <SplashHero class="my-2 my-2py-3  
             bg-(--ui-color-hero) "/>
 
         <!-- Answer -->

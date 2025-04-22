@@ -14,7 +14,8 @@
 
         <UCard
             variant="link"
-            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-4xl  sm:dark:bg-(--ui-primary-2)"
+            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-4xl bg-(--ui-bg) sm:bg-(--ui-secondary-2) sm:dark:bg-(--ui-primary-2) sm:dark:bg-(--ui-primary-2)
+                bg-(--ui-secondary-2)"
             :ui="{ 
                 root: 'relative rounded-3xl',
                 header: 'z-200 sticky top-1 sm:top-2 ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rounded-3xl shadow-black shadow-md', 
@@ -53,7 +54,7 @@
             <template #footer class="flex w-full items-center justify-between">
 
                 <!-- Transom -->
-                <ShipTransom id="transom" class="w-full" />
+                <ShipTransom id="transom" class="w-full shadow-3xl" />
 
             </template>
 

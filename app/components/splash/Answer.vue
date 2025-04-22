@@ -21,7 +21,7 @@
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class="stga-button shadow-lg dark:shadow-sm"
+                    class=""
                     :ui="{ base: 'mx-auto', label: ''  }"
                 />
                 <!-- Button - Sign the Petition -->
@@ -56,7 +56,7 @@
                 priority 
                 width=1301 
                 height=1148 
-                class="rounded-4xl ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2)"
+                class=""
             />
         </div>
 
