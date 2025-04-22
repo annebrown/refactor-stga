@@ -8,15 +8,18 @@
     <h1>Latest News</h1>
 
     <!-- Last 3 Posts -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-x-4 gap-y-8
-        mx-1 sm:mx-2">
+    <div class="flex gap-x-4 gap-y-8
+        mx-1 sm:mx-2
+         rounded-4xl ">
 
 
         <BlogCardBlogPost
             v-for="post in latestPosts" 
             :key="post.id"
             :post="post"
-            class="flex-1 shadow-lg dark:shadow-sm shadow-black/25 dark:shadow-white/50 shadow-md rounded-2xl bg-(--ui-bg)"
+            class="flex-1 rounded-2xl bg-(--ui-bg) shadow-xl
+            bg-(ui-bg) 
+            shadow-black/25 dark:shadow-black/50 shadow-lg rounded-3xl bg-(--ui-bg)"
         />
         <!-- stga-button shadow-lg dark:shadow-sm -->
         <!-- shadow-black/25 dark:shadow-white/50 shadow-md rounded-2xl bg-(--ui-bg)" -->
