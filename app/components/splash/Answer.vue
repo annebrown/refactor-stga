@@ -21,7 +21,7 @@
                     to="https://forms.gle/Dbw6qFcWi66gW7CA8" 
                     target="_blank"
                     active
-                    class="stga-button-icon"
+                    class="stga-button shadow-lg dark:shadow-sm"
                     :ui="{ base: 'mx-auto', label: ''  }"
                 />
                 <!-- Button - Sign the Petition -->

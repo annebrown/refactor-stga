@@ -10,13 +10,13 @@
     <div class="inline-block">
 
         <!-- Absolute -->
-        <span class="inline-block absolute sm:bottom-[0.7rem] right-2 sm:-right-[0.1rem]">
+        <span class="inline-block absolute bottom-[1rem] right-2 sm:-right-[0.1rem] bg-transparent">
 
             <!-- Absolute -->
             <span class="inline-block">
 
                 <!-- Hamburger Icon/Dropdown Menu -->
-                <ShipHamburger class="inline-block w-fit h-fit" />
+                <ShipHamburger class="inline-block w-fit h-fit mr-2" />
 
                 <!-- Color Mode Toggle-->
                 <FleetColorModeToggle class="inline-block w-fit h-fit" />

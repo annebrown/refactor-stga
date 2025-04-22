@@ -30,7 +30,7 @@
         <FleetSocialIcons class="inline-block mx-auto" /><br />
 
         <!-- Copyright -->
-        <span class="text-center inline-block pt-2 text-sm text-(--ui-text-dimmed)">
+        <span class="text-center inline-block p-4 text-sm text-(--ui-text-dimmed)">
             Copyright 
                 <ULink to="/admin" class="text-(--ui-text-dimmed)">
                     @ 

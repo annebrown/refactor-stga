@@ -9,7 +9,7 @@
         footer: 'm-0 p-0 flex items-end',
         body: 'm-0 p-0' 
     }"
-    class="mb-4 rounded-4xl "
+    class="mt-2 mb-1 rounded-4xl "
 >
 
     <!-- CARD HEADER -->

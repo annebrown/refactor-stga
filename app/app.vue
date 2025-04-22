@@ -14,10 +14,10 @@
 
         <UCard
             variant="link"
-            class="w-full m-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
+            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
             :ui="{ 
-                root: 'relative bg-transparent ',
-                header: 'z-200 sticky top-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rounded-4xl shadow-black shadow-md', 
+                root: 'relative',
+                header: 'z-200 sticky top-1 sm:top-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rounded-4xl shadow-black shadow-md', 
                 footer: 'rounded-4xl mb-2 pt-1 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-3) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
                 body: 'm-0 p-0' 
             }"

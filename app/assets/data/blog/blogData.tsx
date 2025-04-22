@@ -17,6 +17,24 @@ export const blogData = [
     },
     */
     {
+        id: 21,
+        title: "Plant a Tree Drive 2025",
+        paragraph:
+          "A win-win way to help protect and reforest Arnprior—and beyond!",
+        image: "/images/blog/blog21.png",
+        alt: "Pine code hanging from tree",
+        width: 500,
+        height: 281,
+        author: {
+          name: "",
+          image: "",
+          designation: "",
+        },
+        tags: ["ACTION"],
+        publishDate: "April 21, 2025",
+        blogURL: "/blog/posts/post-2025-04-21-00"
+    },
+    {
         id:20,
         title: "Federal ARP Candidates Speak to Gillies Grove",
         paragraph:

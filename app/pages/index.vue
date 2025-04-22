@@ -3,10 +3,12 @@
 <NuxtLayout name="splash">
 
         <!-- Hero -->
-        <SplashHero class="     bg-(--ui-color-hero) "/>
+        <SplashHero class="my-2 py-3  
+            bg-(--ui-color-hero) "/>
 
         <!-- Answer -->
-        <SplashAnswer class="   bg-(--ui-color-answer)" />
+        <SplashAnswer class="   
+            bg-(--ui-color-answer)" />
 
         <!-- Video - What's At Stake -->
         <SplashVideo class="    
@@ -14,7 +16,7 @@
             border-10 border-(--ui-secondary-2) dark:border-(--ui-primary-2)" />
 
         <!-- Events -->
-        <SplashEventsCalendar class="my-2 p-4 text-black
+        <SplashEventsCalendar class="my-6 p-4 py-10text-black
             bg-(--ui-color-events) rounded-4xl
             border-8 border-(--ui-secondary-3) dark:border-none" />
 
@@ -30,7 +32,7 @@
         <SplashTestimonials class="
             bg-(--ui-color-voices) rounded-3xl" />
 
-        <ShipPageSignature class="text-center my-8" />
+        <ShipPageSignature class="text-center py-8 mb-1 px-2" />
 
 </NuxtLayout>
 </div></template>

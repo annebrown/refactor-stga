@@ -19,7 +19,7 @@
  .stga-button {  @apply justify-center whitespace-normal
     text-lg font-bold text-(--ui-bg) dark:text-(--ui-secondary)
     bg-(--ui-secondary) dark:bg-(--color-zinc-700)
-    shadow-md shadow-black dark:shadow-white/70
+    shadow-sm shadow-black dark:shadow-white/70
     active:text-(--ui-primary);  
 }
 /* .stga-button { @apply 
