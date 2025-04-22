@@ -3,8 +3,8 @@
 <NuxtLayout name="pages">
 
 <!-- Flex -->
-<div class="flex-col columns-1 xs:columns-2 sm:columns-3 gap-4 
-    bg-(--ui-bg) rounded-lg">
+<div class="flex-col columns-1 xs:columns-2 sm:columns-3 gap-x-4 gap-y-8
+    bg-(--ui-bg) rounded-xl">
         
     <!-- PETITION -->
     <div class="action-card">
@@ -97,7 +97,7 @@
 
 
 <!-- Speak Out -->
-<div class="action mt-5">
+<div class="action-card mt-5">
 
     <div class="w-full p-5 text-center">
 
