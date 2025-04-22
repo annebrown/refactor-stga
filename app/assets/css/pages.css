@@ -17,14 +17,26 @@
 /******************************************************************************/
 .action-card {
     @apply w-full mb-4 p-5 break-inside-avoid
-       rounded-2xl  bg-(--ui-secondary-3)
-        ;
+       rounded-2xl  bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
+       inline-block;
 }
 .card-heading { 
     @apply text-xl font-extrabold;
 }
 .stga-card-p { 
   text-align: left; 
+}
+.no-wrap-grow {
+  /* Prevent text from wrapping */
+  white-space: nowrap;
+  
+  /* Allow the div to grow as needed */
+  display: inline-block;
+  
+  /* Optional: if you need to handle overflow in some cases */
+  overflow: hidden;
+  text-overflow: ellipsis;
+
 }
 
 /*--------@/assets/css/pages.css----------------------------------------------*/

@@ -3,7 +3,7 @@
 <NuxtLayout name="pages">
 
 <!-- Flex -->
-<div class="flex-col columns-1 xs:columns-2 sm:columns-3 gap-x-4 gap-y-8
+<div class="flex-col columns-1 sm:columns-2 gap-x-4 gap-y-8
     bg-(--ui-bg) rounded-xl">
         
     <!-- PETITION -->
@@ -18,7 +18,7 @@
         </p>
 
         <!-- WARNING -->
-        <div class="p-2 bg-(--ui-primary-2) text-xs mt-2 rounded-lg">
+        <div class="p-2 bg-(--ui-secondary-2) dark:bg-(--ui-bg) text-xs mt-2 rounded-lg">
             <p class="font-bold pb-0 mb-0.5">
                 WARNING
             </p>
@@ -26,8 +26,8 @@
                 Donations to change.org DO NOT go towards our cause.  For donations to STGA, please use Interac E-Transfer to:
             </p>
             <p class="p-0.5 m-0.5 mt-1.5 text-center">
-                <span class="bg-(--ui-bg) p-2  rounded-lg">
-                    <ULink to="mailto:savethegroveagain@gmail.com">
+                <span class="bg-(--ui-bg) dark:bg-(--ui-primary-1) p-2  rounded-lg no-wrap-grow">
+                    <ULink to="mailto:savethegroveagain@gmail.com" p >
                         savethegroveagain@gmail.com
                     </ULink>
                 </span>
@@ -41,7 +41,7 @@
             SPREAD THE WORD
         </h2>
         <p class="stga-card-p">
-            Your word is powerful! Talk to your friends, family and neighbors about what is happening and how you feel about it.  Buttons are available by donation at Green Bean Natural Foods or by request at <ULink to="mailto:savethegroveagain@gmail.com">savethegroveagain@gmail.com</ULink>.  Wear it proud to show your support!
+            Your word is powerful! Talk to your friends, family and neighbors about what is happening and how you feel about it.  Buttons are available by donation at Green Bean Natural Foods or by request at <ULink to="mailto:savethegroveagain@gmail.com" class="no-wrap-grow">savethegroveagain@gmail.com.</ULink> Wear it proud to show your support!
         </p>
     </div>
 
@@ -83,7 +83,7 @@
         <p class="stga-card-p">
             Donations are used to cover the cost of materials including lawn signs, flyers, posters, buttons, website domain name etc. For those wanting to make a donation, please direct your Interac E-Transfer to: 
         </p>
-        <p class="bg-(--ui-bg) m-1 p-2 rounded-lg text-sm">
+        <p class="bg-(--ui-bg) m-1 p-2 rounded-lg text-sm no-wrap-grow">
             <ULink to="mailto:savethegroveagain@gmail.com">
                 savethegroveagain@gmail.com
             </ULink>
@@ -317,7 +317,7 @@
             </ULink>
         </p>
 
-        <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
+        <p class="mb-0 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
             Additional 
                 <ULink to="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit?usp=sharing">
                     TEMPLATE/EXAMPLE LETTERS
