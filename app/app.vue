@@ -30,7 +30,7 @@
                 <span class="flex-auto inline-block">
                         <ShipLogo class="inline-block w-[12rem] pt-[0.5rem] ml-2 sm:-ml-5" />
                 </span>
-                <div class="grow"> </div>
+                <!-- <div class="grow"> </div> -->
 
                 <!-- Bow Menus & Toggles -->
                 <ShipBowMenu id="bow" class="inline-block align-bottom mt-2 rounded-4xl"/>

@@ -1,19 +1,18 @@
 <!--------@/app/components/ship/Bow.vue---------------------------------------->
 <template>
 <!--  Bow Menu -->
-<div class="inline-block">
+<span class="inline-block">
 
     <!-- Main Menu - Collapsable -->
-    <ShipMainMenu  class="inline-block text-shadow-lg pr-8" />
+    <ShipMainMenu  class="hidden sm:inline-block text-shadow-lg pr-8" />
 
     
-    <div class="inline-block">
 
         <!-- Absolute -->
-        <span class="inline-block absolute bottom-[1rem] right-2 sm:-right-[0.1rem] bg-transparent">
+        <span class="inline-block absolute bottom-[1rem] right-2 sm:-right-[0.1rem] h-fit">
 
             <!-- Absolute -->
-            <span class="inline-block">
+            <span class="inline-block h-fit">
 
                 <!-- Hamburger Icon/Dropdown Menu -->
                 <ShipHamburger class="inline-block w-fit h-fit mr-2" />
@@ -26,8 +25,7 @@
         </span>
      
 
-    </div>
-</div><!-- Left Side of Bow -->
+    </span><!-- Left Side of Bow -->
 
 </template>
 <!--------@/app/components/ship/Bow.vue---------------------------------------->

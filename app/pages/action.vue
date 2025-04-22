@@ -317,7 +317,7 @@
             </ULink>
         </p>
 
-        <p class="mb-0 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
+        <p class="mb-4 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
             Additional 
                 <ULink to="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit?usp=sharing">
                     TEMPLATE/EXAMPLE LETTERS

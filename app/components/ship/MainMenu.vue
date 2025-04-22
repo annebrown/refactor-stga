@@ -2,7 +2,7 @@
 <template><div>
 
     <!-- Horizontal Main Menu -->
-      <nav class="hidden sm:inline-block group-hover:no-underline">
+      <nav class="group-hover:no-underline">
 
         <UNavigationMenu
             :items="mainMenuData"

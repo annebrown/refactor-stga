@@ -27,7 +27,7 @@ export default defineAppConfig({
             variants: {
                 active: {
                   false: {
-                    base:  'bg-(--ui-secondary) dark:bg-(--ui-bg-2)',
+                    base:  '',
                     link: 'text-(--ui-secondary) active:text', // This overrides the default 'text-(--ui-text-muted)'
                   }
                 }

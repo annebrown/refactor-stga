@@ -11,7 +11,7 @@
                 side: 'left',
                 sideOffset: 4
             }"
-            class=""
+            class="rounded-3xl"
         >
 
             <!-- Hamburger Icon -->
@@ -31,9 +31,9 @@
                         active
                         orientation="vertical"
                         variant="link"
-                        class="w-fit h-fit p-2 rounded-3xl
+                        class="w-fit h-fit p-4
                         ring-2 ring-(--ui-secondary-2) dark:ring-(--ui-primary)"
-                        root="rounded-2xl"
+                        root=""
                         label="w-full justify-center items-center"
                     }
                 />
