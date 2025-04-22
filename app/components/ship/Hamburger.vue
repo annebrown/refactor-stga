@@ -34,9 +34,9 @@
                         orientation="vertical"
                         variant="link"
                         class="w-fit h-fit p-4
-                        ring-2 ring-(--ui-secondary-2) dark:ring-(--ui-primary)"
+                        rounded-4xl ring-2 ring-(--ui-secondary-2) dark:ring-(--ui-primary)"
                         root=""
-                        label="w-full justify-center items-center"
+                        label="w-full justify-center items-center rounded-4xl"
                     }
                 />
             </template>

@@ -4,7 +4,7 @@
 <!-- Blog Post Layout -->
 <UCard 
     variant="link"
-    class="w-full rounded-4xl bg-(--ui-secondary-2) dark:bg-(--ui-primary-2)"
+    class="w-full rounded-4xl bg-(--ui-bg)"
     :ui="{ 
         header: 'w-full m-0 mx-auto pt-4 px-4 flex items-start', 
         footer: 'm-0 p pt-4 flex items-end',
@@ -18,7 +18,7 @@
         <div class="mt-4 mx-auto">
 
             <!-- Title -->
-            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-tertiary-2)">
+            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-primary)">
                 {{ currentBlogMeta.title }}
             </p>
 
@@ -31,7 +31,7 @@
             <p class="w-full py-5 flex flex-row">
 
                 <!-- Publication Date -->
-                <span class="font-bold">
+                <span class="font-bold text-(--ui-primary)">
                     {{ formatDate(currentBlogMeta.publishDate) }}
                 </span>
 
@@ -67,7 +67,7 @@
     <template #footer class="">
         
         <!-- Page Signature -->
-        <ShipPageSignature class="m-0 mx-auto p-0 pb-4" />
+        <ShipPageSignature class="m-0 mx-auto mb-8 p-0 pb-4" />
 
     </template>
 

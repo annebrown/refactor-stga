@@ -12,7 +12,7 @@
 </div>
 
 <p class="mb-8 text-justify">
-Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <ULink class="text-(--ui-primary)" to="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</ULink>.
+Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <ULink to="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</ULink>.
 </p>
 
 <p class="mb-8 text-justify">
