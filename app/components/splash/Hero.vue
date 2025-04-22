@@ -2,7 +2,7 @@
 <template><div>
 
     <!-- Hero -->
-    <div class="relative w-ful p-5">
+    <div class="relative w-ful p-0">
 
         <!-- Hero Image -->
         <div class="w-full m-0 dark:p-8 rounded-4xl">

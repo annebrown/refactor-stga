@@ -6,10 +6,12 @@
 
         <!-- Render above everything else -->
         <UPopover 
+            mode="hover",
             :content="{
-                align: 'start',
-                side: 'left',
-                sideOffset: 4
+               
+                align: 'end',
+                side: 'top',
+                sideOffset: 18
             }"
             class="rounded-3xl"
         >

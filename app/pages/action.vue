@@ -40,7 +40,7 @@
         <h2 class="card-heading">
             SPREAD THE WORD
         </h2>
-        <p class="stga-card-p">
+        <p class="stga-card-p ">
             Your word is powerful! Talk to your friends, family and neighbors about what is happening and how you feel about it.  Buttons are available by donation at Green Bean Natural Foods or by request at <ULink to="mailto:savethegroveagain@gmail.com" class="no-wrap-grow">savethegroveagain@gmail.com.</ULink> Wear it proud to show your support!
         </p>
     </div>
