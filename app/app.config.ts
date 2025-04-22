@@ -24,6 +24,13 @@ export default defineAppConfig({
         }, // Button
 
         navigationMenu: {
+            slots: {
+
+                class: '',
+
+                label: 'font-extrabold',
+
+              },
             variants: {
                 active: {
                   false: {

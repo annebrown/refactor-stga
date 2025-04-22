@@ -9,7 +9,7 @@
         This is the second paragraph.
     </p>
    
-    <FleetGoBack />
+    <FleetGoBackButton />
     
 </div>
 </div></template>

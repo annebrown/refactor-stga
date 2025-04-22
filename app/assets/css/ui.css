@@ -43,8 +43,7 @@ shadow-lg
     transition-shadow duration-200; 
 } */
 
-.stga-button-tag { @apply p-3 justify-center whitespace-normal
-    text-(--ui-bg) dark:text-(--ui-secondary) 
+.stga-button-tag { @apply p-3 justify-center whitespace-normal text-white dark:text-white
     rounded-4xl bg-(--ui-primary) shadow-transparent; }
 
 .stga-button-social-icon { @apply p-2 size-10; }

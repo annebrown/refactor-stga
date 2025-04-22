@@ -39,7 +39,7 @@
                             dark:border-(--ui-primary-2) 
                             bg-(--ui-bg) opacity-90"
                         root=""
-                        label="w-full justify-center items-center rounded-4xl font-extrabold"
+                        label="w-full justify-center items-center rounded-4xl !font-extrabold"
                     }
                 />
             </template>

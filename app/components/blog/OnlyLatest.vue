@@ -17,9 +17,7 @@
             v-for="post in latestPosts" 
             :key="post.id"
             :post="post"
-            class="flex-1 rounded-2xl bg-(--ui-bg) shadow-xl
-            bg-(ui-bg) 
-            shadow-black/25 dark:shadow-black/50 shadow-lg rounded-3xl bg-(--ui-bg)"
+            class="flex-1 rounded-2xl bg-(--ui-bg) shadow-xl rounded-3xl"
         />
         <!-- stga-button shadow-lg dark:shadow-sm -->
         <!-- shadow-black/25 dark:shadow-white/50 shadow-md rounded-2xl bg-(--ui-bg)" -->
