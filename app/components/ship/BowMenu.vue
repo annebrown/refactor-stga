@@ -4,7 +4,8 @@
 <span class="inline-block">
 
     <!-- Main Menu - Collapsable -->
-    <ShipMainMenu  class="hidden sm:inline-block text-shadow-lg pr-8" />
+    <ShipMainMenu  class="hidden sm:inline-block text-shadow-lg pr-8 pl-6
+        rounded-4xl bg-(--ui-bg) border-3 border-(--ui-secondary-2) dark:border-(--ui-primary-2)" />
 
     
 

@@ -2,20 +2,21 @@
 <template>
 
     <!-- Hamburger Icon & Dropdown -->
-    <span class="inline-block">
+    <span class="inline-block bg-transparent">
 
-        <!-- Render above everything else -->
         <UPopover 
-            mode="hover",
-            :content="{
-               
-                align: 'end',
-                side: 'top',
-                sideOffset: 18
+            :ui="{ 
+                content: 'ring-transparent bg-transparent'
             }"
-            class="rounded-3xl"
+            mode="hover"
+            class=""
         >
 
+<!-- 
+        content: 'bg-(--ui-bg) shadow-lg rounded-md ring ring-(--ui-border) data-[state=open]:animate-[scale-in_100ms_ease-out] data-[state=closed]:animate-[scale-out_100ms_ease-in] origin-(--reka-popover-content-transform-origin) focus:outline-none pointer-events-auto' -->
+
+        <!-- content: 'bg-(--ui-bg) shadow-lg rounded-lg ring ring-(--ui-border) data-[state=open]:animate-[scale-in_100ms_ease-out] data-[state=closed]:animate-[scale-out_100ms_ease-in] origin-(--reka-popover-content-transform-origin) focus:outline-nonee'
+         -->
             <!-- Hamburger Icon -->
             <UButton 
                 class="sm:hidden"
@@ -33,10 +34,12 @@
                         active
                         orientation="vertical"
                         variant="link"
-                        class="w-fit h-fit p-4
-                        rounded-4xl ring-2 ring-(--ui-secondary-2) dark:ring-(--ui-primary)"
+                        class="w-fit h-fit p-4 rounded-4xl 
+                            border-7 border-(--ui-secondary-2)
+                            dark:border-(--ui-primary-2) 
+                            bg-(--ui-bg)"
                         root=""
-                        label="w-full justify-center items-center rounded-4xl"
+                        label="w-full justify-center items-center rounded-4xl font-extrabold"
                     }
                 />
             </template>

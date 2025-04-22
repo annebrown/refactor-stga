@@ -32,7 +32,7 @@
         <SplashTestimonials class="
             bg-(--ui-color-voices) rounded-3xl" />
 
-        <ShipPageSignature class="text-center py-8 mb-1 px-2" />
+        <ShipPageSignature class="text-center pt-8 pb-4 mb-1 px-2" />
 
 </NuxtLayout>
 </div></template>
