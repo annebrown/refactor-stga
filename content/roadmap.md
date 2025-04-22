@@ -24,5 +24,4 @@ Tasks remaining to complete framework migration from Next.js to Nuxt.
 
 ## Analytics
 
-- Turn on analytics 
-- Code to fetch analytics and render computed stats in dashboard.
+- Render computed stats in dashboard.
