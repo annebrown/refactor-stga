@@ -12,7 +12,7 @@
             root=""
             active
             :ui="{
-            link: 'mainmenu active:text-(--color-primary-800) hover:text-(--ui-primary-600) m-0 p-1'
+            link: 'mainmenu active:text-(--color-primary-800) hover:text-(--ui-primary-600) m-0 px-2'
             }"
         />
       </nav>
