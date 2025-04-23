@@ -9,10 +9,6 @@ lastModified:: '2025-02-25'
 
 Tasks remaining to complete framework migration from Next.js to Nuxt.
 
-## Logo
-
-- Tags for dynamic path fills
-
 
 ## Breadcrumbs
 
