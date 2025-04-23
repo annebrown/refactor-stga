@@ -8,7 +8,7 @@ Next.js to Nuxt framework migration for [Save the Grove Again](https://savethegr
 
 Repo: [https://github.com/annebrown/refactor-stga.git](https://github.com/annebrown/refactor-stga.git)
 
-Site URL: [https://refactor.savethegroveagain.com](https://refactor.savethegroveagain.com)
+Site URL: [https://refactor-stga.savethegroveagain.com](https://refactor-stga.savethegroveagain.com)
 
 Docs: [https://annebrown.ca/docs-refactor](https://annebrown.ca/docs-refactor)
 

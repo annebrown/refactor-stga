@@ -13,14 +13,14 @@
     <UContainer class="w-full mx-auto max-w-4xl">
 
         <UCard
-            variant="link"
-            class="w-full m-1 sm:mt-1 md:mt-8 lg:mt-10 sm:py-3 p-0 
+            variant="soft"
+            class="w-full m-0 px-0
             rounded-full bg-transparent 
-            sm:bg-(--ui-secondary-2) sm:dark:bg-(--ui-primary-2)"
+          "
             :ui="{ 
-                root: 'relative rounded-3xl',
-                header: 'z-200 sticky top-0 sm:top-2 rounded-3xl ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rhadow-black shadow-md', 
-                footer: 'rounded-4xl mb-2 pt-1 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-3) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
+                root: 'relative rounded-4xl',
+                header: 'z-200 sticky top-1 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md', 
+                footer: 'rounded-4xl mb-2 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
                 body: 'm-0 p-0' 
             }"
         >
@@ -30,7 +30,7 @@
                 
                 <!-- Logo -->
                 <span class="flex-auto inline-block">
-                        <ShipLogo class="inline-block w-[12rem] my-auto ml-2 sm:-ml-3 py-0.1" />
+                        <ShipLogo class="inline-block w-[11rem] my-[0.2rem] ml-2 pt-[0.2rem]"/>
                 </span>
                 <!-- <div class="grow"> </div> -->
 

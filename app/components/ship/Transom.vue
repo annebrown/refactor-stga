@@ -2,15 +2,15 @@
 <template><div>
 
 <!-- Transom -->
-<div class="flex !w-full mx-auto px-2">
+<div class="flex !w-full mx-auto">
 
 
     <!-- Logo & Town -->
-    <span class="relative grow -ml-6 pt-2 hidden sm:inline-block">
+    <span class="w-fullrelative grow -ml-5 my-auto hidden sm:inline-block">
 
         <!-- Logo -->
         <span>
-            <ShipLogo class="w-[17rem] h-auto" />
+            <ShipLogo class="w-fit h-auto p-3" />
         </span>
 
         <!-- Town -->
@@ -21,11 +21,11 @@
         </span>
     </span><!-- Logo & Town -->
 
-        <!-- Spacer-->
-        <span class="grow"> </span>
+    <!-- Spacer-->
+    <span class="flex-1"> </span>
 
     <!-- Social Icons -->
-    <span class="inline-block grow-0 pt-3 text-center">
+    <span class="inline-block flex-none pt-[2rem] pr-1 my-auto text-center">
 
         <FleetSocialIcons class="inline-block mx-auto" /><br />
 
@@ -38,17 +38,29 @@
                 2025 Save the Grove Again
         </span>
 
-    </span>
+    </span><!-- Social Icons -->
 
     <!-- Spacer-->
-    <span class="grow"> </span>
+    <span class="flex-1"> </span>
+
     <!-- Spacer-->
-    <span class="grow"> </span>
+    <span class="flex-1"> </span>
+
+    <!-- Spacer-->
+    <span class="flex-1"> </span>
+
+    <!-- Spacer -->
+    <span class="flex-1"> </span>
+
+    <!-- Spacer-->
+    <span class="flex-1"> </span>
 
     <!-- Menu  -->
-    <span class="inline-block grow-0 w-fit m-0 sm:-mr-4 pr-1 text-(--ui-text-dimmed)">
+    <span class="inline-block grow-0 w-fit m-0 p-1 pb-0 text-(--ui-text-dimmed)">
 
-            <span class="font-extrabold text-lg">Menu</span>
+            <span class="pt-3 font-extrabold text-xl">
+                Menu
+            </span>
 
             <ul class="">
 

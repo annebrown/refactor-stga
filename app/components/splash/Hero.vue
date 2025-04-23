@@ -5,7 +5,7 @@
     <div class="relative w-ful p-0">
 
         <!-- Hero Image -->
-        <div class="w-full m-0 dark:p-8 rounded-4xl">
+        <div class="w-full m-0 rounded-4xl">
             <img
                 class="z-1 p-4 w-full rounded-4xl  border-30 dark:border-40 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
                 src="/images/hero/big-postcard.png"

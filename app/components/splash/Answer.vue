@@ -2,12 +2,12 @@
 <template><div>
 
     <!-- Answer -->
-    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full my-10 px-2">
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 w-full mb-10 px-2">
 
         <!-- Answer & Buttons -->
         <div class="my-auto mx-auto pl-2">
             <!-- Answer -->
-            <p class="mb-4 !text-justify font-bold 
+            <p class="m-0 mb-4 p-0 !text-justify font-bold 
                 text-(--ui-primary) dark:text-(--ui-primary) text-lg sm:text-xl md:text-2xl"
             >
                 The last remaining undeveloped area of land that borders the Gillies Grove Old-Growth Forest is being sold to a developer.
@@ -56,7 +56,7 @@
                 priority 
                 width=1301 
                 height=1148 
-                class=""
+                class="rounded-3xl border-4 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
             />
         </div>
 
