@@ -3,7 +3,7 @@
 <NuxtLayout name="splash">
 
         <!-- Hero -->
-        <SplashHero class="my-2 my-2py-3  
+        <SplashHero class="-mt-6 pb-3  
             bg-(--ui-color-hero) "/>
 
         <!-- Answer -->
@@ -16,7 +16,7 @@
             border-10 border-(--ui-secondary-2) dark:border-(--ui-primary-2)" />
 
         <!-- Events -->
-        <SplashEventsCalendar class="my-6 p-4 py-10text-black
+        <SplashEventsCalendar class="my-6 p-4 py-10 text-black
             bg-(--ui-color-events) rounded-4xl
             border-8 border-(--ui-secondary-3) dark:border-none" />
 

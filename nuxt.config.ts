@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 
   srcDir: 'app/',
 
-  css: ['assets/css/ship.css'],
+  css: ['~/assets/css/ship.css'],
 
   modules: [
       "@nuxt/ui", 
@@ -33,8 +33,6 @@ export default defineNuxtConfig({
       colors: ['primary', 'secondary', 'neutral', 'tertiary', 'success', 'warning', 'error']
     }
   },
-
-  modules: ['nuxt-gtag'],
 
   gtag: {
     id: 'G-7X8MSSZ6DE'

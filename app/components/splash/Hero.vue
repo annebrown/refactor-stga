@@ -16,8 +16,8 @@
         </div>
 
         <!-- Square Logo -->
-        <div class="z-500 absolute -top-14 dark:-top-5 -right-10 p-6 rounded-5xl">
-            <ULink to="/" class="">
+        <div class="z-500 absolute -top-2 -right-4 p-6 rounded-5xl">
+            <ULink to="/action" class="">
                 <img
                     src="/images/logo/logo-round.svg"
                     class="dark:invert dark:hue-rotate-180 p-0.5

@@ -14,26 +14,28 @@
 
         <UCard
             variant="link"
-            class="w-full m-1 p-0 sm:mt-1 md:mt-8 lg:mt-10 p-0 sm:py-3 rounded-full bg-transparent sm:bg-(--ui-secondary-2) sm:dark:bg-(--ui-primary-2)"
+            class="w-full m-1 sm:mt-1 md:mt-8 lg:mt-10 sm:py-3 p-0 
+            rounded-full bg-transparent 
+            sm:bg-(--ui-secondary-2) sm:dark:bg-(--ui-primary-2)"
             :ui="{ 
                 root: 'relative rounded-3xl',
-                header: 'z-200 sticky top-1 sm:top-2 ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rounded-3xl shadow-black shadow-md', 
+                header: 'z-200 sticky top-0 sm:top-2 rounded-3xl ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) rhadow-black shadow-md', 
                 footer: 'rounded-4xl mb-2 pt-1 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-3) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
                 body: 'm-0 p-0' 
             }"
         >
 
             <!-- CARD HEADER -->
-            <template #header class="flex w-full items-center justify-between pt-8">
+            <template #header class="flex w-full items-center justify-between">
                 
                 <!-- Logo -->
                 <span class="flex-auto inline-block">
-                        <ShipLogo class="inline-block w-[12rem] pt-[0.5rem] ml-2 sm:-ml-5" />
+                        <ShipLogo class="inline-block w-[12rem] my-auto ml-2 sm:-ml-3 py-0.1" />
                 </span>
                 <!-- <div class="grow"> </div> -->
 
                 <!-- Bow Menus & Toggles -->
-                <ShipBowMenu id="bow" class="inline-block align-bottom mt-2 rounded-4xl"/>
+                <ShipBowMenu id="bow" class="inline-block align-bottom rounded-4xl"/>
 
             </template> <!-- CARD HEADER -->
             
