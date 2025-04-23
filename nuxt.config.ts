@@ -10,7 +10,8 @@ export default defineNuxtConfig({
   modules: [
       "@nuxt/ui", 
       "@nuxt/image",
-      "@nuxt/fonts"
+      "@nuxt/fonts",
+      "nuxt-gtag"
   ],
 
   app: {
