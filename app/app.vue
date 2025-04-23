@@ -30,7 +30,7 @@
                 
                 <!-- Logo -->
                 <span class="flex-auto inline-block">
-                        <ShipLogo class="inline-block w-[11rem] my-[0.2rem] ml-2 pt-[0.2rem]"/>
+                        <ShipLogo class="inline-block w-[11rem] my-auto ml-2"/>
                 </span>
                 <!-- <div class="grow"> </div> -->
 
