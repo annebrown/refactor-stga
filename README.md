@@ -24,7 +24,7 @@ rsserver // Start dev server
 
 ## Fonts
 
-Original Logo Text "SAVE THE GROVE AGAIN" - Closest GF matches:
+Original Logo Text "SAVE THE GROVE AGAIN" - Closest GFonts matches:
 
 - Petrona
 - Jungle

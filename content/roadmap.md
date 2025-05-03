@@ -1,14 +1,13 @@
 ---
-title: 'Roadmap'
-description: 'Migration Tasks'
-navigation: 'false'
-lastModified:: '2025-02-25'
+title: "Roadmap"
+description: "Migration Tasks"
+navigation: "false"
+lastModified: "2025-02-25"
 ---
 
 ## Description
 
 Tasks remaining to complete framework migration from Next.js to Nuxt.
-
 
 ## Breadcrumbs
 

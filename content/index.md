@@ -1,13 +1,13 @@
 ---
-title: 'STGA Refactor'
-description: 'Migration Project'
+title: "STGA Refactor"
+description: "Migration Project"
 navigation: false
-lastModified:: 2025-02-25
+lastModified: 2025-02-25
 ---
 
 ## Description
 
- [Save the Grove Again](https://savethegroveagain.com) website framework migration from [Next.js](https://nextjs.org/) to [Nuxt](https://nuxt.com/)
+[Save the Grove Again](https://savethegroveagain.com) website framework migration from [Next.js](https://nextjs.org/) to [Nuxt](https://nuxt.com/)
 
 ## Links
 

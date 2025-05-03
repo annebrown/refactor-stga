@@ -39,14 +39,14 @@ export default defineNuxtConfig({
   },
 
   devServer: {
-    host: '192.168.4.21:3000',
+    host: '192.168.4.45:3000',
     https: {
-      key: '/devy/certs/192.168.4.21.key',
-      cert: '/devy/certs/192.168.4.21.crt'
+      key: '../../../../certs/192.168.5.555.key',
+      cert: '../../../../certs/192.168.5.555.crt'
     }
   },
 
-  devtools: { enabled: false },
+  devtools: { enabled: true },
   compatibilityDate: '2025-04-05',
 })
 //<--------@/nuxt.config.ts---------------------------------------------------->
