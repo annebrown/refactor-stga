@@ -35,10 +35,10 @@ export default defineAppConfig({
                 active: {
                   false: {
                     base:  '',
-                    link: 'text-(--ui-secondary) active:text', // This overrides the default 'text-(--ui-text-muted)'
-                  }
+                    link: 'text-(--ui-secondary) active:text-(--ui-primary)', // Overrides the default 'text-(--ui-text-muted)'
+                    }
                 }
-              }
+            }
         }, // NavigationMenu
 
         link: {

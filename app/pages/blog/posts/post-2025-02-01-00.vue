@@ -16,20 +16,20 @@
     <p class="pb-1"><strong>Where:</strong>Nick Smith Centre, Community Hall, 77 James Street, Arnprior</p>
 </div>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 Galilee Mission Centre has made an application with the Town of Arnprior to sever their land at 398 John Street North.  The town’s Committee of Adjustment is tasked with evaluating the application, gathering all necessary information and deciding whether the application will be accepted, denied or held pending more information. This decision could have significant implications for Gillies Grove, a treasured old-growth forest and National Historic Site. 
 
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 The application has sparked public concern with the Save the Grove Again Committee rallying community members to attend the meeting in opposition to the severance. STGA argues that allowing the proposed severance would likely pave the way for development of this ecologically and historically significant land. 
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 An important part of this application process is for the town to hold a public meeting. Join us on February 5th at 6:00pm at the Nick Smith Centre for this crucial step in protecting Gillies Grove..
 
 </p>
-<p class="mb-8 text-justify">
+ <p class="post-p">
 Here is what you need to know:
 </p>
 
@@ -54,7 +54,7 @@ If you wish to submit a comment to this application, you may forwarded it to:
 
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 For more information about the Committee of Adjustment meeting, go to the posting on the Town of Arnprior&apos;s website <ULink to="https://www.arnprior.ca/en/news/public-notice-application-for-consent-no-b8-24-398-john-st-n.aspx" >here</ULink>.
 </p>
 

@@ -19,7 +19,7 @@
           "
             :ui="{ 
                 root: 'relative rounded-4xl',
-                header: 'z-200 sticky top-1 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md', 
+                header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md', 
                 footer: 'rounded-4xl mb-2 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
                 body: 'm-0 p-0' 
             }"
@@ -30,12 +30,13 @@
                 
                 <!-- Logo -->
                 <span class="flex-auto inline-block">
-                        <ShipLogo class="inline-block w-[11rem] my-auto ml-2"/>
+                        <ShipLogo class="inline-block w-[14rem] ml-0 sm:-ml-6 p-2 pb-0"/>
                 </span>
+                
                 <!-- <div class="grow"> </div> -->
 
                 <!-- Bow Menus & Toggles -->
-                <ShipBowMenu id="bow" class="inline-block align-bottom rounded-4xl"/>
+                <ShipBowMenu id="bow" class="inline-block mt-2 rounded-4xl"/>
 
             </template> <!-- CARD HEADER -->
             
@@ -69,13 +70,15 @@
 
 <script setup lang="ts">
     import { Analytics } from '@vercel/analytics/nuxt';
+
     // useSeoMeta({
-    //     title: 'My Amazing Site',
-    //     ogTitle: 'My Amazing Site',
-    //     description: 'This is my amazing site, let me tell you all about it.',
-    //     ogDescription: 'This is my amazing site, let me tell you all about it.',
+    //     title: 'My Site',
+    //     ogTitle: ' Site',
+    //     description: 'This is my site.',
+    //     ogDescription: 'This is my site.',
     //     ogImage: 'https://example.com/image.png',
     //     twitterCard: 'summary_large_image',
     //     })
+    
 </script>
 <!--------@/app.vue------------------------------------------------------------>

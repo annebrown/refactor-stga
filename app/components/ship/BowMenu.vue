@@ -4,13 +4,13 @@
 <span class="inline-block">
 
     <!-- Main Menu - Collapsable -->
-    <ShipMainMenu  class="hidden sm:inline-block pr-12 pl-4 text-shadow-lg 
+    <ShipMainMenu  class="hidden md:inline-block mr-8 pl-4 text-shadow-lg 
         rounded-4xl bg-(--ui-bg) " />
 
     
 
         <!-- Absolute -->
-        <span class="inline-block absolute bottom-5 right-9">
+        <span class="inline-block absolute bottom-5 right-4">
 
             <!-- Absolute -->
             <span class="inline-block">

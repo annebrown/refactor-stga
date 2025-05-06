@@ -11,11 +11,11 @@
     />
 </div>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <ULink to="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</ULink>.
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 Last week, we sent out a questionnaire to all six Renfrew-Nipissing-Pembroke candidates asking this question:
 
 </p>
@@ -24,7 +24,7 @@ Last week, we sent out a questionnaire to all six Renfrew-Nipissing-Pembroke can
 Many community members and advocacy groups have expressed concerns about the proposed development adjacent to Gillies Grove. Are you aware of these grassroots efforts, and what is your position on the matter?
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 We received two responses:
 </p>
 
@@ -37,7 +37,7 @@ From Oliver Jacob, Ontario Liberal Party
 <p class="mb-4 text-justify">
 However, what I can say is that the Ford Conservatives have taken the wrong direction when it comes to their plan to build more housing. Eliminating environmental protections and removing appeal rights from the planning process has not helped to spur more housing development. It has only destroyed public confidence in the land use planning process. <b>Instead, I believe that the next provincial government should undertake a review of the Planning Act, Provincial Planning Statement (PPS), and related regulations to identify where amendments are required to protect the environment and restore appeal rights that existed prior to 2018.</b>
 </p> 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 In order to spur housing development, we need to focus on reducing costs for developers by eliminating development charges while ensuring that municipalities are kept whole through additional provincial investment in municipal infrastructure. As a general rule, development should not occur on environmentally significant lands or prime agricultural lands.&quot;
 </p>
 <p class="mb-1 text-justify font-bold">
@@ -49,10 +49,10 @@ From Marshall Buchanan, Ontario NDP
 <p class="mb-4 text-justify">
 I am a Registered Professional Forester and do lots of urban forestry consulting. The issue of developers vs. trees is not new. Of course I am in favour of the grassroots groups that want to save the forest. <b>A buffer zone has to be established between the edge of the development and the woodlot. Mature trees are more sensitive to changes in drainage, heat, humidity and disturbance than are young trees.</b>
 </p>
-<p class="mb-8 text-justify">
+ <p class="post-p">
 So the residents have to keep up the fight to force the municipality or the developer to take measures to avoid harming the woodlot and /or, pay into a fund to create new forest.”
 </p>
-<p class="mb-8 text-justify">
+ <p class="post-p">
 The other four candidates did not provide a response to our requests. Of course, we would have liked to provide this information sooner but we also wanted to allow candidates as much time to respond.
 </p>
 

@@ -5,7 +5,7 @@
 /* 
 /******************************************************************************/
 :root {
-    **************************************************************************/
+    /***************************************************************************/
     /* Colors
     /**************************************************************************/
     --color-amber-50:  #fffbeb; /* amber-50  */
@@ -109,9 +109,9 @@
     /* Palette - Dark
     /**************************************************************************/
     /* Primary */
-    --ui-primary:       var(--ui-color-primary-800);
-    --ui-primary-1 :    var(--ui-color-primary-900);
-    --ui-primary-2 :    var(--ui-color-primary-950);
+    --ui-primary:       var(--color-primary-800);
+    --ui-primary-1 :    var(--color-primary-900);
+    --ui-primary-2 :    var(--color-primary-950);
     /* Secondary */
     --ui-secondary:     var(--color-apple-400);
     --ui-secondary-1:   var(--color-apple-400);

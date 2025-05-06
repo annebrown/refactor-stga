@@ -17,22 +17,22 @@
 
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
     <span >“Call of the Forest is magnificent! This is a very important film and I hope that all of the politicians in Ottawa receive a copy of it – and the forest ministries around the world.”</span> <br/>- <b>David Suzuki, Scientist, Author and Broadcaster</b>
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
     Prepare to be amazed, entertained but also informed about the wonder of ancient forests, around the world and here in Canada. We can not protect what we do not understand and ‘Call of the Forest’ responds to this need beautifully. As Diana Beresford-Kroeger says “Nature is the thread that completes the tapestry of life.” Our understanding of our essential connection to nature, that we can never be apart from it, is crucial to our ability to sustain and protect it. 
 </p>
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
     We are thrilled to be able to host this amazing film and thank Treespeak Films and Merit Motion Pictures for the gracious gift of its screening. We would also like to extend our gratitude for the generous donation of the venue costs, sponsored in memory of Howard Ransom and Sloan Watters.
 
 </p>
 
 
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
 Here are the details of the event:
 </p>
 
@@ -60,7 +60,7 @@ Here are the details of the event:
 </table>
 
 
-<p class="mb-8 text-justify">
+ <p class="post-p">
     More information on the film is available <ULink to="https://calloftheforest.ca/">here</ULink>.
 </p>
 

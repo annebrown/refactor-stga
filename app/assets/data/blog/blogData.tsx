@@ -17,6 +17,19 @@ export const blogData = [
     },
     */
     {
+        id: 22,
+        title: "Songs for the Grove: A Benefit Concert",
+        paragraph:
+          "Local artists take to the stage to protect Arnprior’s iconic old-growth forest",
+        image: "/images/blog/blog22.png",
+        alt: "Two musicians",
+        width: 500,
+        height: 280,
+        tags: ["Event"],
+        publishDate: "May 6, 2025",
+        blogURL: "/blog/posts/post-2025-05-06-00"
+    },
+    {
         id: 21,
         title: "Plant a Tree Drive 2025",
         paragraph:

@@ -18,17 +18,13 @@
     font-style: normal;
     font-display: swap;
 }
-
 @theme static {
     --font-sans: 'Inter-VariableFont_opsz', sans-serif;
 }
-/******************************************************************************/
-/* Ship
-/******************************************************************************/
 h1 { @apply pt-8 pb-10 text-4xl text-center font-extrabold; }
 h2 { @apply py-8 text-3xl text-center font-extrabold; }
-
 p { @apply text-justify py-2; }
+.post-p { @apply mb-8 text-justify; }
 /******************************************************************************/
 /* Bow
 /******************************************************************************/
