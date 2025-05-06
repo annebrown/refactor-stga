@@ -120,7 +120,7 @@
         This is a benefit concert for Save the Grove Again to help fund the initiative to protect Gillies Grove. In the months ahead, we will be needing the expertise of professionals to provide our team with legal, planning and environmental support.
     </p>
      <p class="post-p">
-        There will be an intermission where we will have a chance to mingle and chat while enjoying coffee, tea and some snacks by donation. Please bring cash as we cannot accept cards atr the venue.  ☕ 🍰 🥤
+        There will be an intermission where we will have a chance to mingle and chat while enjoying coffee, tea and some snacks by donation. Please bring cash as we cannot accept cards at the venue.  ☕ 🍰 🥤
     </p>
      <p class="post-p">
         We hope to see you there!

@@ -4,16 +4,23 @@
 <div class="">
 
     <!-- Event Details -->
-    <p class="pb-1"><strong>Event Title:</strong> Save the Grove Again Information Session- Planting the Seed</p>
-    <p class="pb-1"><strong>Event Date:</strong> September 7, 2024 at 1:00pm</p>
-    <p class="pb-1"><strong>Event Location: </strong>Emmanuel Anglican Church</p>
-    <p class="pl-5">(corner of Harrington and Ottawa Street, Arnprior ON)</p><br></br>
-
-    <p>
-        <strong>Event Description:</strong>
+    <p class="pb-1">
+        <strong>
+            Event Title: 
+        </strong> 
+            Save the Grove Again Information Session- Planting the Seed<br/>
+        <strong>
+            Event Date:
+        </strong> 
+            September 7, 2024 at 1:00pm<br/>
+        <strong>
+            Event Location: 
+        </strong>
+            Emmanuel Anglican Church<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;(corner of Harrington and Ottawa Street, Arnprior ON)
     </p>
 
-    <br></br>
+    <p class=""><strong>Event Description:</strong></p>
 
     <p class="mb-10 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
         Join us for an information session for the Save the Grove Again campaign, our first event in support of sharing the proposed repurposing of the land once known as Deer Park (known today as Galilee Center grounds). This event is curated by a group of dedicated local volunteers that want to share the love for this ecological and historical piece of land with guest speakers and offerings for community participation in the form of lawn signs, buttons and pamphlets. Come out on September 7th to show your support and help sow the seeds for a more sustainable solution.
@@ -57,7 +64,7 @@
         </ul>
     </span>
 
-    <p class="mb-10 pt-10 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+    <p class=" text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
         Contact Information:
     </p>
 

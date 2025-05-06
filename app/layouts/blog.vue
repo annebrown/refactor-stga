@@ -3,13 +3,14 @@
 
 <!-- Blog Post Layout -->
 <UCard 
-    variant="link"
-    class="w-full rounded-4xl bg-(--ui-bg)"
+    variant="soft"
+    class="w-full rounded-4xl bg-(--ui-bg) ring-transparent divide-transparent"
     :ui="{ 
         header: 'w-full m-0 mx-auto pt-4 px-4 flex items-start', 
         footer: 'm-0 p pt-4 flex items-end',
         body: 'm-0 mx-1 sm:mx-2 p-0' 
-    }">
+    }"
+>
 
     <!-- CARD HEADER -->
     <template #header v-if="currentBlogMeta">
@@ -18,17 +19,17 @@
         <div class="mt-4 mx-auto">
 
             <!-- Title -->
-            <p class="pt-8 text-4xl font-extrabold !text-center text-(--ui-primary)">
+            <p class="mt-10 mb-2 text-4xl font-extrabold text-(--ui-primary)">
                 {{ currentBlogMeta.title }}
             </p>
 
             <!-- Bi-Line -->
-            <p class="my-5 text-xl font-bold !text-center">
+            <p class="mb-10 text-xl font-bold">
                 {{ currentBlogMeta.paragraph }}
             </p>
             
             <!-- Date & Tag -->
-            <p class="w-full py-5 flex flex-row">
+            <p class="w-full flex flex-row">
 
                 <!-- Publication Date -->
                 <span class="font-bold text-(--ui-primary)">
@@ -42,7 +43,7 @@
                 <span class="flex-0">
 
                     <UButton 
-                        class="stga-button-tag">
+                        class="stga-button-tag -mt-5">
                         {{ currentBlogMeta.tags[0] }}
                     </UButton>
                     
@@ -54,8 +55,14 @@
 
     </template> <!-- CARD HEADER -->
 
+    <USeparator 
+        class="w-full mt-4 mb-10 mx-auto border-t-[--ui-secondary-2] rounded shadow-black shadow-sm" 
+        size="xl"
+
+    />
+
     <!-- CARD BODY -->
-    <div class="bg-(--ui-bg) rounded-3xl p-8">
+    <div class="bg-(--ui-bg) rounded-3xl">
 
         <div class="m-0 p-0">
             <slot />
