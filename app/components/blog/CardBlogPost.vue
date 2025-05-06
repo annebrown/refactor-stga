@@ -46,7 +46,7 @@
         </div>
 
         <!-- Publish Date -->
-        <div class="p-4 text-(--ui-primary)">
+        <div class="p-4 text-[--ui-primary]">
             <p class="">{{ post.publishDate }}</p>
         </div>
 

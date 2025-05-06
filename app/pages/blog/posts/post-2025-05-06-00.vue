@@ -1,16 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-05-06-00.vue---------------------------->
 <template><div>
       
-    <div class="w-full mx-auto">
-        <img
-            src="/images/blog/blog22.png"
-            alt="Two musicians"
-            width="500"
-            height="280"
-        class="w-full mx-auto pb-10"
-        />
-    </div>
-
     <p class="post-p text-[#165D8F]">
         On Saurday, May 24, 2025, musicians from across the Ottawa Valley will come together at Emmanuel Anglican Church in Arnprior for Songs for the Grove—a benefit concert raising awareness and funds to help protect Gillies Grove from encroaching development.
     </p>

@@ -37,7 +37,7 @@
         <p class="mb-8 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
             Let&apos;s keep the heart of Arnprior beating to benefit both current and future generations.
         </p>
-        <p class="text-center mt-5 pb-10 text-2xl weight-bold pt-4 text-(--ui-primary) ">
+        <p class="text-center mt-5 pb-10 text-2xl weight-bold pt-4 text-[--ui-primary] ">
             Together we can find a better way!
         </p>
         <div class="rounded-md w-full mb-20">

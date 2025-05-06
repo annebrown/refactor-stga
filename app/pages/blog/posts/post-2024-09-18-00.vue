@@ -49,7 +49,7 @@
             We want to make clear that we do not criticize the ministry of Galilee. The staff are excellent and we applaud the ways in which they have served the community. But we do challenge the Board of Directors at Galilee for failing to negotiate with NCC and the community as a whole to find a better way.
         </p>
         
-        <p class="text-center mt-5 pb-10 text-2xl weight-bold pt-4 text-(--ui-primary) ">
+        <p class="text-center mt-5 pb-10 text-2xl weight-bold pt-4 text-[--ui-primary] ">
             Together we can find a better way!
         </p>
 

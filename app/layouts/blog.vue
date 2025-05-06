@@ -51,18 +51,28 @@
 
             </p><!-- Date & Tag -->
 
+            <!-- Image -->
+            <img
+                :src="`${ currentBlogMeta.image }`"
+                :alt="`${ currentBlogMeta.alt }`"
+                :width="`${ currentBlogMeta.width }`"
+                :height="`${ currentBlogMeta.height }`"
+                class="my-10 w-full h-full object-cover object-top
+                    rounded-md ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md"
+            />
+
         </div> <!-- Blog Meta -->
 
     </template> <!-- CARD HEADER -->
 
-    <USeparator 
+    <!-- <USeparator 
         class="w-full mt-4 mb-10 mx-auto border-t-[--ui-secondary-2] rounded shadow-black shadow-sm" 
         size="xl"
 
-    />
+    /> -->
 
     <!-- CARD BODY -->
-    <div class="bg-(--ui-bg) rounded-3xl">
+    <div class="bg-(--ui-bg)">
 
         <div class="m-0 p-0">
             <slot />

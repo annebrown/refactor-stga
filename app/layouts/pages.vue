@@ -22,7 +22,7 @@
         >
 
             <!-- Title -->
-            <div class="mt-5 text-5xl font-extrabold text-center text-(--ui-primary)">
+            <div class="mt-5 text-5xl font-extrabold text-center text-[--ui-primary]">
                 {{ route.meta.title }}
             </div>
 
