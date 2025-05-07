@@ -10,7 +10,7 @@
         <!-- Logo -->
         <span class="inline-block">
             <ShipLogo class="inline-block
-                w-48 sm:w-72 md:w-96 
+                w-44 sm:w-72 md:w-96 
                 ml-8 
                 mt-9 
                 pb-0"
