@@ -2,15 +2,15 @@
 <template><div>
 
 <!-- Transom Top -->
-<div class="relative flex !w-full mx-auto">
+<div class="relative flex w-full mx-auto">
 
     <!-- Logo & Town -->
-    <span class="flex-shrink -ml-5.5 my-auto inline-block">
+    <span class="flex-none -ml-5.5 my-auto inline-block">
 
         <!-- Logo -->
-        <span class="flex-1 inline-block">
+        <span class="inline-block">
             <ShipLogo class="inline-block
-                w-52 sm:w-72 md:w-96 
+                w-48 sm:w-72 md:w-96 
                 ml-8 
                 mt-9 
                 pb-0"
