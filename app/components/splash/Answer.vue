@@ -14,7 +14,7 @@
             </p>
 
            <!-- Buttons -->
-            <div class="w-1/2 sm:w-full flex flex-row gap-4 flex-wrap mx-auto pb-4">
+            <div class="flex flex-row w-1/2 sm:w-full mx-auto pb-4 gap-y-4 flex-wrap gap-x-2">
                 <!-- Button - Subscribe -->
                 <UButton 
                     label="Subscribe"

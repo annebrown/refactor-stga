@@ -4,7 +4,7 @@
 <ULink :to="`${ post.blogURL }`" class="">
 
     <!-- Card -->
-    <div class="flex flex-col">
+    <div class="flex flex-col h-full">
 
         <!-- Header - Image & Tags-->
         <div class="relative flex-none">

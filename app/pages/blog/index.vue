@@ -6,7 +6,7 @@
    <!-- All Posts -->
    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full 
         gap-x-4 gap-y-8 p-4 
-        rounded-4xl  dark:bg-(--ui-primary-2)
+        rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
         place-content-stretch">
 
   <!-- Rounded bottom with thicker primary-colored top border -->
@@ -15,10 +15,7 @@
         v-for="(post, index) in blogData"
         :key="index" 
         :post="post"
-        class="flex-1 rounded-2xl  shadow-xl
-            
-            shadow-black/25 dark:shadow-black/50 shadow-lg rounded-3xl bg-(--ui-bg) 
-            "
+        class="flex-1 shadow-black/25 dark:shadow-black/50 shadow-lg rounded-3xl bg-(--ui-bg)"
     />
 
 </div>
