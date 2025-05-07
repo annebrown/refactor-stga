@@ -5,12 +5,12 @@
 <div class="relative flex w-full mx-auto">
 
     <!-- Logo & Town -->
-    <span class="flex-none -ml-5.5 my-auto inline-block">
+    <span class="flex-none -ml-6.25 my-auto inline-block">
 
         <!-- Logo -->
         <span class="inline-block">
             <ShipLogo class="inline-block
-                w-44 sm:w-72 md:w-96 
+                w-40 sm:w-72 md:w-96 
                 ml-8 
                 mt-9 
                 pb-0"
@@ -21,7 +21,7 @@
         <span class="transom-menu-item absolute 
             top-[4.25rem] sm:top-[5rem] md:top-[6rem] lg:top-[6rem] 
             left-[4.75rem] sm:left-[6.5rem] md:left-[8.25rem] lg:left-[8rem] 
-            text-sm sm:text-md md:text-xl lg:text-2xl">
+            text-sm sm:text-sm md:text-lg lg:text-xl">
             <ULink to="https://arnprior.ca" class="text-(--ui-secondary)">
                 Arnprior, ON
             </ULink>
