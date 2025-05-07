@@ -4,7 +4,7 @@
 <div class="">
 <UCard
     variant="soft"
-    class="w-full m-0 mb-10 bg-(--ui-secondary-2) rounded-4xl"
+    class="w-full m-0 mb-10 bg-(--ui-secondary-2) dark:bg-(--ui-primary-2) rounded-4xl"
     :ui="{ 
         root: '',
         body: 'm-4 px-2 bg-(--ui-bg) rounded-4xl' 
@@ -14,7 +14,7 @@
     <div class="m-0 p-0">
         
     <!-- Event Details -->
-    <p class="mb-2 align-left">
+    <p class="mb-2 !text-left">
         <br/>
         <strong>
             Event Title: 
@@ -28,7 +28,7 @@
             Event Location: 
         </strong>
             Emmanuel Anglican Church<br/>
-            &nbsp;&nbsp;&nbsp;&nbsp;(corner of Harrington and Ottawa Street, Arnprior ON)<br/><br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;<span class="text-sm"> (corner of Harrington and Ottawa Street, Arnprior ON)</span><br/><br/>
         <strong>Event Description:</strong>
     </p>
 
@@ -42,7 +42,7 @@
         Whether you can join us in person or not on September 7th, please consider supporting this cause in the following ways:
     </p>
 
-    <span class="text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">
+    <span class="">
         <ul class="post-p">
             <li>
                 - 🗞️Subscribe to our <ULink to="https://docs.google.com/forms/d/e/1FAIpQLSfBFJHDmUnmpGv1XaSHGaSSPmGizbxrQ-KgeqRRZqdVNZeuHg/viewform">mailing list</ULink>
@@ -72,22 +72,24 @@
         For more information, to ask a question, request a lawn sign, or obtain a button, please contact one of our dedicated volunteers at: 
     </p>
 
-    <p class="text-center pb-10 pt-5 weight-bold text-[--ui-primary] text-3xl">
+    <div class="text-center pb-10 font-bold text-2xl text-(--ui-primary)">
         <ULink to="mailto:savethegroveagain@gmail.com" >
             savethegroveagain@gmail.com
         </ULink>
-    </p> 
+    </div> 
 
-    <div class="relative z-10 mb-10 overflow-hidden rounded-md bg-(--ui-color-news) bg-opacity-10 p-8 md:p-9 lg:p-8 xl:p-9">
-        <p class="text-center text-base font-medium italic">
+    <div 
+        class="p-8 text-center italic
+            rounded-3xl bg-(--ui-primary-4) dark:bg-(--ui-primary) bg-opacity-10">
+
         🌱Small Steps, 🌳Big Impact!
-        </p>
+
     </div>
 
-   <p class="py-2">Together we can find a better way!</p>
+   <p class="mt-10 mb-2">Together we can find a better way!</p>
 
-    <p>The volunteers of the&nbsp;
-        <HeartIcon class="size-5 inline text-red-800" />Save the Grove Again Campaign<HeartIcon class="size-5 inline text-red-800" />
+    <p class="">The volunteers of the
+        <UIcon name="heroicons:heart-16-solid" width="16" height="16"  class="size-5 text-red-500"/>Save the Grove Again Campaign<UIcon name="heroicons:heart-16-solid" width="16" height="16"  class="size-5 text-red-500"/>
     </p>
 
 </div>

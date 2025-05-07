@@ -50,6 +50,8 @@
     --ui-primary:       var(--color-sky-800);
     --ui-primary-1 :    var(--color-sky-600);
     --ui-primary-2 :    var(--color-sky-300);
+    --ui-primary-3 :    var(--color-sky-200);
+    --ui-primary-4 :    var(--color-sky-100);
     /* Secondary */
     --ui-secondary:     var(--color-apple-600);
     --ui-secondary-1:   var(--color-apple-400);

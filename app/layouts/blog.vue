@@ -6,9 +6,9 @@
     variant="soft"
     class="w-full rounded-4xl bg-(--ui-bg) ring-transparent divide-transparent"
     :ui="{ 
-        header: 'w-full m-0 mx-auto pt-4 px-4 flex items-start', 
+        header: 'w-full m-0 mx-auto pt-4 px-0 flex items-start', 
         footer: 'm-0 p pt-4 flex items-end',
-        body: 'm-0 mx-1 sm:mx-2 p-0' 
+        body: '' 
     }"
 >
 

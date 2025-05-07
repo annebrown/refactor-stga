@@ -124,7 +124,7 @@
 
         <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
-                <ULink to="https://www.omilacombe.ca" class="text-[--ui-primary]">
+                <ULink to="https://www.omilacombe.ca" class="text-(--ui-primary)">
                     <strong>Missionary Oblates of Mary Immaculate Lacombe Canada</strong>
                 </ULink><br/>
                 <ULink to="https://www.omilacombe.ca" >
@@ -139,7 +139,7 @@
         </div>
         <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
-                <ULink to="https://www.galileecentre.com" class="text-[--ui-primary]">
+                <ULink to="https://www.galileecentre.com" class="text-(--ui-primary)">
                     <strong>Galilee Centre</strong>
                 </ULink><br/>
                 <ULink to="https://www.galileecentre.com" >
@@ -154,7 +154,7 @@
 
         <div class="rounded-lg w-full bg-(--ui-bg) p-5">
             <p class="text-wrap">
-                <ULink to="https://www.thomascavanagh.ca" class="text-[--ui-primary]">
+                <ULink to="https://www.thomascavanagh.ca" class="text-(--ui-primary)">
                     <strong>Thomas Cavanagh Construction Limited (Cavanagh Communities)</strong>
                 </ULink><br/>
                 <ULink to="https://www.thomascavanagh.ca" >
@@ -175,7 +175,7 @@
     <div class="p-10">
     
         <h1 class="mb-0 text-3xl font-bold text-center pb-2 center">
-            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524" class="text-[--ui-primary]">
+            <ULink to="https://www.arnprior.ca/en/town-hall/contact-us.aspx?_mid_=7524" class="text-(--ui-primary)">
                 <strong>Town of Arnprior</strong>
             </ULink><br/>
         </h1>

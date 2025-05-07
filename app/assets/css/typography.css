@@ -23,7 +23,7 @@
 }
 h1 { @apply pt-8 pb-10 text-4xl text-center font-extrabold; }
 h2 { @apply py-8 text-3xl text-center font-extrabold; }
-p { @apply text-justify py-2; }
+p { @apply text-left py-2; }
 .post-p { @apply mb-8 text-justify; }
 /******************************************************************************/
 /* Bow
@@ -43,6 +43,6 @@ p { @apply text-justify py-2; }
 /******************************************************************************/
 .page-sig {
     @apply m-0 p-0 !text-center text-2xl font-bold
-        text-[--ui-primary];
+        text-(--ui-primary);
 }
 /*--------@/app/assets/css/typography.css-------------------------------------*/

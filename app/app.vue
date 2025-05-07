@@ -14,13 +14,13 @@
 
         <UCard
             variant="soft"
-            class="w-full m-0 px-0
-            rounded-full bg-transparent 
+            class="w-full m-0 p-0
+            rounded-full bg-transparent divide-transparent
           "
             :ui="{ 
                 root: 'relative rounded-4xl',
-                header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md', 
-                footer: 'rounded-4xl mb-2 pb-2 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/50 shadow-lg',
+                header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg', 
+                footer: 'rounded-full mb-3 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-xl',
                 body: 'm-0 p-0' 
             }"
         >
@@ -30,7 +30,7 @@
                 
                 <!-- Logo -->
                 <span class="flex-auto inline-block">
-                        <ShipLogo class="inline-block w-[14rem] ml-0 sm:-ml-6 p-2 pb-0"/>
+                        <ShipLogo class="inline-block w-[14rem] sm:-ml-6 p-2 pb-0"/>
                 </span>
                 
                 <!-- <div class="grow"> </div> -->
@@ -42,12 +42,12 @@
             
         
             <!-- CARD BODY -->
-            <div class="z-1 bg-(--ui-bg) rounded-4xl p-0">
+            <div class="z-1 bg-(--ui-bg) rounded-4xl m-0 p-0">
 
                 <div class="w-full px-0 mx-0">
 
                     <!-- Midships -->
-                    <NuxtPage id="midships" class="z-1 w-full p-0" />
+                    <NuxtPage id="midships" class="z-1 w-full m-0 p-0" />
 
                 </div>
             </div>

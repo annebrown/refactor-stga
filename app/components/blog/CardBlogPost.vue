@@ -4,10 +4,10 @@
 <ULink :to="`${ post.blogURL }`" class="">
 
     <!-- Card -->
-    <div class="">
+    <div class="flex flex-col">
 
         <!-- Header - Image & Tags-->
-        <div class="relative">
+        <div class="relative flex-none">
 
             <!-- Image -->
             <img
@@ -30,7 +30,7 @@
         </div>
 
         <!-- Title & Bi-LIne-->
-        <div class="">
+        <div class="flex-none">
 
             <!-- title -->
             <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold 
@@ -45,8 +45,11 @@
 
         </div>
 
+        <!-- Spacer-->
+        <div class="flex-1">&nbsp;</div>
+
         <!-- Publish Date -->
-        <div class="p-4 text-[--ui-primary]">
+        <div class="flex-none p-4 text-(--ui-primary)">
             <p class="">{{ post.publishDate }}</p>
         </div>
 

@@ -1,21 +1,28 @@
 <!--------@/app/components/ship/Transom.vue------------------------------------>
 <template><div>
 
-<!-- Transom -->
-<div class="flex !w-full mx-auto">
-
+<!-- Transom Top -->
+<div class="relative flex !w-full mx-auto">
 
     <!-- Logo & Town -->
-    <span class="w-fullrelative grow -ml-5 my-auto hidden sm:inline-block">
+    <span class="flex-shrink -ml-5.5 my-auto inline-block">
 
         <!-- Logo -->
-        <span>
-            <ShipLogo class="w-fit h-auto p-3" />
+        <span class="flex-1 inline-block">
+            <ShipLogo class="inline-block
+                w-52 sm:w-72 md:w-96 
+                ml-8 
+                mt-9 
+                pb-0"
+            />
         </span>
-
+                
         <!-- Town -->
-        <span class="transom-menu-item absolute top-[3rem] left-[5.5rem] text-md">
-            <ULink to="https://arnprior.ca" class="">
+        <span class="transom-menu-item absolute 
+            top-[4.25rem] sm:top-[5rem] md:top-[6rem] lg:top-[6rem] 
+            left-[4.75rem] sm:left-[6.5rem] md:left-[8.25rem] lg:left-[8rem] 
+            text-sm sm:text-md md:text-xl lg:text-2xl">
+            <ULink to="https://arnprior.ca" class="text-(--ui-secondary)">
                 Arnprior, ON
             </ULink>
         </span>
@@ -25,40 +32,16 @@
     <span class="flex-1"> </span>
 
     <!-- Social Icons -->
-    <span class="inline-block flex-none pt-[2rem] pr-1 my-auto text-center">
+    <span class="inline-block flex-none my-auto mr-3 pt-6">
 
         <FleetSocialIcons class="inline-block mx-auto" /><br />
 
-        <!-- Copyright -->
-        <span class="text-center inline-block p-4 text-sm text-(--ui-text-dimmed)">
-            Copyright 
-                <ULink to="/admin" class="text-(--ui-text-dimmed)">
-                    @ 
-                </ULink>
-                2025 Save the Grove Again
-        </span>
-
     </span><!-- Social Icons -->
 
-    <!-- Spacer-->
-    <span class="flex-1"> </span>
-
-    <!-- Spacer-->
-    <span class="flex-1"> </span>
-
-    <!-- Spacer-->
-    <span class="flex-1"> </span>
-
-    <!-- Spacer -->
-    <span class="flex-1"> </span>
-
-    <!-- Spacer-->
-    <span class="flex-1"> </span>
-
     <!-- Menu  -->
-    <span class="inline-block grow-0 w-fit m-0 p-1 pb-0 text-(--ui-text-dimmed)">
+    <!-- <span class="inline-block grow-0 w-fit m-2 text-(--ui-text-dimmed)">
 
-            <span class="pt-3 font-extrabold text-xl">
+            <span class="font-extrabold text-lg">
                 Menu
             </span>
 
@@ -83,9 +66,21 @@
                 </li>
             </ul>
 
-    </span><!-- Menu  -->
+    </span> -->
+    <!-- Menu  -->
 
-</div><!-- Transom  -->
+</div><!-- Transom Top -->
+
+<div class="w-full mx-auto mb-2 text-center"><!-- Transom Bottom -->
+    <!-- Copyright -->
+    <span class="text-sm text-(--ui-text-dimmed)">
+    Copyright 
+        <ULink to="/admin" class="text-(--ui-text-dimmed)">
+            @ 
+        </ULink>
+        2025 Save the Grove Again
+    </span>
+</div><!-- Transom Bottom -->
 
 </div></template>   
 <!--------@/app/components/ship/Transom.vue------------------------------------>

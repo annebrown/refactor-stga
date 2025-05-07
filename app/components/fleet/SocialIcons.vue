@@ -2,7 +2,7 @@
 <template><div>
 
 <UButtonGroup 
-    class="gap" 
+    class="gap-0" 
 
 >
 

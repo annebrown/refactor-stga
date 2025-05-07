@@ -18,7 +18,7 @@
                 We are reaching out with a time sensitive request. On Monday September 16th at 5:00pm Cavanagh&apos;s due diligence period on their Agreement of Purchase and Sale will end and the deal will move into a different phase, one that will likely be more concrete. If we want any chance to stop this from progressing we need to get loud. We are calling on all 180 of you to make the time between tonight and Monday to write letters to the following parties:
             </p>
 
-            <div class="p-10 mb-10 bg-(--ui-color-voices) shadow-lg">
+            <div class="p-10 mb-10 rounded-3xl bg-(--ui-color-voices) shadow-lg">
 
                 <!-- List of Contacts -->
                 <h1 class="text-2xl font-bold text-center pb-10 center">
@@ -29,7 +29,7 @@
 
                     <div class="rounded-lg w-full bg-(--ui-bg) p-5">
                         <p class="text-wrap">
-                            <ULink to="https://www.omilacombe.ca">
+                            <ULink to="https://www.omilacombe.ca" class="text-(--ui-primary)">
                                 <strong>Missionary Oblates of Mary Immaculate Lacombe Canada</strong>
                             </ULink><br/>
                             <ULink to="https://www.omilacombe.ca">
@@ -48,7 +48,7 @@
 
                     <div class="rounded-lg w-full bg-(--ui-bg) p-5">
                         <p class="text-wrap">
-                            <ULink to="https://www.galileecentre.com">
+                            <ULink to="https://www.galileecentre.com"  class="text-(--ui-primary)">
                                 <strong>Galilee Centre</strong>
                             </ULink><br/>
                             <ULink to="https://www.galileecentre.com">
@@ -63,7 +63,7 @@
 
                     <div class="rounded-lg w-full bg-(--ui-bg) p-5">
                         <p class="text-wrap">
-                            <ULink to="https://www.thomascavanagh.ca">
+                            <ULink to="https://www.thomascavanagh.ca" class="text-(--ui-primary)">
                                 <strong>Thomas Cavanagh Construction Limited (Cavanagh Communities)</strong>
                             </ULink><br/>
                             <ULink to="https://www.thomascavanagh.ca">
@@ -81,8 +81,6 @@
                 </div>
 
             </div>
-
-            <USeparator class="pt-4 pb-10"/>
 
             <p class="mb-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">
                 There was a request at the community gathering last Saturday that we provide form letters. We feel it is important for these parties to hear from individuals, plus we can&apos;t speak for each of you.  Consequently, we have compiled some information to assist you in writing your own letters:
@@ -116,19 +114,6 @@
                 Additional <ULink to="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit#" class="duration-300 hover:text-primary text-(--ui-secondary)">TEMPLATE/EXAMPLE LETTERS</ULink> have been provided by a community member for letters to Lacombe, Galilee Centre, Cavanagh, Mayor McGee and John Yakabuski, Legislative Assembly of Ontario.
             </p>
 
-            <USeparator class="py-10"/>
-
-            <div class="">
-                <img
-                    src="/images/blog/blog0003/blog3-2.webp"
-                    alt="Two children in woods-bordered field"
-                    loading="eager"
-                    priority
-                    width=498
-                    height=230
-                    class="mx-auto px-8"
-                />
-            </div>
             <p class="mb-8 mt-8 text-base font-medium sm:text-lg lg:text-base xl:text-lg ">               
                 We also have a new page up on our website called <ULink to="https://savethegroveagain.com/action" class="duration-300 hover:text-primary text-(--ui-secondary)">Get Involved!</ULink>  You can find more contact information for municipal, provincial and federal governments here. We will continue to update it. If you have any suggestions for additions please reach out and let us know. 
             </p>

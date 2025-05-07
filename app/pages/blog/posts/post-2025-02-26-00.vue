@@ -133,7 +133,7 @@
                         <li>💚 Make a donation via e-transfer to  <ULink to="mailto:savethegroveagain@gmail.com" class="text-(--ui-secondary) hover:text-primary">savethegroveagain@gmail.com</ULink></li>
                     </ul>
 
-                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-[--ui-primary] ">Together we can find a better way!</p>
+                    <p class="text-center pb-8 text-2xl weight-bold pt-8 text-(--ui-primary) ">Together we can find a better way!</p>
 
             </div>
         </div>

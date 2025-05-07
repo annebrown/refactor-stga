@@ -35,7 +35,7 @@ export default defineAppConfig({
                 active: {
                   false: {
                     base:  '',
-                    link: 'text-(--ui-secondary) active:text-[--ui-primary]', // Overrides the default 'text-(--ui-text-muted)'
+                    link: 'text-(--ui-secondary) active:text-(--ui-primary)', // Overrides the default 'text-(--ui-text-muted)'
                     }
                 }
             }
@@ -45,9 +45,9 @@ export default defineAppConfig({
             base: 'transition-colors',
             variants: {
                 active: {
-                  true: 'text-[--ui-primary]',
+                  true: 'text-(--ui-primary)',
                   false: 
-                    'text-(--ui-secondary) hover:text-[--ui-primary]'
+                    'text-(--ui-secondary) hover:text-(--ui-primary)'
                 },
                 disabled: {
                   true: 'cursor-not-allowed opacity-75'
@@ -57,7 +57,7 @@ export default defineAppConfig({
                 {
                     active: false,
                     class: {
-                        base: 'hover:text-[--ui-primary]'
+                        base: 'hover:text-(--ui-primary)'
                     }
                 }
             ]
