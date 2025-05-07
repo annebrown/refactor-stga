@@ -1,31 +1,18 @@
 <!--------@/pages/blog/posts/post-2024-10-03-00.vue---------------------------->
 
 <template><div>
-    <p 
-        class="mb-10 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed text-justify"
-    >
+    <p class="post-p">
         Join us as we come together as a community once again to show our dedication to protecting the Grove from future development. We will first take a silent walk together to appreciate our beloved old-growth forest and finish with a gathering to discuss next steps, answer questions and celebrate victories.
     </p>
-    
-    <div class="aspect-[100/75] mb-10 self-center">
-        <img
-            src="/images/blog/blog0006/blog6.webp"
-            alt="Green Globe"
-            width="500"
-            height="375"
-            class="w-full mx-auto"
 
-        />
-    </div>
-
-    <p class="mb-8 text-center font-bold text-2xl">
+    <h2>
         Silent Walk
-    </p>
+    </h2>
 
-    <p class="mb-2 text-center">
+    <p class="post-p">
         <strong>Where:</strong> Meet at the entrance to Gillies Grove (off Ottawa Street)
     </p>
-    <p class="mb-2 text-center">
+    <p class="post-p">
         <strong>When:</strong> Sunday, October 6, 2024    
     </p>
 
@@ -38,14 +25,14 @@
         <strong>Social Gathering</strong>
     </p>
 
-    <p class="mb-2 text-center">
+    <p class="post-p">
         <strong>Where:</strong> at Emmanuel Anglican Church (corner of Ottawa and Harrington)
     </p>
-    <p class="mb-2 text-center">
+    <p class="post-p">
         <strong>When:</strong> After the Walk on Sunday, October 6, 2024  
     </p>
 
-    <p class="mb-2 text-center">
+    <p class="post-p">
         <strong>Time:</strong> Estimated time is 11:40    
     </p> 
 
