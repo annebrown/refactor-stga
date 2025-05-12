@@ -18,6 +18,13 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
 @theme static {
     --font-sans: 'Inter-VariableFont_opsz', sans-serif;
 }
@@ -25,6 +32,9 @@ h1 { @apply pt-8 pb-10 text-4xl text-center font-extrabold; }
 h2 { @apply py-8 text-3xl text-center font-extrabold; }
 p { @apply text-left py-2; }
 .post-p { @apply mb-8 text-justify; }
+a { @apply text-(--ui-secondary) hover:text-(--ui-primary)
+    active:text-(--ui-primary) focus:text-(--ui-primary); 
+}
 /******************************************************************************/
 /* Bow
 /******************************************************************************/

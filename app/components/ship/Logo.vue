@@ -5,7 +5,7 @@
 <ULink to="/">
     
     <img
-        src="/logo-rect-light.png" 
+        src="/images/logo/logo-rect-light.png" 
         class="dark:invert dark:hue-rotate-180"
         alt="Logo - Trees and water inside a circle, with text: Save the Grove Again" 
         width=460

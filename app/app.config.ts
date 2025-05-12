@@ -34,34 +34,13 @@ export default defineAppConfig({
             variants: {
                 active: {
                   false: {
-                    base:  '',
+                    label:  'text-(--ui-secondary)',
                     link: 'text-(--ui-secondary) active:text-(--ui-primary)', // Overrides the default 'text-(--ui-text-muted)'
                     }
                 }
             }
         }, // NavigationMenu
 
-        link: {
-            base: 'transition-colors',
-            variants: {
-                active: {
-                  true: 'text-(--ui-primary)',
-                  false: 
-                    'text-(--ui-secondary) hover:text-(--ui-primary)'
-                },
-                disabled: {
-                  true: 'cursor-not-allowed opacity-75'
-                }
-              },
-            compoundVariants: [
-                {
-                    active: false,
-                    class: {
-                        base: 'hover:text-(--ui-primary)'
-                    }
-                }
-            ]
-        },
         card: {
             slots: {
               header: 'w-full m-0 p-0 flex items-start',

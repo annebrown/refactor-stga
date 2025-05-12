@@ -15,12 +15,12 @@
         <UCard
             variant="soft"
             class="w-full m-0 p-0
-            rounded-full bg-transparent divide-transparent
+            rounded-3xl sm:rounded-full bg-transparent divide-transparent
           "
             :ui="{ 
                 root: 'relative rounded-4xl',
                 header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg', 
-                footer: 'rounded-full mb-3 bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-xl',
+                footer: 'mb-3 rounded-full bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-xl',
                 body: 'm-0 p-0' 
             }"
         >
@@ -53,7 +53,7 @@
             </div>
 
             <!-- CARD FOOTER -->
-            <template #footer class="flex w-full items-center justify-between">
+            <template #footer class="w-full">
 
                 <!-- Transom -->
                 <ShipTransom id="transom" class="w-full shadow-3xl" />

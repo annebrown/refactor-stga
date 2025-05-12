@@ -1,86 +1,111 @@
 <!--------@/app/components/ship/Transom.vue------------------------------------>
 <template><div>
 
-<!-- Transom Top -->
-<div class="relative flex w-full mx-auto">
+<!-- Transom -->
+<div>
 
-    <!-- Logo & Town -->
-    <span class="flex-none -ml-6.25 my-auto inline-block">
+    <!-- Grid -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 w-full">
 
-        <!-- Logo -->
-        <span class="inline-block">
-            <ShipLogo class="inline-block
-                w-40 sm:w-72 md:w-96 
-                ml-8 
-                mt-9 
-                pb-0"
-            />
-        </span>
-                
-        <!-- Town -->
-        <span class="transom-menu-item absolute 
-            top-[4.25rem] sm:top-4 md:top-[6rem] lg:top-[6rem] 
-            left-[4.75rem] sm:left-[6.5rem] md:left-[8.25rem] lg:left-[8rem] 
-            text-xs sm:text-sx md:text-lg lg:text-xl">
-            <ULink to="https://arnprior.ca" class="text-(--ui-secondary)">
-                Arnprior, ON
+
+        <!-- Logo & Town -->
+        <div class="mx-auto sm:mx-2">
+
+            <!-- Logo -->
+            <div class="m-2 sm:-ml-6 sm:-mr-6">
+                <ShipLogoArnprior class="w-80 sm:w-64 p-2" />
+            </div>
+
+        </div><!-- Logo & Town -->
+
+        <!-- Spacer-->
+        <div class=""></div>
+
+        <!-- Social Links -->
+
+        <div class="mt-0 sm:my-auto mb-3 mx-auto">
+
+            <FleetSocialIcons class="" />
+
+        </div><!-- Social Links -->
+
+        <!-- Spacer-->
+        <div class="grow hidden md:inline-block"></div>
+
+        <!-- Menu  -->
+        <div class="mt-1 -mb-5 justify-end hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
+
+                <div class="font-extrabold text-lg">
+                    Menu
+                </div>
+
+                <!-- Menu Items-->
+                <ul class="transom">
+
+                    <li class="transom-menu-item">
+                        <ULink to="/blog">
+                            Blog
+                        </ULink>
+                    </li>
+
+                    <li class="transom-menu-item">
+                        <ULink to="/action">
+                            Get Involved!
+                        </ULink>
+                    </li>
+
+                    <li class="transom-menu-item">
+                        <ULink to="/faq">
+                            FAQ
+                        </ULink>
+                    </li>
+
+                    <li class="transom-menu-item">
+                        <ULink to="/about">
+                            About
+                        </ULink>
+                    </li>
+
+                    <li class="transom-menu-item">
+                        <ULink to="/admin">
+                            Admin
+                        </ULink>
+                    </li>
+                </ul>
+                <!-- Menu Items-->
+
+        </div>
+        <!-- Menu  -->
+
+    </div>
+    <!-- Grid -->
+
+    <div class="w-full mx-auto mb-2 text-center"><!-- Transom Bottom -->
+        <!-- Copyright -->
+        <div class="text-sm text-(--ui-text-dimmed)">
+        Copyright 
+            <ULink to="/committee" class="!text-(--ui-text-dimmed)">
+                @ 
             </ULink>
-        </span>
-    </span><!-- Logo & Town -->
+            2025 Save the Grove Again
+        </div>
+    </div>
+    <!-- Transom Bottom -->
 
-    <!-- Spacer-->
-    <span class="flex-1"> </span>
+</div>
+<!-- Transom -->
 
-    <!-- Social Icons -->
-    <span class="inline-block flex-none my-auto mr-3 pt-6">
+</div></template>
 
-        <FleetSocialIcons class="inline-block mx-auto" /><br />
+<script setup>
+    import { ShipLogoArnprior } from '#components';
+    import { useMediaQuery } from '@vueuse/core';
 
-    </span><!-- Social Icons -->
+    const isSm = useMediaQuery('(min-width: 640px)'); 
+    const isMd = useMediaQuery('(min-width: 768px)');
+    const isLg = useMediaQuery('(min-width: 1024px)');
+    const isXl = useMediaQuery('(min-width: 1280px)');
+    const is2Xl = useMediaQuery('(min-width: 1536px)');
 
-    <!-- Menu  -->
-    <!-- <span class="inline-block grow-0 w-fit m-2 text-(--ui-text-dimmed)">
-
-            <span class="font-extrabold text-lg">
-                Menu
-            </span>
-
-            <ul class="">
-
-                <li class="transom-menu-item">
-                    <ULink to="/blog">
-                        Blog
-                    </ULink>
-                </li>
-
-                <li class="transom-menu-item">
-                    <ULink to="/action">
-                        Get Involved!
-                    </ULink>
-                </li>
-
-                <li class="transom-menu-item">
-                    <ULink to="/about">
-                        About
-                    </ULink>
-                </li>
-            </ul>
-
-    </span> -->
-    <!-- Menu  -->
-
-</div><!-- Transom Top -->
-
-<div class="w-full mx-auto mb-2 text-center"><!-- Transom Bottom -->
-    <!-- Copyright -->
-    <span class="text-sm text-(--ui-text-dimmed)">
-    Copyright 
-        <ULink to="/admin" class="text-(--ui-text-dimmed)">
-            @ 
-        </ULink>
-        2025 Save the Grove Again
-    </span>
-</div><!-- Transom Bottom -->
-
-</div></template>   
+</script>
 <!--------@/app/components/ship/Transom.vue------------------------------------>

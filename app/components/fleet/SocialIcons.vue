@@ -1,10 +1,8 @@
 <!--------@/app/components/fleet/SocialIcons.vue------------------------------->
 <template><div>
 
-<UButtonGroup 
-    class="gap-0" 
-
->
+<div class="">
+<UButtonGroup  class="gap-0">
 
     <!-- Email -->
     <UButton 
@@ -87,6 +85,6 @@
     </UButton>
         
 </UButtonGroup>
-    
+</div>
 </div></template>
 <!--------@/app/components/fleet/SocialIcons.vue------------------------------->
