@@ -15,12 +15,12 @@
         <UCard
             variant="soft"
             class="w-full m-0 p-0
-            rounded-3xl sm:rounded-full bg-transparent divide-transparent
+            rounded-4xl sm:rounded-full bg-transparent divide-transparent
           "
             :ui="{ 
                 root: 'relative rounded-4xl',
                 header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg', 
-                footer: 'mb-3 rounded-full bg-(--ui-bg) ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-xl',
+                footer: 'mb-3 rounded-full bg-(--ui-bg) ring-transparent sm:ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-transparent sm:shadow-black/25 shadow-xl',
                 body: 'm-0 p-0' 
             }"
         >

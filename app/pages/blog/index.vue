@@ -1,30 +1,33 @@
-<script setup>
-const { data: posts } = await useAsyncData('blog', () => $fetch('/api/blog'));
+<!--------@/pages/blog/index.vue----------------------------------------------->
+<template><div>
+<NuxtLayout name="pages">
+
+<!-- All Blogs -->
+   <!-- All Posts -->
+   <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  w-full 
+        gap-x-4 gap-y-8 p-4 
+        rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
+        place-content-stretch">
+
+        <BlogCardBlogPost
+            v-for="(post, index) in blogData"
+            :key="index" 
+            :post="post"
+            class="flex-1 shadow-black/25 dark:shadow-black/50 shadow-lg rounded-lg bg-(--ui-bg)"
+        />
+
+    </div>
+
+</NuxtLayout> 
+</div></template>
+
+<script setup lang='ts'>
+    import { BlogCardBlogPost } from '#components'
+    import { blogData } from '../../assets/data/blog/blogData'
+
+    definePageMeta({ 
+        title: 'Blog Posts',
+        description: 'News and Events'
+    })
 </script>
-
-<template>
-  <div>
-    <h1>Blot Posts</h1>
-    <div v-if="posts">
-      <div v-for="post in posts" :key="post.slug">
-        <NuxtLink :to="`/blog/${post.slug}`">
-          <h2>{{ post.title }}</h2>
-          <p class="text-sm text-gray-500">{{ new Date(post.date).toLocaleDateString() }}</p>
-          <img v-if="post.featured_image" :src="post.featured_image" alt="Featured Image" class="mt-2 rounded-md">
-          <p class="mt-2">{{ post.content.substring(0, 150) }}...</p>
-        </NuxtLink>
-        <hr class="my-4">
-      </div>
-    </div>
-    <div v-else>
-      Loading posts...
-    </div>
-  </div>
-</template>
-
-<style scoped>
-a {
-  text-decoration: none;
-  color: inherit;
-}
-</style>
+<!--------@/pages/blog/index.vue----------------------------------------------->

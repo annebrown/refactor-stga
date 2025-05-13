@@ -20,6 +20,6 @@ const { data: post } = await useAsyncData(`blog-${slug}`, () =>
 
 <style scoped>
 .prose {
-  @apply prose-sm md:prose-base lg:prose-lg max-w-none; /* Apply Tailwind Typography */
+  @apply md:prose-base lg:prose-lg max-w-none; /* Apply Tailwind Typography */
 }
 </style>

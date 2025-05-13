@@ -3,7 +3,7 @@
 <NuxtLayout name="pages">
 
 <!-- Flex -->
-<div class="flex-col columns-1 md:columns-2 gap-1 bg-(--ui-bg) rounded-xl">
+<div class="flex-col columns-1 md:columns-2 gap-1 bg-(--ui-bg) rounded-sm">
 
      <!-- Q1 -->
     <div class="faq">

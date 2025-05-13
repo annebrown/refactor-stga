@@ -12,7 +12,7 @@
 
         <!-- Video - What's At Stake -->
         <SplashVideo class="    
-            bg-(--ui-color-video) rounded-3xl 
+            bg-(--ui-color-video) rounded-lg 
             border-10 border-(--ui-secondary-2) dark:border-(--ui-primary-2)" />
 
         <!-- Events -->
@@ -22,7 +22,7 @@
 
         <!-- Latest 3 Blogs -->
         <BlogOnlyLatest class=" 
-            bg-(--ui-color-news) rounded-3xl" />
+            bg-(--ui-color-news) rounded-lg" />
 
         <!-- Join -->
         <SplashJoin class="     
@@ -30,7 +30,7 @@
 
         <!-- Local Voices -->
         <SplashTestimonials class="
-            bg-(--ui-color-voices) rounded-3xl" />
+            bg-(--ui-color-voices) rounded-lg" />
 
         <ShipPageSignature class="text-center pt-8 pb-4 mb-1 px-2" />
 

@@ -56,7 +56,7 @@
                 priority 
                 width=1301 
                 height=1148 
-                class="rounded-3xl border-4 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
+                class="rounded-lg border-4 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
             />
         </div>
 

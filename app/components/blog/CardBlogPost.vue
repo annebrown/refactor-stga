@@ -15,7 +15,7 @@
                 :alt="`${ post.alt }`"
                 :width="`${ post.width }`"
                 :height="`${ post.height }`"
-                class="w-full h-full pt-4 object-cover object-top"
+                class="w-full h-full mt-3 pt-4 object-cover object-top"
             />
      
             <!-- Tags -->

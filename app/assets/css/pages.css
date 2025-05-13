@@ -6,10 +6,10 @@
     @apply py-2 px-0 break-inside-avoid ;
 }
 .faq-item-colored {
-    @apply m-2 p-4 bg-(--ui-color-voices) rounded-2xl;
+    @apply m-2 p-4 bg-(--ui-color-voices) rounded-sm;
 }
 .faq-item {
-    @apply m-2 p-4 rounded-md;
+    @apply m-2 p-4 rounded-sm;
 }
 .faq-q { @apply py-2 text-left font-extrabold; }
 /******************************************************************************/
@@ -17,7 +17,7 @@
 /******************************************************************************/
 .action-card {
     @apply w-full mb-4 p-5 break-inside-avoid
-       rounded-2xl  bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
+       rounded-md  bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
        inline-block;
 }
 .card-heading { 

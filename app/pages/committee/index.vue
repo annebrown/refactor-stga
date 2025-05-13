@@ -1,22 +1,16 @@
-<!--------@/pages/donations---------------------------------------------------->
+<!--------@/pages/committee/index.vue------------------------------------------>
 <template><div>
 
 <div class="text-center px-20">
 
-    <p>
-        <UButton to="/committee/analytics" class="text-2xl font-extrabold">
-            Analytics
-        </UButton>
-    </p>
-
-    <FleetGoBackButton />
+<p>Committtee Area</p>
 
 </div>
 
 </div></template>
 <script setup lang='ts'>
-definePageMeta({ 
-    title: 'Admin', 
-})
+    definePageMeta({ 
+        title: 'Committee', 
+    })
 </script>
-<!--------@/pages/donations---------------------------------------------------->
+<!--------@/pages/committee/index.vue------------------------------------------>

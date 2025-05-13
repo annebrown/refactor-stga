@@ -18,6 +18,16 @@
         <!-- Blog Meta -->
         <div class="mt-4 mx-auto">
 
+            <!-- Image -->
+            <img
+                :src="`${ currentBlogMeta.image }`"
+                :alt="`${ currentBlogMeta.alt }`"
+                :width="`${ currentBlogMeta.width }`"
+                :height="`${ currentBlogMeta.height }`"
+                class="my-10 w-full h-full object-cover object-top
+                    rounded-md ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md"
+            />
+
             <!-- Title -->
             <p class="mt-10 mb-2 text-4xl font-extrabold text-(--ui-primary)">
                 {{ currentBlogMeta.title }}
@@ -51,16 +61,6 @@
 
             </p><!-- Date & Tag -->
 
-            <!-- Image -->
-            <img
-                :src="`${ currentBlogMeta.image }`"
-                :alt="`${ currentBlogMeta.alt }`"
-                :width="`${ currentBlogMeta.width }`"
-                :height="`${ currentBlogMeta.height }`"
-                class="my-10 w-full h-full object-cover object-top
-                    rounded-md ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md"
-            />
-
         </div> <!-- Blog Meta -->
 
     </template> <!-- CARD HEADER -->
@@ -84,7 +84,7 @@
     <template #footer class="">
         
         <!-- Page Signature -->
-        <ShipPageSignature class="m-0 mx-auto mb-8 p-0 pb-4" />
+        <ShipPageSignature class="mx-auto pb-2 text-center" />
 
     </template>
 

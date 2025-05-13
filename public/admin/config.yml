@@ -1,7 +1,6 @@
 backend:
-  name: blog
+  name: git-gateway
 
-# api-root: /api/decapcms
 site_url: https://refactor.savethegroveagain.com
 media_folder: public/images/uploads 
 public_folder: /images/uploads 
@@ -12,7 +11,7 @@ collections:
     description: "Blog Posts"
     display_url: https://refactor.savethegroveagain.com
     logo_url: https://your-site.com/images/logo/logo-round.svg
-    folder: /content/blog # Relative to /admin 
+    folder: /content/posts # Relative to /admin 
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
@@ -21,3 +20,4 @@ collections:
       - { label: "Category", name: "category", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {label: "Image", name: "thumbnail", widget: "image"}

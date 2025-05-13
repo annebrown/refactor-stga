@@ -1,14 +1,14 @@
 backend:
-  name: file
-  api-root: /api/decapcms
+  name: git-gateway
+
 
 media_folder: public/images/uploads 
 public_folder: /images/uploads 
 
 collections:
-  - name: blog
+  - name: Blog
     label: Blog Posts
-    folder: /content/blog # Path relative to /admin 
+    folder: /content/posts # Path relative to /admin 
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:

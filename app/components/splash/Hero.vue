@@ -5,9 +5,9 @@
     <div class="relative w-ful p-0">
 
         <!-- Hero Image -->
-        <div class="w-full m-0 rounded-4xl">
+        <div class="w-full m-0">
             <img
-                class="z-1 p-0 dark:p-2 w-full rounded-3xl border-30 dark:border-40 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
+                class="z-1 p-0 dark:p-2 w-full rounded-lg border-30 dark:border-40 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
                 src="/images/hero/big-postcard.png"
                 alt="Postcard - Gillies Grove 10,000 years in the making"
                 width="500"
@@ -16,7 +16,7 @@
         </div>
 
         <!-- Square Logo -->
-        <div class="z-500 absolute -top-2 -right-4 p-6 rounded-5xl">
+        <div class="z-500 absolute -top-2 -right-4 p-6">
             <ULink to="/action" class="">
                 <img
                     src="/images/logo/logo-round.svg"

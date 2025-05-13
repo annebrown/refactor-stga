@@ -1,4 +1,4 @@
-<!--------@/app/layouts/pages.vue---------------------------------------------->
+<!--------@/app/layouts/committee.vue------------------------------------------>
 <template><div><!-- Layout (Single Root Element) -->
 
 <!-- Default @/pages Page Layout -->
@@ -14,12 +14,16 @@
 
     <!-- CARD HEADER -->
     <template #header >
-
-        <!-- Blog Meta ? Title -->
+        
         <div
             v-if="route.meta.title"
             class="mt-4 mx-auto"
         >
+
+            <!-- Committee Menu -->
+            <div class="w-full mx-auto">
+                <CommitteeMenu /><br />
+            </div>
 
             <!-- Title -->
             <div class="mt-5 text-5xl font-extrabold text-center text-(--ui-primary)">
@@ -45,7 +49,7 @@
     <!-- CARD FOOTER -->
     <template #footer class="">
         <!-- Page Signature -->
-        <ShipPageSignature class="mx-auto p-0 py-4 md:my-0 text-center" />
+        <ShipPageSignature class="mx-auto p-0 py-4 text-center" />
     </template>
 
 </UCard>
@@ -58,4 +62,4 @@
 // Access Page Meta set by definePageMeta
 const routeMeta = computed(() => route.meta )
 </script>
-<!--------@/app/layouts/pages.vue---------------------------------------------->
+<!--------@/app/layouts/committee.vue------------------------------------------>

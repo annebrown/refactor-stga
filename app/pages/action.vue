@@ -18,7 +18,7 @@
         </p>
 
         <!-- WARNING -->
-        <div class="p-2 bg-(--ui-secondary-2) dark:bg-(--ui-bg) text-xs mt-2 rounded-lg">
+        <div class="p-2 pt-4 bg-(--ui-secondary-2) dark:bg-(--ui-bg) text-xs mt-2 rounded-md">
             <p class="font-bold pb-0 mb-0.5">
                 WARNING
             </p>
@@ -317,7 +317,7 @@
             </ULink>
         </p>
 
-        <p class="mb-4 text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
+        <p class="text-base font-medium leading-relaxed sm:text-lg sm:leading-relaxed lg:text-base lg:leading-relaxed xl:text-lg xl:leading-relaxed">   
             Additional 
                 <ULink to="https://docs.google.com/document/d/1RxpQHeKJCeBm7pLh7X_LhudDXYBPwd4ta3epOikFq7Y/edit?usp=sharing">
                     TEMPLATE/EXAMPLE LETTERS

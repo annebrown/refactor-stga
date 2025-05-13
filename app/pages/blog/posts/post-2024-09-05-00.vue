@@ -80,7 +80,7 @@
 
     <div 
         class="p-8 text-center italic
-            rounded-3xl bg-(--ui-primary-4) dark:bg-(--ui-primary) bg-opacity-10">
+            rounded-lg bg-(--ui-primary-4) dark:bg-(--ui-primary) bg-opacity-10">
 
         🌱Small Steps, 🌳Big Impact!
 

@@ -51,7 +51,7 @@ export default defineAppConfig({
 
         popover: {
             slots: {
-                content: 'bg-(--ui-bg) shadow-lg rounded-[your-desired-radius] ring ring-(--ui-border) data-[state=open]:animate-[scale-in_100ms_ease-out] data-[state=closed]:animate-[scale-out_100ms_ease-in] origin-(--reka-popover-content-transform-origin) focus:outline-none pointer-events-auto'
+                content: 'bg-(--ui-bg) shadow-lg rounded-lg ring ring-(--ui-border) data-[state=open]:animate-[scale-in_100ms_ease-out] data-[state=closed]:animate-[scale-out_100ms_ease-in] origin-(--reka-popover-content-transform-origin) focus:outline-none pointer-events-auto'
             }
         },
 

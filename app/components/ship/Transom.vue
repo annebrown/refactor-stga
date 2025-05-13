@@ -12,7 +12,7 @@
         <div class="mx-auto sm:mx-2">
 
             <!-- Logo -->
-            <div class="m-2 sm:-ml-6 sm:-mr-6">
+            <div class="sm:-ml-6 sm:-mr-6 sm:p-2">
                 <ShipLogoArnprior class="w-80 sm:w-64 p-2" />
             </div>
 
@@ -23,7 +23,7 @@
 
         <!-- Social Links -->
 
-        <div class="mt-0 sm:my-auto mb-3 mx-auto">
+        <div class="sm:my-auto mb-3 mx-auto py-2">
 
             <FleetSocialIcons class="" />
 
@@ -33,7 +33,7 @@
         <div class="grow hidden md:inline-block"></div>
 
         <!-- Menu  -->
-        <div class="mt-1 -mb-5 justify-end hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
+        <div class="w-fit mt-1 -mb-5 pb-2 text-right hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
 
                 <div class="font-extrabold text-lg">
                     Menu
@@ -65,12 +65,7 @@
                             About
                         </ULink>
                     </li>
-
-                    <li class="transom-menu-item">
-                        <ULink to="/admin">
-                            Admin
-                        </ULink>
-                    </li>
+                    
                 </ul>
                 <!-- Menu Items-->
 
@@ -80,7 +75,7 @@
     </div>
     <!-- Grid -->
 
-    <div class="w-full mx-auto mb-2 text-center"><!-- Transom Bottom -->
+    <div class="w-full mx-auto mt-0 sm:-mt-2 mb-2 text-center"><!-- Transom Bottom -->
         <!-- Copyright -->
         <div class="text-sm text-(--ui-text-dimmed)">
         Copyright 

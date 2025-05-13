@@ -18,7 +18,7 @@
                 We are reaching out with a time sensitive request. On Monday September 16th at 5:00pm Cavanagh&apos;s due diligence period on their Agreement of Purchase and Sale will end and the deal will move into a different phase, one that will likely be more concrete. If we want any chance to stop this from progressing we need to get loud. We are calling on all 180 of you to make the time between tonight and Monday to write letters to the following parties:
             </p>
 
-            <div class="p-10 mb-10 rounded-3xl bg-(--ui-color-voices) shadow-lg">
+            <div class="p-10 mb-10 rounded-lg bg-(--ui-color-voices) shadow-lg">
 
                 <!-- List of Contacts -->
                 <h1 class="text-2xl font-bold text-center pb-10 center">

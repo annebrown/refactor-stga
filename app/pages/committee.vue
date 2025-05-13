@@ -1,6 +1,6 @@
 <!--------@/pages/blog.vue----------------------------------------------------->
 <template><div>
-    <NuxtLayout name="pages">
+    <NuxtLayout name="committee">
         <NuxtPage />
     </NuxtLayout>
 </div></template>
