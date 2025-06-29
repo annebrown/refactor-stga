@@ -1,14 +1,6 @@
 <!--------@/pages/blog/posts/post-2024-12-19-00.vue---------------------------->
 <template><div>
 
-<img
-    src="/images/blog/blog0010/blog10.svg"
-    alt="Concerned local citizens join in a beautiful wintery woodland setting."
-    width="500"
-    height="450"
-    class="self-center w-full py-8 w-full mx-auto"
-/>
-
 <p class="mb-8">
     On December 15th, Save the Grove Again in collaboration with the Ottawa Field Naturalists Club, spent a delightful morning exploring and discovering the biodiversity that Gillies Grove and surrounding areas protect. This amazing walk was led by Owen Clarkin, an Ottawa based naturalist with a specialization in trees. We walked for hours, taking in the stately Eastern White Pines, the hallmark tree of this area. We located the tallest tree in Ontario and marveled at the community of trees contemporary in size (most just a few feet shorter) that surrounded it. We walked deep into the forest as well as explored the areas that were more open. We discussed the cycle of an old growth forest and how it stays healthy. But what was most poignant about this tour was how many different trees were found in such a short time. We were all amazed to learn that beyond the signature White Pine that one would expect here, we also found:
 </p>

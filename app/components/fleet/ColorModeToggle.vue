@@ -1,21 +1,28 @@
-<!--------@/components/fleet/ColorModeToggle.vue------------------------------->
+<!-- @/components/fleet/ColorModeToggle.vue -->
 <template>
-<ClientOnly>
-
+ <ClientOnly v-if="!colorMode?.forced">
     <UButton
-        @click="onClick"
-        active
-        :icon="isDark ? 'i-heroicons-sun-20-solid' : 'i-heroicons-moon-20-solid'"
-        :aria-label="isDark ? 'Switch to light mode' : 'Switch to dark mode'"
-        :ui="{ leadingIcon: 'size-6', base: 'stga-button', label: '' }"
-        
+      :icon="isDark ? 'i-lucide-moon' : 'i-lucide-sun'"
+      color="neutral"
+      variant="ghost"
+      @click="isDark = !isDark"
+     :ui="{ base: 'rounded-4xl stga-button m-0 p-0 pt-2 px-2', leadingIcon: 'size-6' }"
     />
-
-</ClientOnly>
+    <template #fallback>
+      <div class="" />
+    </template>
+  </ClientOnly>
 </template>
 
 <script setup lang="ts">
     const colorMode = useColorMode()
-    const onClick = () => (colorMode.value === 'light' ? (colorMode.preference = 'dark') : (colorMode.preference = 'light'))
+
+    const isDark = computed({
+      get() {
+          return colorMode.value === 'dark'
+      },
+      set(_isDark) {
+          colorMode.preference = _isDark ? 'dark' : 'light'
+      }
+  })
 </script>
-<!--------@/components/fleet/ColorModeToggle.vue------------------------------->

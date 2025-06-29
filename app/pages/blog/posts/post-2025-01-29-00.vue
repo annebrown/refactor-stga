@@ -1,14 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-01-29-00.vue---------------------------->
 <template><div>                  
 
-<img
-    src="/images/logo/logo_black_small.png"
-    alt="STGA Logo"
-    width="421"
-    height="421"
-    class="w-full mx-auto pb-10 px-60"
-/>
-
 <p class="mb-2 font-bold text-center leading-none">
 &ldquo;Old-growth woodlands ... are the complex and ancient ecosystems where the true seeds of restoration lie&ldquo;
 </p>

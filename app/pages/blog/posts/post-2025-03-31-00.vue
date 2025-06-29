@@ -1,16 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-03-31-00.vue---------------------------->
 <template><div>
 
-<div class="w-full mx-auto">
-    <img
-        src="/images/blog/blog0019/blog19.png"
-        alt="Forest with text: Call of the Forest, A film by Jeff McKay, and other details"
-        width="353"
-        height="382"
-        class="w-full mx-auto pb-10"
-    />
-</div>
-
 <p class="mb-8 mt-0 pt-0 text-justify">
     
     In this documentary, we follow visionary scientist, conservationist and author, Diana Beresford-Kroeger, on her journey to the most beautiful forests of the northern hemisphere. From the sacred sugi and cedar forests of Japan, the ancient Raheen Wood of Ireland, the walnut and redwood trees of America, to the great boreal forest of Canada, Beresford-Kroeger tells us the amazing stories behind the history and legacy of these ancient forests while also explaining the science of trees and the irreplaceable roles they play in protecting and feeding the planet.

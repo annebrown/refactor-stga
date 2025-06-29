@@ -8,16 +8,6 @@
         This is not a Done Deal - we don&apos;t want a housing development beside and cutting into the Grove, so what is our vision?
     </p>
 
-    <div class="container mx-auto pb-8">
-        <img
-            src="/images/blog/blog0007/blog7.png"
-            alt="People walking a woodland path"
-            width="500"
-            height="270"
-            class="w-full mx-auto"
-        />
-    </div>
-
     <p class="mb-8 text-center italic">
         What perfect rule for happiness,—<br />
         To live and help to live.<br />

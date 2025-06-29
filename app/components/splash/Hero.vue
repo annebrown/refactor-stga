@@ -7,7 +7,7 @@
         <!-- Hero Image -->
         <div class="w-full m-0">
             <img
-                class="z-1 p-0 dark:p-2 w-full rounded-lg border-30 dark:border-40 border-(--ui-secondary-3) dark:border-(--ui-primary-2)"
+                class="z-1 p-2 dark:p-2 w-full rounded-lg border-30 dark:border-40 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
                 src="/images/hero/big-postcard.png"
                 alt="Postcard - Gillies Grove 10,000 years in the making"
                 width="500"

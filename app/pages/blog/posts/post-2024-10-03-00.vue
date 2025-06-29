@@ -10,13 +10,8 @@
     </h2>
 
     <p class="post-p">
-        <strong>Where:</strong> Meet at the entrance to Gillies Grove (off Ottawa Street)
-    </p>
-    <p class="post-p">
-        <strong>When:</strong> Sunday, October 6, 2024    
-    </p>
-
-    <p class="mb-8 text-center">
+        <strong>Where:</strong> Meet at the entrance to Gillies Grove (off Ottawa Street)<br>
+        <strong>When:</strong> Sunday, October 6, 2024    <br>
         <strong>Time:</strong> 11:11 a.m    
     </p> 
 
@@ -26,17 +21,9 @@
     </p>
 
     <p class="post-p">
-        <strong>Where:</strong> at Emmanuel Anglican Church (corner of Ottawa and Harrington)
-    </p>
-    <p class="post-p">
-        <strong>When:</strong> After the Walk on Sunday, October 6, 2024  
-    </p>
-
-    <p class="post-p">
-        <strong>Time:</strong> Estimated time is 11:40    
-    </p> 
-
-    <p class="mb-8 text-center text-xs">
+        <strong>Where:</strong> at Emmanuel Anglican Church (corner of Ottawa and Harrington)<br>
+        <strong>When:</strong> After the Walk on Sunday, October 6, 2024  <br>
+        <strong>Time:</strong> Estimated time is 11:40  <br>  
         *Time could vary slightly
     </p>
     

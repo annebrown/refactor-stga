@@ -1,14 +1,6 @@
 <!--------@pages/blog/post/post-2025-01-27-00.vue------------------------------>
 <template><div>
 
-<img
-    src="/images/blog/blog0014/blog14.jpg"
-    alt="Arnprior Municipal Offices Front Entrance"
-    width="750"
-    height="402"
-    class="w-full mx-auto pb-10"
-/>
-
 <div class=" mb-8">
     <p class="pb-1"><strong>Details</strong></p>
     <p class="pb-1"><strong>What:</strong> Meeting of Council</p>

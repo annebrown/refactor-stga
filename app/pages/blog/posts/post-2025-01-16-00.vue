@@ -1,17 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-12-16-00.vue---------------------------->
 <template><div>
 
-                    
-<div class="aspect-[500/270] mb-8">
-    <img
-        src="/images/blog/blog0012/blog12.webp"
-        alt="Old grown forest"
-        width="500"
-        height="375"
-        class="w-full mx-auto px-10 pb-10"
-    />
-</div>
-
 <div class=" mb-8">
         <p class="pb-1"><strong>What:</strong> Community Meeting</p>
         <p class="pb-1"><strong>When:</strong> Thursday January 16th at 6:00pm</p>

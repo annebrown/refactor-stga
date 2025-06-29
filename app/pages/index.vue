@@ -13,15 +13,15 @@
         <!-- Video - What's At Stake -->
         <SplashVideo class="    
             bg-(--ui-color-video) rounded-lg 
-            border-10 border-(--ui-secondary-2) dark:border-(--ui-primary-2)" />
+            border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)" />
 
         <!-- Events -->
         <SplashEventsCalendar class="my-6 p-4 py-10 text-black
             bg-(--ui-color-events) rounded-4xl
-            border-8 border-(--ui-secondary-3) dark:border-none" />
+            border-8 border-(--ui-secondary-4) dark:border-none" />
 
         <!-- Latest 3 Blogs -->
-        <BlogOnlyLatest class=" 
+        <SplashOnlyLatest class=" 
             bg-(--ui-color-news) rounded-lg" />
 
         <!-- Join -->

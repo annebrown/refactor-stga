@@ -3,7 +3,10 @@
 
 <div class="text-center px-20">
 
-<p>Committtee Area</p>
+    <h1>Welcome {{ user.name }}</h1>
+    <button @click="logout">Logout</button>
+
+    
 
 </div>
 
@@ -11,6 +14,14 @@
 <script setup lang='ts'>
     definePageMeta({ 
         title: 'Committee', 
-    })
-</script>
+        middleware: ['authenticated'],
+    })  
+  
+    const { user, clear: clearSession } = useUserSession()
+
+    async function logout() {
+        await clearSession()
+        await navigateTo('/login')
+    }
+    </script>
 <!--------@/pages/committee/index.vue------------------------------------------>

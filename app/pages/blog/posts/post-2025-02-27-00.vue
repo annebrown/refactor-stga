@@ -1,16 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-02-27-00.vue---------------------------->
 <template><div>
 
-<div class="aspect-[568/338] mb-8">
-    <img
-        src="/images/blog/blog0018/blog18.png"
-        alt="Ballot box and text: RENFREW-NIPISSING-PEMBROKE Candidates weigh in on protecting Gillies Grove"
-        width="568"
-        height="338"
-        class="w-full mx-auto pb-10"
-    />
-</div>
-
  <p class="post-p">
 Today is election day in the province of Ontario so, if you haven’t already, get out and vote. You can find out all the details from the <ULink to="https://voterinformationservice.elections.on.ca/en/election/search?mode=electoralDistrict">Elections Ontario Voter Information Service</ULink>.
 </p>

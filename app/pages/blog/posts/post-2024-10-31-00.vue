@@ -1,16 +1,6 @@
 
 <!--------@/pages/blog/posts/post-2024-20-32-00.vue---------------------------->
 <template><div>
-    
-    <div class="aspect-[500/280]">
-        <img
-            src="/images/blog/blog0008/blog8.webp"
-            alt="Sundrenched Woodland Path"
-            width="500"
-            height="280"
-            class="self-center w-full pb-10"
-        />
-    </div>
 
     <p class="mb-8">
 

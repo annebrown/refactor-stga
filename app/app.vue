@@ -5,7 +5,7 @@
 <NuxtRouteAnnouncer />
 
 <!-- Analytics -->
-<Analytics />
+<!-- <Analytics /> -->
 
 <UApp>
 
@@ -14,13 +14,13 @@
 
         <UCard
             variant="soft"
-            class="w-full m-0 p-0
-            rounded-4xl sm:rounded-full bg-transparent divide-transparent
+            class="w-full m-0 px-2
+            rounded-4xl bg-transparent divide-transparent
           "
             :ui="{ 
                 root: 'relative rounded-4xl',
-                header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg', 
-                footer: 'mb-3 rounded-full bg-(--ui-bg) ring-transparent sm:ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-transparent sm:shadow-black/25 shadow-xl',
+                header: 'z-200 sticky top-2 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-4) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg', 
+                footer: 'mb-3 rounded-full bg-(--ui-bg) ring-transparent sm:ring-3 ring-(--ui-secondary-4) dark:ring-(--ui-primary-2) shadow-transparent sm:shadow-black/25 shadow-xl',
                 body: 'm-0 p-0' 
             }"
         >
@@ -53,7 +53,7 @@
             </div>
 
             <!-- CARD FOOTER -->
-            <template #footer class="w-full">
+            <template #footer class="">
 
                 <!-- Transom -->
                 <ShipTransom id="transom" class="w-full shadow-3xl" />
@@ -67,18 +67,4 @@
 </UApp>
 
 </div></template>
-
-<script setup lang="ts">
-    import { Analytics } from '@vercel/analytics/nuxt';
-
-    // useSeoMeta({
-    //     title: 'My Site',
-    //     ogTitle: ' Site',
-    //     description: 'This is my site.',
-    //     ogDescription: 'This is my site.',
-    //     ogImage: 'https://example.com/image.png',
-    //     twitterCard: 'summary_large_image',
-    //     })
-    
-</script>
 <!--------@/app.vue------------------------------------------------------------>

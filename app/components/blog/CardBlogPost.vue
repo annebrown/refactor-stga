@@ -30,23 +30,22 @@
         </div>
 
         <!-- Title & Bi-LIne-->
-        <div class="flex-none">
+        <div class="flex-grow w-full">
+            <div class="my-auto h-full">
+                <div class="flex flex-col">
+                    <!-- title -->
+                    <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold 
+                        text-(--ui-primary) bg-(--ui-secondary-4)">
+                        {{ post.title }}
+                    </h3>
 
-            <!-- title -->
-            <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold 
-                text-(--ui-primary)">
-                {{ post.title }}
-            </h3>
-
-            <!-- Bi-Line -->
-            <p class="p-6 pt-2 leading-6 text-left text-(--ui-text)">
-                {{ post.paragraph }}
-            </p>
-
+                    <!-- Bi-Line -->
+                    <p class="p-6 pt-2 leading-6 text-left text-(--ui-text)">
+                        {{ post.paragraph }}
+                    </p>
+                </div>
+            </div>
         </div>
-
-        <!-- Spacer-->
-        <div class="flex-1">&nbsp;</div>
 
         <!-- Publish Date -->
         <div class="flex-none p-4 text-(--ui-primary)">

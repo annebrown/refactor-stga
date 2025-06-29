@@ -17,7 +17,7 @@
  bg-(--ui-secondary) 
 
 */
-.stga-button {  @apply justify-center whitespace-normal
+.button-default {  @apply rounded-sm justify-center whitespace-normal
     text-lg font-bold text-(--ui-bg) dark:text-(--ui-secondary)
     bg-(--ui-secondary) dark:bg-(--color-zinc-700)
     shadow-sm shadow-black dark:shadow-white/70
@@ -44,10 +44,12 @@ shadow-lg
     transition-shadow duration-200; 
 } */
 
-.stga-button-tag { @apply p-3 justify-center whitespace-normal text-white dark:text-white
-    rounded-4xl bg-(--ui-primary) shadow-transparent; }
+.stga-button-tag { @apply p-3 justify-center whitespace-normal 
+    text-white dark:text-white
+    rounded-4xl bg-(--ui-primary) shadow-transparent; 
+}
 
-.stga-button-social-icon { @apply p-2 size-10; }
+.button-social-icon { @apply size-12 !bg-transparent ring-transparent shadow-transparent; }
 
 .stga-button-round  { --ui-radius-round: 1.5rem; }
 

@@ -7,13 +7,7 @@ export default defineNuxtConfig({
 
     css: ['~/assets/css/ship.css'],
 
-    modules: [
-        "@nuxt/ui",
-        "@nuxt/image",
-        "@nuxt/fonts",
-        "nuxt-gtag",
-        "@nuxt/content"
-    ],
+    modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/fonts", "nuxt-gtag", "@nuxt/content", 'nuxt-auth-utils'],
 
     app: {
         head: {
@@ -125,6 +119,16 @@ export default defineNuxtConfig({
         experimental: { nativeSqlite: true },
 
     }, // content
+
+    runtimeConfig: {
+        oauth: {
+            // provider in lowercase (github, google, etc.)
+           github: {
+                clientId: 'NUXT_OAUTH_GITHUB_CLIENT_ID=Ov23liP4un3Y4HYJrT6P',
+                clientSecret: 'NUXT_OAUTH_GITHUB_CLIENT_SECRET=c3d471ace7e5d2f62196345226e2232a321c67a6'
+            }
+        }
+    },
     
     devtools: { enabled: true },
     

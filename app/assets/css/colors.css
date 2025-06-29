@@ -54,9 +54,11 @@
     --ui-primary-4 :    var(--color-sky-100);
     /* Secondary */
     --ui-secondary:     var(--color-apple-600);
-    --ui-secondary-1:   var(--color-apple-400);
-    --ui-secondary-2:   var(--color-apple-200);
-    --ui-secondary-3:   var(--color-apple-100);
+    --ui-secondary-1:   var(--color-apple-500);
+    --ui-secondary-2:   var(--color-apple-400);
+    --ui-secondary-3:   var(--color-apple-300);
+    --ui-secondary-4:   var(--color-apple-200);
+    --ui-secondary-5:   var(--color-apple-100);
     /* Teriary */
     --ui-tertiary:      var(--color-amber-50);
     --ui-tertiary-1:    var(--color-amber-100);
@@ -84,9 +86,9 @@
     --ui-color-answer:      color: transparent;
     --ui-color-video:       var(--color-black);
     --ui-color-events:      var(--color-gray-100);
-    --ui-color-news:        var(--ui-secondary-3);
+    --ui-color-news:        var(--ui-secondary-4);
     --ui-color-join:        color: transparent;
-    --ui-color-voices:      var(--ui-secondary-2);
+    --ui-color-voices:      var(--ui-secondary-4);
     /**************************************************************************/
     /* Typography
     /**************************************************************************/
@@ -116,9 +118,12 @@
     --ui-primary-2 :    var(--color-primary-950);
     /* Secondary */
     --ui-secondary:     var(--color-apple-400);
-    --ui-secondary-1:   var(--color-apple-400);
-    --ui-secondary-2:   var(--color-apple-600);
-
+    --ui-secondary-1:   var(--color-apple-300);
+    --ui-secondary-2:   var(--color-apple-200);
+    --ui-secondary-3:   var(--color-apple-100);
+    --ui-secondary-4:   var(--color-apple-800);
+    --ui-secondary-5:   var(--color-apple-900);
+    --ui-secondary-6:   var(--color-apple-950);
     /* Teriary */
     --ui-tertiary:      var(--color-amber-200);
     --ui-tertiary-1:    var(--color-amber-100);
@@ -179,7 +184,9 @@ body { @apply text-(--ui-text) bg-(--ui-bg)
 .facebook, .github, .instagram { @apply text-transparent stroke-transparent
     fill-transparent;
 }
-/******************************************************************************/
+.facebook { @apply fill-[#1877F2]; }
+
+/*****************************************************************************/
 /* Typography
 /******************************************************************************/
 /******************************************************************************/

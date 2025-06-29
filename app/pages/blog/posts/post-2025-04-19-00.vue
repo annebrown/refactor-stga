@@ -1,13 +1,4 @@
 <template><div>
-<div class="w-full mx-auto">
-        <img
-            src="/images/blog/blog20.png"
-            alt="Voter card held above ballot box in forest setting"
-            width="500"
-            height="280"
-        class="w-full mx-auto pb-10"
-        />
-    </div>
 
      <p class="post-p">
         Another election is upon us, and advance voting is already underway.
@@ -131,12 +122,7 @@
         Now, it’s your turn. Get out there and vote.
     </p>
 
-
-    <p class="pt-8 pb-1 text-2xl weight-bold text-[#165D8F] !text-center">
-        Together we can find a better way!
-    </p>
-
-    <p class="pt-8  pb-8 text-2xl weight-bold text-[#165D8F] !text-center">
+    <p class="pt-8  text-2xl weight-bold text-[#165D8F] !text-center">
         Together, we can make a difference.
     </p>
 

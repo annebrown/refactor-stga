@@ -25,7 +25,7 @@
                 :width="`${ currentBlogMeta.width }`"
                 :height="`${ currentBlogMeta.height }`"
                 class="my-10 w-full h-full object-cover object-top
-                    rounded-md ring-3 ring-(--ui-secondary-2) dark:ring-(--ui-primary-2) shadow-black shadow-md"
+                    rounded-md ring-3 ring-(--ui-secondary-4) dark:ring-(--ui-primary-2) shadow-black shadow-md"
             />
 
             <!-- Title -->
@@ -80,12 +80,11 @@
 
     </div>
 
+
     <!-- CARD FOOTER -->
     <template #footer class="">
-        
         <!-- Page Signature -->
-        <ShipPageSignature class="mx-auto pb-2 text-center" />
-
+        <ShipPageSignature class="mx-auto p-0 py-4 text-center" />
     </template>
 
 </UCard><!-- Blog Post Layout -->

@@ -1,14 +1,6 @@
 <!--------@pages/blog/posts/post-2025-12-18-00.vue----------------------------->
 <template><div>
 
-<img
-    src="/images/blog/blog0013/blog13.png"
-    alt="Greetings from Gillies Grove, 10,000 years in the making"
-    width="500"
-    height="386"
-        class="w-full mx-auto mb-10 px-10"
-/>
-
 <p  class="pb-1"><strong>When:</strong> NOW</p>
 
 <p  class="mb-0 pb-0">

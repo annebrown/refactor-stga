@@ -1,16 +1,6 @@
 <!--------@/pages/blog/posts/post-2025-04-21-00.vue---------------------------->
 <template><div>
       
-    <div class="w-full mx-auto">
-        <img
-            src="/images/blog/blog21.png"
-            alt="Voter card held above ballot box in forest setting"
-            width="500"
-            height="281"
-        class="w-full mx-auto pb-10"
-        />
-    </div>
-
      <p class="post-p">
         What if reversing climate change was as simple as planting a tree?
     </p>
@@ -88,11 +78,6 @@
     <span class="text-green-600">“If you plant a tree, you are investing in the future of the planet. You are giving hope.”</span><br />
     - Beresford-Kroeger
     </h3>
-
-    <p class="pt-8  pb-1 
-    text-center text-2xl weight-bold text-[#165D8F] ">
-        Together we can find a better way!
-    </p>
 
     <p class="pt-8  pb-8 
     text-center text-2xl weight-bold text-[#165D8F] ">

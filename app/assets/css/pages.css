@@ -17,7 +17,7 @@
 /******************************************************************************/
 .action-card {
     @apply w-full mb-4 p-5 break-inside-avoid
-       rounded-md  bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
+       rounded-md  bg-(--ui-secondary-4) dark:bg-(--ui-primary-2)
        inline-block;
 }
 .card-heading { 

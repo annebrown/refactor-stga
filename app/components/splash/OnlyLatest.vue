@@ -10,7 +10,7 @@
     <!-- Last 3 Posts -->
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 w-full 
         gap-x-4 gap-y-8 p-4 
-        rounded-4xl bg-(--ui-secondary-3) dark:bg-(--ui-primary-2)
+        rounded-4xl bg-(--ui-secondary-4) dark:bg-(--ui-primary-2)
         place-content-stretch">
 
 

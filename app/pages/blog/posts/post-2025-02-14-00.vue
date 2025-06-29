@@ -1,15 +1,5 @@
 <!--------@pages/blog/posts/post-2025-02-14-00.vue----------------------------->
 <template><div>
-                
-<div class="aspect-[500/278] mb-8">
-<img
-    src="/images/blog/blog0017/blog17.png"
-    alt="Local community gathering in gymnasium"
-    width="500"
-    height="278"
-    class="w-full mx-auto px-10"
-/>
-</div>
 
  <p class="post-p">
 Many thanks to the approximately 140 people who attended the public severance meeting at Nick Smith Centre on Wednesday, February 5th. What an incredible display of community support for the Grove.

@@ -1,13 +1,5 @@
 <!--------@/pages/blog/posts/post-2025-02-01-00.vue---------------------------->
 <template><div>
-                
-<img
-    src="/images/blog/blog0016/blog16.png"
-    alt="Nick Smith Centre Entrance"
-    width="500"
-    height="325"
-    class="w-full mx-auto p-10 "
-/>
 
 <div class=" mb-8">
     <p class="pb-1"><strong>Details</strong></p>

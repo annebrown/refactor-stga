@@ -1,6 +1,6 @@
 <!--------@/pages/[...slug].vue------------------------------------------------>
 <template>
-  <!-- No div - breaks route-->
+  <!-- No div -> breaks route -->
   <NuxtLayout>
     <div>
       <ContentRenderer :value="page" />
@@ -19,12 +19,5 @@
         return queryCollection('content').path(route.path).first()
     })
 
-    if (!page.value) {
-        throw createError({
-            statusCode: 404,
-            statusMessage: "Page Not Found",
-            fatal: true,
-        });
-    }
 </script>
 <!--------@/pages/[...slug].vue------------------------------------------------>

@@ -2,45 +2,45 @@
 <template><div>
 
 <!-- Transom -->
-<div>
+<div class="">
 
     <!-- Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 w-full">
+    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5">
 
 
         <!-- Logo & Town -->
-        <div class="mx-auto sm:mx-2">
+        <div class="grow sm:mx-2 sm:pt-5">
 
             <!-- Logo -->
-            <div class="sm:-ml-6 sm:-mr-6 sm:p-2">
-                <ShipLogoArnprior class="w-80 sm:w-64 p-2" />
+            <div class="mx-auto sm:-ml-6 sm:-mr-6 sm:p-2">
+                <ShipLogoArnprior class="w-80 sm:w-64 mx-auto p-2" />
             </div>
 
         </div><!-- Logo & Town -->
 
         <!-- Spacer-->
-        <div class=""></div>
+        <div class="grow"></div>
 
         <!-- Social Links -->
 
-        <div class="sm:my-auto mb-3 mx-auto py-2">
+        <div class="flex-none w-fit sm:my-auto mb-3 mx-auto py-2">
 
             <FleetSocialIcons class="" />
 
         </div><!-- Social Links -->
 
         <!-- Spacer-->
-        <div class="grow hidden md:inline-block"></div>
+        <div class="grow hidden md:block"></div>
 
         <!-- Menu  -->
-        <div class="w-fit mt-1 -mb-5 pb-2 text-right hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
+        <div class="flex-none w-fit mt-1 -mb-5 pb-2 pl-8 text-left hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
 
-                <div class="font-extrabold text-lg">
+                <div class=" w-fit font-extrabold text-lg">
                     Menu
                 </div>
 
                 <!-- Menu Items-->
-                <ul class="transom">
+                <ul class="transom w-fit">
 
                     <li class="transom-menu-item">
                         <ULink to="/blog">

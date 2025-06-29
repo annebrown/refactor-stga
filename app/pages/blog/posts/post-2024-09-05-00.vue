@@ -4,7 +4,7 @@
 <div class="">
 <UCard
     variant="soft"
-    class="w-full m-0 mb-10 bg-(--ui-secondary-2) dark:bg-(--ui-primary-2) rounded-4xl"
+    class="w-full m-0 mb-10 bg-(--ui-secondary-4) dark:bg-(--ui-primary-2) rounded-4xl"
     :ui="{ 
         root: '',
         body: 'm-4 px-2 bg-(--ui-bg) rounded-4xl' 

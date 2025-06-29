@@ -31,7 +31,7 @@
                         variant="link"
                         class="w-fit h-fit p-4 
                             rounded-4xl 
-                            border-7 border-(--ui-secondary-2)
+                            border-7 border-(--ui-secondary-4)
                             dark:border-(--ui-primary-2) 
                             bg-(--ui-bg) opacity-90"
                         root=""

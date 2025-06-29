@@ -19,13 +19,15 @@
     "decap-cms-app": "^3.6.2",
     "gtag": "^1.0.1",
     "nuxt-gtag": "^3.0.2",
-    "typescript": "^5.8.3"
+    "typescript": "^5.8.3",
+    "zod": "^3.24.4"
   },
   "devDependencies": {
     "@nuxt/devtools": "latest",
     "@nuxt/image": "1.9.0",
     "@nuxt/ui": "^3.0.2",
     "nuxt": "^3.15.4",
+    "nuxt-auth-utils": "0.5.20",
     "vue": "latest"
   },
   "packageManager": "pnpm@10.7.0"

@@ -18,7 +18,7 @@
         </p>
 
         <!-- WARNING -->
-        <div class="p-2 pt-4 bg-(--ui-secondary-2) dark:bg-(--ui-bg) text-xs mt-2 rounded-md">
+        <div class="p-2 pt-4 bg-(--ui-secondary-4) dark:bg-(--ui-bg) text-xs mt-2 rounded-md">
             <p class="font-bold pb-0 mb-0.5">
                 WARNING
             </p>

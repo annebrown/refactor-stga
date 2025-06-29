@@ -16,6 +16,19 @@ export const blogData = [
         blogURL: "/blog/posts/blogPage00XX"
     },
     */
+      {
+        id: 23,
+        title: "Grove Roves",
+        paragraph:
+          "Guided Forest Walks",
+        image: "/images/blog/blog23.png",
+        alt: "Forest Path",
+        width: 375,
+        height: 500,
+        tags: ["Event"],
+        publishDate: "June 25, 2025",
+        blogURL: "/blog/posts/post-2025-06-25-00"
+    },
     {
         id: 22,
         title: "Songs for the Grove: A Benefit Concert",
