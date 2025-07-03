@@ -1,13 +1,12 @@
 <!--------@/pages/blog/posts.vue----------------------------------------------->
 <template><div>
-    <NuxtLayout name="blog">
+    <NuxtLayout>
         <NuxtPage />
     </NuxtLayout>
 </div></template>
 
 <script setup lang='ts'>
     definePageMeta({ 
-        layout: 'blog',
+        layout: 'blog-page',
     })
 </script>
-<!--------@/pages/blog/posts.vue----------------------------------------------->

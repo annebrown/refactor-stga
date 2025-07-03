@@ -54,6 +54,8 @@
 
 <script setup lang="ts">
     const route = useRoute()
+        const title = computed(() => route.meta.title || 'Error')
+
 
 // Access Page Meta set by definePageMeta
 const routeMeta = computed(() => route.meta )

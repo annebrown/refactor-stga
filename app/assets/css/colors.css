@@ -93,7 +93,7 @@
     /* Typography
     /**************************************************************************/
     /* Least prominent text */
-    --ui-text-dimmed:   var(--ui-color-neutral-400);
+    --ui-text-dimmed:   var(--ui-color-neutral-700);
     /* Slightly muted text */
     --ui-text-muted:    var(--ui-color-neutral-600);
     /* Moderately prominent text */
@@ -156,13 +156,13 @@
     /* Typography - Dark
     /**************************************************************************/
     /* Least prominent text */
-    --ui-text-dimmed:   var(--color-nutral-400);
+    --ui-text-dimmed:   var(--color-neutral-300);
     /* Slightly muted text */
     --ui-text-muted:    var(--color-neutral-300);
     /* Moderately prominent text */
-    --ui-text-toned:    var(--color-neutral-200);
+    --ui-text-toned:    var(--color-neutral-300);
     /* Default text color */
-    --ui-text:          var(--color-gray-400);
+    --ui-text:          var(--color-gray-200);
     /* Most prominent text */
     --ui-text-highlighted: var(--color-neutral-100);
 }

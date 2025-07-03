@@ -7,7 +7,7 @@
 
 <script setup lang='ts'>
     definePageMeta({ 
-        layout: 'blog',
+        layout: 'blog-stga',
     })
 </script>
 <!--------@/pages/blog/posts.vue----------------------------------------------->

@@ -2,7 +2,7 @@
 <template><div>
 <NuxtLayout name="pages">
 
-<h2>Our Mission</h2>
+<h2 class="text-(--ui-text-dimmed)">Our Mission</h2>
 
 <p>
     We are a group of concerned residents committed to preserving Gillies Grove and the land adjacent to the Grove which constitute the environmental and historic heart of Arnprior.

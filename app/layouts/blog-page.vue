@@ -1,6 +1,6 @@
 <!--------@/app/layouts/blog.vue----------------------------------------------->
-<template><div><!-- Layout (Single Root Element) -->
-
+<template><div><!-- Layout - blog-page (Single Root Element) -->
+<!-- <p>USING BLOG-PAGE LAYOUT</p> -->
 <!-- Blog Post Layout -->
 <UCard 
     variant="soft"
@@ -84,7 +84,7 @@
     <!-- CARD FOOTER -->
     <template #footer class="">
         <!-- Page Signature -->
-        <ShipPageSignature class="mx-auto p-0 py-4 text-center" />
+        <ShipPageSignature class="mx-auto p-0 text-center" />
     </template>
 
 </UCard><!-- Blog Post Layout -->

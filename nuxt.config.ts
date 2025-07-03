@@ -2,12 +2,10 @@
 export default defineNuxtConfig({
 
     telemetry: false,   // F Telemetry
-
     srcDir: 'app/',
-
     css: ['~/assets/css/ship.css'],
 
-    modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/fonts", "nuxt-gtag", "@nuxt/content", 'nuxt-auth-utils'],
+    modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/fonts", "nuxt-gtag", 'nuxt-auth-utils'],
 
     app: {
         head: {
@@ -41,52 +39,52 @@ export default defineNuxtConfig({
         }
     }, // build
 
-    content: {
+    // content: {
 
-        // toc: {
-        //     depth: 2
-        // },
+    //     // toc: {
+    //     //     depth: 2
+    //     // },
 
-        build: {
+    //     build: {
 
-            markdown: {
+    //         markdown: {
 
-                highlight: {
+    //             highlight: {
 
-                    theme: {
-                        default: 'github-light',
-                        dark: 'github-dark'
-                    },
+    //                 theme: {
+    //                     default: 'github-light',
+    //                     dark: 'github-dark'
+    //                 },
 
-                    langs: [
-                        'console',
-                        'css',
-                        'diff',
-                        'properties',
-                        'go',
-                        'html',
-                        'ini',
-                        'java',
-                        'json',
-                        'js',
-                        'log',
-                        'md',
-                        'mdc',
-                        'mermaid',
-                        'perl',
-                        'regexp',
-                        'shell',
-                        'ts',
-                        'tsx',
-                        'vue',
-                        'yaml'
-                    ],
+    //                 langs: [
+    //                     'console',
+    //                     'css',
+    //                     'diff',
+    //                     'properties',
+    //                     'go',
+    //                     'html',
+    //                     'ini',
+    //                     'java',
+    //                     'json',
+    //                     'js',
+    //                     'log',
+    //                     'md',
+    //                     'mdc',
+    //                     'mermaid',
+    //                     'perl',
+    //                     'regexp',
+    //                     'shell',
+    //                     'ts',
+    //                     'tsx',
+    //                     'vue',
+    //                     'yaml'
+    //                 ],
 
-                } // highlight
+    //             } // highlight
 
-            } // markdown
+    //         } // markdown
             
-        }, // build
+    //     }, // build
 
         // components: [
             // ~/calendar-module/components/event/Update.vue => <EventUpdate />
@@ -106,19 +104,19 @@ export default defineNuxtConfig({
         //     '~/components'
         // ],
 
-        watch: {
-            enabled: true,
-            port: 3000,
-            showURL: false
-        },
+    //     watch: {
+    //         enabled: true,
+    //         port: 3000,
+    //         showURL: false
+    //     },
 
-        preview: {
-            api: 'https://api.nuxt.studio',
-        },
+    //     preview: {
+    //         api: 'https://api.nuxt.studio',
+    //     },
 
-        experimental: { nativeSqlite: true },
+    //     experimental: { nativeSqlite: true },
 
-    }, // content
+    // }, // content
 
     runtimeConfig: {
         oauth: {

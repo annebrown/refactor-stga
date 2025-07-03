@@ -38,7 +38,7 @@ a { @apply text-(--ui-secondary) hover:text-(--ui-primary)
 /******************************************************************************/
 /* Bow
 /******************************************************************************/
-.mainmenu { @apply text-lg sm:text-2xl font-normal dark:text-[--color-primary-800]
+.mainmenu { @apply text-lg sm:text-2xl font-normal 
     text-shadow-lg dark:text-shadow-sm shadow-black dark:text-shadow-white/50;
     font-family: 'Bebas Neue', sans-serif;
 }
@@ -46,8 +46,7 @@ a { @apply text-(--ui-secondary) hover:text-(--ui-primary)
 /* Transom
 /******************************************************************************/
 .transom { @apply text-base font-extrabold; }
-.transom-menu-item { @apply dark:text-[--color-primary-500]
-    text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white/50; }
+.transom-menu-item { @apply text-shadow-lg dark:text-shadow-md shadow-black dark:text-shadow-white/50; }
 /******************************************************************************/
 /* Page Signature
 /******************************************************************************/

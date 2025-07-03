@@ -13,10 +13,10 @@
         The well-attended launch event on Saturday and all the online activity truly shows that the passion is still alive in Arnprior today. We would like to extend our thanks to all that were able to attend the gathering on Saturday and to all of those that have been helping to spread the word. Together we can find a better way! 
     </p>
     <p class="post-p">
-        We have had a lot of media attention. Let&apos;s keep the ball rolling! Keep telling others, wear your button, hand out flyers, and follow, like and share our Facebook page .
+        We have had a lot of media attention. Let&apos;s keep the ball rolling! Keep telling others, wear your button, hand out flyers, and follow, like and share our Facebook page.
     </p>
     <h2 class="my-8 text-3xl font-bold">
-        What&apos;s Next?
+        What&apos Next?
     </h2>
     <p class="post-p">
         We are working on the contact list for those wishing to email, call or mail other parties involved. We will let everyone know by email when that becomes available through our website.
