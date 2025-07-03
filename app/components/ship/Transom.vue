@@ -5,7 +5,7 @@
 <div class="">
 
     <!-- Grid -->
-    <div class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5">
+    <div class="grid grid-cols-1 md:grid-cols-5">
 
 
         <!-- Logo & Town -->
@@ -23,9 +23,9 @@
 
         <!-- Social Links -->
 
-        <div class="flex-none w-fit sm:my-auto mb-3 mx-auto py-2">
+        <div class="flex-none pb-4 sm:my-auto mx-auto">
 
-            <FleetSocialIcons class="" />
+            <FleetSocialIcons class="w-fit" />
 
         </div><!-- Social Links -->
 
@@ -33,7 +33,7 @@
         <div class="grow hidden md:block"></div>
 
         <!-- Menu  -->
-        <div class="flex-none w-fit mt-1 -mb-5 pb-2 pl-8 text-left hidden md:inline-block grid grid-cols-2 text-(--ui-text-dimmed)">
+        <div class="flex-none w-fit mt-1 -mb-5 pb-2 pl-8 text-left hidden md:inline-block text-(--ui-text-dimmed)">
 
                 <div class=" w-fit font-extrabold text-lg">
                     Menu
