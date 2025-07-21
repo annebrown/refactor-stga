@@ -20,21 +20,21 @@
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
             src="/images/donations/lady-button-and-sign.png"
-            alt="Field"
+            alt="Expectant mother, wearing STGA button, and holding STGA lawn sign"
             width=408
             height=544
         />
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
             src="/images/donations/table-and-materials.png"
-            alt="Field"
+            alt="Display table with buttons, flyers, and other STGA committee items"
             width=408
             height=544
         />
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
             src="/images/donations/lawn-sign.png"
-            alt="Field"
+            alt="STGA lawn sign on a supporter's front lawn"
             width=408
             height=544
         />
