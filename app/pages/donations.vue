@@ -19,21 +19,21 @@
     <div class="w-full pt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
-            src="/images/donations/lady-button-and-sign.svg"
+            src="/images/donations/lady-button-and-sign.png"
             alt="Field"
             width=408
             height=544
         />
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
-            src="/images/donations/table-and-materials.svg"
+            src="/images/donations/table-and-materials.png"
             alt="Field"
             width=408
             height=544
         />
         <img
             class="relative m-0 p-0 rounded-md border-5 border-(--ui-secondary-4) dark:border-(--ui-primary-2)"
-            src="/images/donations/lawn-sign.svg"
+            src="/images/donations/lawn-sign.png"
             alt="Field"
             width=408
             height=544
