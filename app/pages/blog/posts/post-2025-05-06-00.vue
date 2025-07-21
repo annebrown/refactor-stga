@@ -1,4 +1,4 @@
-<!--------@/pages/blog/posts/post-2025-05-06-00.vue---------------------------->
+<!-- @/pages/blog/posts/post-2025-05-06-00.vue -->
 <template><div>
       
     <p class="post-p text-[#165D8F]">
@@ -123,5 +123,4 @@
         <b>Charlotte Leitch, Broker Re-Max Absolute Realty</b>
     </div>
 
-</div></template>  
-<!--------@/pages/blog/posts/post-2025-05-06-00.vue---------------------------->
+</div></template>

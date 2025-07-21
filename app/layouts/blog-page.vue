@@ -1,7 +1,5 @@
 <!--------@/app/layouts/blog.vue----------------------------------------------->
 <template><div><!-- Layout - blog-page (Single Root Element) -->
-<!-- <p>USING BLOG-PAGE LAYOUT</p> -->
-<!-- Blog Post Layout -->
 <UCard 
     variant="soft"
     class="w-full rounded-4xl bg-(--ui-bg) ring-transparent divide-transparent"
@@ -16,7 +14,7 @@
     <template #header v-if="currentBlogMeta">
     
         <!-- Blog Meta -->
-        <div class="mt-4 mx-auto">
+        <div class="w-full mt-4 mx-auto">
 
             <!-- Image -->
             <img

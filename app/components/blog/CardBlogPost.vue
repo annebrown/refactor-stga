@@ -35,7 +35,7 @@
                 <div class="flex flex-col">
                     <!-- title -->
                     <h3 class="p-6 pb-2 text-center text-2xl/6 font-extrabold 
-                        text-(--ui-primary) bg-(--ui-secondary-4)">
+                        text-(--ui-primary) bg-(--ui-secondary-4) dark:bg-(--ui-primary-2)">
                         {{ post.title }}
                     </h3>
 
