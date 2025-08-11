@@ -42,6 +42,8 @@ const { data: items, pending } = await useAsyncData('items', () => $fetch('/api/
     <div v-for="item in items" :key="item.id">{{ item.name }}</div>
   </div>
   <div v-else>No data available.</div>
+
+  <Analytics />
   
 </div></template>
 <!--------@/pages/committee/index.vue------------------------------------------>

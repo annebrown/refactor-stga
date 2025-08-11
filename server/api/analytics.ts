@@ -1,5 +1,7 @@
 // server/api/analytics.ts
 import { defineEventHandler } from 'h3';
+import { Analytics } from "@vercel/analytics/react";
+
 
 export default defineEventHandler(async (event) => {
   const vercelToken = process.env.NUXT_VERCEL_TOKEN;
