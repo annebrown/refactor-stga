@@ -1,4 +1,14 @@
 <!--------@/pages/blog/index.vue----------------------------------------------->
+<script setup lang='ts'>
+    import { BlogCardBlogPost } from '#components'
+    import { blogData } from '../../assets/data/blog/blogData'
+
+    definePageMeta({ 
+        title: 'Blog Posts',
+        description: 'News and Events'
+    })
+</script>
+
 <template><div>
 <NuxtLayout name="pages">
 
@@ -20,14 +30,4 @@
 
 </NuxtLayout> 
 </div></template>
-
-<script setup lang='ts'>
-    import { BlogCardBlogPost } from '#components'
-    import { blogData } from '../../assets/data/blog/blogData'
-
-    definePageMeta({ 
-        title: 'Blog Posts',
-        description: 'News and Events'
-    })
-</script>
 <!--------@/pages/blog/index.vue----------------------------------------------->

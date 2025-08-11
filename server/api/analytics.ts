@@ -2,11 +2,13 @@
 import { defineEventHandler } from 'h3';
 
 export default defineEventHandler(async (event) => {
-
   const vercelToken = process.env.NUXT_VERCEL_TOKEN;
-  const projectId = process.env.NUXT_VERCEL_PROJECT_ID; // You'll need to find this in your project settings
+  const projectId = process.env.NUXT_VERCEL_PROJECT_ID;
 
+  console.log('Fetching analytics for Project ID:', projectId); // <-- Add this
+  
   if (!vercelToken || !projectId) {
+    console.error('Vercel token or project ID is missing!');
     return { error: 'Authentication details not configured.' };
   }
 
@@ -20,10 +22,10 @@ export default defineEventHandler(async (event) => {
         },
       }
     );
-    // You'll need to parse or transform the data here to fit your needs
+    console.log('Successfully fetched analytics data!'); // <-- Add this
     return response;
   } catch (error) {
-    // Handle API errors gracefully
+    console.error('Failed to retrieve analytics data from Vercel:', error); // <-- Add this
     return { error: 'Failed to retrieve analytics data.' };
   }
 });

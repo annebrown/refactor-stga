@@ -1,87 +1,47 @@
 <!--------@/pages/committee/index.vue------------------------------------------>
 <script setup lang='ts'>
-    import { sub } from 'date-fns'
-    import type { DropdownMenuItem } from '@nuxt/ui'
-    import type { Period, Range } from '~/types'
     definePageMeta({ 
-        title: 'Committee', 
+        title: 'Committee'
     })
-    const { isNotificationsSlideoverOpen } = useDashboard()
+const { data: items, pending } = await useAsyncData('items', () => $fetch('/api/items'));
 
-// Header 'plus' button dropdown items
-const items = [[{
-  label: 'New mail',
-  icon: 'i-lucide-send',
-  to: '/inbox'
-}, {
-  label: 'New customer',
-  icon: 'i-lucide-user-plus',
-  to: '/customers'
-}]] satisfies DropdownMenuItem[][]
+    const { data: analyticsData, error } = await useAsyncData(
+        'vercel-analytics',
+        () => $fetch('/api/analytics')
+    );
 
-const range = shallowRef<Range>({
-  start: sub(new Date(), { days: 14 }),
-  end: new Date()
-})
-const period = ref<Period>('daily')
+    // process for UI component
+    const processedData = computed(() => {
+    if (!analyticsData.value) return [];
+    return analyticsData.value.pages?.slice(0, 5) || []; // Top 5 pages
+    });
 </script>
 
 <template><div>
-  <UDashboardGroup>
-    <UDashboardSidebar />
-      <UDashboardPanel id="home">
-        <!-- Bow -->
-    <template #header>
-      <UDashboardNavbar title="Home" :ui="{ right: 'gap-3' }">
-
-        <!-- Collapse Sidebar Button -->
-        <template #leading>
-          <UDashboardSidebarCollapse />
+    <UCard v-if="!error">
+        <template #header v-if="items">
+            Vercel Analytics - Top Pages
         </template>
 
-        <!-- Notifications Button -->
-        <template #right>
-          <UTooltip text="Notifications" :shortcuts="['N']">
-            <UButton
-              color="neutral"
-              variant="ghost"
-              square
-              @click="isNotificationsSlideoverOpen = true"
-            >
-              <UChip color="error" inset>
-                <UIcon name="i-lucide-bell" class="size-5 shrink-0" />
-              </UChip>
-            </UButton>
-          </UTooltip>
+        <p class="text-2xl text-error">
+            ANALYTICS DATA
+        </p>
+        <P>{{ analyticsData }}</P>
+        <DebugObject :items="items" />
 
-          <!-- 'Plus' Button -->
-          <UDropdownMenu :items="items">
-            <UButton icon="i-lucide-plus" size="md" class="rounded-full" />
-          </UDropdownMenu>
-        </template>
-      </UDashboardNavbar>
+        <!-- <UTable :rows="processedData" /> -->
+    </UCard>
 
-      <!-- Toolbar under Header - Date and Frequency Selection -->
-      <UDashboardToolbar>
-        <template #left>
-          <!-- NOTE: The `-ms-1` class is used to align with the `DashboardSidebarCollapse` button here. -->
-          <HomeDateRangePicker v-model="range" class="-ms-1" />
-
-          <HomePeriodSelect v-model="period" :range="range" />
-        </template>
-      </UDashboardToolbar>
-    </template>
-
-    <template #body>
-      <HomeStats :period="period" :range="range" />
-      <HomeChart :period="period" :range="range" />
-      <HomeSales :period="period" :range="range" />
-    </template>
-      </UDashboardPanel>
+    <div v-else>
+        <p>Error fetching analytics data.</p>
+    </div>
 
 
-  </UDashboardGroup>
-
-
+      <div v-if="pending">Loading items...</div>
+  <div v-else-if="items && items.length > 0">
+    <div v-for="item in items" :key="item.id">{{ item.name }}</div>
+  </div>
+  <div v-else>No data available.</div>
+  
 </div></template>
 <!--------@/pages/committee/index.vue------------------------------------------>
