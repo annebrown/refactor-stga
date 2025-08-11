@@ -1,11 +1,14 @@
-<!-- @/app.vu -->
+ <script setup lang="ts">
+    import { Analytics } from '@vercel/analytics/nuxt'
+</script>
+
 <template><div>
 
 <!-- A11y -->
 <NuxtRouteAnnouncer />
 
 <!-- Analytics -->
-<!-- <Analytics /> -->
+<Analytics />
 
 <UApp>
 

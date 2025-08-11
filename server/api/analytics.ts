@@ -9,14 +9,9 @@ export default defineEventHandler(async (event) => {
 
   console.log('Fetching analytics for Project ID:', projectId); // <-- Add this
   
-  if (!vercelToken || !projectId) {
-    console.error('Vercel token or project ID is missing!');
-    return { error: 'Authentication details not configured.' };
-  }
-
   try {
     const response = await $fetch(
-      `https://api.vercel.com/v1/analytics/events?projectId=${projectId}`,
+      `https://api.vercel.com/v1/analytics/events/top-pages?projectId=${projectId}&teamId=${teamId}`,
       {
         method: 'GET',
         headers: {
@@ -24,10 +19,18 @@ export default defineEventHandler(async (event) => {
         },
       }
     );
-    console.log('Successfully fetched analytics data!'); // <-- Add this
-    return response;
+
+    // 💡 Add a log here to see what the Vercel API actually returns
+    console.log('Vercel API Response:', response);
+
+    // Ensure the response has the data you expect before returning
+    if (response && response.pages) {
+      return response.pages; // Return the 'pages' array directly
+    }
+
+    return []; // Return an empty array if no data is found
   } catch (error) {
-    console.error('Failed to retrieve analytics data from Vercel:', error); // <-- Add this
+    console.error('API call failed:', error);
     return { error: 'Failed to retrieve analytics data.' };
   }
 });
