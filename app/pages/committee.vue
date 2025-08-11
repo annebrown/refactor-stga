@@ -1,6 +1,6 @@
 <!--------@/pages/committee.vue------------------------------------------------>
 <template><div>
-    <NuxtLayout name="committee">
+    <NuxtLayout name="pages">
         <NuxtPage />
     </NuxtLayout>
 </div></template>

@@ -1,13 +1,11 @@
 <!--------@/app/layouts/committee.vue------------------------------------------>
 <template><div><!-- Layout (Single Root Element) -->
-
-<!-- Default @/pages Page Layout -->
 <UCard 
     variant="soft"
     :ui="{ 
         header: 'm-0 p-0 flex items-start', 
         footer: 'm-0 p-0 flex items-end',
-        body: 'm-0 p-0' 
+        body: 'm-0 p-0 bg-(--ui-bg)' 
     }"
     class="m-0 mt-2 mb-1 p-0 rounded-4xl bg-transparent divide-transparent"
 >

@@ -32,7 +32,6 @@
             class=""
             src="/images/join/vignette.svg"
             alt="Sketch - Shoreline and forest"
-            loading="eager"
             priority
             width=500
             height=358
