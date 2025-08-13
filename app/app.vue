@@ -7,10 +7,10 @@
 <!-- A11y -->
 <NuxtRouteAnnouncer />
 
-<!-- Analytics -->
-<Analytics />
-
 <UApp>
+
+    <!-- Analytics -->
+    <Analytics />
 
     <!-- Ship -->
     <UContainer class="relative w-full mx-auto max-w-4xl">
