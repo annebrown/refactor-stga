@@ -1,4 +1,4 @@
-//--------@asssets/data/blog/blogData.ts--------------------------------------->
+//--------@/asssets/data/blog/blogData.ts--------------------------------------->
 export const blogData = [
 
     /*  TEMPLATE
@@ -16,7 +16,20 @@ export const blogData = [
         blogURL: "/blog/posts/blogPage00XX"
     },
     */
-      {
+    {
+        id: 24,
+        title: " Join another Grove Rove this weekend!",
+        paragraph:
+          "Grove Roves: free guided tour in Gillies Grove old-growth forest. It’s Accessible August: stroll wheelchair, walker, and stroller accessible paths in an ancient forest, at a gentle pace.",
+        image: "/images/blog/blog24.png",
+        alt: "Forest Meadow",
+        width: 500,
+        height: 375,
+        tags: ["EVENT"],
+        publishDate: "August 13, 2025",
+        blogURL: "/blog/posts/post-2025-08-13-00"
+    },
+    {
         id: 23,
         title: "Grove Roves",
         paragraph:
