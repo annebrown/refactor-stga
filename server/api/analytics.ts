@@ -1,14 +1,16 @@
 // server/api/analytics.ts
 import { defineEventHandler } from 'h3';
-import { Analytics } from "@vercel/analytics/react";
-
 
 export default defineEventHandler(async (event) => {
   const vercelToken = process.env.NUXT_VERCEL_TOKEN;
   const projectId = process.env.NUXT_VERCEL_PROJECT_ID;
+  const teamId = process.env.NUXT_VERCEL_TEAM_ID; // Optional, only if your project is in a team
 
-  console.log('Fetching analytics for Project ID:', projectId); // <-- Add this
-  
+  // Check for required environment variables
+  if (!vercelToken || !projectId) {
+    return { error: 'Authentication details not configured.' };
+  }
+
   try {
     const response = await $fetch(
       `https://api.vercel.com/v1/analytics/events/top-pages?projectId=${projectId}&teamId=${teamId}`,
@@ -19,18 +21,13 @@ export default defineEventHandler(async (event) => {
         },
       }
     );
-
-    // 💡 Add a log here to see what the Vercel API actually returns
-    console.log('Vercel API Response:', response);
-
-    // Ensure the response has the data you expect before returning
-    if (response && response.pages) {
-      return response.pages; // Return the 'pages' array directly
-    }
-
-    return []; // Return an empty array if no data is found
+    // Vercel returns a data object with a 'pages' array. You can return the entire object
+    // or just the part you need.
+    return response;
   } catch (error) {
-    console.error('API call failed:', error);
+    // Log the error to Vercel's console for debugging
+    console.error('Failed to retrieve Vercel analytics:', error);
+    // Return a user-friendly error to the client
     return { error: 'Failed to retrieve analytics data.' };
   }
 });

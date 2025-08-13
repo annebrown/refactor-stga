@@ -1,20 +1,15 @@
 <!--------@/pages/committee/index.vue------------------------------------------>
+import { useAsyncData } from '#app'
+
 <script setup lang='ts'>
     definePageMeta({ 
         title: 'Committee'
     })
-const { data: items, pending } = await useAsyncData('items', () => $fetch('/api/items'));
 
-    const { data: analyticsData, error } = await useAsyncData(
+    const { data: analyticsData, pending, error } = await useAsyncData(
         'vercel-analytics',
         () => $fetch('/api/analytics')
     );
-
-    // process for UI component
-    const processedData = computed(() => {
-    if (!analyticsData.value) return [];
-    return analyticsData.value.pages?.slice(0, 5) || []; // Top 5 pages
-    });
 </script>
 
 <template><div>
@@ -26,24 +21,30 @@ const { data: items, pending } = await useAsyncData('items', () => $fetch('/api/
         <p class="text-2xl text-error">
             ANALYTICS DATA
         </p>
-        <P>{{ analyticsData }}</P>
-        <DebugObject :items="items" />
 
-        <!-- <UTable :rows="processedData" /> -->
-    </UCard>
-
-    <div v-else>
-        <p>Error fetching analytics data.</p>
+    <div v-if="pending">
+        <p>
+            Loading analytics...
+        </p>
     </div>
-
-
-      <div v-if="pending">Loading items...</div>
-  <div v-else-if="items && items.length > 0">
-    <div v-for="item in items" :key="item.id">{{ item.name }}</div>
-  </div>
-  <div v-else>No data available.</div>
-
-  <Analytics />
-  
+    <div v-else-if="error">
+        <p>
+            Error: {{ error.message }}
+        </p>
+    </div>
+    <div v-else-if="analyticsData">
+        <h2>Top Pages by Visitors</h2>
+        <ul>
+            <li v-for="page in analyticsData.pages" :key="page.path">
+                {{ page.path }}: {{ page.visitors }} visitors
+            </li>
+        </ul>
+    </div>
+    <div v-else>
+        <p>
+            No analytics data available.
+        </p>
+    </div>
+  </UCard>
 </div></template>
 <!--------@/pages/committee/index.vue------------------------------------------>
