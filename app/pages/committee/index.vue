@@ -22,6 +22,7 @@ const { data: analyticsData, pending, error } = await useAsyncData(
             </pre>
         </div>
 
+        <!-- Top pages -->
         <UCard>
 
             <template #header>
@@ -33,7 +34,7 @@ const { data: analyticsData, pending, error } = await useAsyncData(
             </div>
 
             <div v-else-if="analyticsData.error">
-                <p>Vercel Error: {{ analyticsData.error }}</p>
+                <p>Vercel Says: {{ analyticsData.error }}</p>
             </div>
 
             <div v-else-if="error">
