@@ -9,7 +9,7 @@
         This is the second paragraph.
     </p>
    
-    <FleetGoBackButton />
+    <FleetGoBackButton class="w-fit mt-8 mx-auto" />
     
 </div>
 </div></template>

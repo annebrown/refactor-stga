@@ -1,17 +1,33 @@
 <!--------@/pages/committee/index.vue------------------------------------------>
 <script setup lang='ts'>
-definePageMeta({ 
-  title: 'Committee'
-})
+    import { menuData } from '~/assets/data/committee/menuData'
 
-const { data: analyticsData, pending, error } = await useAsyncData(
-  'vercel-analytics',
-  () => $fetch('/api/analytics')
-)
+    definePageMeta({ 
+    title: 'Committee'
+    })
+
+    const { data: analyticsData, pending, error } = await useAsyncData(
+        'vercel-analytics',
+        () => $fetch('/api/analytics')
+    )
 </script>
 
 <template><div>
 
+<div class="w-fit px-4 mx-auto mb-8 bg-(--ui-bg) rounded-full ring-3 ring-(--ui-secondary-4) dark:ring-(--ui-primary-2) shadow-black/25 shadow-lg">
+        <UNavigationMenu
+        :items="menuData"
+        variant="link"
+        color="primary"
+        class="mainmenu m-0 p-0"
+        root=""
+        active
+        :ui="{
+        link: 'active:text-(--color-primary-800) hover:text-(--ui-primary-600) m-0 px-2',
+        label: 'text-lg'
+        }"
+    />
+</div>
     <div v-if="analyticsData">
 
         <!-- Debug -->
@@ -55,6 +71,7 @@ const { data: analyticsData, pending, error } = await useAsyncData(
             </div>
 
         </UCard>
+    <FleetGoBackButton class="w-fit mt-8 mx-auto" />
 
     </div>
 
