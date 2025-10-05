@@ -5,7 +5,11 @@ export default defineNuxtConfig({
     srcDir: 'app/',
     css: ['~/assets/css/ship.css'],
 
-    modules: ["@nuxt/ui", "@nuxt/image", "@nuxt/fonts", "nuxt-gtag", 'nuxt-auth-utils'],
+    modules: [ 
+        "@nuxt/ui", 
+        "@nuxt/image", 
+        "@nuxt/fonts", 
+        "@vercel/analytics/nuxt" ],
 
     app: {
         head: {

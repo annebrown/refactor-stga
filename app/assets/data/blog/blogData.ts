@@ -1,6 +1,5 @@
-//--------@/asssets/data/blog/blogData.ts--------------------------------------->
+//--------@/assets/data/blog/blogData.ts--------------------------------------->
 export const blogData = [
-
     /*  TEMPLATE
     {
         id: XXXXXXXX,
@@ -9,13 +8,26 @@ export const blogData = [
           "XXXXXXXX",
         image: "/images/blog/blog00XX/blogXX.svg",
         alt: "XXXXXXXX",
-        width: 500
+        width: 500,
         height: 500,
         tags: ["XXXXXXXX"],
-        publishDate: "February XXXXXXXX, 2025",
-        blogURL: "/blog/posts/blogPage00XX"
+        publishDate: "MONTH DD, 2025",
+        blogURL: "/blog/posts/post-YYYY-MM-DD-00.vue"
     },
     */
+    {
+        id: 25,
+        title: "Grove Roves: Spooky Edition!",
+        paragraph:
+          "Come out to hear about the dark tales of Arnprior and the night creatures of Gillies Grove!",
+        image: "/images/blog/blog24.png",
+        alt: "Event Poster",
+        width: 500,
+        height: 374,
+        tags: ["EVENT"],
+        publishDate: "October 5, 2020",
+        blogURL: "/blog/posts/post-2025-10-05-00"
+    },
     {
         id: 24,
         title: " Join another Grove Rove this weekend!",
@@ -343,4 +355,4 @@ export const blogData = [
         blogURL: "/blog/posts/post-2024-09-05-00"
     },
 ];
-//--------@asssets/data/blog/blogData.ts--------------------------------------->
+//--------@assets/data/blog/blogData.ts--------------------------------------->
